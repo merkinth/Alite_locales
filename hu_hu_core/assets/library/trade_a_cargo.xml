@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A kereskedelmi hajók gyakran semmisülnek meg természeti
+      katasztrófák vagy ellenséges támadások következtében, rakományuk
+      pedig szétszóródik az űrben. Ezek a gyűjtő egység használatával
+      szabadon felvehetők, de a konténerek tartalma a raktérbe kerülésig
+      ismeretlen, csak az átvizsgálásuk során derül ki, hogy értékes vagy
+      értéktelen-e a csomag. Ha illegális áru van bennük, azok értékesítése
+      kockázattal járhat, de egy bölcs pilóta, ha úgy ítéli meg, kidobja a
+      szükségtelen rakományokat.</p>
+      <p>Megjegyzés: a nyomás alatt álló konténerek az árutárolás egyetemes
+      eszközei a bolygók közötti űrutazáshoz. A magas olvadáspontú, króm
+      ötvözetből készült konténerek egy tonna áru tárolására alkalmasak,
+      beállítható nyomás- és hőmérsékleti viszonyok között. Történetek
+      szólnak arról, hogy több mint ötszáz éve elhagyott konténereket is
+      találtak már holdfelszíneken. Az egyik ilyen, az &apos;Árumentés a
+      holdról&apos; is egy ilyen történelmi forrásból táplálkozó műgyűjtés.</p>
+    </Text>
+    <Image name="cargo">
+      <Text>
+        A króm ötvözet konténereket árutárolására használják az
+        űrrepülések során. Rendkívül ellenállóak, még az ezeket szállító
+        űrhajók megsemmisülését is kibírhatják. Az árukonténerek a hajó aljára
+        szerelt gyűjtő egységgel vehetők fel, de óvakodni kell a tévedésből
+        felvett csempészáruktól, mert azok rontják a pilóta bűnügyi besorolást,
+        ami a rendőrségi Viperák támadását válthatják ki.
+      </Text>
+    </Image>
+  </Content>
+</Page>

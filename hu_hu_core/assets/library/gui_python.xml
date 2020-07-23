@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_python"/>
+	  <p>Egyike azoknak a nagyobb kereskedelmi hajóknak,
+	  amiket a Whatt és Pritney Hajóépítő gyártott az Inera bolygó körüli pályán.
+	  A kabin szállások kényelmetlenek, spártaiak, a rakomány és az
+	  &apos;idegen környezet&apos; szállításához szükséges berendezések nagy helyigénye miatt.
+	  Bár a hajó lassú és nehézkes, erős CC-Voltaire pajzsokkal és Volt-Variscan impulzus lézerekkel van felszerelve,
+	  ezzel érdemelte ki a &apos;tarajos sül&apos; becenevet.
+	  A kalózhajók általában nem támadják meg, sőt népszerű a köreikben,
+	  mert rendszerint pihenő- és tárolóhelyként használják.</p>
+	  <table>
+		[o]Méretei:[/o],[o]206x103x336m[/o];
+		Teherbírása:,100 KT (Konténer tonna);
+		Fegyverzete:,Volt-Variscan impulzus lézerek;
+		Végsebessége:,0.20 FMa (Fény Mach);
+		Gyártás kezdete:,2700 Whatt és Pritney Hajóépítő;
+		Legénység száma:,20-30;
+		Hajótest ellenállási tényező:,TYo 20;
+		Irányíthatóság:,3 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,4 C40K V Ames meghajtó Exlon 76NN modell;
+		Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="python"/>
+  </Content>
+</Page>

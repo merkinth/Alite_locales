@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <p>A rakéták minden űrállomáson megvásárolhatók, függetlenül a bolygó
+	  technikai szintjétől vagy a kormányzás jellegétől. Rendkívül hatékony
+	  fegyverek, a nagyobb csillaghajók és a kalóz hajók is előszeretettel
+	  használják. A Kobra egyszerre legfeljebb négy rakéta hordozására
+	  alkalmas. A számítógép a képernyőn megjelenő üzenettel és hanggal is
+	  figyelmeztet, ha rakétét lőnek ki a hajónkra. Ha a hajó nincs
+	  rakétaelhárító rendszerrel (ECM) (lásd később) felszerelve, akkor
+	  elkerülő hadműveletbe kell kezdeni és lelőni a rakétát, mert az
+	  könyörtelenül mindig újra célba veszi a hajót, amíg el nem végzi a
+	  feladatát. Egy rakétatalálat a teljesen feltöltött pajzsot és az
+	  energia bankok egy részét is lemeríti, így alacsonyabb energiaszintnél
+	  ez végzetes lehet.</p>
+	  <p>A rakéta kilövése elõtt előbb be kell fogni a célt. Kilövés után a
+	  rakéta addig követi a célt, ameddig meg nem semmisíti azt, hacsak az
+	  ellenség nem tesz sikeres ellenintézkedést ennek elkerülésére. A
+	  rakétaindító mechanizmus nagyon megbízható, szinte sosincs elakadás.
+	  Rakéta bármilyen (első, hátsó, jobb vagy bal oldali) nézetből indítható.</p>
+	  <InlineImage name="missile"/>
+	  <p>A befogási művelet a fenti gomb megnyomásával indítható, ekkor a
+	  rakéta állapotjelzője az űrnavigációs vezérlőpulton sárga lesz. A
+	  lehetséges célpont célkeresztbe kerülésekor a rakéta befogja azt és az
+	  állapotjelző pirosra vált, amit hangjelzés is jelez.</p>
+	  <p>Ekkor a rakéta gomb újbóli megnyomásával a rakéta kilőhető. A gomb
+	  néhány másodpercig való nyomva tartásával az élesítés törölhető, így a
+	  kilövési folyamat megszakítható.</p>
+	  <p>[b]Rakéta leírása:[/b] Lance &amp; Ferman bombázó rakéta mára már minden
+	  kisebb kereskedelmi és harci hajónak is ajánlott, a vegyes fegyverkezés
+	  részeként. Az LF rakétáknak 2IL-135 irányítórendszerük van, ami a kézi
+	  vezérlést is lehetővé teszi. A támadófejeket Terminal 9 robbanóanyaggal
+	  szállítják, a 4x4 jelölésű rakétatestek az ECM rendszerek kivételével
+	  minden hatásnak ellenállnak. 7-es szintű Megazon pusztításra képesek.
+	  A prototípust 2987-ben vetették be először az Ineran háborúk során.</p>
+    </Text>
+    <Image name="missile_shot">
+      <Text>
+	    A könnyen elérhető, viszonylag olcsó - 30 kreditbe kerülő - rakéták
+	    rendkívül hatékony fegyverek. A képen látható hajó energiája a
+	    rakétatalálatot követően jelentősen lecsökkent.
+      </Text>
+    </Image>
+  </Content>
+</Page>

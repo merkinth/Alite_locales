@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>Ha nem <b>bűnöző</b> a bűnügyi státuszod, és a harcászati
+      besorolásod sem különösebben magas szintű, a fejvadászok nem
+      háborgatnak egy olyan jelentéktelen hajót, mint egy Kobra Mk. III.
+      Sok fejvadász használ Kobra kereskedelmi hajót, mert ezzel
+      kitűnően álcázhatják magukat. Az igazi gyilkosok viszont a
+      rendkívül hatékony Lándzsakígyó Villám hajóval járnak, amiben
+      akár hónapokig is élhetnek. A fejvadászok mindig a bolygó pályáján
+      kívüli térben mozognak, különösen a &apos;veszélyesnek&apos; tartott
+      világok környékén lehet velük találkozni. Harcászati besorolásuk mindig
+      <b>Halálos</b> vagy <b>Elit</b>. Ritkán repülnek tovább békésen,
+      elegendő egy kicsit közelebb kerülni hozzájuk és máris támadnak.</p>
+    </Text>
+    <Image name="krait">
+      <Text>
+      A Faulcon deLacy által tervezett hajó. A Krait a kalózok és a
+      fejvadászok által egyaránt kedvelt.
+      </Text>
+    </Image>
+  </Content>
+</Page>

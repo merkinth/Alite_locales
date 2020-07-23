@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>Az elmúlt évtizedekben a tudósok teljesen összezavarodtak, hogy egy
+      látszólag egyszerű problémával nem tudtak megbírkózni. A hajó teljes
+      tehetetlenségének megállítása, azonnali megfordítása, majd ellenirányú
+      tolóerő képzése csak az elmúlt 15 évben vált lehetségessé. Mára az
+      ellenirányú meghajtók már anélkül felszerelhetők, hogy azok megrongálnák
+      a hajó belsejét. A fékezőrakéták 10-es vagy annál magasabb technikai
+      szintű bolygókon szerezhetők be.</p>
+      <InlineImage name="retro_rockets"/>
+      <p>A fékezőrakéták a fenti gomb megnyomásával kapcsolhatók be és azonnal
+      az ellenkező irányba hajtják a Kobrát. Nagyon hasznos lehet az erősebb
+      vagy gyorsabb ellenfelekkel szemben vagy ha gyorsan el kell érni egy
+      célpontot. Az, hogy hányszor lehet használni, mindig egy kicsit a
+      véletlenen is múlik. Függ a hajó pillanatnyi terhelésétől és a
+      rakétagyártás során felhasznált üzemanyag minőségétől is.</p>
+      <p>[b]Fékezőrakéták leírása:[/b] A Xasar Ion fékezőrakéta jelenleg
+      az egyetlen megbízható eszköz a piacon. 200 m/s-os irányváltóval
+      szállítják. Az állandó, 1g-s gyorsulásnak köszönhetően a pilóta észre
+      sem veszi a hirtelen irányváltást. Az üzemanyagot a Zamaes környékén
+      keringő jeges üstökösökből bányászák, ami köztudottan nagy tisztaságú
+      égést eredményez.</p>
+    </Text>
+  </Content>
+</Page>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_cobramki"/>
+	  <p>Újabban a kalózok által is kedvelt harci-kereskedő hajó.
+	  A Mark I Kobra volt az első egyszemélyesnek tervezett és épített kereskedő hajó.
+	  Különleges jellemzője a megjelenésekor még újdonságnak számító,
+	  a Paynou, Prossett és Salem által gyártott Prossett meghajtó volt,
+	  ami proton-szorítású, belső aknafalú utánégetőkkel készült.
+	  Ezek mára már szériatartozékai minden PPS által gyártott hajó belső- és külső borításnak.</p>
+	  <table>
+		[o]Méretei:[/o],[o]146x31x114m[/o];
+		Teherbírása:,10 KT (Konténer tonna);
+		Fegyverzete:,Hassoni Variscan lézer rendszer[c];
+		,early Lance &amp; Ferman rakétarendszer;
+		Végsebessége:,0.26 FMa (Fény Mach);
+		Gyártás kezdete:,2855 (Paynou[c] Prossett és Salem);
+		Legénység száma:,1;
+		Hajótest ellenállási tényező:,TJi 18;
+		Irányíthatóság:,3 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Prossett meghajtó;
+		Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="cobramki"/>
+  </Content>
+</Page>

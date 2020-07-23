@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_boa"/>
+      <p>A Piton leváltására készítették. Annál valamivel kisebb ugyan,
+      de a teherbírása mégis nagyobb a felszerelés precíz tervezésének
+      és a kisebb számú legénységnek köszönhetően.
+      Pl. a Renold űrnavigációs egység mérete egyötöde az előzőleg használt
+      machanali térbeli útkeresőnek.
+      Nagyrészt Commodore Monty, a 45 éves tapasztalattal rendelkező Piton kapitány
+      ajánlásai alapján fejlesztették ki.</p>
+      <table>
+        [o]Méretei:[/o],[o]113x104x200m[/o];
+        Teherbírása:,125 KT (Konténer tonna);
+        Fegyverzete:,Ergon lézer rendszer[c];
+        ,Hagyományos JK impulzus lézer[c];
+        ,IFS kereső- és vadász rakéták;
+        Végsebessége:,0.24 FMa (Fény Mach);
+        Gyártás kezdete:,3017 (Gerege Szövetségi Űrművek);
+        Legénység száma:,15-28;
+        Hajótest ellenállási tényező:,TYo 20;
+        Irányíthatóság:,4 KT (Kanyarodási Tényező);
+        Meghajtó motorok:,4 C40KV Ames meghajtó motorok[c];
+        ,Seeklight támadó rendszerek;
+        Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="boaclasscruiser"/>
+  </Content>
+</Page>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>Az [ip]Aktuális bolygó[/pi] azt a bolygót mutatja, amelyen a
+      hajó jelenleg tartózkodik; míg a [ip]Cél bolygó[/pi] azt,
+      amire a hiperugrás után kerülni fog.</p>
+      <p>Négy lehetséges [ip]Állapot[/pi] van: a [b]Bedokkolt[/b] jelzi,
+      hogy a hajó leszállt egy űrállomáson; a [b]Készenléti állapot[/b]
+      azt mutatja, hogy jelenleg nincs támadásveszély; a
+      [b]Fokozott készültség[/b] a közelben lévő ellenséges hajókra utal;
+      a [b]Teljes harckészültség[/b] magas támadási kockázatot vagy már
+      folyamatban lévő támadást jelez.</p>
+      <p>A [ip]Bűnügyi státusz[/pi] a galaktikus rendőrség nyilvántartási
+      bejegyzése. Ha ez [b]Büntetlen[/b], akkor aggodalomra semmi ok, de
+      [b]Szabálysértő[/b] vagy ami még rosszabb, [b]Bűnöző[/b] státusz
+      esetén a rendőrségi hajók valószínűleg támadni fognak.</p>
+      <p>A [ip]Besorolás[/pi] az eddigi harci tevékenységek objektív
+      értékelését mutatja.</p>
+      <p>Itt látható még a készpénz összege, az üzemanyag aktuális
+      mennyisége és a hajó felszerelései.</p>
+      <p>Az állapot információ a navigációs sávról és repülés közben is
+      bármikor megjeleníthető az [ip]Állapot[/pi] gomb megnyomásával.</p>
+    </Text>
+    <Image name="status" localized = "true">
+      <Text>
+        Az új pilóták besorolása &apos;Ártalmatlan&apos;; a bűnügyi
+        státuszuk &apos;Büntetlen&apos;.
+      </Text>
+    </Image>
+    <Image name="moneybag" localized = "true">
+      <Text>
+        Pénzeszsák parancsnok gyanúsan gazdag, ami elég hihetetlen,
+        figyelembe véve, hogy a besorolása még Ártalmatlan. Ezen kívül
+        már sokféle felszerelést is felhalmozott a hajójában.
+      </Text>
+    </Image>
+  </Content>
+</Page>

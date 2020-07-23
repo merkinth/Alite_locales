@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A repülést a Kobra kereskedő hajóval is gyakorolni kell, még
+      akkor is, ha a hajó jól irányítható, gyors és jók a harci képességei.
+      A gyorsítás és a lassítás ujj húzással vezérelhető, a többi
+      irányítási jellemző pedig igény szerint testre szabható.</p>
+      <p>[pb]Az óramutató járásával ellentétes irányú forgáshoz[/bp] döntsd
+      balra a képernyőt vagy koppints a vezérlő gyűrű bal oldalán vagy
+      koppints a balra mutató nyílra a kijelzőn.</p>
+      <p>[pb]Az óramutató járása szerinti forgáshoz[/bp] döntsd jobbra a
+      képernyőt vagy koppints a vezérlő gyűrű jobb oldalán vagy koppints
+      a jobbra mutató nyílra a kijelzőn.</p>
+      <p>A [pb]süllyedéshez[/bp] döntsd magad felé a képernyőt vagy
+      koppints a vezérlő gyűrű felső részére vagy koppints a felfelé mutató
+      nyílra a kijelzőn.</p>
+      <p>Az [pb]emelkedéshez[/bp] döntsd magadtól el a képernyőt vagy
+      koppints a vezérlő gyűrű alsó részére vagy koppints a lefelé mutató
+      nyílra a kijelzőn.</p>
+      <p>[pb]A sebesség növeléséhez[/bp] húzd az ujjadat lentről felfelé
+      a képernyő felső részén.</p>
+      <p>[pb]A sebesség csökkentéséhez[/bp] húzd az ujjadat fentről lefelé
+      a képernyő felső részén.</p>
+      <p>Egy kis mozgó pontot vehetsz észre a képernyő jobb alsó részén lévő
+      körben. Ez az iránytűd, amiben a pont mutatja az űrállomás helyzetét.
+      Ha a pont zöld, akkor az állomás mögötted van. Ha a pont piros és a
+      kör közepén van, akkor az űrállomás előtted van.</p>
+      <p>Gyakorold, hogy elfordítod a hajót az űrállomástól, majd az
+      iránytű használatával újra magad elé hozod.</p>
+      <p>A repülések során más Kobra osztályú hajókkal is találkozhatsz.
+      Ezek ugyanolyan kereskedők, mint te, nem fognak megtámadni téged,
+      hacsak te nem lősz rájuk. Ha megtámadod őket, akkor vagy ők is
+      támadni fognak vagy elmenekülnek. Ha harci gyakorlatozáshoz használod
+      a megtámadásukat, akkor számíts rá, hogy az űrállomásokon nem fognak
+      szemet hunyni az ilyen törvénytelen viselkedés felett. Az űrállomás
+      védelmi körzetében senki nem fog megtámadni, kivéve, ha valami nagy
+      ostobaságot követsz el.</p>
+      <p>A Kobrával nem lehet a bolygókra leszállni, a bolygókba vagy az
+      űrállomásokba való belerepülés végzetes. A magasságmérő mutatja a
+      bolygó felszínétől való magasságot, ne hagyd, hogy ez túl alacsony
+      legyen.</p>
+      <p>(Ha új pilóta vagy, akkor a legjobb, ha a le- és felszállást a
+      Lave űrállomáson gyakorlod. A Bolygó Regisztrációs Hivatal ugyanis
+      itt díjmentesen, korlátlan számú gyakorlatot engedélyez az újdonsült
+      pilótáknak. Ezt a lehetőséget csak a támadások idejére függesztik fel
+      vagy akkor, ha a Coriolis állomáson már nincs szabad hely. Lásd a
+      dokkolásról szóló ábrát.)</p>
+    </Text>
+    <Image name="rearview_coriolis">
+      <Text>
+        Visszatekintés a Coriolis állomásra, ahová a Kobra korábban be volt dokkolva.
+      </Text>
+    </Image>
+  </Content>
+</Page>

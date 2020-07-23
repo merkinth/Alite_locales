@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+        <InlineImage name="sc_aspmkii"/>
+		<p>Kormányzati műhelyekben tervezett és gyártott galaktikus haditengerészeti hajó,
+		ami olyan titkos önmegsemmisítő szolgáltatásokat tartalmaz, amelyek elsősorban akkor aktiválódnak,
+		ha az űrnavigációs vezérlőket idegen kezek használják.
+		Borításának kaméleon tulajdonságai lehetővé teszik,
+		hogy a hajó bármilyen környezetben hatékonyan álcázni tudja magát.
+		Mivel felderítésre és magas rangú katonai személyzet harcból történő szállítására szánták,
+		nagyon gyors és jól manőverezhető.
+		Veszélyes természete ellenére ideális kalózhajó, elsősorban sebessége, álcázási képessége
+		és a nagy intenzitású Hassoni-Kruger sorozatlövő lézerei miatt.
+		Az Asp Mk II-ben erős pajzsgenerátorok és egy rakétavető kaptott helyet.</p>
+		<table>
+			[o]Méretei:[/o],[o]128x39x138m[/o];
+			Teherbírása:,Nincs;
+			Fegyverzete:,Hassoni-Kruger sorozatlövő lézer[c];
+			,Geret Csillagkereső rakéta;
+			Végsebessége:,0.40 FMa (Fény Mach);
+			Gyártás kezdete:,2878 (GalCop Workshops);
+			Legénység száma:,2;
+			Hajótest ellenállási tényező:,TT 16;
+			Irányíthatóság:,4 KT (Kanyarodási Tényező);
+			Meghajtó motorok:,Voltaire Whiplash HZ impulzus meghajtó;
+			Hipertér képesség:,Van;
+        </table>
+    </Text>
+    <BackgroundImage name="aspmkii"/>
+  </Content>
+</Page>

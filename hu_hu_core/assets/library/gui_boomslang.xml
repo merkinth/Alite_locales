@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+       <InlineImage name="sc_boomslang"/>
+       <p>Egy gazdag gearzaeni tudós tervezte.
+       A Harken furcsa megjelenésű, és csak tapasztalt pilóták tudják kezelni.
+       Erősen felfegyverezve a hajó kiváló fejvadász és ehhez jön még a halvány
+       körvonalainak köszönhető jó álcázási képessége.</p>
+       <table>
+         [o]Méretei:[/o],[o]165x81x118m[/o];
+         Teherbírása:,3TC;
+         Fegyverzete:,Hendersson gyorstüzelésű sugárlézerek[c];
+         ,Geret Csillagkereső rakéta;
+         Végsebessége:,0.34 FMa (Fény Mach);
+         Gyártás kezdete:,2998 (Gearzaen Laboratóriumok);
+         Legénység száma:,2;
+         Hajótest ellenállási tényező:,TT 20;
+         Irányíthatóság:,3 KT (Kanyarodási Tényező);
+         Meghajtó motorok:,Innington PowerCoupler;
+         Hipertér képesség:,Csak helyi;
+         Saját galaxisa:,3;
+       </table>
+    </Text>
+    <BackgroundImage name="boomslang"/>
+  </Content>
+</Page>

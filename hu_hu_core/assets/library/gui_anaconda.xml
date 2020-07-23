@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+        <InlineImage name="sc_anaconda"/>
+		<p>A legnagyobb ismert teherhajó, rakterét a Beerbaum és ThruSpace Zrt. tervezte.
+		Az Anakonda az egyetlen teherhajó, ami Dizaoner SpaceWares lengő-lebegő rakodófelületekkel van felszerelve.
+		A terhelés-eloszlásmérő készülékek lehetővé teszik, hogy a rakományfelelős másodperceken belül
+		átrendezze a rakományt, ezzel növelve meg ennek a nagyszerű hajónak a manőverező képességét.
+		Néha rakétákkal is fel van szerelve, de többnyire csak lézer fegyvere van (500 Gigazap előre tüzelő impulzus lézer),
+		ezért az Anakonda hajóféléknek általában harci kíséretük is van.
+		A kereskedők egymás között azt mondják, hogy az Anakonda olyan erős,
+		mint egy magányos aszteroida és az irányíthatósága is pont olyan.</p>
+		<table>
+			[o]Méretei:[/o],[o]137x110x312m[/o];
+			Teherbírása:,750 KT (Konténer tonna);
+			Fegyverzete:,Előre tüzelő Hassoni HiRad impulzus lézer[c];
+			,ColtMaster csillag lézerek[c];
+			,Geret Csillagkereső rakéta;
+			Végsebessége:,0.14 FMa (Fény Mach);
+			Gyártás kezdete:,2856 (RimLiner Galactic);
+			Legénység száma:,40-72;
+			Hajótest ellenállási tényező:,TJi 57;
+			Irányíthatóság:,3 KT (Kanyarodási Tényező);
+			Meghajtó motorok:,V&amp;K32.24 Ergmasters[c];
+			,alul- és felül égő csövekkel;
+			Hipertér képesség:,Van;
+        </table>
+    </Text>
+    <BackgroundImage name="anaconda"/>
+  </Content>
+</Page>

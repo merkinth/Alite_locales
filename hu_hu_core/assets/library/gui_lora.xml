@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_lora"/>
+	  <p>A Lándzsafejet a Skunkworx eredetileg királyi kísérő hajónak tervezte.
+	  Komoly tűzerővel is felszerelhető és nagyszerű a manőverezési képessége,
+	  de a raktere kicsi. A szárny alakú hajótestnek köszönhetően könnyedén válthat
+	  az űr- és a légköri repülés között, mindkét környezetben otthonosan mozog.
+	  Ez a képesség tette a hajót elsőszámú választássá az olyan gazdag kölykök
+	  között, akik szeretnek a bolygók között száguldozni, de még nem alkalmasak
+	  űrhajósnak.</p>
+	  <table>
+		[o]Méretei:[/o],[o]180x42x177m[/o];
+		Teherbírása:,2 KT (Konténer tonna);
+		Fegyverzete:,Ingram 2048 FZY sugár lézer[c];
+		,Geret Csillagkereső rakéta;
+		Végsebessége:,0.30 FMa (Fény Mach);
+		Gyártás kezdete:,2999 (Skunkworx Laboratórium);
+		Legénység száma:,1-6;
+		Hajótest ellenállási tényező:,TCp 78;
+		Irányíthatóság:,8 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Shoemaker X-3;
+		Hipertér képesség:,Csak helyi;
+		Saját galaxisa:,3;
+      </table>
+    </Text>
+    <BackgroundImage name="lora"/>
+  </Content>
+</Page>

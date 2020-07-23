@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_transporter"/>
+	  <p>A Lakon Spaceways MC15 QuikTransport űrsikló a leggyakrabban
+	  előforduló, közepes távolságú ingajárat, 0,1 fényév hatótávval
+	  és teljes körű HiGrav rakodási képességgel. Legfeljebb 100 utas
+	  szállítására alkalmas, teherkapacitása 10 tonna, teszőleges
+	  típusú szállítmány. Bepakolható aszteroidákon és űrállomásokon,
+	  légkörben történő repülésre is alklamas, le tud szállni
+	  szárazföldre és bármely folyékony felületre, a sav kivételével.</p>
+	  <table>
+		[o]Méretei:[/o],[o]100x33x116m[/o];
+		Gyártás kezdete:,Ismeretlen[c] de valószínűleg a 2500-as évek előtt;
+		,Úgy tudni[c] hogy a prototípus a SpaceLink hajógyárban készült[c];
+		,Mars körüli pályán (a régi Föld közelében).;
+      </table>
+    </Text>
+    <BackgroundImage name="transporter"/>
+  </Content>
+</Page>

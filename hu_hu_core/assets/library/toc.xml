@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc>
+  <tocEntry file="intro">Kezdő lépések
+    <tocEntry file="int_interior">A Kobra Mk III belseje</tocEntry>
+    <tocEntry file="int_status">Állapot információk</tocEntry>
+    <tocEntry file="int_rating">Harcászati besorolás</tocEntry>
+  </tocEntry>
+
+  <tocEntry file="navigation">Navigáció és repülés
+    <tocEntry file="nav_controls">Navigáció kezelése</tocEntry>
+    <tocEntry file="nav_coriolis">A Coriolis űrállomás</tocEntry>
+    <tocEntry file="nav_leaving">Az űrállomás elhagyása</tocEntry>
+    <tocEntry file="nav_basic_manoeuvres">Alapvető repülési manőverek</tocEntry>
+    <tocEntry file="nav_console">Navigációs sáv</tocEntry>
+    <tocEntry file="nav_target">Célbolygó megadása</tocEntry>
+    <tocEntry file="nav_intergal">Galaxisok közötti ugrás</tocEntry>
+    <tocEntry file="nav_docking">Leszállási művelet</tocEntry>
+  </tocEntry>
+
+  <tocEntry file="interplanet">Bolygóközi utazás
+    <tocEntry file="ip_manoeuvring">Manőverezés</tocEntry>
+    <tocEntry file="ip_danger">A veszély jelei</tocEntry>
+    <tocEntry file="ip_enemies">Várható ellenségek
+      <tocEntry file="ip_e_bounty">Fejvadászok</tocEntry>
+      <tocEntry file="ip_e_pirates">Kalózhajók</tocEntry>
+      <tocEntry file="ip_e_police">Rendőrség</tocEntry>
+      <tocEntry file="ip_e_thargoids">Thargoid inváziós űrhajók és thargonok</tocEntry>
+    </tocEntry>
+    <tocEntry file="ip_others">Egyéb űrhajó típusok
+      <tocEntry file="ip_o_hermits">Szikla lakók</tocEntry>
+      <tocEntry file="ip_o_generations">Generációs hajók</tocEntry>
+      <tocEntry file="ip_o_dredgers">Űrkotrógépek</tocEntry>
+    </tocEntry>
+    <tocEntry file="ip_console">Harcászati kijelzők</tocEntry>
+    <tocEntry file="ip_weaponry">Támadó fegyverek
+      <tocEntry file="ip_w_lasers">Lézerek</tocEntry>
+      <tocEntry file="ip_w_missiles">Rakéták</tocEntry>
+      <tocEntry file="ip_w_energybombs">Energia bombák</tocEntry>
+    </tocEntry>
+    <tocEntry file="ip_defensive">Védelmi elemek
+      <tocEntry file="ip_d_safety">Biztonsági zóna</tocEntry>
+      <tocEntry file="ip_d_shields">Pajzsok és energia bankok</tocEntry>
+      <tocEntry file="ip_d_ecm">Rakéta elhárító rendszer</tocEntry>
+      <tocEntry file="ip_d_escape">Mentőkabin</tocEntry>
+    </tocEntry>
+    <tocEntry file="ip_noncombat">Nem harcászati berendezések
+      <tocEntry file="ip_n_fuel">Üzemanyag</tocEntry>
+      <tocEntry file="ip_n_fuelscoop">Gyűjtő egység</tocEntry>
+      <tocEntry file="ip_n_cargo">Raktér kiegészítő</tocEntry>
+      <tocEntry file="ip_n_docking">Automata leszálló egység</tocEntry>
+      <tocEntry file="ip_n_intergal">Galaktikus hiperhajtómű</tocEntry>
+      <tocEntry file="ip_n_asteroid">Aszteroida bányászati lézerek</tocEntry>
+      <tocEntry file="ip_n_retrorockets">Fékezőrakéták</tocEntry>
+    </tocEntry>
+  </tocEntry>
+
+  <tocEntry file="trading">Bolygóközi kereskedelem
+    <tocEntry file="trade_how">Kereskedés alapjai</tocEntry>
+    <tocEntry file="trade_advice">Kereskedési tanácsok</tocEntry>
+    <tocEntry file="trade_alt">A kereskedés más formái
+      <tocEntry file="trade_a_bounty">Fejvadászat</tocEntry>
+      <tocEntry file="trade_a_piracy">Kalózkodás</tocEntry>
+      <tocEntry file="trade_a_asteroid">Aszteroida bányászat</tocEntry>
+      <tocEntry file="trade_a_cargo">Űrben sodródó áru konténer</tocEntry>
+      <tocEntry file="trade_a_illegal">Illegális kereskedelem</tocEntry>
+    </tocEntry>
+  </tocEntry>
+
+  <tocEntry file="politics">Politikai formák
+    <tocEntry file="pol_t_corp">Vállalati irányítás</tocEntry>
+    <tocEntry file="pol_t_dict">Diktatúra</tocEntry>
+    <tocEntry file="pol_t_anar">Anarchikus bolygók</tocEntry>
+    <tocEntry file="pol_aliens">Idegen fajok</tocEntry>
+  </tocEntry>
+
+  <tocEntry file="shipguide">A használt űrhajó típusok kézikönyve
+    <tocEntry file="gui_adder">Vipera</tocEntry>
+    <tocEntry file="gui_anaconda">Anakonda</tocEntry>
+    <tocEntry file="gui_asp">Asp Mk II</tocEntry>
+    <tocEntry file="gui_boa">Boa-osztályú cirkáló</tocEntry>
+    <tocEntry file="gui_bushmaster">Bushmaster</tocEntry>
+    <tocEntry file="gui_cobrai">Kobra Mk I</tocEntry>
+    <tocEntry file="gui_cobraiii">Kobra Mk III</tocEntry>
+    <tocEntry file="gui_coral">Korall</tocEntry>
+    <tocEntry file="gui_cottonmouth">Mokaszinkígyó</tocEntry>
+    <tocEntry file="gui_dugite">Barna kígyó</tocEntry>
+    <tocEntry file="gui_ferdelance">Lándzsakígyó</tocEntry>
+    <tocEntry file="gui_gecko">Gekkó</tocEntry>
+    <tocEntry file="gui_gopher">Hörcsög</tocEntry>
+    <tocEntry file="gui_harlequin">Paprikajancsi</tocEntry>
+    <tocEntry file="gui_boomslang">Harken</tocEntry>
+    <tocEntry file="gui_hognose">Disznóorrú</tocEntry>
+    <tocEntry file="gui_indigo">Indigó</tocEntry>
+    <tocEntry file="gui_krait">Krait</tocEntry>
+    <tocEntry file="gui_lora">Lándzsafej</tocEntry>
+    <tocEntry file="gui_lyre">Lant</tocEntry>
+    <tocEntry file="gui_mamba">Mamba</tocEntry>
+    <tocEntry file="gui_moray">Muréna Csillaghajó</tocEntry>
+    <tocEntry file="gui_mussurana">Fekete kígyó</tocEntry>
+    <tocEntry file="gui_shuttle">Űrsikló</tocEntry>
+    <tocEntry file="gui_python">Piton</tocEntry>
+    <tocEntry file="gui_rattlesnake">Csörgőkígyó</tocEntry>
+    <tocEntry file="gui_sidewinder">Szarvas</tocEntry>
+    <tocEntry file="gui_thargoid">Thargoid</tocEntry>
+    <tocEntry file="gui_thargon">Thargon</tocEntry>
+    <tocEntry file="gui_transporter">Szállító</tocEntry>
+    <tocEntry file="gui_viper">Rendőrségi vipera</tocEntry>
+    <tocEntry file="gui_wolf">Farkas Mk II</tocEntry>
+    <tocEntry file="gui_yellowbelly">Sárgahasú</tocEntry>
+  </tocEntry>
+</toc>

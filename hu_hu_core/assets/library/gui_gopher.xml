@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_gopher"/>
+	  <p>Hiányzó adatok</p>
+	  <table>
+		[o]Méretei:[/o],[o]100x38x177m[/o];
+		Teherbírása:,Ismeretlen;
+		Fegyverzete:,Ismeretlen;
+		Végsebessége:,Ismeretlen;
+		Gyártás kezdete:,Ismeretlen;
+		Legénység száma:,Ismeretlen;
+		Hajótest ellenállási tényező:,Ismeretlen;
+		Irányíthatóság:,Ismeretlen;
+		Meghajtó motorok:,Ismeretlen;
+		Hipertér képesség:,Csak helyi;
+		Saját galaxisa:,4;
+      </table>
+    </Text>
+    <BackgroundImage name="gopher"/>
+  </Content>
+</Page>

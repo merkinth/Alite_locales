@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_bushmaster"/>
+	  <p>A Bushmaster az egyetlen hajó, amiről tudják, hogy gyíkok építették.
+	  Eredetileg a Lethaloidok bolygójának felszabadításához készítették,
+	  de a hajó erős pajzsainak köszönhetően gyorsan népszerű lett.
+	  A Bushmaster nem terjedt el széles körben, egyrészt mert emberek által nem működtethető,
+	  másrészt mert nincs galaktikus hiperhajtóműve.</p>
+	  <table>
+		[o]Méretei:[/o],[o]200x82x279m[/o];
+		Teherbírása:,40 KT (Konténer tonna);
+		Fegyverzete:,Hagyományos sugár lézerek[c];
+		,Geret Csillagkereső rakéta;
+		Végsebessége:,0.34 FMa (Fény Mach);
+		Gyártás kezdete:,2897 (Leonrala);
+		Legénység száma:,4;
+		Hajótest ellenállási tényező:,TJi 24;
+		Irányíthatóság:,2 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Hamilton meghajtó;
+		Hipertér képesség:,Csak helyi;
+		Saját galaxisa:,5;
+      </table>
+    </Text>
+    <BackgroundImage name="bushmaster"/>
+  </Content>
+</Page>

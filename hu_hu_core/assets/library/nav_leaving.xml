@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A felszálláshoz koppints a [ip]Kilövés[/pi] ikonra a navigációs
+      sávon. Azt javasolják a pilótáknak, hogy a kilövést követően
+      várjanak még 10 másodpercet, amíg elmúlik az alagúton és a Coriolis
+      védőpajzsán való áthaladás hatása.</p>
+    </Text>
+    <Image name="leaving_lave">
+      <Text>
+        A Coriolis állomás elhagyása és a Lave bolygó megközelítése.
+      </Text>
+    </Image>
+  </Content>
+</Page>

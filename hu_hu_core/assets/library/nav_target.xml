@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <p>Az űrállomás elhagyása után a bolygó feletti alacsony repülési
+	  pályára kerülsz, közepes repülési sebességgel. A hiperugrás
+      célbolygójának beállítása előtt ne felejtsd el a sebességét nullára
+      csökkenteni.</p>
+	  <p>Repülés közben négy különböző nézet között válthatsz, beállítástól
+      függően, a radar megfelelő részére való koppintással vagy az ujjad
+      radaron való jobbról balra húzásával.</p>
+	  <InlineImage name="in_flight_buttons"/>
+	  <p>Az [pb]1[/bp] jelű gombra koppintva a fedélzeti számítógéphez
+      válthatsz. A jobb oldali navigációs sáv segítségével a galaxis vagy a
+      környék bolygóinak megjelenítésével beállíthatod a hiperugrás
+      célbolygóját. Vigyázat: ne feledd, hogy a Kobra közben repül.</p>
+	  <p>Ha beállítottad az aktuális üzemanyag szint szerint elérhető bolygók
+      közül az egyiket a hiperugrás célbolygójának, megjelenik a [pb]2[/bp]
+      jelű gomb. Ha rákoppintasz, a visszaszámlálás után a hiperhajtómű
+      beindul. A visszaszámlálás alatt újra rákoppintva a folyamat
+      megszakítható.</p>
+	  <p>A hipertéren való áthaladás után egy új naprendszerbe érkezel, egy
+      bizonyos távolságra a célbolygótól, a Galaktikus Együttműködés által
+      a repülési törvényben meghatározott szabályoknak megfelelően.</p>
+	  <p>Még a legbiztonságosabb naprendszerekben is leselkedhetnek ránk
+      előre nem látható veszélyek, ezért erősen javasolt, hogy a lehető
+      leggyorsabban próbálj meg eljutni az űrállomás által védett biztonsági
+      zónába. Ehhez növeld a repülési sebességet a maximumra. Ekkor elérhetővé
+      válik a gyorsító rakéta ([pb]3[/bp]), ami azonban csak akkor működik, ha
+      nincs interferencia, vagyis a közvetlen közelben nincs másik hajó, bolygó
+      vagy csillag, ellenkező esetben az eszköz automatikusan kikapcsol.</p>
+	  <p>A Kobra belső időgyorsító eszköze ([pb]4[/bp]) viszont még olyan
+      esetben is használható, ha a közelben baráti hajók vannak. Hatására
+      lelassul az agyműködés, ezért úgy tűnik, hogy az idő sokkal gyorsabban
+      telik. A biztonsági zónán belül tilos a használata, mert korábban ez
+      több hajószerencsétlenséghez és a Getius körüli űrállomás 3187-es
+      megsemmisüléséhez is vezetett. Ellenséges hajók érkezésekor az időgyorsító
+      automatikusan kikapcsol.</p>
+	  <p>Mihelyt a hajó számítógépe fogja a legközelebbi űrállomás jeladójának
+      jeleit, átkapcsolja az iránytűt az űrállomás követésére, az eddigi
+      célbolygó követő módról. A Kobra űrállomás biztonsági zónájába érkezésekor
+      megjelenik az ezt jelző [bp]S[/pb] betű és ez mindaddig látható is
+      marad, amíg a zónán belül van. Ilyenkor az űrállomás védelmi rendszerei
+      már a hajót is védik.</p>
+    </Text>
+    <Image name="views">
+      <Text>
+        A radar kölönböző részeire koppintva válthatod a nézetet. Nézhetsz
+        jobbra, hátra, balra és ismét előre a radar megfelelő részére való
+        koppintással vagy az ujjad radaron való vízszintes húzásával, az
+        testreszabható irányítási beállítástól függően.
+      </Text>
+    </Image>
+  </Content>
+</Page>

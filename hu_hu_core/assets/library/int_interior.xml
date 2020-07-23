@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A Kobra alapvetően egypilótás kereskedelmi hajó, de úgy tervezték,
+      hogy legyen benne elegendő hely még egy személy számára, feltéve, ha
+      az normális emberi vagy humanoid méretű és fiziológiájú. Maga a hajó
+      öt fő területből áll:</p>
+      <p>[bp]A raktér[/pb] foglalja el a közepső tér nagy részét. A raktér
+      ajtók lefelé nyílnak. A Kobra átalakítása nélkül itt 20 db 1 tonnás
+      konténer fér el. A raktér tovább bővíthető, ami nem befolyásolja a
+      hajó manőverezhetőségét. A konténerek mágnesesen rögzülnek a rakomány
+      karokhoz, a középső részen helyezkedik el az automata rakodó rendszer.</p>
+      <p>[bp]A hídon[/pb] a pilóta- és a másodpilóta ülései kaptak helyet.
+      Itt van még az orvosi szoba, a bejárat a mentőkapszulába, lejjebb a
+      szálláshelyek, a kommunikációs vezérlő, a védőruhák szekrénye, a
+      RemLock tápegység, az automata leszálló egység csatlakoztatásához
+      szükséges berendezések és a kézifegyver szekrény. A fő részen a
+      szkenner képernyő, az űrnavigációs vezérlőpult és a legfontosabb rendszerek
+      visszajelzői vannak.</p>
+      <p>[bp]A hajtómű szektor[/pb] ad helyet az irányított tolóerőt biztosító
+      Kruger &apos;fénysebességű&apos; motoroknak és az Irrikon Thru-Space
+      hiperhajtóműnek. Itt lehet elhelyezni a hátsó lézert és a rakéta
+      elhárító rendszert (ECM). Itt vannak még a Zieman pajzsgenerátorok,
+      az energia bankok és a hipertér üzemanyag-sűrítő (Quirium). Belső
+      és külső hozzáférésű panelek itt egyaránt megtalálhatók.
+      Magas a sugárzási szint.</p>
+      <p>[bp]A lakó- és tisztálkodási részleg[/pb] a fő híd alatt található
+      és egy csökkenő gravitációs kúton keresztül érhető el. Két hálóhely,
+      élelmiszer-adagoló berendezések, hulladékkezelés (beleértve az aoniak
+      erősen toxikus, réztartalmú izzadságát), SynPleasure nyugágyak és a
+      videó szoba található itt.</p>
+      <p>[bp]A berendezési szint[/pb] az egész hajón keresztül fut és ez ad
+      helyet a lézer generátoroknak, a rakétáknak és az azokat az alsó
+      hajórészbe mozgató tengelyeknek. Itt van a kommunikációs központ,
+      a mentőkapszula (külön bejárattal a hídról), az életmentő rendszerek,
+      két kriogéntartály és vészhelyzetre negyven köbméternyi légköri gáz.</p>
+    </Text>
+  </Content>
+</Page>

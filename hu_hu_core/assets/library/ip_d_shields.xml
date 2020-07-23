@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <p>A hajód első- és hátsó pajzsokkal és energiabankokkal van felszerelve.
+	  A pajzsok védik a hajót a támadásoktól és az energiabankokból töltődnek újra.
+	  A folyamatos tüzelés károsítja a pajzsokat. Ha egy pajzs kimerül az ellenség
+	  lézer- és rakéta találataitól, a pajzs közvetlenül az energiabankot fogyasztja,
+	  ráadásul védelem hiányában, akár még a hajó rakománya vagy felszerelése is
+	  megsemmisülhet.
+	  Ha az összes energiabank lemerül, a hajó felrobban. Egyes felszerelések
+	  (pl. ECM), de akár a lézerek használata is merítheti az energiabankokat.</p>
+	  <p>A hajó számítógépe folyamatosan tájékoztat a hajó sérüléséről és figyelmeztet,
+	  ha az energiaszint veszélyesen alacsony szintet ér el.</p>
+	  <p>A legalább 8-as technikai szintet elérő bolygókon a hajóra extra energia
+	  egység szerelhető fel, amivel a pajzsok töltése azonnal elkezdődik, ami különben
+	  csak akkor indulna, ha az energiabankok már teljesen feltöltődtek.
+	  Ezt az energia egységet réz színű tetővel szállítják, nincs is más ehhez hasonló
+	  kinézetű vagy tartósságú egység.</p>
+	  <p>[b]A védőpajzs specifikációja:[/b] A pajzsok a Zieman-féle részecsketöltő
+	  által kifeszített elekromágnes hálóból állnak. Ott a leggyengébbek,
+	  ahol a lézer- és rakétacsövek átmennek a hajótesten, illetve a hajó
+	  középsávja mentén, ahol a két pajzs átfedi egymást, ami feszültség
+	  zónát hoz létre.</p>
+    </Text>
+  </Content>
+</Page>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <table>
+		[pb]Felszerelés[/bp],[r][pb]Min. technikai szint[/bp],[r][pb]Ár (Cr)[/bp];
+		Üzemanyag,Mindenhol,Változó;
+		Rakéta,Mindenhol,30;
+		Raktér bővítő,Mindenhol,400;
+		Rakétaelhárító rendszer (ECM),2,600;
+		Impulzus lézer,3,400;
+		Sugár lézer,4,1000;
+		Gyűjtő egység,5,525;
+		Mentőkapszula,6,1000;
+		Energia bomba,7,900;
+		Extra energia egység,8,1500;
+		Automata leszálló egység,9,1500;
+		Galaktikus hiperhajtómű,10,5000;
+		Bányász lézer,10,800;
+		Katonai lézer,10,6000;
+		Fékezőrakéták,10,8000;
+	  </table>
+	  <p> </p>
+	  <p>A [p]Felszerelés[/p] alatt vásárolhatók meg és szereltethetők fel
+	  a fegyverek és más - nem harci - eszközök.</p>
+    </Text>
+  </Content>
+</Page>

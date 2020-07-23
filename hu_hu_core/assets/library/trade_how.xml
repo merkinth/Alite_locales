@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A [p]vásárlás képernyő[/p] az alap kereskedelmi termékek listáját
+      és azok aktuális piaci árát mutatja meg.</p>
+      <p>Ezen a képernyőn látható az adott termékből éppen megvásárolható
+      mennyiség és az aktuális piaci egységár. A legtöbb CorCom
+      kereskedelmi rendszer csak a termékek jellegét és nem a konkrét árut
+      jelzi, így ilyen kategóriákkal lehet pl. találkozni: [i]élelmiszer,
+      gépek, ásványok, drágakövek[/i].</p>
+      <p>Az ár az üzletkötéskor érvényes ajánlatot mutatja, ami a vásárlás
+      alatt nem változik meg.</p>
+      <p>Az áru megvásárlása szinte azonnal megtörténik: ha vásárolni
+      akarsz, csak add be a várárolandó áru mennyiségét és az autoSCAM
+      modul azonnal betölti a megvásárolt termékeket a raktérbe. A
+      képernyő jelzi a vásárláshoz még rendelkezésre álló pénz összegét is.</p>
+      <p>A Kobra hajónak az áruk eladása vagy megvásárlása előtt le kell
+      szállnia egy Coriolis űrállomásra. A kontérek kidobását nem számítva,
+      nincs lehetőség az űrállomáson kívüli kereskedésre.</p>
+      <p>Dokkolás után az áruk eladása automatizált, nincs semmilyen
+      további teendő. A [p]raktér képernyő[/p] mutatja az eladható áruk
+      listáját. Innen tetszőleges áru kiválasztható az aktuális űrállomáson
+      történő eladáshoz.</p>
+    </Text>
+    <Image name="buy_lave" localized = "true">
+      <Text>
+        A vásárlás képernyőn az alap kereskedelmi termékek listája és az
+        aktuális piaci árak láthatók.
+      </Text>
+    </Image>
+    <Image name="buy_numpad" localized = "true">
+      <Text>
+        Az árura kétszer rákoppintva lehet vásárlás módba jutni.
+      </Text>
+    </Image>
+    <Image name="inventory" localized = "true">
+      <Text>
+        A raktér képernyő mutatja az éppen a Kobra rakterében lévő áruk
+        listáját. Az áru eladásához kétszer kell koppintani az árun.
+      </Text>
+    </Image>
+  </Content>
+</Page>

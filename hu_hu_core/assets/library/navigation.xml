@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A Galaktikus Együttműködés csak egy - bár a legnagyobb - a többi
+      bolygószövetség közül. Feladata, hogy fenntartsa a kereskedelmi és
+      diplomáciai kapcsolatokat a galaxisok több ezer bolygója között.
+      Egy bolygó politikai berendezkedése fontos tájékozódási szempont,
+      hiszen soknál anarchikus állapotok uralkodnak, amiket nem tanácsos
+      rosszul felszerelt hajóval meglátogatni. Fontos még a bolygó
+      gazdasági jellege is, amiről majd a kereskedelemről szóló fejezetben
+      lesz szó.</p>
+      <p>Az, hogy mely bolygókra navigálod a hajódat attól függ, hogy milyen
+      célokat tűzöl ki magad elé. Ha úgy érzed, tudod, mit kell tenned
+      ahhoz, hogy elitté válj, gondosan és nagy pontossággal meg kell
+      tervezned a galaxisok közötti útvonalakat. Ahhoz, hogy a lehető
+      leggyorsabban, minél jobb fegyverekkel és eszközökkel tudd
+      felszerelni a hajódat, meg kell tanulnod ennek a könyvtárnak a
+      kereskedésről szóló fejezetét és meg kell találnod a legjövedelmezőbb
+      kereskedelmi útvonalakat. El kell döntened, hogy mennyire veszélyes
+      életet választasz. Általában minél nagyobb kockázatot vállalsz
+      (veszélyes bolygókra utazás vagy csempész árukkal való kereskedés),
+      annál gyorsabban tudod felszerelni a hajódat, de így nagyobb az
+      esélye, hogy megölnek. Rájössz majd, hogy minden a finom egyensúly
+      megtalálásán múlik. Bár először jó választásnak tűnhet a válogatás
+      nélküli mészárlás (elvégre ettől nő a harcászati besorolás), de
+      ahogy fejlődsz és gyarapszik a tapasztalatod az űrbéli életről,
+      meglátod majd, hogy a kalózkodás rövid életű karrier.</p>
+      <p>A sikert több tényező adja: biztos, hogy kell harciasság, de a
+      gondolkodás és a döntéshozási képességnek is nagy szerepe van.</p>
+      <p>A továbbiakban bemutatjuk az összes irányítási lehetőséget, amelyek
+      lehetővé teszik a bolygók és galaxisok közötti útvonalak kidolgozását
+      és azok bejárását.</p>
+    </Text>
+    <Image name="galchart" localized = "true">
+      <Text>
+        Eddig legalább 8 galaxisról tudunk (amikből ez az egyik) és
+        már jelenleg is több mint 250 ismert bolygó van mindegyikben.
+        Egy ilyen hatalmas univerzum sosem teljesen kiszámítható, így
+        végtelen lehetőségeket kínál a kalandokra.
+      </Text>
+    </Image>
+  </Content>
+</Page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_viper"/>
+	  <p>Kicsi, nagyon jól manőverezhető, rövid hatótávolságú &apos;vadász-
+	  és megsemmisítő hajó&apos;.
+	  A Viperát kifejezetten az Űrrendőrség (GalCop) számára tervezte a
+	  Faulcon Manspace és engedéllyel minden legalább közepes technikai
+	  fejlettségű világban gyártható. Bár a Vipera egypilótás hajó, almalmas
+	  legfeljebb tíz emberi utas szállítására is. Raktere nincs, de
+	  &apos;vontatási&apos; képességével akár egy 140 ezer tonna tömegű
+	  hajót (beleértve a Kobra Mk III-t) is képes elvontatni. Védelmi okokból
+	  gyakran kísér nagy teherhajó konvojokat.</p>
+	  <table>
+		[o]Méretei:[/o],[o]87x27x96m[/o];
+		Teherbírása:,Nincs;
+		Fegyverzete:,Ingram MegaBlast impulzus lézer[c];
+		,Kereső rakéták;
+		Végsebessége:,0.32 FMa (Fény Mach);
+		Gyártás kezdete:,2762 (Faulcon Manspace[c] Reorte);
+		Legénység száma:,1-10;
+		Hajótest ellenállási tényező:,Változó;
+		Irányíthatóság:,7.4 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,de Lacy Super Thrust VC10;
+		Hipertér képesség:,Nincs;
+	  </table>
+    </Text>
+    <BackgroundImage name="viper_gui"/>
+  </Content>
+</Page>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <p>A gyűjtő egység az 5-ös vagy annál magasabb technikai szintű
+	  világokban szereltethető fel a hajótestre. Üzemanyag gyűjtést tesz
+	  lehetővé &apos;a nap leföldezésével&apos;, ha nagy sebességgel közel
+	  repülünk a naphoz.</p>
+	  <p>A gyűjtő egység erős elektro-mágneses tér képzésével tereli a
+	  napszelet az átalakítóba. Ez a technikai megoldás lehetővé teszi
+	  különféle űrhulladékok felvételét is. A kalózhajók rendszerint
+	  fel van szerelve gyűjtő egységgel, így a prédájukat szétrobbantva
+	  a roncsokat, rakományokat át tudják válogatni és be tudják gyűjteni,
+	  ahelyett, hogy megpróbálnának az ellenséges hajóval összekapcsolódni.</p>
+	  <p>Egy gyűjtő egység szerelhető fel a hajóra, amivel úgy lehet felvenni
+	  a kiválasztott objektumot (például egy árukonténert), hogy közvetlenül
+	  fölé kell repülni, vagyis a felvenni kívánt objektum a képernyő alsó
+	  részén kell, hogy legyen, amikor megközelítjük.</p>
+	  <p>A gyűjtő egység lehetővé teszi árukonténerek raktérből való
+	  kidobását is. Ehhez repülés közben kétszer rá kell koppintani a
+	  kidobni kívánt árura a raktér képernyőn. Fontos tudni, hogy ennek
+	  eredményeként elveszik az áru vásárlására költött pénz.</p>
+	  <p>[b]Gyűjtő egység leírása:[/b] a gyűjtő egység alapvető fontosságú
+	  a veszélyes zónákban történő kereskedéshez. Szabványos kialakítású és
+	  felszerelhetőségű eszköz. Erős elektro-mágneses teret képez, ezzel
+	  tereli a napszelet és a kisebb törmeléket a ReQax átalakítóba.</p>
+    </Text>
+  </Content>
+</Page>

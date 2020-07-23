@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="console"/>
+	  <p>[pb]1[/bp] Üzemanyag szint. Jelzi, hogy milyen távolságra lehet a
+	  Kobrával utazni a hipertérben.</p>
+	  <p>[pb]2[/bp] A kabin hőmérséklet akkor nő, ha túl közel repülsz egy
+	  csillaghoz, ezt mutatja ez a kijelző.</p>
+	  <p>[pb]3[/bp] Magasságmérő. Igen fontos a célbolygótól való megfelelő
+	  távolság megtartása. A felszínéhez túl közel repülni végzetes.</p>
+	  <p>[pb]4[/bp] A radar nagyítási mértéke, nagyított kép jelzése esetén.</p>
+	  <p>[pb]5[/bp] Repülési radar. Ez a kifinomult eszköz a hajó körüli,
+	  látókörében lévő tér háromdimenziós nézetét mutatja. Segítségével a
+	  tartományban lévő bármely hajó pontos helyzete meghatározható.</p>
+	  <p>[pb]6[/bp] Iránytű. Ha a célbolygó a repülési radar hatótávolságán
+	  kívül esik, akkor a célbolygó irányát, ha a bolygó űrállomása már a
+	  hatótávolságon belül van, akkor az űrállomás irányát jelzi. Ha a pont
+	  zöld, akkor az objektum mögötted van, ha piros és a kör közepén van,
+	  akkor előtted van, amit előre nézve már látnod is kell.</p>
+	  <p>[pb]7[/bp] A giroszkóp irányjelzők a jobbra/balra forgás és
+	  süllyedés/emelkedés állapotokat mutatják.</p>
+	  <p>[pb]8[/bp] Az S az űrállomásra utal és jelzi, hogy az űrállomás
+	  védelmi területén (a biztonsági zónán) belül vagy.</p>
+	  <p>[pb]9[/bp] A repülési sebességet a bolygóhoz való repülésnél maximumon
+	  kell tartani. Az űrállomás megközelítése során mérsékelni kell, a
+	  leszállásnál pedig még tovább kell csökkenteni.</p>
+	  <p>[pb]10[/bp] Koppits az Alite logóra a játék szüneteltetéséhez, majd
+	  újra, a játék folytatásához.</p>
+    </Text>
+  </Content>
+</Page>

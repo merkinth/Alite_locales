@@ -1,0 +1,1508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alite</string>
+    <string name="menu_settings">Beállítások</string>
+
+    <string name="color_scheme_classic">Klasszikus</string>
+    <string name="color_scheme_modern">Modern</string>
+
+    <string name="notification_download_complete">A letöltés befejeződött</string>
+    <string name="notification_download_failed">Sikertelen letöltés</string>
+
+    <string name="state_unknown">Kezdés...</string>
+    <string name="state_idle">Várakozás a letöltés megkezdésére</string>
+    <string name="state_fetching_url">Letöltendő állományok keresése</string>
+    <string name="state_connecting">Csatlakozás a szerverhez</string>
+    <string name="state_downloading">Állományok letöltése</string>
+    <string name="state_completed">A letöltés befejeződött</string>
+
+    <string name="state_paused_network_unavailable">A letöltés szünetel, mert nincs elérhető hálózat</string>
+    <string name="state_paused_network_setup_failure">A letöltés szünetel, ellenőrizze az oldalt a böngészőben</string>
+    <string name="state_paused_by_request">A letöltés szünetel</string>
+    <string name="state_paused_wifi_unavailable">A letöltés szünetel, mert nincs elérhető Wi-fi hálózat</string>
+    <string name="state_paused_wifi_disabled">A letöltés szünetel, mert a Wi-fi le van tiltva</string>
+    <string name="state_paused_roaming">A letöltés szünetel, mert roaming hálózatot használ</string>
+    <string name="state_paused_sdcard_unavailable">"A letöltés szünetel, mert a külső tárló nem elérhető "</string>
+    <string name="state_failed_unlicensed">A letöltés sikertelen, mert nem vásárolta meg az alkalmazást</string>
+    <string name="state_failed_fetching_url">A letöltés sikertelen, mert az állomány nem található</string>
+    <string name="state_failed_sdcard_full">A letöltés sikertelen, mert a külső tárló megtelt</string>
+    <string name="state_failed_cancelled">Letöltés megszakítva</string>
+    <string name="state_failed">Sikertelen letöltés</string>
+
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Hátralévő idő: %1$s</string>
+    <string name="time_remaining_notification">%1$ mp van hátra</string>
+    <string name="notification_download_start">Letöltés folyamatban... Kérem várjon...</string>
+    <string name="notification_download_assets">Erőforrások letöltése, erre csak egyszer van szükség...</string>
+    <string name="notification_download_working">Folyamatban...</string>
+    <string name="notification_plugin_checking">Plugin frissítések keresése...</string>
+    <string name="notification_plugins_loading">Pluginek betöltése...</string>
+    <string name="notification_plugin_loading">%s plugin betöltése</string>
+    <string name="notification_download_error">Hiba &lt;js&gt;withArticle("%s")&lt;/js&gt; plug-in letöltése közben</string>
+    <string name="notification_downloading_info">Letöltés... %d / %dMB. Sebesség: %4.2f MB/mp. Hátralévő idő: %d mp.</string>
+    <string name="obb_download_error">Hiba történt az %1$s erőforrás fájl letöltése közben.
+ Elnézést a kellemetlenségért! Próbáld meg újraindítani az eszközt (Nexus 4-nél pl. segít)
+ vagy töltsd le az %1$s teljes változatát a %2$s címről, akkor biztos nem lesz ilyen probléma.</string>
+
+    <string name="about_game_inspired_by">%1$s a klasszikus Elite játék alapján</string>
+    <string name="about_elite_copyright">&#x00a9; Acornsoft, Bell &amp; Braben</string>
+
+    <string-array name="char_sets">
+        <item>&#x0020;..&#x007e;</item>
+        <item>&#x00a0;..&#x00ff;</item>
+        <item>&#x0100;..&#x017f;</item>
+    </string-array>
+
+
+    <string name="js">
+        function planetian(s) { return (s.endsWith("i") ? s : s + "i").toLowerCase(); }
+
+        function withArticle(s) { return startsWithVowel(s) ? "az " + s  : "a " + s; }
+        function startsWithVowel(s) { return /[aáeéiíoóöőuúüű]/.test(s.charAt(0).toLowerCase()); }
+        function withStartingArticle(s) { return capitalize(withArticle(s)); }
+        function capitalize(s) { return s.charAt(0).toUpperCase() + s.substring(1); }
+    </string>
+
+    <string-array name="planet_description">
+        <item>0444:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót egy lázadó szeméttelepnek mondják.</item>
+        <item>0443:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót egy lázadó kis bolygónak mondják.</item>
+        <item>0404:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót egy jelentéktelen szeméttelepnek tartják.</item>
+        <item>0400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót egy jelentéktelen bolygónak tartják.</item>
+        <item>02304:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosságát halálos polgárháborúk tizedelik.</item>
+        <item>02303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosságát rettenetes polgárháborúk tizedelik.</item>
+        <item>02310123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosait gyilkos hegyi homárok pusztítják.</item>
+        <item>02310124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosait gyilkos hegyi %RANDOM_NAME%szerűségek tizedelik.</item>
+        <item>023140011:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosait gonosz zöld macskák tizedelik.</item>
+        <item>023140012:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosait ördögi zöld majmok tizedelik.</item>
+        <item>02314101:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosait ördögi hegyi vadállatok tizedelik.</item>
+        <item>023140400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosait hegyes fogú fehér cickányok tizedelik.</item>
+        <item>034320342202:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a lakók kaszinók iránti ősi gyűlölete kapcsán említik és rendszeres polgárháborúk sújtják.</item>
+        <item>034320342242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a lakók kaszinók iránti ősi gyűlölete kapcsán említik, az itteni életet a kiszámíthatatlan naptevékenységek nehezítik.</item>
+        <item>03432140011242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó lakosai különösen szeretik a botmixer használatát, ami a halálos, de ehető lárvák elkészítéséhez különösen hasznos.</item>
+        <item>03433101241:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szeletről híres, de időnként heves naptevékenység sújtja.</item>
+        <item>03433141023:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas szeletről ismert, de halálos járványok sújtják.</item>
+        <item>01130443320:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a rózsaszín óceánjairól és a zéró gravitációs hokijáról ismert.</item>
+        <item>01130400001124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a rózsaszín %RANDOM_NAME% növény ültetvényeiről és a fura vulkánjairól ismert.</item>
+        <item>01130331400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a hatalmas buja erdeiről és a mesés konyhájáról híres.</item>
+        <item>011303310220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a hatalmas buja erdeiről és a nagyszerű parkoló óráiról ismert.</item>
+        <item>011303310224:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a hatalmas buja erdeiről és az óriási vulkánjairól ismert.</item>
+        <item>0113033101130:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a hatalmas sűrű erdeiről híres.</item>
+        <item>00112421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók kivételes butasága miatt figyelemre méltó.</item>
+        <item>00112411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók különös butasága miatt figyelemre méltó.</item>
+        <item>001130331:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; halálos pálinka miatt figyelemre méltó.</item>
+        <item>0012410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert az egzotikus konyhájáról.</item>
+        <item>01124112421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert az egzotikus éjszakai élet és a lakók kivételes butasága miatt.</item>
+        <item>0112422411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a klufi kaszinók és az egzotikus éjszakai élet miatt.</item>
+        <item>0112421410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a klufi éjszakai élet és az egzotikus konyha miatt.</item>
+        <item>001230404:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a gyilkos %RANDOM_NAME% gégepukkasztó miatt.</item>
+        <item>01123101231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szelet és a lakók mérhetetlen butasága miatt.</item>
+        <item>011231011303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szelet és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók miatt.</item>
+        <item>011231411230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas szelet és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető költők miatt.</item>
+        <item>0112314001123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas hús és a fura sziklaalakzatok miatt.</item>
+        <item>00123140:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas hús miatt.</item>
+        <item>001230444:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert az Ördögi %RANDOM_NAME% Gégepukkasztó miatt.</item>
+        <item>01230443321:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a rózsaszín óceánok és a zéró gravitációs krikett miatt híres.</item>
+        <item>01230443320:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a rózsaszín óceánok és a zéró gravitációs hoki miatt híres.</item>
+        <item>012303432140:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a hatalmas óceánok és az egzotikus hal hús miatt híres.</item>
+        <item>012303321404:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a hatalmas esőerdők és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos farkasok miatt híres.</item>
+        <item>012310113044:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete kecskék és a rózsaszín óceánok miatt híres.</item>
+        <item>012314001242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányok és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető lárvák miatt híres.</item>
+        <item>012422411231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a lakók turisták iránti különös rajongásáról és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető művészekről nevezetes.</item>
+        <item>012422411303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a lakók turisták iránti különös rajongásáról és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyókról nevezetes.</item>
+        <item>0124101231400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete homárszerűségekről és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányokról nevezetes.</item>
+        <item>0124101241123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete %RANDOM_NAME%szerűségekről és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi homárszerűségekről nevezetes.</item>
+        <item>01241134220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi meztelen csigákról és a lakók különös félénkségéről nevezetes.</item>
+        <item>012411343314:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi meztelen csigákról és a sárteniszről nevezetes.</item>
+        <item>012410224220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos %RANDOM_NAME%szerűségekről és a lakók különös félénkségéről nevezetes.</item>
+        <item>0124102242130:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos %RANDOM_NAME%szerűségekről és a lakók botmixerek iránti különös undoráról nevezetes.</item>
+        <item>02203:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót rettenetes polgárháborúk pusztítják.</item>
+        <item>02241:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót időnként naptevékenységek pusztítják.</item>
+        <item>02202:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót fellángoló polgárháborúk pusztítják.</item>
+        <item>02242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót előre nem jelezhető naptevékenységek pusztítják.</item>
+        <item>03314040444433:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a mesés Ördögi %RANDOM_NAME% Gégepukkasztó miatt figyelemre méltó, de rettenetes földrengések rázzák meg.</item>
+        <item>03310231400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a buja erdők miatt figyelemre méltó, de gyakran polgárháborúk söprik végig.</item>
+        <item>03310224113422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a hatalmas vulkánok miatt figyelemre méltó, de félelmetes foltos denevérszerűségek tartják rettegésben.</item>
+        <item>03310124101:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a szokatlan óceánok miatt figyelemre méltó, de időnként polgárháborúk sújtják.</item>
+        <item>033101134220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a fura lombhullató erdők miatt figyelemre méltó, de gyilkos járványok pusztítják.</item>
+        <item>033101130343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sűrű erdők miatt figyelemre méltó, de rettenetes naptevékenységek sújtják.</item>
+        <item>033101130332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sűrű erdők miatt figyelemre méltó, de gyakran földrengések rázzák meg.</item>
+        <item>033101130444:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sűrű erdők miatt figyelemre méltó, de halálos naptevékenységek sújtják.</item>
+        <item>03320231022:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a buja erdeiről ismert, de halálos járványok tartják rettegésben.</item>
+        <item>0332202241:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók ősi párzási hagyományai miatt ismert, de időnként naptevékenységek pusztítják.</item>
+        <item>03321410123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos leopárdjairól ismert, de félelmetes járványok sújtják.</item>
+        <item>03321343320:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei hangyáiról ismert, de gyilkos járványok tizedelik.</item>
+        <item>033213433140011:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei hangyák miatt ismert, de ördögi zöld macskák tizedelik.</item>
+        <item>033213432130332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei hangyák miatt ismert, de félelmetes szürkés rózsaszín jakok pusztítják.</item>
+        <item>03321342140:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei lárvák miatt ismert, de gyakran naptevékenységek sújtják.</item>
+        <item>03321342202:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei lárvák miatt ismert, de váratlan polgárháborúk pusztítják.</item>
+        <item>03321303321:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók miatt ismert, de halálos járványok tizedelik.</item>
+        <item>03321304432:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei farkasok miatt ismert, de gyakran földrengések rázzák meg.</item>
+        <item>0000001:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az ősi hegyeiről közismert.</item>
+        <item>000000012:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvények miatt közismert.</item>
+        <item>000000000:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az ősi %RANDOM_NAME% növény ültetvényeiről közismert.</item>
+        <item>000000001:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az ősi %RANDOM_NAME% tulipán ültetvényeiről közismert.</item>
+        <item>000001230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a szokatlanul sűrű erdők miatt ismert.</item>
+        <item>00001242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető lárvák miatt ismert.</item>
+        <item>00001230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető költők miatt ismert.</item>
+        <item>00001124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségek miatt ismert.</item>
+        <item>0001230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók megrögzött félénksége miatt figyelemre méltó.</item>
+        <item>00012421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók mérhetetlen butasága miatt figyelemre méltó.</item>
+        <item>00012410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók különös félénksége miatt figyelemre méltó.</item>
+        <item>00011242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető lárvák miatt figyelemre méltó.</item>
+        <item>00011303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók miatt figyelemre méltó.</item>
+        <item>0342202241:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók ősi párzási hagyományai kapcsán ismert, de időnként naptevékenységek pusztítják.</item>
+        <item>03422411304:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók kivételes butaságáról ismert és halálos polgárháborúk tizedelik.</item>
+        <item>03422411303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók kivételes butaságáról ismert és rettenetes polgárháborúk tizedelik.</item>
+        <item>03421400112304:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányokról ismert, a lakókat kegyetlen erdei farkasok tartják rettegésben.</item>
+        <item>03421411230:Ez a világ leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka kapcsán ismert, de halálos ehető költők söprik végig.</item>
+        <item>1410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; egy unalmas bolygó.</item>
+        <item>1411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; egy unalmas világ.</item>
+        <item>1404:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót egy jelentéktelen szeméttelepnek tartják.</item>
+        <item>1400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; egy említésre sem méltó bolygó.</item>
+        <item>12304:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót halálos polgárháborúk tizedelik.</item>
+        <item>12311342:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót halálos erdei lárvák tizedelik.</item>
+        <item>12303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót rettenetes polgárháborúk tizedelik.</item>
+        <item>123102203:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos ehető élőhalottak nyomorgatják.</item>
+        <item>12310113:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos hegyi kecskék tizedelik.</item>
+        <item>12310123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos hegyi homárok tizedelik.</item>
+        <item>12310112:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos hegyi majmok tizedelik.</item>
+        <item>123140011:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót ördögi zöld macskák tizedelik.</item>
+        <item>134332141023:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az egzotikus hal szeletről ismert, de félelmetes járványok sújtják.</item>
+        <item>1343320342130343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a mesés kecske levesről ismert, de félelmetes szürkés rózsaszín hangyák pusztítják.</item>
+        <item>134332022034:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a mesés majom steakről ismert, de halálos földrengések rázzák meg.</item>
+        <item>134320343314113:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók filmsorozatok iránti ősi utálatáról ismert és ördögi hegyi kecskék tartják rettegésben.</item>
+        <item>13432140443:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók botmixerek iránti rajongásáról ismert, de rettenetes naptevékenységek söprik végig.</item>
+        <item>13433101130:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szelet kapcsán ismert, de gyakran földrengések sújtják.</item>
+        <item>13433141124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas szelet kapcsán ismert, de ördögi járványok sújtják.</item>
+        <item>13433141134:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas szelet kapcsán ismert, de halálos földrengések sújtják.</item>
+        <item>1011230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a lakók különös félénksége miatt említik.</item>
+        <item>1011231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a lakók különös butasága miatt említik.</item>
+        <item>10112410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a lakók különös félénksége miatt említik.</item>
+        <item>101130404:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a Gyilkos %RANDOM_NAME% Gégepukkasztó miatt említik.</item>
+        <item>101130400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a Gyilkos %RANDOM_NAME% Narancslé miatt említik.</item>
+        <item>101130331:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót a Félelmetes &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; pálinka miatt említik.</item>
+        <item>10113422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% víz miatt említik.</item>
+        <item>101130343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Ördögi Sör miatt ismert.</item>
+        <item>1012410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az egzotikus konyhája miatt ismert.</item>
+        <item>1012411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az egzotikus éjszakai életéről ismert.</item>
+        <item>10120220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a nagyszerű parkoló óráiról ismert.</item>
+        <item>1012421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a klufi éjszakai élete miatt ismert.</item>
+        <item>10123101:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szelet miatt ismert.</item>
+        <item>1123040443310:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a rózsaszín &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% gyom ültetvényei és a sárhokija miatt ismert.</item>
+        <item>11230400001124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a rózsaszín %RANDOM_NAME% növény ültetvényei és a fura vulkánjai miatt ismert.</item>
+        <item>1023034:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a hatalmas óceánjai miatt ismert.</item>
+        <item>10230332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább a hatalmas esőerdejei miatt ismert.</item>
+        <item>1123101130331:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete kecskék és a hatalmas erdők miatt ismert.</item>
+        <item>11231012304000:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete homárszerűségek és a rózsaszín %RANDOM_NAME% növény ültetvények miatt ismert.</item>
+        <item>11231012310113:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete homárszerűségek és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete kecskék miatt ismert.</item>
+        <item>102310112:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete majmok miatt ismert.</item>
+        <item>112314001231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányok és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető művészek miatt ismert.</item>
+        <item>10231400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányok miatt ismert.</item>
+        <item>112310224220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos %RANDOM_NAME%szerűségek és a lakók ősi hagyományai miatt ismert.</item>
+        <item>1124220231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a lakók kivételes félénksége és mélyen gyökerező butasága miatt említik.</item>
+        <item>1124213421400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a lakók kaszinók és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányok iránti utálata miatt említik.</item>
+        <item>112421304044332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a lakók botmixerek és a mesés &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Halálos Víz iránti utálata miatt említik.</item>
+        <item>11242134320343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a lakók filmsorozatok iránti utálata miatt említik.</item>
+        <item>1124213432140:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a lakók filmsorozatok iránti utálata és a botmixerek iránti rajongása miatt említik.</item>
+        <item>1124214001123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a lakók botmixerek iránti rajongása és a különös szikla alakzatok miatt említik.</item>
+        <item>1124112421342:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségek és a lakók kaszinók iránti utálata miatt említik.</item>
+        <item>1022410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább az egzotikus konyha miatt ismerik.</item>
+        <item>1022411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább az egzotikus éjszakai élet miatt ismerik.</item>
+        <item>10220231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a buja erdők miatt ismerik.</item>
+        <item>10220220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a nagyszerű parkoló órák miatt ismerik.</item>
+        <item>1022422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a klufi kaszinók miatt ismerik.</item>
+        <item>10220331:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a buja erdők miatt ismerik.</item>
+        <item>10220332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót leginkább a hatalmas esőerdők miatt ismerik.</item>
+        <item>113044332022:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó az izgalmas filmsorozatai és a mesés majom steakje miatt ismert.</item>
+        <item>113040443320224:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a mesés &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Halálos Víz és a nagy vulkánjai miatt ismert.</item>
+        <item>113033102242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sárhoki és a lakók költészet iránti rajongása miatt ismert.</item>
+        <item>113033101134:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sárhoki és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi meztelen csigák miatt ismert.</item>
+        <item>1130331410124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sártenisz és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete %RANDOM_NAME%szerűségek miatt ismert.</item>
+        <item>113033141124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sártenisz és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségek miatt ismert.</item>
+        <item>11303432130443:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a rossz &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; pálinka és az ördögi %RANDOM_NAME% sör miatt ismert.</item>
+        <item>11303421411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% pálinka és az egzotikus éjszakai élet miatt ismert.</item>
+        <item>1130332130443:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a zéró gravitációs krikett és az Ördögi %RANDOM_NAME% sör miatt ismert.</item>
+        <item>11303320231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a zéró gravitációs hokija és a lakók különös butasága miatt ismert.</item>
+        <item>113422411342:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók turisták iránti különös rajongása és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei lárvák miatt említésre méltó.</item>
+        <item>11342203321:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók különös félénksége és a zéró gravitációs krikett miatt említésre méltó.</item>
+        <item>113421410230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók turisták iránti különös rajongása és a sűrű erdők miatt említésre méltó.</item>
+        <item>113421410124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a lakók turisták iránti különös rajongása és a szokatlan óceánok miatt említésre méltó.</item>
+        <item>1134331404000:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó a sártenisz és a rózsaszín %RANDOM_NAME% növény ültetvények miatt említésre méltó.</item>
+        <item>12421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót halálos járványok söprik végig.</item>
+        <item>12422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos járványok söprik végig.</item>
+        <item>12411231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót ehető művészek tartják rettegésben.</item>
+        <item>12411342:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót halálos erdei lárvák tartják rettegésben.</item>
+        <item>12410230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót ehető költők tartják rettegésben.</item>
+        <item>124102202:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos ehető élőhalottak tartják az ellenőrzésük alatt.</item>
+        <item>12410124:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót gyilkos hegyi %RANDOM_NAME%szerűségek tartják rettegésben.</item>
+        <item>130332141011303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres az egzotikus hal szeletről, de halálos erdei kígyók tartják rettegésben.</item>
+        <item>130332141123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres az egzotikus hal szeletről, de félelmetes járványok sújtják.</item>
+        <item>130332140011231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres az egzotikus hal húsról, de halálos ehető művészek tartják rettegésben.</item>
+        <item>130332140001:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres az egzotikus hal húsról, de időnként polgárháborúk sújtják.</item>
+        <item>130332033213422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres a mesés kecske hamburgerről, de félelmetes foltos denevérszerűségek pusztítják.</item>
+        <item>1303432022:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres a szokatlan kaszinókról, de halálos járványok pusztítják.</item>
+        <item>13033102203:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány steakről, de rettenetes polgárháborúk pusztítják.</item>
+        <item>13033140011343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon híres &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas húsról, de halálos erdei hangyák tartják rettegésben.</item>
+        <item>1304443310113:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert  az izgalmas filmsorozatokról, de gyilkos hegyi kecskék tizedelik.</item>
+        <item>1304044331:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a rózsaszín óceánokról, de időnként földrengések rázzák meg.</item>
+        <item>1304044332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a rózsaszín óceánokról, de erős földrengések tizedelik.</item>
+        <item>1304044433:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a rózsaszín óceánokról, de rettenetes földrengések rázzák meg.</item>
+        <item>1304044432:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a rózsaszín óceánokról, de gyakoriak a földrengések.</item>
+        <item>130404000001:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a rózsaszín %RANDOM_NAME% növény ültetvényekről, de időnként polgárháborúk tartják rettegésben.</item>
+        <item>1304432141:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a szokatlan kaszinókról, de időnként naptevékenységek sújtják.</item>
+        <item>1304433141:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a szokatlan filmsorozatokról, de időnként naptevékenységek sújtják.</item>
+        <item>1304433102:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a szokatlan filmsorozatokról, de fellángoló polgárháborúk sújtják.</item>
+        <item>1304433202:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó nagyon ismert a szokatlan filmsorozatokról, de ismétlődő polgárháborúk pusztítják.</item>
+        <item>13422033102:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a lakók kaszinók iránti mélyen gyökerező utálatáról és fellángoló polgárháborúk tizedelik.</item>
+        <item>1342203432140400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a lakók filmsorozatok iránti mélyen gyökerező utálatáról és ördögi fehér cickányok tizedelik.</item>
+        <item>1342202314112:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a lakók ősi párzási hagyományairól, de ördögi hegyi majmok tizedelik.</item>
+        <item>13422023140400:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a lakók ősi párzási hagyományairól, de ördögi fehér cickányok tizedelik.</item>
+        <item>13422411242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert a lakók különös butaságáról és váratlan naptevékenységek pusztítják.</item>
+        <item>13421410230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos leopárdokról, de gyakran földrengések pusztítják.</item>
+        <item>13421400012303:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó jól ismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányokról, de gonosz erdei kígyók tartják rettegésben.</item>
+        <item>2410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; egy unalmas bolygó.</item>
+        <item>2411:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó egy unalmas hely.</item>
+        <item>2422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygó egy hétköznapi hely.</item>
+        <item>2421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; egy hétköznapi világ.</item>
+        <item>22023:Ezt a bolygót félelmetes járványok tartják rettegésben.</item>
+        <item>22022:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; bolygót kegyetlen járványok kínozzák.</item>
+        <item>22034:Ezt a bolygót halálos földrengések rázzák meg.</item>
+        <item>22033:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot rettenetes földrengések pusztítják.</item>
+        <item>21404443320231:Ez a bolygó az izgalmas vákuum karate és a buja erdők kapcsán ismert.</item>
+        <item>2140444321411:Ez a bolygó az izgalmas zéró gravitációs krikett és az egzotikus éjszakai élet kapcsán ismert.</item>
+        <item>214040001130:Ez a bolygó a mesés konyha és a sűrű erdők kapcsán ismert.</item>
+        <item>21404001124:Ez a bolygó a mesés konyha és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségek kapcsán ismert.</item>
+        <item>214040400001124:Ez a bolygó a mesés %RANDOM_NAME% narancslé és a fura vulkánok kapcsán ismert.</item>
+        <item>21400112304044:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a fura sziklaalakzatok és a rózsaszín &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% gyom ültetvények kapcsán ismert.</item>
+        <item>23102242203:Ez a bolygó közismert a lakók költészet iránti rajongásáról, de rettenetes polgárháborúk pusztítják.</item>
+        <item>23102241134:Ez a bolygó közismert a lakók turisták iránti rajongásáról, de halálos földrengések sújtják.</item>
+        <item>2310220331:Ez a bolygó közismert a lakók kivételes félénkségéről, de időnként földrengések rázzák meg.</item>
+        <item>2310230343:Ez a bolygó közismert a lakók kivételes félénkségéről és szörnyű naptevékenység sújtja.</item>
+        <item>2310230332:Ez a bolygó közismert a lakók kivételes félénkségéről és váratlan földrengések pusztítják.</item>
+        <item>23101241023:Ez a bolygó közismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető molyokról, de félelmetes járványok tartják rettegésben.</item>
+        <item>23101241012410:Ez a bolygó közismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető molyokról, de gonosz foltos leopárdok tartják rettegésben.</item>
+        <item>23101123040:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi homárokról ismert, de gyakran naptevékenységek sújtják.</item>
+        <item>23101130343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ közismert &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi költőkről, de rettenetes naptevékenységek tizedelik.</item>
+        <item>231011242130332:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségek kapcsán ismert, de félelmetes szürkés rózsaszín jakok pusztítják.</item>
+        <item>231011242130404:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségek kapcsán ismert, de félelmetes fehér farkasok pusztítják.</item>
+        <item>23101134220:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi meztelen csigák kapcsán ismert, de gyilkos járványok pusztítják.</item>
+        <item>2314001123:Ezt a bolygót az ősi hegyek kapcsán említik, de félelmetes járványok sújtják.</item>
+        <item>2314001124:Ezt a bolygót az ősi hegyek kapcsán említik, de ördögi járványok sújtják.</item>
+        <item>231400012303:Ezt a bolygót az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvények kapcsán említik, de rettenetes polgárháborúk tizedelik.</item>
+        <item>231400001230:Ezt a bolygót az ősi %RANDOM_NAME% tulipán ültetvények kapcsán említik, de gyakran földrengések pusztítják.</item>
+        <item>2314044443:Ezt a bolygót a rózsaszín óceánok kapcsán említik, de rettenetes naptevékenységek söprik végig.</item>
+        <item>231404040000:Ezt a bolygót a rózsaszín &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% növény ültetvények kapcsán említik, de gyakran polgárháborúk tartják rettegésben.</item>
+        <item>231404000123:Ezt a bolygót a rózsaszín %RANDOM_NAME% növény ültetvények kapcsán említik, de félelmetes járványok sújtják.</item>
+        <item>2314101242130443:Ezt a bolygót &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete %RANDOM_NAME%szerűségek kapcsán említik, de félelmetes fehér hangyák pusztítják.</item>
+        <item>23141123140:Ezt a bolygót &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi homárok kapcsán említik, de gyakran naptevékenységek sújtják.</item>
+        <item>23141123101:Ezt a bolygót &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi homárok kapcsán említik, de időnként polgárháborúk sújtják.</item>
+        <item>202304044:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ leginkább a rózsaszín &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% gyom ültetvényekről híres.</item>
+        <item>2023034:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ leginkább a hatalmas óceánokról híres.</item>
+        <item>20231410:Ez a világ leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos leopárdokról híres.</item>
+        <item>2022410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ leginkább az egzotikus konyhájáról ismert.</item>
+        <item>20220231:Ez a bolygó leginkább a buja erdőkről ismert.</item>
+        <item>20220220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ leginkább a nagyszerű parkoló óráiról ismert.</item>
+        <item>20220331:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ leginkább a hatalmas buja erdőkről ismert.</item>
+        <item>2022034:Ez a bolygó leginkább a hatalmas óceánokról ismert.</item>
+        <item>20220332:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ leginkább a hatalmas esőerdőkről ismert.</item>
+        <item>214102303321:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a páratlanul sűrű erdők és a zéró gravitációs krikett miatt figyelemre méltó.</item>
+        <item>214102203314:Ez a bolygó a nagyszerű parkoló órák és a sártenisz miatt figyelemre méltó.</item>
+        <item>21410123101124:Ez a bolygó a szokatlanul buja erdők és a fura vulkánok miatt figyelemre méltó.</item>
+        <item>214101241134:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a szokatlan óceánok és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi meztelen csigák miatt figyelemre méltó.</item>
+        <item>21410113432130:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a fura lombhullató erdők és az egzotikus kecske hús miatt figyelemre méltó.</item>
+        <item>2141011303310:Ez a bolygó a sűrű erdők és a sárhoki miatt figyelemre méltó.</item>
+        <item>2141011303314:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a fura sűrű erdők és a sártenisz miatt figyelemre méltó.</item>
+        <item>21411231400:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető művészek és a mesés konyha miatt figyelemre méltó.</item>
+        <item>21411304433:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei farkasok és a szokatlan filmsorozatok miatt figyelemre méltó.</item>
+        <item>2130443202:Ez a bolygó az izgalmas filmsorozatok és a lakók ősi párzási hagyományai miatt ismert.</item>
+        <item>21304432140:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ az izgalmas filmsorozatai és a lakók botmixerek iránti rajongása miatt ismert.</item>
+        <item>213040000011:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a mesés konyha és az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% tulipán ültetvények miatt ismert.</item>
+        <item>213040444321410:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a mesés Félelmetes %RANDOM_NAME% Víz és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos leopárdok miatt ismert.</item>
+        <item>21303321411:Ez a bolygó a zéró gravitációs krikett és az egzotikus éjszakai élete miatt ismert.</item>
+        <item>2130332134320:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a zéró gravitációs krikett és a rossz &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; narancslé miatt ismert.</item>
+        <item>213034320220:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a rossz &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; narancsléje és a lakók különös félénksége miatt ismert.</item>
+        <item>203321342:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a lakók kaszinók iránti kivételes utálata miatt ismert.</item>
+        <item>203321343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a lakók filmsorozatok iránti kivételes utálata miatt ismert.</item>
+        <item>203310123:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete homárok miatt ismert.</item>
+        <item>203310224:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos %RANDOM_NAME%szerűségek miatt ismert.</item>
+        <item>203432134:Ez a bolygó az egzotikus kecske leves miatt említésre méltó.</item>
+        <item>203432033:Ez a bolygó a mesés kecske hamburger miatt említésre méltó.</item>
+        <item>2134320342242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a mesés kecske leveséről és a lakók szokatlan hagyományairól nevezetes.</item>
+        <item>203432034:Ez a bolygó a mesés kecske leveséről nevezetes.</item>
+        <item>203432023:Ez a bolygó a mesés majom hamburgeréről nevezetes.</item>
+        <item>2034220:Ez a bolygó a lakók ősi hagyományairól nevezetes.</item>
+        <item>2134213422422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a lakók mérhetetlen ostobaságáról és szokatlan párzási hagyományairól nevezetes.</item>
+        <item>213433101241:Ez a bolygó a sárhokiról és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető molyokról nevezetes.</item>
+        <item>21343314001:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a sárteniszről és az ősi hegyekről nevezetes.</item>
+        <item>2134332134331:Ez a bolygó a zéró gravitációs krikettről és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Halálos Pálinkáról nevezetes.</item>
+        <item>22421:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot halálos járványok söprik végig.</item>
+        <item>22422:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot kegyetlen járványok söprik végig.</item>
+        <item>22411231:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot halálos ehető művészek söprik végig.</item>
+        <item>22411343:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot halálos erdei hangyák söprik végig.</item>
+        <item>22411342:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot halálos erdei lárvák söprik végig.</item>
+        <item>22411303:Ezt a bolygót halálos erdei kígyók söprik végig.</item>
+        <item>22410230:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot gyilkos ehető költők söprik végig.</item>
+        <item>224102203:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot gyilkos ehető zombik tartják rettegésben.</item>
+        <item>22410123:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világot gyilkos hegyi homárszerűségek söprik végig.</item>
+        <item>2303432034:Ez a bolygó a szokatlan kaszinóiról ismert, de halálos földrengések tartják rettegésben.</item>
+        <item>2303433202:Ez a bolygó a szokatlan filmsorozatairól ismert, de előre nem jelezhető polgárháborúk pusztítják.</item>
+        <item>2304000123140011:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvényeiről nevezetes, de ördögi zöld macskák tizedelik.</item>
+        <item>230400011242:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% tulipán ültetvényeiről nevezetes, de előre nem jelezhető naptevékenységek pusztítják.</item>
+        <item>2304044321:Ez a bolygó a rózsaszín óceánjairól nevezetes, de halálos járványok tizedelik.</item>
+        <item>2304044320:Ez a bolygó a rózsaszín óceánjairól nevezetes, de gyilkos járványok tizedelik.</item>
+        <item>2304433102:&lt;js&gt;withStartingArticle("%PLANET_NAME%")&lt;/js&gt; világ a szokatlan filmsorozatairól ismert, de előre nem jelezhető polgárháborúk sújtják.</item>
+        <item>3422:Ezt a bolygót egy hétköznapi helynek tartják.</item>
+        <item>3421:Ezt a világot egy hétköznapi helynek mondják.</item>
+        <item>3433:Ezt a világot egy egyhangú kis bolygónak említik.</item>
+        <item>3432:Ezt a bolygót egyhangú helynek tartják.</item>
+        <item>32023:Ezt a bolygót félelmetes járványok tartják rettegésben.</item>
+        <item>32022:Ezt a bolygót pusztító járványok tartják rettegésben.</item>
+        <item>32034:Ezt a bolygót erős földrengések tartják rettegésben.</item>
+        <item>32033:Ezt a bolygót rettenetes földrengések tartják rettegésben.</item>
+        <item>3140001230:Ez a bolygó leginkább az ősi hegyekről és a lakók turmixok iránti mélyen gyökerező undoráról ismert.</item>
+        <item>314000012410:Ez a bolygó leginkább az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvényeiről és az egzotikus konyhájáról ismert.</item>
+        <item>3140000123140:Ez a bolygó az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvényeiról és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas húsról ismert.</item>
+        <item>304000012:Ez a világ az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvényeiről ismert.</item>
+        <item>30404444320:Ez a világ a rossz &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; narancslevéről ismert.</item>
+        <item>3040443:Ez a bolygó az izgalmas filmsorozatairól ismert.</item>
+        <item>3040444321:Ez a világ az izgalmas zéró gravitációs krikettjéről ismert.</item>
+        <item>3040400:Ez a bolygó a mesés konyhájáról ismert.</item>
+        <item>30404044443:Ez a bolygó a mesés Ördögi %RANDOM_NAME% Sörről ismert.</item>
+        <item>314001231410:Ez a bolygó a szokatlanul buja erdőkről és az egzotikus konyhájáról ismert.</item>
+        <item>314001231400:Ez a bolygó a szokatlanul buja erdőkről és a mesés konyhájáról ismert.</item>
+        <item>304001134:Ez a világ a fura lombhullató erdőkről ismert.</item>
+        <item>3140011231400:Ez a bolygó a fura sziklaalakzatokról és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos cickányokról ismert.</item>
+        <item>3140011242141:Ez a bolygó a vulkánokról és a lakók ostobaságáról ismert.</item>
+        <item>31400112410230:Ez a bolygó a vulkánokról és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos költőkről ismert.</item>
+        <item>33102242241:Ezt a bolygót a lakók szokatlan hagyományai kapcsán említik, időnként naptevékenységek pusztítják.</item>
+        <item>33102241023:Ezt a világot a lakók fura hagyományai kapcsán említik és félelmetes járványok tartják rettegésben.</item>
+        <item>33102241123:Ezt a bolygót a lakók fura hagyományai kapcsán említik és félelmetes járványok sújtják.</item>
+        <item>3310220220:Ezt a bolygót a lakók ősi hagyományai kapcsán említik és gyilkos járványok pusztítják.</item>
+        <item>3310230343:Ezt a bolygót a lakók turmixok iránti mélyen gyökerező undora kapcsán említik és rettenetes földrengések súlytják.</item>
+        <item>33101130331:Ezt a bolygót &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi költők kapcsán kapcsán említik és időnként földrengések rázzák meg.</item>
+        <item>33101130332:Ezt a bolygót &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi költők kapcsán említik és előre nem jelezhető földrengések tizedelik.</item>
+        <item>331400011303:Ez a bolygó az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% tulipán ültetvényekről nevezetes, de rettenetes polgárháborúk tizedelik.</item>
+        <item>33141123140:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi homárszerűségekről nevezetes és gyakran naptevékenységek sújtják.</item>
+        <item>33141124213433:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; hegyi %RANDOM_NAME%szerűségekről nevezetes, de félelmetes foltos csigák pusztítják.</item>
+        <item>331410230332:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos költőkről nevezetes, de előre nem jelezhető földrengések súlytják.</item>
+        <item>331410230342:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos költőkről nevezetes de előre nem jelezhető naptevékenységek tizedelik.</item>
+        <item>3320230404:Ezt a világot többnyire a lakók turmixok iránti vicces undora kapcsán említik, de rettenetes naptevékenységek söprik végig.</item>
+        <item>3320231012411:Ezt a bolygót többnyire a lakók turisták iránti ősi undora kapcsán említik, de súlyos járványok sújtják.</item>
+        <item>3320231411230:Ezt a bolygót többnyire a lakók turisták iránti fura undora kapcsán említik, de félelmetes járványok sújtják.</item>
+        <item>3320231400:Ezt a bolygót többnyire a lakók turisták iránti vicces undora kapcsán említik, de időnként polgárháborúk sújtják.</item>
+        <item>33203310230:Ez a világ leginkább a sárhoki kapcsán ismert, de gyakran földrengések pusztítják.</item>
+        <item>33203421304:Ez a bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka kapcsán ismert, de halálos polgárháborúk tizedelik.</item>
+        <item>33203421343:Ez a bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka kapcsán ismert, de rettenetes naptevékenységek tizedelik.</item>
+        <item>33203421404:Ez a világ leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka kapcsán ismert, de halálos polgárháborúk söprik végig.</item>
+        <item>3321400001:Ez a bolygó a mesés konyhájáról ismert, de időnként polgárháborúk sújtják.</item>
+        <item>3321411343:Ez a bolygó az egzotikus éjszakai életéről ismert, de rettenetes naptevékenységek sújtják.</item>
+        <item>332130332140:Ez a bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Félelmetes Víz miatt ismert, de gyakran naptevékenységek sújtják.</item>
+        <item>33213421411231:Ez a bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka miatt ismert, de halálos ehető művészek söprik végig.</item>
+        <item>33213421400:Ez a bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka miatt ismert, de gyakran polgárháborúk söprik végig.</item>
+        <item>33213422022:Ez a bolygó leginkább &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Víz miatt ismert, de pusztító járványok tartják rettegésben.</item>
+        <item>332130444332:Ez a bolygó leginkább az Ördögi %RANDOM_NAME% Gégepukkasztó miatt ismert, de előre nem jelezhető földrengések tizedelik.</item>
+        <item>31410124220:Ez a bolygó a szokatlan óceánok és a lakók különös félénksége miatt figyelemre méltó.</item>
+        <item>3141012410231:Ez a bolygó a szokatlan óceánok és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos művészek miatt figyelemre méltó.</item>
+        <item>3141123101124:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető művészek és a fura vulkánok miatt figyelemre méltó.</item>
+        <item>314112411342:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető molyok és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei lárvák miatt figyelemre méltó.</item>
+        <item>3141123034331:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető költők és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Félelmetes Pálinka miatt figyelemre méltó.</item>
+        <item>30443321:Ez a bolygó a zéró gravitációs krikettről ismert.</item>
+        <item>32134:Ezt a világot nagyerejű földrengések sújtják.</item>
+        <item>32130:Ezt a bolygót gyakran földrengések rázzák meg.</item>
+        <item>32140:Ezt a bolygót gyakori naptevékenységek sújtják.</item>
+        <item>32141:Ezt a bolygót időnként erős naptevékenység sújtja.</item>
+        <item>32102:Ezt a világot gyakran polgárháborúk sújtják.</item>
+        <item>30332130:Ez a bolygó a lakók mérhetetlen ostobaságáról híres.</item>
+        <item>30332140:Ez a világ a lakók vicces ostobaságáról híres.</item>
+        <item>30332141:Ez a bolygó a lakók ostobaságáról híres.</item>
+        <item>303310124:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete %RANDOM_NAME%szerűségekről híres.</item>
+        <item>303310224:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; sárga csíkos %RANDOM_NAME%szerűségekről híres.</item>
+        <item>303432134:Ez a bolygó az egzotikus kecske leveséről nevezetes.</item>
+        <item>303432034:Ez a bolygó a mesés kecske levese miatt ismert.</item>
+        <item>3034220:Ez a bolygó a lakók ősi hagyományairól nevezetes.</item>
+        <item>30343314:Ez a bolygó a sárteniszről nevezetes.</item>
+        <item>30343321:Ez a bolygó a zéró gravitációs krikettről nevezetes.</item>
+        <item>30343320:Ez a bolygó a zéró gravitációs hokiról nevezetes.</item>
+        <item>310123101123:Ezt a bolygót a lakók mélyen gyökerező butasága és a szokatlan sziklaformái miatt említik.</item>
+        <item>310124113421:Ezt a világot a lakók turisták iránti kivételes rajongása és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Pálinka miatt említik.</item>
+        <item>310112421304:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető lárvák és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei farkasok miatt figyelemre méltó.</item>
+        <item>310112410231:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető molyok és a buja erdők miatt figyelemre méltó.</item>
+        <item>310113033101:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szelet miatt figyelemre méltó.</item>
+        <item>31011304001:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei farkasok és az ősi hegyek miatt figyelemre méltó.</item>
+        <item>3102203321342:Ez a világ a lakók diszkók és kaszinók iránti mélyen gyökerező gyűlöletéről ismert.</item>
+        <item>310220331411:Ez a világ a lakók mélyen gyökerező félénkségéről és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas szeletről ismert.</item>
+        <item>310224220220:Ez a világ a lakók szokatlan párzási hagyományairól és a nagyszerű parkoló óráiról ismert.</item>
+        <item>3102241130331:Ezt a bolygót a lakók turisták iránti kivételes rajongása és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Félelmetes Pálinka miatt említik.</item>
+        <item>310231012410:Ezt a világot &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; cickány szelet és a lakók turisták iránti ősi rajongása miatt említik.</item>
+        <item>314101242241:Ez a bolygó a szokatlan óceánok és a lakók turisták iránti különös rajongása miatt figyelemre méltó.</item>
+        <item>3310231011242:Ezt a bolygót a lakók mélyen gyökerező butasága kapcsán említik és halálos ehető lárvák tartják rettegésben.</item>
+        <item>4444:Ezt a világot egy lázadó szeméttelepnek mondják.</item>
+        <item>4443:Ezt a világot egy lázadó kis bolygónak mondják.</item>
+        <item>4433:Ezt a világot egy egyhangú kis bolygóként említik.</item>
+        <item>4432:Ezt a világot egy egyhangú helynek tartják.</item>
+        <item>4040001:Ez a világ az ősi hegyek miatt ismert.</item>
+        <item>404000012:Ez a világ az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% banán ültetvényekről ismert.</item>
+        <item>404000011:Ez a világ az ősi &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% tulipán ültetvényekről ismert.</item>
+        <item>40404444432:Ez a világ a félelmetes %RANDOM_NAME% víz miatt ismert.</item>
+        <item>40404444443:Ez a világ az ördögi %RANDOM_NAME% sör miatt ismert.</item>
+        <item>40404444444:Ez a világ az ördögi %RANDOM_NAME% gégepukkasztó miatt ismert.</item>
+        <item>404001130:Ez a világ a sűrű erdők miatt ismert.</item>
+        <item>41134220220:Ez a világ a klufi kaszinói és a nagyszerű parkoló órái miatt ismert.</item>
+        <item>41134220331:Ez a világ a klufi kaszinói és a hatalmas buja erdejei miatt ismert.</item>
+        <item>411303432033:Ezt a világot a hatalmas óceánok és a mesés kecske hamburger miatt tartják híresnek.</item>
+        <item>41130332034:Ezt a világot a hatalmas esőerdők és óceánok miatt tartják híresnek.</item>
+        <item>4112410231:Ez a világ az egzotikus konyhája és a lakók turisták iránti ősi undora miatt ismert.</item>
+        <item>41124213422:Ez a világ a klufi éjszakai élet és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Víz miatt ismert.</item>
+        <item>4112310230342:Ezt a világot &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Cickány Steak és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Ördögi Víz miatt tartják híresnek.</item>
+        <item>4112303432130:Ezt a világot &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Ördögi Sör és a lakók mérhetetlen ostobasága miatt tartják híresnek.</item>
+        <item>4112314001231:Ezt a világot &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Farkas Hús és a szokatlanul buja erdők miatt tartják híresnek.</item>
+        <item>43203310230:Ezt a világot többnyire a sárhoki kapcsán említik, de gyakran földrengések pusztítják.</item>
+        <item>43203310231:Ezt a világot többnyire a sárhoki kapcsán említik, de időnként földrengések pusztítják.</item>
+        <item>43203422023:Ezt a világot &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; %RANDOM_NAME% Víz kapcsán említik, de félelmetes járványok tartják rettegésben.</item>
+        <item>43203320231:Ezt a világot többnyire a zéró gravitációs hoki kapcsán említik, de időnként földrengések pusztítják.</item>
+        <item>4321410124:Ez a világ az egzotikus konyhája kapcsán ismert, de halálos járványok sújtják.</item>
+        <item>4321411304:Ez a világ az egzotikus éjszakai élete kapcsán ismert, de halálos polgárháborúk tizedelik.</item>
+        <item>4321400001:Ez a világ a mesés konyhája kapcsán ismert, de időnként polgárháborúk sújtják.</item>
+        <item>43214044331411241:Ez a világ a mesés &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Félelmetes Pálinka kapcsán ismert, de halálos ehető molyok söprik végig.</item>
+        <item>4321404000001:Ez a világ a mesés %RANDOM_NAME% Narancslé kapcsán ismert, de időnként polgárháborúk sújtják.</item>
+        <item>43214040001130331:Ez a világ a mesés %RANDOM_NAME% Narancslé kapcsán ismert, de félelmetes szürkés rózsaszín művészek sújtják.</item>
+        <item>4044443:Ez a világ az izgalmas filmsorozatairól ismert.</item>
+        <item>4044432:Ez a világ a szokatlan kaszinóiról ismert.</item>
+        <item>40443310:Ez a világ a sárhokija miatt ismert.</item>
+        <item>40443320:Ezt a világot a zéró gravitációs hoki miatt tartják nevesnek.</item>
+        <item>42130:Ezt a világot gyakran földrengések sújtják.</item>
+        <item>42141:Ezt a világot időnként naptevékenységek sújtják.</item>
+        <item>42203:Ezt a világot rettenetes polgárháborúk pusztítják.</item>
+        <item>42241:Ezt a világot időnként naptevékenységek pusztítják.</item>
+        <item>42202:Ezt a világot gyakran polgárháborúk pusztítják.</item>
+        <item>4331410123:Ez a világ az egzotikus konyhája miatt figyelemre méltó, de félelmetes járványok sújtják.</item>
+        <item>4331411231:Ez a világ az egzotikus éjszakai élet miatt figyelemre méltó, de időnként földrengések pusztítják.</item>
+        <item>4331400001:Ez a világ a mesés konyhája miatt figyelemre méltó, de időnként polgárháborúk sújtják.</item>
+        <item>43314001130332:Ez a világ a mesés konyhája miatt figyelemre méltó, de félelmetes szürkés rózsaszín jakok sújtják.</item>
+        <item>43310224113422:Ez a világ a nagy vulkánok miatt figyelemre méltó, de félelmetes foltos denevérszerűségek pusztítják.</item>
+        <item>43310224101:Ez a világ a nagy vulkánok miatt figyelemre méltó, de időnként polgárháborúk sújtják.</item>
+        <item>43320231411230:Ez a világ a buja erdők miatt ismert, de halálos ehető költők söprik végig.</item>
+        <item>43320231400:Ez a világ a buja erdők miatt ismert, de gyakran polgárháborúk söprik végig.</item>
+        <item>43320220342:Ez a világ a nagyszerű parkoló órák miatt ismert, de előre nem jelezhető naptevékenységek tizedelik.</item>
+        <item>43320220220:Ez a világ a nagyszerű parkoló órák miatt ismert, de gyilkos járványok pusztítják.</item>
+        <item>43321304432:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei farkasok kapcsán ismert, de gyakran földrengések rázzák meg.</item>
+        <item>43321410220:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; foltos leopárdok kapcsán ismert, de gyilkos járványok pusztítják.</item>
+        <item>400000000:Ez a világ az ősi %RANDOM_NAME% növény ültetvényekről ismert.</item>
+        <item>400001230:Ez a világ a szokatlanul sűrű erdők miatt ismert.</item>
+        <item>40000124:Ez a világ a szokatlan óceánok miatt ismert.</item>
+        <item>4001230:Ez a világ a lakók mélyen gyökerező félénkségétől figyelemre méltó.</item>
+        <item>4001231:Ez a világ a lakók turisták iránti ősi undorától figyelemre méltó.</item>
+        <item>41012421410:Ez a világ a lakók költészet iránti kivételes rajongása és az egzotikus konyha miatt figyelemre méltó.</item>
+        <item>4101242130404:Ez a világ a lakók költészet iránti kivételes rajongása és a gyilkos %RANDOM_NAME% gégepukkasztó miatt figyelemre méltó.</item>
+        <item>40011231:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető művészek miatt figyelemre méltó.</item>
+        <item>40011241:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ehető molyok miatt figyelemre méltó.</item>
+        <item>40011342:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei lárvák miatt figyelemre méltó.</item>
+        <item>41011303433:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók és a szokatlan filmsorozatok miatt figyelemre méltó.</item>
+        <item>410113033141:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas szelet miatt figyelemre méltó.</item>
+        <item>40011303:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; erdei kígyók miatt figyelemre méltó.</item>
+        <item>41022023140:Ez a világ a lakók ősi párzási hagyományai és &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas hús miatt ismert.</item>
+        <item>4102303320332:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; halálos víz és a hatalmas esőerdők miatt ismert.</item>
+        <item>410230342202:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; ördögi víz és a lakók ősi párzási hagyományai miatt ismert.</item>
+        <item>4102314001124:Ez a világ &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; farkas hús és a fura vulkánjai miatt ismert.</item>
+        <item>410124113422:Ez a bolygó &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; fekete %RANDOM_NAME%szerűségekről nevezetes, de félelmetes foltos denevérszerűségek tartják rettegésben.</item>
+        <item>4112314001124:Ezt a világot &lt;js&gt;withArticle(planetian("%PLANET_NAME%"))&lt;/js&gt; Farkas Hús és a különös tűzhányók miatt tartják híresnek.</item>
+    </string-array>
+
+    <string name="about_version">%s Verzió: %s</string>
+    <string name="about">[0]%1$s
+[1]A játékot tervezték
+[5]Philipp Bouillon
+[6]Duane McDonnell
+[1]Programozta
+[5]Philipp Bouillon
+[1]További programozás
+[5]Steven Phillips
+[6]Molnár Tamás
+[9]Az %1$s a klasszikus Elite játék alapján készült
+[10]&#x00a9; Acornsoft, Bell &amp; Braben
+[2]Intro
+[4]gyártás, modellezés és renderelés
+[5]James Scott
+[7]jscottmedia.com
+[3]Zene az automatikus leszállás közben
+[11]Kék Duna keringő (Op. 314)
+[11]Johann Strauss
+[5]Átdolgozta Chris Huelsbeck
+[3]Háttér zenék
+[5]Antti Martikainen
+[7]www.youtube.com/user/AJMartikainen
+[6]The Chase
+[7]anttimartikainen.bandcamp.com/track/the-chase
+[6]To Valhalla
+[7]anttimartikainen.bandcamp.com/track/to-valhalla
+[3]Szinkron hangok
+[4]Quelo Parancsnok
+[5]R.J. O'Connell
+[4]Lave űrállomás parancsnoka
+[5]Amy Perkins
+[4]Ripley Parancsnok (Viper 4)
+[5]Cliff Thompson
+[4]Stevenson Parancsnok
+[5]Bret Newton
+[7]www.bretnewton.com
+[4]Számítógép hangok
+[5]Dahlia Lynn
+[4]Constrictor küldetés hangja
+[5]David Bodtcher
+[4]Thargoid Dokumentumok küldetés hangja
+[5]River Kanoff
+[4]Sürgősségi bejelentés hangja
+[5]Cass McPhee
+[7]https:\\cassmcphee.wordpress.com
+[4]Menekültek hangja
+[5]Caitlin Buckley
+[7]https:\\caitlinva.wordpress.com
+[4]Thargoid űrállomás küldetés hangja
+[5]Adoxographist
+[7]http:\\adoxtalks.tumblr.com
+[3]Modellezés
+[5]Phil Griff
+[6]Rolf Schuetteler
+[6]Giles Williams
+[6]Jens Ayton
+[6]Clym Angus
+[6]Marko Susimets&#x00e4;
+[6]ADCK
+[6]Captain Beatnik
+[6]DeepSpace
+[6]Galileo
+[6]Murgh
+[3]Ikonok és az idegen lények grafikái
+[5]Stan Stoyanov
+[3]Quelo Kapitány portré
+[5]Aleksandar Grujic - Dimmensa
+[3]Bolygó textúrák
+[5]Christian Hart, Planetcreator
+[3]Csillag textúrák
+[5]Celestia User gradius_fanatic
+[3]Cobra Mk III kép
+[5]www.kennyscrap.com
+[3]A játékot tesztelték
+[5]Arnd Houben
+[6]Cornelius Dirmeier
+[6]Duane McDonnell
+[6]Franz-Josef Bongartz
+[6]Gunnar Tacke
+[6]Hussein Baagil
+[6]Jens-Peter Hack
+[6]Manuel Schupp
+[6]Mathias Busche
+[6]Michael Breuer
+[6]Michael Raue
+[6]Olav Riediger
+[6]Rolf Paulsen
+[6]Scott McGeachie
+[6]Stefan Widmaier
+[3]Magyar fordítás
+[5]Molnár Tamás
+[7]merkinth@gmail.com
+[3]Külön köszönet
+[5]Duane McDonnell
+[7]A játék nem készült volna el a segítséged nélkül,
+[7]igazi Elite varázsló vagy!
+[7]Te tanítottál mindenre, amit a 3D-ről tudok.
+[8]Az Oolite közösség
+[7]Az %1$s nem jött volna létre az Oolite
+[7]rajongók támogatása nélkül.
+[8]Ian Bell és David Braben
+[7]Köszönet az Elite játékért.
+[7]A történelem legjobb játéka.
+[8]Rob Nicholson
+[7]Te készítetted a kedvenc Elite verziómat:
+[7]az Amiga Elite-et. Köszönöm a bátorítást
+[7]a játék megírásához.
+[8]Feleségem Klaudia
+[7]Köszönöm, hogy lehetővé tetted a
+[7]játék megírását annyi hosszú éjszakán át.
+[7]Ezért, és annyi minden másért: Szeretlek!</string>
+
+    <string name="com_aft_shield_has_failed">A hátsó pajzs megsérült</string>
+    <string name="com_front_shield_has_failed">Az első pajzs megsérült</string>
+    <string name="com_condition_red">Teljes harckészültség!</string>
+    <string name="com_docking_computer_engaged">A leszálló egység bekapcsolt</string>
+    <string name="com_docking_computer_disengaged">A leszálló egység kikapcsolt</string>
+    <string name="com_hyperdrive_malfunction">Hiperhajtómű hiba</string>
+    <string name="com_hyperdrive_repaired">A hiperhajtómű megjavítva</string>
+    <string name="com_incoming_missile">Rakéta támadás</string>
+    <string name="com_laser_temperature_critical">A lézer túlhevült</string>
+    <string name="com_cabin_temperature_critical">A kabin hőmérséklet kritikus</string>
+    <string name="com_target_destroyed">A célpont megsemmisült</string>
+    <string name="com_fuel_system_malfunction">Üzemanyag ellátási hiba</string>
+    <string name="com_access_declined">A leszállási engedély megtagadva</string>
+    <string name="com_escape_malfunction">Mentőkapszula működési hiba</string>
+    <string name="com_cargo_lost">A rakomány megsemmisült</string>
+    <string name="com_launch_area_violation_1st">Újonc, azonnal tűnjön el a kilövési területről!</string>
+    <string name="com_launch_area_violation_2nd">Azonnal tűnjön el a kilövési területről vagy tüzet nyitunk!</string>
+    <string name="com_launch_area_violation_3rd">Az űrállomás védelmi rendszerei aktiválva.</string>
+
+    <string name="navbar_launch">Kilövés</string>
+    <string name="navbar_front">Kinézés</string>
+    <string name="navbar_status">Állapot</string>
+    <string name="navbar_buy">Vásárlás</string>
+    <string name="navbar_inventory">Raktér</string>
+    <string name="navbar_equip">Felszerelés</string>
+    <string name="navbar_galaxy">Galaxis</string>
+    <string name="navbar_local">Környék</string>
+    <string name="navbar_planet">Bolygó</string>
+    <string name="navbar_disk">Fájl</string>
+    <string name="navbar_achievements">Trófeák</string>
+    <string name="navbar_options">Beállítás</string>
+    <string name="navbar_library">Könyvtár</string>
+    <string name="navbar_academy">Akadémia</string>
+    <string name="navbar_hacker">Hacker</string>
+    <string name="navbar_quit">Kilépés</string>
+
+    <string name="goods_food">Élelmiszer</string>
+    <string name="goods_textiles">Textíliák</string>
+    <string name="goods_radioactives">Radioaktív</string>
+    <string name="goods_slaves">Rabszolgák</string>
+    <string name="goods_liquor_wines">Alkohol</string>
+    <string name="goods_luxuries">Luxuscikkek</string>
+    <string name="goods_narcotics">Narkotikumok</string>
+    <string name="goods_computers">Számítógépek</string>
+    <string name="goods_machinery">Gépek</string>
+    <string name="goods_alloys">Fémek</string>
+    <string name="goods_firearms">Fegyverek</string>
+    <string name="goods_furs">Prémek</string>
+    <string name="goods_minerals">Ásványok</string>
+    <string name="goods_gold">Arany</string>
+    <string name="goods_platinum">Platina</string>
+    <string name="goods_gem_stones">Drágakövek</string>
+    <string name="goods_alien_items">Idegen áruk</string>
+    <string name="goods_medical_supplies">Orvosi felszerelések</string>
+    <string name="goods_thargoid_documents">Fontos Thargoid iratok</string>
+    <string name="goods_unhappy_refugees">Kétségbeesett menekültek</string>
+
+    <string name="condition_docked">Bedokkolt</string>
+    <string name="condition_green">Készenléti állapot</string>
+    <string name="condition_yellow">Fokozott készültség</string>
+    <string name="condition_red">Teljes harckészültség</string>
+
+    <string name="legal_status_clean">Büntetlen</string>
+    <string name="legal_status_offender">Szabálysértő</string>
+    <string name="legal_status_fugitive">Bűnöző</string>
+
+    <string name="rating_harmless">Ártalmatlan</string>
+    <string name="rating_mostly_harmless">Jobbára ártalmatlan</string>
+    <string name="rating_poor">Gyenge</string>
+    <string name="rating_average">Átlagos</string>
+    <string name="rating_above_average">Átlag feletti</string>
+    <string name="rating_competent">Alkalmas</string>
+    <string name="rating_dangerous">Veszélyes</string>
+    <string name="rating_deadly">Halálos</string>
+    <string name="rating_elite">E-L-I-T-E</string>
+
+    <string name="inhabitant_human_colonial">Emberi gyarmat</string>
+    <string name="inhabitant_friendly_green_treeards">Barátságos zöld fafélék</string>
+
+    <string name="inhabitant_desc_large">nagy</string>
+    <string name="inhabitant_desc_fierce">vad</string>
+    <string name="inhabitant_desc_small">kis</string>
+
+    <string name="inhabitant_color_green">zöld</string>
+    <string name="inhabitant_color_red">vörös</string>
+    <string name="inhabitant_color_yellow">sárga</string>
+    <string name="inhabitant_color_blue">kék</string>
+    <string name="inhabitant_color_white">fehér</string>
+    <string name="inhabitant_color_harmless">ártalmatlan</string>
+
+    <string name="inhabitant_appearance_slimy">nyálkás</string>
+    <string name="inhabitant_appearance_bug_eyed">bogárszemű</string>
+    <string name="inhabitant_appearance_horned">szarvas</string>
+    <string name="inhabitant_appearance_bony">csontos</string>
+    <string name="inhabitant_appearance_fat">kövér</string>
+    <string name="inhabitant_appearance_furry">szőrös</string>
+    <string name="inhabitant_appearance_mutant">mutáns</string>
+    <string name="inhabitant_appearance_weird">furcsa</string>
+
+    <string name="inhabitant_type_rodent">rágcsálók</string>
+    <string name="inhabitant_type_frog">békák</string>
+    <string name="inhabitant_type_lizard">gyíkok</string>
+    <string name="inhabitant_type_lobster">homárok</string>
+    <string name="inhabitant_type_bird">madarak</string>
+    <string name="inhabitant_type_humanoid">emberek</string>
+    <string name="inhabitant_type_feline">macskák</string>
+    <string name="inhabitant_type_insect">rovarok</string>
+
+    <string name="raxxla_name">Raxxla</string>
+    <string name="raxxla_desc">A mesés Raxxla bolygó minden elit pilóta otthona az univerzumban. Amellett, hogy pihenést és nyugalmat biztosít, kapu is további univerzumok eléréséhez.</string>
+
+    <string name="government_anarchy">Anarchia</string>
+    <string name="government_feudal">Feudalizmus</string>
+    <string name="government_multi_government">Együttes kormányzás</string>
+    <string name="government_dictatorship">Diktatúra</string>
+    <string name="government_communist">Kommunizmus</string>
+    <string name="government_confederacy">Államszövetség</string>
+    <string name="government_democracy">Demokrácia</string>
+    <string name="government_corporate_state">Vállalati irányítás</string>
+
+    <string name="economy_rich_industrial">Fejlett ipari</string>
+    <string name="economy_average_industrial">Átlagos ipari</string>
+    <string name="economy_poor_industrial">Fejletlen ipari</string>
+    <string name="economy_mainly_industrial">Főként ipari</string>
+    <string name="economy_mainly_agricultural">Főként mezőgazdasági</string>
+    <string name="economy_rich_agricultural">Fejlett mezőgazdasági</string>
+    <string name="economy_average_agricultural">Átlagos mezőgazdasági</string>
+    <string name="economy_poor_agricultural">Fejletlen mezőgazdasági</string>
+
+    <string name="mission_attention_commander">Figyelem Parancsnok!</string>
+    <string name="mission_unknown_target">&lt;Ismeretlen&gt;</string>
+    <string name="mission_accept">Elfogadja a küldetést?</string>
+
+    <string name="mission_constrictor_obj_jump">Végezzen intergalaktikus ugrást!</string>
+    <string name="mission_constrictor_obj_fly">Repüljön &lt;js&gt;withArticle("%s")&lt;/js&gt; űrállomásra.</string>
+    <string name="mission_constrictor_mission_description">Egy új, szigorúan titkos katonai hajó prototípusát, a Constrictor-t, ismeretlen ügynökök ellopták egy katonai kutatóbázisról. A hajó képességei miatt a Világok Galaktikus Együttműködése nagy jutalmat ajánl a hajó megsemmisítéséért, mielőtt az ellenséges kézre jutna.</string>
+    <string name="mission_constrictor_report_to_base">A küldetéssel kapcsolatos teljes eligazításhoz jelentkezzen a megadott űrállomáson ebben a galaktikában. Talán mondani sem kell, hogy a küldetés kényes természetű, ezért létfontosságú, hogy a Constrictorral kapcsolatban semmilyen részlet se szivárogjon ki. Sok szerencsét Parancsnok!</string>
+    <string name="mission_constrictor_intergalactic_jump">A Galaktikus Hírszerző Ügynökség (GIA) jelentette, hogy a Constrictor nem rég intergalaktikus ugrást hajtott végre, elhagyta ezt a galaxist. Azt javasolják, hogy Ön is végezze el az ugrást és további részletekért jelentkezzen a legközelebbi űrállomáson.</string>
+    <string name="mission_constrictor_hyperspace_jump">A GIA azt jelentette, hogy a Constrictor nagy pusztítást hagyva maga mögött, másik naprendszerbe ugrott. A nyomkövető rendszer szerint ez a naprendszer volt a cél.</string>
+    <string name="mission_constrictor_success">A Világok Galaktikus Együttműködése örökre az adósa lesz, Parancsnok! Köszönetünk szerény kifejezéseként kérjük, fogadja el a 10.000 Kredit jutalmat fáradozásaiért cserébe. Ezt figyelembe véve, a Galaktikus Rendőrség arra kért, hogy emlékeztessem Önt arra a csekélységre, hogy van néhány száz befizetésre váró parkolójegye...</string>
+
+    <string name="thargoid_station_name">Thargoid űrállomás</string>
+    <string name="mission_thargoid_documents_obj">Dokumentumok elvitele &lt;js&gt;withArticle("%s")&lt;/js&gt; űrállomásra.</string>
+    <string name="mission_thargoid_documents_mission_description">A haditengerészet ritka tervrajzokat szerzett meg egy Thargoid csatahajóról, amely részletesen ismerteti a meghajtó és a fegyverrendszereket. A dokumentumokat a lehető legrövidebb időn belül el kell juttatni a térképen jelzett bolygó körül keringő űrbázisra. Az ellenség nem tud a dokumentumok megszerzéséről, így az utazás során nem lehet semmilyen nehézség.</string>
+    <string name="mission_thargoid_documents_fully_serviced">A dokumentumokat a raktérbe tettük. A hajót teljesen felszerelték, készen áll a felszállásra. Sok szerencsét parancsnok!</string>
+    <string name="mission_thargoid_documents_success">Örökre az adósai vagyunk (ismét), hogy eljuttatta ezeket a fontos dokumentumokat hozzánk. Jutalmul felszereltük az űrhajóját a legújabb katonai energia egységgel, ami dupla sebességgel tölti az energia bankokat. Figyelembe véve az út során az Önt ért incidensek számát, valószínűleg ezt igen hasznosnak fogja találni. A Galaktikus Hírszerző Ügynökség (GIA) elnézését kéri az információ kiszivárgásáért. Az ügyben már intenzív nyomozás folyik és hamarosan megtalálják a tettest.</string>
+    <string name="mission_supernova_trade">Sajnáljuk, de nincs senki, akivel most kereskedni tudna.</string>
+    <string name="mission_supernova_danger">Veszély: Szupernóva</string>
+    <string name="mission_supernova_obj">Elmenekülni a szupernóvától.</string>
+    <string name="mission_supernova_announcement">Figyelem - a naprendszer napja hamarosan szupernóva lesz. Azt tanácsoljuk, hogy a lehető leghamarabb hagyja el a naprendszert.</string>
+    <string name="mission_supernova_mission_description">Kérem, segítsen rajtunk! Mindenki másnak sikerült elmenekülnie a szupernóvától, de mi itt ragadtunk, mert egy aszteroida nekiütközött az űrsiklónknak. Sikerült még visszajutnunk vele az űrállomásra, de a bizonyos halál vár ránk, ha nem sikerül azonnal elhagyni a naprendszert. Csak kevesen vagyunk, elférnénk a raktérben.</string>
+    <string name="mission_supernova_accept">Segít rajtunk?</string>
+    <string name="mission_supernova_drop_us_off">Köszönjük! A kormányunk nagy jutalmat fog fizetni a segítségéért. Attól tartok, minden rakományt ki kell rakni ahhoz, hogy mindannyian beférjünk. Nekünk tökéletesen megfelelne, ha elvisz minket a legközelebbi naprendszerbe.</string>
+    <string name="mission_supernova_success">Köszönjük, hogy biztonságban idehozott minket. Nagyrabecsülésünk zálogaként kérjük, fogadja el ezt az értékes Zanxian drágakő válogatást.</string>
+    <string name="mission_supernova_mission_decline">Remélem, hosszan és kínok közt szenvedve halsz majd meg egy nyálkás zöld rák ollói között vagy már most darabokra szaggat a napunk felrobbanása!</string>
+
+    <string name="mission_cougar_obj">Az ismeretlen űrhajó megsemmisítése.</string>
+    <string name="mission_cougar_mission_description">Figyelmeztetés az összes kereskedőnek! A kereskedőktől olyan jelentéseket kaptunk, hogy egy félelmetes képességekkel rendelkező, ismeretlen ellenséges űrhajó van a szektorban. A pletykák szerint az űrhajó olyan eszközzel van felszerelve, ami képes a fedélzeti számítógépes rendszerek meghibásítására.</string>
+
+    <string name="mission_thargoid_station_obj">A Thargoid bázis megsemmisítése &lt;js&gt;withArticle("%s")&lt;/js&gt; űrállomáson.</string>
+    <string name="mission_thargoid_station_mission_description">A Galaktikus Hírszerző Ügynökség arról számolt be, hogy a közeli rendszert Thargoid hajók támadták meg és elfoglalták az űrállomást. Minden rendelkezésre álló haderőt össze kell gyűjtenünk ahhoz, hogy elpusztítsuk a megszállókat. Ez az űrállomás most a bolygót támadó Thargoidok főhadiszállása. Az űrállomást el kell pusztítani - bármilyen áron!</string>
+    <string name="mission_thargoid_station_success">Köszönjük, hogy elpusztította a Thargoid bázist. Az egyik Thargoid hajóról sikerült kimenteni egy új eszközt, amit már fel is szereltek a hajójára. Úgy tűnik, hogy az eszköz képes zavarni a rakétaelhárító rendszert.</string>
+
+    <string name="mission_elite_welcome_commander">Isten hozta a Raxxla bolygón, parancsnok.</string>
+    <string name="mission_elite_mission_description">Bebizonyította, hogy méltó erre a pihenést és békét nyújtó helyre. Üdvözöljük itt. Nézzen körül és élvezze a Raxxlát. Természetesen bármikor szabadon távozhat, de a legtöbb pilóta itt marad, mert számukra a világegyetem nem tud már semmi újat adni.</string>
+    <string name="mission_elite_congratulations">Gratulálok parancsnok. Ön most már valóban az elithez tartozik.</string>
+
+
+    <string name="trade_good_info">%s - %d%s van készleten. Átlagár: %s (Koppints újra a vásárláshoz)</string>
+    <string name="trade_out_of_stock">Az áru sajnos elfogyott.</string>
+    <string name="trade_not_enough_in_stock">Sajnos nincs ennyi az áruból.</string>
+    <string name="trade_not_enough_money">Sajnos nincs ennyi pénzed.</string>
+    <string name="trade_not_enough_space">Sajnos nincs elég hely a raktérben.</string>
+    <string name="trade_amount_to_buy">A vásárolandó mennyiség (max. %s)? %s</string>
+    <string name="trade_spare_cargo"> szabad</string>
+    <string name="trade_cash">Pénz: </string>
+    <string name="trade_ccy_hold">Cr      Hely: </string>
+    <string name="state_not_docked">Nem vagy bedokkolva.</string>
+
+    <string name="unit_gram">g</string>
+    <string name="unit_kilogram">kg</string>
+    <string name="unit_tonne">t</string>
+
+    <string name="cash_amount_only">%d.%d</string>
+    <string name="cash_amount_value_ccy">%d.%d Cr</string>
+    <string name="cash_int_amount_value_ccy">%d Cr</string>
+    <string name="cash_amount">Pénz: %d.%d Cr</string>
+    <string name="cash_left">Pénz: %d.%d Cr</string>
+    <string name="cash_amount_value_currency">%d.%d Kredit</string>
+
+    <string name="bounty_none">&lt;js&gt;withStartingArticle("%s")&lt;/js&gt; megsemmisítéséért nem jár jutalom.</string>
+    <string name="bounty_amount">&lt;js&gt;withStartingArticle("%s")&lt;/js&gt; megsemmisítéséért járó jutalom %s.</string>
+    <string name="assisted_docking">A leszállás segítségének díja %s. Elfogadod?</string>
+    <string name="target_galaxy_number">A cél galaxis száma (max. %s)? %s</string>
+
+    <string name="equip_info">%s (Koppints újra a felszereléshez)</string>
+    <string name="equip_fuel_full">Az üzemanyagtartály már tele van (%d.%d fényév).</string>
+    <string name="equip_only_one_allowed">Csak 1 %s szerelhető fel.</string>
+    <string name="equip_max_missiles_reached">Max. %d rakéta hordozható.</string>
+
+    <string name="title_buy_cargo">Áru vásárlás</string>
+    <string name="title_catalog">Fájlkezelő</string>
+    <string name="title_disk_menu">Fájl menü</string>
+    <string name="title_equip_ship">Felszerelések</string>
+    <string name="title_local_nav_chart">Helyi navigációs térkép</string>
+    <string name="title_fatal_error">Súlyos hiba történt</string>
+    <string name="title_galaxy">Galaktika #%d térkép</string>
+    <string name="title_hacker">Hacker v2.0</string>
+    <string name="title_inventory">Raktér</string>
+    <string name="title_library">Könyvtár</string>
+    <string name="title_cmdr_load">Betöltés</string>
+    <string name="title_cmdr_save">Mentés</string>
+    <string name="title_planet">%s információk</string>
+    <string name="title_plugins">Plug-in-ek, nyelvek</string>
+    <string name="title_status">%s parancsnok állapot információi</string>
+    <string name="title_options">Beállítások</string>
+    <string name="title_audio_options">Hang beállítások</string>
+    <string name="title_control_options">Irányítási beállítások</string>
+    <string name="title_debug_options">Hibakeresési beállítások</string>
+    <string name="title_display_options">Megjelenési beállítások</string>
+    <string name="title_gameplay_options">Játék beállítások</string>
+    <string name="title_button_position_options">Gomb elrendezés beállítások</string>
+    <string name="title_more_debug_options">További hibakeresési beállítások</string>
+    <string name="title_training_academy">Kiképző Akadémia</string>
+    <string name="title_debug_menu">Hibakeresés menü</string>
+    <string name="title_achievements">Trófeák</string>
+
+    <string name="title_mission_constrictor">1. küldetés - a Constrictor megsemmisítése</string>
+    <string name="title_mission_thargoid_documents">2. küldetés - Thargoid dokumentumok átadása</string>
+    <string name="title_mission_supernova">3. küldetés - Szupernóva</string>
+    <string name="title_mission_cougar">4. küldetés - Ellenséges űrhajó megsemmisítése</string>
+    <string name="title_mission_thargoid_station">5. küldetés - az idegen űrbázis megsemmisítése</string>
+    <string name="title_mission_elite">Gratulálunk</string>
+
+
+    <string name="cmdr_btn_delete_one">Kijelölt fájl törlése</string>
+    <string name="cmdr_btn_delete_more">Kijelölt fájlok törlése</string>
+    <string name="cmdr_delete_one_confirm">Biztos törölni akarod &lt;js&gt;withArticle("%s")&lt;/js&gt; játékállást?</string>
+    <string name="cmdr_delete_more_confirm">Biztos törölni akarod a kijelölt játékállásokat?</string>
+    <string name="cmdr_table_name">Parancsnok neve</string>
+    <string name="cmdr_table_system">Bolygó</string>
+    <string name="cmdr_table_time">Idő</string>
+    <string name="cmdr_table_score">Pont</string>
+    <string name="cmdr_table_rating">Besorolás</string>
+    <string name="cmdr_file_autosave">Auto</string>
+
+    <string name="cmdr_load_new_commander">Új játékállás betöltése?</string>
+    <string name="cmdr_load_confirm">Biztos betöltöd &lt;js&gt;withArticle("%s")&lt;/js&gt; játékállást?</string>
+    <string name="cmdr_load_succeeded">Sikeres betöltés, &lt;js&gt;withArticle("%s")&lt;/js&gt; bolygón vagy.</string>
+    <string name="cmdr_load_failed">&lt;js&gt;withStartingArticle("%s")&lt;/js&gt; betöltése sikertelen, oka: %s</string>
+
+    <string name="cmdr_btn_save">Mentés új néven</string>
+    <string name="cmdr_save_overwrite">Biztos felül akarod írni &lt;js&gt;withArticle("%s")&lt;/js&gt; játékállást?</string>
+    <string name="cmdr_save_succeeded">%s mentése sikeres.</string>
+    <string name="cmdr_save_failed">&lt;js&gt;withStartingArticle("%s")&lt;/js&gt; mentése sikertelen, oka: %s</string>
+    <string name="cmdr_get_name">A parancsnok neve:</string>
+    <string name="cmdr_unknown_system">Ismeretlen</string>
+    <string name="cmdr_default_commander_name">Artúr</string>
+
+    <string name="disk_menu_load">Betöltés</string>
+    <string name="disk_menu_save">Mentés</string>
+
+    <string name="exc_btn_send_error_in_mail">Hiba küldése</string>
+    <string name="exc_btn_save_error_to_file">Hiba mentése</string>
+    <string name="exc_btn_restart">Újraindítás</string>
+
+    <string name="exc_error_info1">Sajnos hiba történt az %s futása során. Elnézést a kellemetlenségért. :(</string>
+    <string name="exc_error_info2">Kérlek, küldd el a hiba részleteit a '%s' gombbal, ez segít kideríteni a hiba okát.</string>
+    <string name="exc_error_info3">Sem a levél tárgya, sem a tartalom nem tartalmaz személyes információkat, csak a hiba és a futási környezet adatait.</string>
+    <string name="exc_error_info4">A tárgyban szereplő kód a hibaüzenetből van képezve, kérlek, ne módosítsd, mert ez segít felismerni, ha ugyanazt a hibát többször is elküldik.</string>
+    <string name="exc_error_file_name">A hibajelentés helye: %s</string>
+    <string name="exc_save_error">Sikertelen mentés</string>
+    <string name="exc_sending_email">Email küldése...</string>
+    <string name="exc_mail_sending_error">Küldés sikertelen, próbáld újra: %s</string>
+
+    <string name="galaxy_unknown_planet">Nincs %s nevű bolygó.</string>
+    <string name="galaxy_unknown_planet_in_galaxy">&lt;js&gt;withStartingArticle("%s")&lt;/js&gt; bolygó a %d. galaxisban van, te a %d. galaxisban vagy jelenleg.</string>
+    <string name="galaxy_find_planet_name">A keresett bolygó neve:</string>
+    <string name="galaxy_distance_info">%s: %d.%d fényév</string>
+    <string name="galaxy_unknown">Ismeretlen</string>
+    <string name="galaxy_btn_find">Keres</string>
+    <string name="galaxy_btn_home">Vissza</string>
+
+    <string name="hacker_btn_done">Kész</string>
+    <string name="hacker_new_value">A byte új értéke %s: %s</string>
+
+    <string name="pad_btn_hex_a">A</string>
+    <string name="pad_btn_hex_b">B</string>
+    <string name="pad_btn_hex_c">C</string>
+    <string name="pad_btn_hex_d">D</string>
+    <string name="pad_btn_hex_e">E</string>
+    <string name="pad_btn_hex_f">F</string>
+    <string name="pad_btn_hex_ok">OK</string>
+
+    <string name="inventory_sell">(Koppints újra az eladáshoz)</string>
+    <string name="inventory_eject">(Koppints újra a kidobáshoz)</string>
+    <string name="inventory_loss">Veszteség: -%s</string>
+    <string name="inventory_gain">Nyereség:%s</string>
+    <string name="inventory_empty_cargo">A raktér üres.</string>
+    <string name="inventory_worth">%s - értéke: %s. </string>
+
+    <string name="laser_pos_front">Első</string>
+    <string name="laser_pos_right">Jobb</string>
+    <string name="laser_pos_rear">Hátsó</string>
+    <string name="laser_pos_left">Bal</string>
+    <string name="laser_pos_select">Válaszd ki a lézer helyét</string>
+
+    <string name="library_btn_toc">Tartalomjegyzék</string>
+    <string name="library_btn_search">Keresés</string>
+    <string name="library_search_text">Keresett kifejezés:</string>
+    <string name="library_no_results">Nincs találat.</string>
+    <string name="library_cheat_code_obsoleted1">Sajnos &lt;js&gt;withArticle("%s")&lt;/js&gt; már nem használható.</string>
+    <string name="library_cheat_code_obsoleted2">Nem, &lt;js&gt;withArticle("%s")&lt;/js&gt; sem működik már, bocs.</string>
+    <string name="library_cheat_code_hacker">Hacker aktiválva.</string>
+    <string name="library_cheat_code_shield_booster">A pajzs teljesítményfokozó aktiválva.</string>
+    <string name="library_cheat_code_hyperdrive_booster">Hiperhajtómű teljesítményfokozó aktiválva.</string>
+    <string name="library_cheat_code_laser_booster">A lézer teljesítményfokozó aktiválva.</string>
+    <string name="library_cheat_code_max_laser">Maximális lézerteljesítmény.</string>
+    <string name="library_cheat_code_max_shield">Maximális pajzsteljesítmény.</string>
+    <string name="library_cheat_code_clear_path">Az út megtisztítása.</string>
+    <string name="library_cheat_code_master_prg">A vezérlő program elérhető.</string>
+
+    <string name="planet_inhabitant_db_load1">Betöltés</string>
+    <string name="planet_inhabitant_db_load2">az adatbázisból...</string>
+    <string name="planet_economy">Gazdaság:</string>
+    <string name="planet_government">Kormányzat:</string>
+    <string name="planet_technical_level">Technikai szint:</string>
+    <string name="planet_population">Népesség:</string>
+    <string name="planet_population_value">%d.%d Mrd</string>
+    <string name="planet_population_unknown">? Mrd</string>
+    <string name="planet_distance">fényév</string>
+    <string name="planet_gnp">Össztermék:</string>
+    <string name="planet_gnp_value">%d.%d MCr</string>
+    <string name="planet_gnp_unknown">? MCr</string>
+    <string name="planet_diameter_value">%,d km</string>
+    <string name="planet_diameter_unknown">? km</string>
+    <string name="planet_visit_info_number">Látogatásszám:</string>
+    <string name="planet_visit_info_date">Utolsó látogatás:</string>
+
+    <string name="plugins_no_description">(Nincs leírás)</string>
+    <string name="plugins_removal_reason">Törlés oka: %s</string>
+    <string name="plugins_get_removal_reason">A törlés oka:</string>
+    <string name="plugins_download_succeeded">'%s' plug-in sikeresen telepítve.</string>
+    <string name="plugins_download_failed">'%s' plug-in letöltése sikertelen.</string>
+    <string name="plugins_download_progress">%dMB / %dMB</string>
+    <string name="plugins_download_time">%4.2f MB/mp, %d mp</string>
+    <string name="plugins_size_mb">%d MB</string>
+    <string name="plugins_size_kb">%d KB</string>
+
+    <string name="quit_confirm">Biztos ki akarsz lépni az %s játékból?</string>
+
+    <string name="intro_error">Az intro nem játszható le, oka: %s %s.</string>
+    <string name="intro_btn_tap_to_start">Koppints a kezdéshez</string>
+    <string name="intro_new_player">Úgy látom új vagy még az %s játékban, parancsnok. Meglátogatod a Kiképző Akadémiát most?</string>
+    <string name="intro_new_player_info">Ha később akarod csak meglátogatni a Kiképző Akadémiát, megtalálod majd a jobb oldali parancskonzol alján. Kilövés előtt jó ötlet lehet még átnézni az irányítási beállításokat. Megnézed most?</string>
+
+    <string name="status_fuel_value">%d.%d fényév</string>
+    <string name="status_present_system">Aktuális bolygó:</string>
+    <string name="status_hyperspace">Cél bolygó:</string>
+    <string name="status_condition">Állapot:</string>
+    <string name="status_legal_status">Bűnügyi státusz:</string>
+    <string name="status_rating">Besorolás:</string>
+    <string name="status_fuel">Üzemanyag:</string>
+    <string name="status_cash">Pénz:</string>
+    <string name="status_mission_objective">A küldetés célja:</string>
+    <string name="status_score">  (Pont: %d)</string>
+    <string name="status_visit_web_page">%s</string>
+    <string name="status_missiles_count">Rakéták x%d</string>
+    <string name="status_game_time">Játékidő:</string>
+
+    <string name="options_back">Vissza</string>
+    <string name="options_yes">Igen</string>
+    <string name="options_no">Nem</string>
+    <string name="options_on">Be</string>
+    <string name="options_off">Ki</string>
+
+    <string name="options_audio_music_volume">Zene hangereje</string>
+    <string name="options_audio_sound_fx_volume">Jelzések hangereje</string>
+    <string name="options_audio_combat_fx_volume">Csatazajok hangereje</string>
+    <string name="options_audio_voice_volume">Fedélzeti számítógép hangereje</string>
+    <string name="options_audio_vibrate_level_on_damage">Rezgési szint sérüléskor</string>
+    <string name="options_audio_vibrate_level_on_hit">Rezgési szint találatkor</string>
+
+    <string name="options_ctrl_ship_control_mode">Hajó irányítása: %s</string>
+    <string name="ship_ctrl_acc">Helyzetérzékelő</string>
+    <string name="ship_ctrl_alt_acc">Alternatív helyzetérzékelő</string>
+    <string name="ship_ctrl_alt_acc_help_line1">Akkor használd, ha a helyzetérzékelő nem működik (pl. Nexus 10-nél).</string>
+    <string name="ship_ctrl_alt_acc_help_line2">Ezzel viszont csak ülve játszhatsz (bocs).</string>
+    <string name="ship_ctrl_control_pad">Vezérlő gyűrű</string>
+    <string name="ship_ctrl_cursor_block">Kurzorblokk</string>
+    <string name="ship_ctrl_cursor_split_block">Osztott kurzorblokk</string>
+
+    <string name="ship_ctrl_side_text_control_pad">Pozíció: %s</string>
+    <string name="ship_ctrl_side_text_cursor_block">Pozíció: %s</string>
+    <string name="ship_ctrl_side_text_cursor_split_block">Merülés / emelkedés: %s</string>
+    <string name="ship_ctrl_side_text_left_position">Bal</string>
+    <string name="ship_ctrl_side_text_right_position">Jobb</string>
+
+    <string name="options_ctrl_button_position_options">Gombok pozíciójának beállítása</string>
+    <string name="options_ctrl_forward_to_introduction">Kiképzés kezdése</string>
+    <string name="options_ctrl_forward_to_introduction_help">A kiképzés elkezdése előtt ellenőrizd az irányítási beállításokat!</string>
+
+    <string name="options_ctrl_reverse_climb">Fordított emelkedés: %s</string>
+
+    <string name="options_ctrl_radar_change_view">Nézet váltás: %s</string>
+    <string name="options_ctrl_radar_change_view_tap">Koppintás</string>
+    <string name="options_ctrl_radar_change_view_slide">Húzás</string>
+
+    <string name="options_ctrl_linear_layout">Egyenes elrendezés: %s</string>
+    <string name="debug_settings_log_to_file">Fájlba logolás: %s</string>
+    <string name="debug_settings_mem_debug">Memória debug:  %s</string>
+    <string name="debug_settings_show_frame_rate">Megjelenítési sebesség</string>
+    <string name="debug_settings_invulnerable">Sebezhetetlenség: %s</string>
+    <string name="debug_settings_show_docking_debug">Dokkolási infók: %s</string>
+    <string name="debug_settings_laser_does_not_overheat">Lézer túlhevülés: %s</string>
+    <string name="debug_settings_adjust_credits">Pénz mód. (%s)</string>
+    <string name="debug_settings_arrive_in_safe_zone">Biztonsági zóna: %s</string>
+    <string name="debug_settings_adjust_legal_status">Bűn.mód. (%s, %d)</string>
+    <string name="debug_settings_disable_attackers">Támadók letiltása: %s</string>
+    <string name="debug_settings_adjust_score">Pontszám mód. (%d)</string>
+    <string name="debug_settings_disable_traders">Kereskedők letiltása: %s</string>
+    <string name="debug_settings_add_docking_computer">Automata leszálló egység</string>
+    <string name="debug_settings_unlimited_fuel">Korlátlan üzemanyag: %s</string>
+    <string name="debug_settings_button_more">Tovább</string>
+
+    <string name="options_display_texture_level">Textúra részlet: %s</string>
+    <string name="options_display_texture_level_high">Nagy</string>
+    <string name="options_display_texture_level_medium">Közepes</string>
+    <string name="options_display_texture_level_low">Alacsony</string>
+
+    <string name="options_display_invalid_value">Érvénytelen</string>
+
+    <string name="options_display_stardust_density">Csillag sűrűség: %s</string>
+    <string name="options_display_stardust_density_off">Nincs</string>
+    <string name="options_display_stardust_density_low">Ritka</string>
+    <string name="options_display_stardust_density_medium">Közepes</string>
+    <string name="options_display_stardust_density_high">Sűrű</string>
+
+    <string name="options_display_color_depth">Színmélység: %s</string>
+    <string name="options_display_color_depth_32_bit">32 Bit</string>
+    <string name="options_display_color_depth_16_bit">16 Bit</string>
+
+    <string name="options_display_engine_exhaust">Hajtómű égése: %s</string>
+
+    <string name="options_display_lock_orientation">Tájolás: %s</string>
+    <string name="options_display_lock_orientation_no_lock">Nincs rögzítve</string>
+    <string name="options_display_lock_orientation_right">Jobbra</string>
+    <string name="options_display_lock_orientation_left">Balra</string>
+
+    <string name="options_display_target_box">Célpont jelölés: %s</string>
+    <string name="options_display_alpha">Kijelző átlátszósága</string>
+    <string name="options_display_controls_alpha">Irányító gombok átlátszósága</string>
+    <string name="options_display_animations">Animáció: %s</string>
+
+    <string name="options_display_color_scheme">Színséma: %s</string>
+    <string name="options_display_color_scheme_error">Színséma betöltése sikertelen, oka: %s</string>
+
+    <string name="options_display_immersion">Navigációs sáv: %s</string>
+    <string name="options_display_immersion_full">Ki</string>
+    <string name="options_display_immersion_off">Be</string>
+
+    <string name="options_gameplay_difficulty_level">Nehézségi szint: %s</string>
+    <string name="options_gameplay_difficulty_sedate">Nyugodt</string>
+    <string name="options_gameplay_difficulty_very_easy">Nagyon könnyű</string>
+    <string name="options_gameplay_difficulty_easy">Könnyű</string>
+    <string name="options_gameplay_difficulty_normal">Normál</string>
+    <string name="options_gameplay_difficulty_hard">Nehéz</string>
+    <string name="options_gameplay_difficulty_extremely_hard">Rendkívül nehéz</string>
+
+    <string name="options_gameplay_difficulty_sedate_desc">Egyáltalán nincs ellenség. Csak a rendőrség támadhat, a bűnügyi nyilvántartás alapján.</string>
+    <string name="options_gameplay_difficulty_very_easy_desc">Nagyon kevés, egyszerre max. 2 ellenség. Thargoid nincs.</string>
+    <string name="options_gameplay_difficulty_easy_desc">Kevés, egyszerre max. 3 ellenség, ritkán Thargoid.</string>
+    <string name="options_gameplay_difficulty_normal_desc">Normál számú, egyszerre max. 4 ellenség, néha Thargoid.</string>
+    <string name="options_gameplay_difficulty_hard_desc">Gyakran megjelenő, egyszerre max. 6 ellenség, Thargoid rendszeresen.</string>
+    <string name="options_gameplay_difficulty_extremely_hard_desc">Armageddon. Figyelem: magas csalódási szint.</string>
+
+    <string name="options_gameplay_auto_id">Auto azonosítás: %s</string>
+    <string name="options_gameplay_extended_galaxy">Bővített galaktika: %s</string>
+    <string name="options_gameplay_extended_galaxy_on_error">A bővített galaktika bekapcsolásához el kell érni az ELITE besorolást és legalább egyszer le kell szállni a Raxxla űrállomáson.</string>
+    <string name="options_gameplay_extended_galaxy_off_error">A bővített galaktika kikapcsolásához előbb vissza kell ugrani egy 1 és 8 közötti galaktikába.</string>
+
+    <string name="options_gameplay_docking_speed">Automata leszállás: %s</string>
+    <string name="options_gameplay_docking_normal_speed">Normál sebességgel</string>
+    <string name="options_gameplay_docking_time_drive_speed">Gyorsított sebességgel</string>
+    <string name="options_gameplay_docking_dock_immediate">Azonnal</string>
+
+    <string name="options_gameplay_laser">Lézer: %s</string>
+    <string name="options_gameplay_laser_auto_fire">Automata tüzelés</string>
+    <string name="options_gameplay_laser_single_shot">Egy lövés</string>
+
+    <string name="options_gameplay_extension_update_mode">Plug-in frissítés: %s</string>
+    <string name="options_gameplay_extension_update_mode_no_update">Nincs frissítés</string>
+    <string name="options_gameplay_extension_update_mode_check_for_updates_only">Csak ellenőrzés</string>
+    <string name="options_gameplay_extension_update_mode_auto_update_at_any_time">Automata frissítés mindig</string>
+    <string name="options_gameplay_extension_update_mode_auto_update_over_wifi_only">Automata frissítés csak WiFi-n</string>
+
+    <string name="options_main_tutorial">Bemutató mód: %s</string>
+    <string name="options_tutorial_mode_continuous">Folyamatos</string>
+    <string name="options_tutorial_mode_tap">Koppintás</string>
+    <string name="options_main_language">Nyelv: %s</string>
+    <string name="options_main_reset_game">Újrakezdés</string>
+    <string name="options_main_reset_game_confirm">Biztos vagy benne, hogy újrakezded a játékot?</string>
+    <string name="options_main_about">Névjegy</string>
+
+    <string name="options_more_debug_start_constrictor_mission">Constrictor küldetés kezdése</string>
+    <string name="options_more_debug_start_thargoid_documents_mission">Thargoid dokumentumok küldetés kezdése</string>
+    <string name="options_more_debug_start_supernova_mission">Szupernóva küldetés kezdése</string>
+    <string name="options_more_debug_start_cougar_mission">Puma küldetés kezdése</string>
+    <string name="options_more_debug_start_thargoid_base_mission">Thargoid bázis küldetés kezdése</string>
+    <string name="options_more_debug_clear_mission">Aktuális küldetés törlése</string>
+    <string name="options_more_debug_completed_missions">Teljesített küldetések: %s</string>
+
+    <string name="in_flight_button_fire">Lézer tüzelés</string>
+    <string name="in_flight_button_missile">Rakéta kilövés</string>
+    <string name="in_flight_button_ecm">Rakétaelhárító rendszer</string>
+    <string name="in_flight_button_retro_rockets">Fékezőrakéták</string>
+    <string name="in_flight_button_escape_capsule">Mentőkapszula</string>
+    <string name="in_flight_button_energy_bomb">Energia bomba</string>
+    <string name="in_flight_button_status">Állapot</string>
+    <string name="in_flight_button_drive_docking">Gyorsító;Leszálló</string>
+    <string name="in_flight_button_hyperspace">Hiperugrás</string>
+    <string name="in_flight_button_galactic_hyperspace">Galaktikus ugrás</string>
+    <string name="in_flight_button_cloaking_device">Álcázó berendezés</string>
+    <string name="in_flight_button_ecm_jammer">Rakétaelhárító zavaró</string>
+
+    <string name="options_in_flight_selection_mode">Kijelölési mód: %s</string>
+    <string name="options_in_flight_selection_mode_group">Csoportos</string>
+    <string name="options_in_flight_selection_mode_button">Gombonként</string>
+
+    <string name="options_in_flight_reset_positions">Eredeti elrendezés</string>
+    <string name="options_in_flight_reset_positions_confirm">Biztos, hogy vissza akarod állítani a gombok eredeti elrendezését?</string>
+    <string name="options_in_flight_primary">Elsődleges</string>
+    <string name="options_in_flight_secondary">Másodlagos</string>
+    <string name="options_in_flight_source_button_group">Válaszd ki a módosítandó gombcsoportot!</string>
+    <string name="options_in_flight_target_button_group">Válaszd ki a gombcsoport új helyét!</string>
+    <string name="options_in_flight_source_button">Válaszd ki a módosítandó gombot!</string>
+    <string name="options_in_flight_target_button">Válaszd ki a gomb új helyét!</string>
+
+    <string name="tutorial_selection_introduction">Bevezetés</string>
+    <string name="tutorial_selection_trading">Kereskedés</string>
+    <string name="tutorial_selection_equipment">Felszerelések</string>
+    <string name="tutorial_selection_navigation">Navigáció</string>
+    <string name="tutorial_selection_hud">Kijelző</string>
+    <string name="tutorial_selection_basic_flying">Repülés alapjai</string>
+    <string name="tutorial_selection_advanced_flying">Repülés haladóknak</string>
+
+    <string name="tutorial_quit_confirm">Biztos ki akarsz lépni az oktatásból?</string>
+
+    <string name="tutorial_introduction_00">Üdvözlöm az alapképzésen, kopasz! Quelo parancsnok vagyok és biztosítom róla, hogy a kiképzés végére tudni fogja kezelni azt a Kobrát. Vésse jól az eszébe, kölyök: az, hogy kap egy Kobrát, nem jelenti azt, hogy képes is vele repülni. Ezt a képességet én fogom megadni hozzá.</string>
+    <string name="tutorial_introduction_01">Amit a maga előtti képernyőn lát, az az állapotképernyő. Ezen keresztül ellenőrizhet minden Kobrával kapcsolatos részletet.</string>
+    <string name="tutorial_introduction_02">Megmondja, hogy hol van éppen dokkolva és mi van megadva cél bolygónak.</string>
+    <string name="tutorial_introduction_03">Az 'Állapot' kijelzőt mindig jól tartsa szemmel, mert ha pirosra vált, akkor esély nyílik rá, hogy jutalom fejében levadásszon néhány hajót. Ha rosszul csinálja, meghal.</string>
+    <string name="tutorial_introduction_04">A bűnügyi státusza mindig büntetlen lesz, hacsak nem kereskedik tiltott árucikkekkel vagy ha nem tudja megkülönböztetni a barátot az ellenségtől és megsemmisít egy baráti Pitont, miközben egy Krait-ot akart célba venni.</string>
+    <string name="tutorial_introduction_05">A besorolás mutatja meg, mennyire jelent veszélyt másokra. Egy ilyen újoncnak még igencsak aggódnia kell, hogy túlélje az űrben. Kemény a kinti élet, kevesen élik csak túl. Bár nem valószínű, de ha bebizonyítja, hogy kevesebb ostobaságot követ majd el, mint szokott, akkor van rá esély, hogy elérje a jobbára ártalmatlan, majd a még magasabb besorolási szinteket is. De ehhez meg kell majd semmisítenie az ellenséges hajókat, kölyök.</string>
+    <string name="tutorial_introduction_06">Az üzemanyag kijelző megmutatja, hány fényévet utazhat a hipertérben</string>
+    <string name="tutorial_introduction_07">és végül ellenőrizheti a számlaegyenlegét a pénz kijelzőn.</string>
+    <string name="tutorial_introduction_08">Még egy dolog van az állapotképernyőn, itt lehet megnézni a hajó felszerelését. Ez kezdetben egy vacak impulzus lézer, amitől még a nagyanyám sem ijedne meg, és három Lance és Ferman rakéta. Érdemes ezt fejleszteni, ahogy csak lehet, zöldfülű.</string>
+    <string name="tutorial_introduction_09">A jobb oldalon található a navigációs sáv. Tegye rá az ujját és húzza egészen fel.</string>
+    <string name="tutorial_introduction_10">Izgalmas, mi? A navigációs sáv lehetővé teszi a kapcsolattartást az állomással, ahová be van dokkolva. Ennek segítségével lehet kereskedni és a fejleszteni a hajót is, anélkül, hogy el kellene hagynia a hajót.</string>
+    <string name="tutorial_introduction_11">Szeretné látni, hogy ehhez mit kell tennie a navigációs sávon? Oké, akkor gyerünk, kölyök! Nyomja meg a "Vásárlás" gombot a navigációs sávon. Ha nem találja, akkor előbb húzza lejjebb a sávot.</string>
+    <string name="tutorial_introduction_12">Látom, megvan a dolog, rendben. Mára az utolsó gyakorlat az, hogy próbálja megtalálni a "Galaxis" gombot és ámuljon el az univerzum végtelenségén, amiben él.</string>
+    <string name="tutorial_introduction_13">Nagyszerű. Megmutatta, hogy képes megcsinálni azt, amit mondok. Ezt már szeretem. A kutyám is azt teszi, amit mondok neki. Talán meg kellene ismerniük egymást. Majd emlékeztessen erre!</string>
+    <string name="tutorial_introduction_14">Most menjen és gondolja át jól a megtanultakat. Akkor jöjjön legközelebb, ha már készen áll az újabb ismeretek befogadására, kopasz.</string>
+
+    <string name="tutorial_trading_00">Á, látom, újra itt van. Gondolja, hogy készen áll az alapképzés folytatására? Oké, akkor először is menjen be újra a "Vásárlás" képernyőre. Emlékszik még, hogy kell, ugye?</string>
+    <string name="tutorial_trading_01">Itt láthatja az összes olyan terméket, amit az állomás kínál, amire be van dokkolva. A termék alatt látható az ára, mellette pedig az áruból rendelkezésre álló mennyiség. Ha a kép alapján nem ismer rá az árura, csak koppintson rá és a termék neve megjelenik a képernyő alján.</string>
+    <string name="tutorial_trading_02">Na, ne szégyenlősködjön, próbálja ki: Koppintson rá egyszer egy árucikkre. Gyerünk!</string>
+    <string name="tutorial_trading_03">Látja? Ugye nem is volt olyan nehéz? Ha most újra rákoppint és van az áruból készleten, vásárolhat is belőle.</string>
+    <string name="tutorial_trading_04">Próbálja ki: koppintson rá az élelmiszer képre!</string>
+    <string name="tutorial_trading_05">Nem. Mondtam, hogy az élelmiszer képre koppintson, ami a bal felső sarokban van, taknyos.</string>
+    <string name="tutorial_trading_06">Oké. Most koppintson rá újra.</string>
+    <string name="tutorial_trading_07">Most meg kell adnia a mennyiséget, hogy mennyit szeretne belőle vásárolni. Noha ez csak egy szimuláció és valójában semmi nem kerül majd be a raktérbe, azért ne vigyük túlzásba. Írjon be 1-t, majd nyomja meg az OK-t.</string>
+    <string name="tutorial_trading_08">Nem tudom, hogy lehet még ezt is elrontani. Erre csak egy ilyen húsos fejű mutáns lehet képes, mint maga. Írjon be végre egy 1-est! Az az a szám, ami az első oszlop harmadik sorában van. Utána nyomja meg az OK-t, az pedig a harmadik oszlop, a negyedik sorában lévő gomb. Érthető?</string>
+    <string name="tutorial_trading_09">Jó. Most vásárolt 1 tonna élelmiszert, az egyenlege pedig csökkent az élelmiszer árával. Most nyissa meg a "Raktér" képernyőt és nézze meg, hogyan jelenik meg ott az 1 tonna élelmiszer.</string>
+    <string name="tutorial_trading_10">Látja? A képernyő alján az is látszik, hogy kevesebb lett a hely. A Kobra Mk III kezdeti raktér kapacitása 20 tonna, de remélem, hamarosan bővíti majd. És mi a helyzet az eladással? Az eladáshoz menjen a raktér képernyőre és koppintson kétszer az eladni kívánt árucikkre. Ugye milyen egyszerű? Gyerünk, csinálja!</string>
+    <string name="tutorial_trading_11">Ez az. Most eladta az élelmiszert. De mi az? Nézze csak! Kevesebb lett a pénze, mint kezdetben volt. Ugyanis az eladásnak van egy alapdíja, amit egyből le is vonnak az eladási árból. Szóval jobb, ha odafigyel, hogy magasabb áron adja el árut, mint amennyiért vette. Ne aggódon, kölyök, ez csak egy szimuláció, valójában semmit sem vettünk le a számlájáról. Na, mindent megértett? - Nem hiszem. Menjen és gondolkodjon el a ma hallottakról és jelentkezzen majd, ha újra alkalmas lesz a tanulásra.</string>
+
+    <string name="tutorial_equipment_00">Máris itt van? A maga kedvéért a mai lecke rövid és egyszerű lesz. </string>
+    <string name="tutorial_equipment_01">Először is menjen a "Felszerelés" képernyőre.</string>
+    <string name="tutorial_equipment_02">Nem. Mondom a "Felszerelés" képernyőre.</string>
+    <string name="tutorial_equipment_03">Ez az, itt vagyunk. Ez is ugyanúgy működik, mint a "Vásárlás" képernyő: Ha egyszer koppint rá a felszerelésre, információt kap róla, ha még egyszer, fel is szerelik a hajójára, feltéve, hogy van rá elég pénze. Leengedtem a hajóból az üzemanyagot, hogy gyakorolni tudjon. Na, gyerünk, vegyen üzemanyagot!</string>
+    <string name="tutorial_equipment_04">Üzemanyag, kopasz, üzemanyag! Az a bal felső ikon. Koppintson rá kétszer! Mit nem ért ezen? Bonyolult?</string>
+    <string name="tutorial_equipment_05">Hű, le vagyok nyűgözve. Sikerült feltöltenie a hajót, ez igen! Ha akarja, koppintson rá még a többi ikonra is. A kiképzés holnap folytatódik, most más dolgom van. Egy csodálatos - ööö - hajógyárba kell mennem.</string>
+
+    <string name="tutorial_navigation_00">Csodálatos ez a reggel, nem? Csomó dolgunk van mára, úgyhogy törölje ki a csipát a szeméből és figyeljen! Korábban már látta a "Galaxis" képernyőt, ma erről fogok újabb dolgokat elmondani. Először is nyissa meg a képernyőt.</string>
+    <string name="tutorial_navigation_01">A fehér kereszt, amit lát, az aktuális helyzetet jelzi. A körülötte lévő piros kör mutatja, hogy mekkora távolságot lehet megtenni a hajóban lévő üzemanyaggal. A nagyításhoz tegye két ujját a képernyőre és távolítsa el őket egymástól. Addig távolítsa, amíg meg nem jelennek a bolygó nevek.</string>
+    <string name="tutorial_navigation_02">Most nyomja meg a "Vissza" gombot.</string>
+    <string name="tutorial_navigation_03">Látta hogyan ment vissza a térkép az aktuális helyzetre? Ez segít az olyan újoncoknak, mint maga, hogy ne vesszenek el olyan könnyen... Észrevette, hogy a bolygók különböző színnel vannak jelölve? Ezek a színek jelzik a bolygó gazdasági jellegét, a szürkével jelzett fejletlen mezőgazdasági jellegűtől a kék színű fejlett ipari jellegig. Bár, ha ezt elfelejtené, át tud váltani a "Bolygó" képernyőre, ahol további információkat kap a kiválasztott bolygóról. Ezt most tegye is meg.</string>
+    <string name="tutorial_navigation_04">Nem. Mondtam, hogy a "Bolygó" képernyőre váltson át, taknyos.</string>
+    <string name="tutorial_navigation_05">Itt, a "Bolygó" képernyőn, láthat minden fontos információt a bolygóról. A nevét, a gazdasági jellegét, a kormányzás módját és a fejlettségi szintjét, ami megmutatja, hogy milyen felszereléseket lehet ott vásárolni. Információt kap a bolygó életformájáról is. A sikeres kereskedés érdekében ajánlom, hogy az erről szóló leírást figyelmesen olvassa majd el. Akkor tisztában lesz majd pl. egy olyan alapvető dologgal, hogy ne ingerelje fel a macskaféléket azzal, hogy nem elég testszagú. Nem mintha azt gondolnám, ezzel problémái lesznek majd, kopasz.</string>
+    <string name="tutorial_navigation_06">Most, hogy mindent tud már a bolygóról, váltson át a "Környék" képernyőre.</string>
+    <string name="tutorial_navigation_07">Nem. Mondom a "Környék" képernyőre váltson át, taknyos. Próbálja meg újra.</string>
+    <string name="tutorial_navigation_08">A "Környék" képernyő ugyanaz, mint a "Galaxis" képernyő, de ezen csak az aktuális helyzet körüli, környékbeli rész jelenik meg. Ha akarja, kicsinyítheti is, ehhez tartsa két ujját a képernyőn és közelítse őket egymáshoz. Most próbálja is ki.</string>
+    <string name="tutorial_navigation_09">Jó. Most már mindet tud a navigációról. Vagyis majdnem: ne felejtse el, hogy ha kiválaszt egy bolygót, akkor az lesz a megadott cél bolygó. Ha kilövés után bekapcsolja a hiperhajtóművet, ehhez a bolygóhoz fog érkezni, hacsak nem fut bele ugrás közben Thargoidokba.</string>
+    <string name="tutorial_navigation_10">Most megijedt, mi, kopasz? Jól is teszi. A pilóta élet nehéz, veszélyes és aligha kifizetődő. Persze ritka helyekre is eljuthatunk, ha a hajónk irányításának mesterévé válunk és túléljük a támadásokat. Mit gondol, megvan magában ez a képesség? Hamarosan megtudjuk: a következő leckével megkezdjük a repülési gyakorlatokat. Addig is gondolkodjon, hogy valóban ez az, amit akar. Ha nem, bármikor kiszállhat. Ne aggódjon, megőrzöm a titkát, egy léleknek sem fogok beszélni a félelmeiről, megbízhat bennem.</string>
+
+    <string name="tutorial_hud_00">Újra itt, 'Parancsnok'? Na, milyen érzés egy Kobra pilótafülkéjében lenni?</string>
+    <string name="tutorial_hud_01">Ne aggódjon újonc, most a Lave űrállomás körüli biztonsági zónában van, itt senki sem fogja megtámadni.</string>
+    <string name="tutorial_hud_02">A biztonsági zóna egy olyan űrállomás körüli rész, ahol a rendőrségi Viperák vigyáznak magára.</string>
+    <string name="tutorial_hud_03">A biztonsági zóna elérését a radar jobb alsó sarkában megjelenő nagy S betű jelzi.</string>
+    <string name="tutorial_hud_04">Szóval lazítson és élvezze a maga elé táruló Lave látványát. Hát nem gyönyörű?</string>
+    <string name="tutorial_hud_05">Ha körül akar nézni, váltson át a hajó jobb, hátsó vagy bal oldali kijelzőjére. A jobbra nézéshez</string>
+    <string name="tutorial_hud_05a">koppintson a radar jobb oldalára.</string>
+    <string name="tutorial_hud_05b">húzza az ujját jobbról balra a képernyőn.</string>
+    <string name="tutorial_hud_06">Miért nem próbálja ki?</string>
+    <string name="tutorial_hud_07">Nem. Jobbra nézzen! Emlékezzen: %s</string>
+    <string name="tutorial_hud_08">Ez az. Pont így. Láthatja, hogy a zöld jelzés a radar jobb oldali részén van: vagyis most jobbra néz. A hátra nézéshez %s</string>
+    <string name="tutorial_hud_08a">koppintson a radar alsó részére.</string>
+    <string name="tutorial_hud_08b">megint húzza az ujját jobbról balra a képernyőn.</string>
+    <string name="tutorial_hud_09">Gyerünk, próbálja ki!</string>
+    <string name="tutorial_hud_10">Nem. Hátra nézzen! Emlékezzen: %s</string>
+    <string name="tutorial_hud_10a">koppintson a radar alsó részére.</string>
+    <string name="tutorial_hud_11">Jó. Most a Lave körüli pályán keringő Coriolis Űrállomást látja. Ide kell majd bedokkolnia, de ez majd egy későbbi lecke lesz.</string>
+    <string name="tutorial_hud_12">Balra is tud nézni. Feltételezem, már magától is kitalálja, hogy ehhez mit kell tennie, ugye? Csinálja, nézzen balra!</string>
+    <string name="tutorial_hud_13">Nem. A balra nézéshez %s</string>
+    <string name="tutorial_hud_13a">koppintson a radar bal oldali részére.</string>
+    <string name="tutorial_hud_13b">megint húzza az ujját jobbról balra a képernyőn.</string>
+    <string name="tutorial_hud_14">Jó, most már körbe tud nézni. A zöld terület jelzi a radaron, hogy milyen irányba néz éppen, a lila jelzés pedig az űrállomás.</string>
+    <string name="tutorial_hud_15">Ez most majdnem a radar közepén van, ami azt jelenti, hogy nagyon közel van hozzá. Valójában az űrállomás egy kicsit maga mögött van. Még pontosabban láthatja, ha növeli a radaron a nagyítást.</string>
+    <string name="tutorial_hud_16">Ehhez %s</string>
+    <string name="tutorial_hud_16a">koppintson a radaron a zöld területre.</string>
+    <string name="tutorial_hud_16b">koppintson a radarra.</string>
+    <string name="tutorial_hud_17">Rendben. Még tovább növelheti a nagyítást, ha újra rákoppint. Ha még egyszer rákoppint, a nagyítás visszaáll a normál szintre.</string>
+    <string name="tutorial_hud_18">A következő alkalommal visszatérünk még a radarra, de most nézzük meg a radar mellett látható eszközöket.</string>
+    <string name="tutorial_hud_19">Baloldalon vannak az első és a hátsó pajzsok állapotjelzői. </string>
+    <string name="tutorial_hud_20">Ha lemerülnek, a következő lézer találatoktól már sérül a hajótörzs. A sérülés mértékét a jobb alsó részen lévő, 1-től 4-ig számozott energiabankok jelzik.</string>
+    <string name="tutorial_hud_21">Ha az utolsó energia egység is elveszik, a Kobra megsemmisül, úgyhogy jobb, ha vigyáz a közelben lévő hajókkal, kölyök.</string>
+    <string name="tutorial_hud_22">A hátsó pajzs állapotjelzője alatt, bal kéz felől van az üzemanyag kijelző. Az üzemanyag csak a hiperugrásnál fogy és megmutatja, hogy milyen messzire tud még ugrani.</string>
+    <string name="tutorial_hud_23">A következő a kabin hőmérséklet mérő. Ha a naphoz megy üzemanyagot gyűjteni, jobb, ha folyamatosan figyeli ezt a kijelzőt, mert ha a kabin túlforrósodik, a Kobra felrobban.</string>
+    <string name="tutorial_hud_24">A következő a lézer hőmérséklet jelző. Ha túl sokat tüzel, a lézer túlforrósodik és várnia kell, amíg újra lehűl.</string>
+    <string name="tutorial_hud_25">Az alatt van a magasságmérő, ami a bolygó felszínétől való magasságát mutatja. Ne próbáljon idegen bolygóra leszállni, kölyök, mert azt a helyiek nem fogják jó néven venni.</string>
+    <string name="tutorial_hud_26">Végül, baloldalon, legalul vannak a rakéta visszajelzők. A Kobrán négy rakétakilövő nyílás van. Ha a nyílás üres, a nyílást jelző kör fekete.</string>
+    <string name="tutorial_hud_27">Ha a nyílásban van rakéta, a kör zöld, ha a rakéta élesítve van, sárga és pirosra vált, ha befogta a célt.</string>
+    <string name="tutorial_hud_28">A jobboldalon láthatja az aktuális sebességét, az elfordulását és a dőlését.</string>
+    <string name="tutorial_hud_29">Kíváncsi a képernyő felső részén levő négy gombra? Egyelőre nem nyomjuk meg őket, de elmondom, mit csinálnak:</string>
+    <string name="tutorial_hud_30">A bal felső gombbal lehet tüzelni a lézerrel. %s</string>
+    <string name="tutorial_hud_30a">Koppintson rá egyszer a tüzelés elkezdéséhez és még egyszer a befejezéséhez.</string>
+    <string name="tutorial_hud_30b">Koppintson rá egyszer a tüzeléshez.</string>
+    <string name="tutorial_hud_31">Természetesen ez csak akkor működik, ha az aktuális irányban fel van szerelve egy lézer.</string>
+    <string name="tutorial_hud_32">A másik baloldali gombbal lehet élesíteni a rakétákat. Bármilyen célpont is kerül a célkeresztbe, a rakéta befogja. Ekkor a rakéta egy újbóli koppontással kilőhető.</string>
+    <string name="tutorial_hud_33">A jobb felső gombbal lehet kapcsolatot teremteni az űrállomással. Itt választhatja ki a hiperugrás célbolygóját vagy ellenőrizheti a helyi piaci árakat.</string>
+    <string name="tutorial_hud_34">Természetesen, az űrből nem lehet eladni vagy vásárolni semmit, ehhez előbb be kell dokkolnia.</string>
+    <string name="tutorial_hud_35">A jobb alsó gomb megnyomásával a hipertérbe kerül, innen a kiválasztott célbolygó közelében jön csak ki, hacsak nem támadják meg közben Thargoidok, ami előfordulhat.</string>
+    <string name="tutorial_hud_36">Van pár bonyolult dolog, mi? Lefogadom, hogy ezeken még sokat fog rágódni. Hadd szálljak le most én, aztán pihenjen egy kicsit és akkor jöjjön majd csak vissza, ha már felkészült az újabb kiképzésre.</string>
+
+    <string name="tutorial_basic_flying_yellow_target">Sárga célpont</string>
+    <string name="tutorial_basic_flying_blue_target">Kék célpont</string>
+    <string name="tutorial_basic_flying_docking_buoy">Dokkoló bója</string>
+
+    <string name="tutorial_basic_flying_00">Jó reggelt, fiam, ma valódi repülés lesz, szóval jobb, ha figyel.</string>
+    <string name="tutorial_basic_flying_01">A radar vízszintes sávjai megmutatják, hogy az objektum milyen irányban van, a függőleges sávok pedig a hajóhoz viszonyított magassági különbségeket jelzik.</string>
+    <string name="tutorial_basic_flying_02">Bonyolultnak találja, újonc? Megmutatom:</string>
+    <string name="tutorial_basic_flying_03">Látja a két jelet a radaron? A sárga célpont maga előtt van balra, a hajónál feljebb.</string>
+    <string name="tutorial_basic_flying_04">A kék célpont a háta mögött van jobbra, a hajónál lejjebb.</string>
+    <string name="tutorial_basic_flying_05">Várjon, van még más is. Észrevette már a kisebb radart a fő radartól jobbra?</string>
+    <string name="tutorial_basic_flying_06">A biztonsági zónán belül a kis radar mutatja az űrállomás pozícióját.</string>
+    <string name="tutorial_basic_flying_07">Ha a radaron lévő pont piros, akkor az állomás maga előtt van, ha zöld, akkor mögötte.</string>
+    <string name="tutorial_basic_flying_08">A biztonsági zónán kívül a pont a bolygót jelöli. A piros azt jelzi, hogy a bolygó maga előtt van, a zöld azt, hogy mögötte.</string>
+    <string name="tutorial_basic_flying_09">De miért nem próbálja meg elé hozni a kék célpontot? Közben azt is látni fogja, hogyan változik a kisebb radar jelzése.</string>
+    <string name="tutorial_basic_flying_10">Most kezelje maga a Kobra elfordulását és dőlését. A dőlés irányításához %s</string>
+    <string name="tutorial_basic_flying_10a">döntse maga felé a képernyőt, ha felfelé, és magától el, ha lefelé akar menni.</string>
+    <string name="tutorial_basic_flying_10b">koppintson a vezérlő gyűrű felső részére, ha lefelé, és az alsó részére, ha felfelé akar menni.</string>
+    <string name="tutorial_basic_flying_10c">koppintson a felfelé mutató nyílra, ha lefelé, és a lefelé mutató nyílra, ha felfelé akar menni.</string>
+    <string name="tutorial_basic_flying_11">Az elfordulás irányításához %s</string>
+    <string name="tutorial_basic_flying_11a">döntse balra a képernyőt, ha balra, és jobbra, ha jobbra akar elfordulni.</string>
+    <string name="tutorial_basic_flying_11b">koppintson a vezérlő gyűrű bal oldalán, ha balra, és a jobb oldalán, ha jobbra akar elfordulni.</string>
+    <string name="tutorial_basic_flying_11c">koppintson a balra mutató nyílra, ha balra, és a jobbra mutató nyílra, ha jobbra akar elfordulni.</string>
+    <string name="tutorial_basic_flying_12">Készen áll a Kobra irányítására? Próbálja meg maga elé hozni a kék célpont a célkeresztbe!</string>
+    <string name="tutorial_basic_flying_13">Nem is rossz egy újonctól! Sokat kell még gyakorolnia az irányítást, de ez elengedhetetlen a túléléshez, taknyos.</string>
+    <string name="tutorial_basic_flying_14">Miért nem próbálja meg elé hozni a sárga célpontot?</string>
+    <string name="tutorial_basic_flying_15">Oké, azt hiszem, érti már, hogy működik a dolog. Most menjen közelebb a sárga célponthoz!</string>
+    <string name="tutorial_basic_flying_16">A sebesség növeléséhez húzza az ujját felfelé a képernyőn. A csökkentéséhez lefelé.</string>
+    <string name="tutorial_basic_flying_17">Ha rákoppint célpontra, a számítógép azonosítja a célpontot.</string>
+    <string name="tutorial_basic_flying_18">Gyerünk, repüljön egy kicsit közelebb!</string>
+    <string name="tutorial_basic_flying_19">Jó, így elég lesz. Most jön a célzás gyakorlása.</string>
+    <string name="tutorial_basic_flying_20">Ne aggódjon, lézer szimulációt használunk, senkiben nem fog kárt tenni.</string>
+    <string name="tutorial_basic_flying_21">Semmisítse meg a maga előtt lévő célpontot. Ez is csak a szimuláció része lesz. A lézer bekapcsolásához nyomja meg a bal felső sarokban lévő gombot.</string>
+    <string name="tutorial_basic_flying_22">Jól van, Parancsnok!</string>
+    <string name="tutorial_basic_flying_23">És most a másik jön, menjen közelebb a kék célponthoz!</string>
+    <string name="tutorial_basic_flying_24">Jó, már elég közel van. Most nyomja meg egyszer a rakéta gombot a baloldalon a rakéta élesítéséhez.</string>
+    <string name="tutorial_basic_flying_25">Hozza a kék célpontot a célkeresztbe, ekkor a rakéta kijelző pirosra vált.</string>
+    <string name="tutorial_basic_flying_26">Akkor nyomja meg újra a rakéta gombot.</string>
+    <string name="tutorial_basic_flying_27">Szép lövés, Parancsnok!</string>
+    <string name="tutorial_basic_flying_28">Most már visszatérhetünk az űrállomásra, nem?</string>
+    <string name="tutorial_basic_flying_29">Ne feledje, az űrállomás leszálló pályája mindig a bolygó felé néz.</string>
+    <string name="tutorial_basic_flying_30">Tehát először a bolygó és az űrállomás közötti képzeletbeli ponthoz kell repülnie, onnan kell majd megközelítenie az leszálló pályát.</string>
+    <string name="tutorial_basic_flying_31">Nyugi, segítek. Látja a megjelent piros célpontot? Közelítse meg.</string>
+    <string name="tutorial_basic_flying_32">Jó, most forduljon az űrállomás felé.</string>
+    <string name="tutorial_basic_flying_33">Már csak le kell szállnia. A leszálló nyílást tartsa mindig vízszintesen és óvatosan közelítse meg az állomást.</string>
+    <string name="tutorial_basic_flying_34">Ma ez az utolsó dolog, amire megtanítom. Ha ezt sikerül megcsinálnia, akkor már hivatalosan is parancsnoknak nevezheti magát. Sok sikert, taknyos!</string>
+
+    <string name="tutorial_advanced_flying_00">Üdvözlöm újra itt, parancsnok! Szép landolás volt, büszke vagyok magára.</string>
+    <string name="tutorial_advanced_flying_01">Most már készen áll a komolyabb irányítási feladatokra is, ehhez ki kell repülünk az űrbe.</string>
+    <string name="tutorial_advanced_flying_02">Miután aktiválja a hiperhajtóművet, az űrszimuláció Lave-től egy kicsit távolabb viszi. Csinálja, aktiválja a hiperhajtóművet!</string>
+    <string name="tutorial_advanced_flying_03">Most tisztán látszik, hogy Lave-től távolabb, a biztonsági zónán kívül van.</string>
+    <string name="tutorial_advanced_flying_04">Ahhoz, hogy elérje a Lave űrállomást, a bolygó felé kell repülnie. Hozza maga elé a kört a kis radaron. Tudja, a piros kör jelzi, ha a bolygó maga előtt van.</string>
+    <string name="tutorial_advanced_flying_05">Jó. Most gyorsítson fel a maximális sebességre, ehhez húzza az ujját felfelé a képernyőn.</string>
+    <string name="tutorial_advanced_flying_06">Rendben. Ilyen sebességgel soha nem érne oda. Észrevette, hogy a maximális sebesség beállításával megjelent egy új gomb?</string>
+    <string name="tutorial_advanced_flying_07">Ez a gyorsító rakéta aktiváló gombja.</string>
+    <string name="tutorial_advanced_flying_08">Ez csak akkor működik, ha maximális sebességgel repül és nincs más űrhajó a közelben. Próbálja ki, aktiválja a gyorsító rakétát!</string>
+    <string name="tutorial_advanced_flying_09">Hű, ez gyors volt, mi? De miért álltunk le?</string>
+    <string name="tutorial_advanced_flying_10">A gyorsító rakéta rendszerint akkor áll le, ha túl közel van egy bolygóhoz vagy egy csillaghoz, vagy ha egy ellenséges hajó tűnik fel, ami csak arra vár, hogy lelőhesse magát.</string>
+    <string name="tutorial_advanced_flying_11">De ebben a szimulációban most én kapcsoltam ki a gyorsító rakétát.</string>
+    <string name="tutorial_advanced_flying_12">És most a harcon a sor. Hamarosan megjelenik egy ellenséges hajó és azt akarom, hogy semmisítse meg.</string>
+    <string name="tutorial_advanced_flying_13">Támadni fog, de ez egy viszonylag gyenge és lassú Vipera lesz. Bár még így is van egy halvány esélye, hogy lelője magát.</string>
+    <string name="tutorial_advanced_flying_14">Ha így lenne, akkor ma este maga fizeti az italokat és holnap újrapróbáljuk.</string>
+    <string name="tutorial_advanced_flying_15">Készen áll? Rendben. Gyerünk!</string>
+    <string name="tutorial_advanced_flying_17">Ha-ha, nem is rossz... megsemmisítette a Viperát és az kidobott pár áru konténert. A radaron ezek lilával vannak jelölve.</string>
+    <string name="tutorial_advanced_flying_18">Emlékszik? Ha rákoppint a képernyőn a célpontra, azt a fedélzeti számítógép azonosítja.</string>
+    <string name="tutorial_advanced_flying_19">A szimulációban a Kobra gyűjtő egységgel is fel van szerelve, így be tudja gyűjteni azokat az áru konténereket. Ha sikerül, bekerülnek a raktérbe.</string>
+    <string name="tutorial_advanced_flying_20">Ehhez úgy kell az áru konténert megközelíteni, hogy az a Kobra alsó részéhez kerüljön, ahová a gyűjtő egység fel van szerelve. Próbálja meg!</string>
+    <string name="tutorial_advanced_flying_22">Ó, ne! Megsemmisítette az áru konténert. Ne feledje, hogy a konténernek a Kobra alsó részéhez kell kerülnie.</string>
+    <string name="tutorial_advanced_flying_23">Kiváló megoldás, parancsnok.</string>
+    <string name="tutorial_advanced_flying_24">Ez minden, amire megtaníthatom. Utolsó gyakorlatként szálljon le a Lave űrállomásra. A továbbiakban már egyedül kell boldogulnia. Sok szerencsét hozzá, parancsnok.</string>
+
+    <string name="msg_cloaking_active">Álcázó berendezés bekapcsolva.</string>
+    <string name="msg_blue_danube_loading_error">A Kék Duna Keringő csak a fejedben szól.</string>
+    <string name="msg_game_over">Vége a játéknak</string>
+    <string name="msg_full_cargo">A raktér megtelt.</string>
+    <string name="msg_target_lost">A célpont eltűnt</string>
+    <string name="msg_altitude_low">Alacsony magasság</string>
+    <string name="msg_fuel_scoop_activated">A gyűjtő egység aktiválódott</string>
+    <string name="msg_mass_locked">Normál sebesség, nagy tömegű objektum a közelben.</string>
+    <string name="msg_missile_locked">A rakéta befogta &lt;js&gt;withArticle("%s")&lt;/js&gt; objektumot</string>
+
+    <string name="msg_pause_game">Az %s meg lett állítva (a folytatáshoz érintsd meg a képernyőt)...</string>
+    <string name="msg_pause_game_scrolling_info">%s v%s - Philipp Bouillon és Duane McDonnell. %s, %s és %s játszol és %d pontot szereztél.</string>
+    <plurals name="game_time_days">
+        <item quantity="other">%d napja</item>
+    </plurals>
+    <plurals name="game_time_hours">
+        <item quantity="other">%d órája</item>
+    </plurals>
+    <plurals name="game_time_minutes">
+        <item quantity="other">%d perce</item>
+    </plurals>
+
+    <string name="msg_hyperspace_jump_aborted">A hiperugrás megszakítva.</string>
+    <string name="msg_right_on_commander">Így tovább, Parancsnok.</string>
+    <string name="msg_good_shooting_commander">Szép lövés, Parancsnok!</string>
+    <string name="msg_ecm_jammer_active">Rakétaelhárító rendszer zavarás bekapcsolva</string>
+    <string name="msg_equipment_lost">%s megsemmisült.</string>
+
+    <string name="radar_zoom_x2">x2</string>
+    <string name="radar_zoom_x4">x4</string>
+
+    <string name="num_thousand">e</string>
+    <string name="num_million">M</string>
+    <string name="num_all">Mind</string>
+
+    <string name="medal_level">szint: %d</string>
+    <string name="medal_reached_threshold">Már elért szinthatár: %s</string>
+    <string name="medal_next_threshold">Következő szinthatár: %s</string>
+    <string name="medal_max_level">Legmagasabb szint elérve</string>
+
+    <string name="medal_career_man">Karrierista</string>
+    <string name="medal_career_man_desc">A Galaktikus Haditengerészet által nyilvántartott rang</string>
+    <string name="medal_run_up">Pontvadász</string>
+    <string name="medal_run_up_desc">A harcok során szerzett összes pontszám</string>
+    <string name="medal_addicted">Szenvedélyes játékos</string>
+    <string name="medal_addicted_desc">A játékkal eddig eltöltött napok száma</string>
+    <string name="medal_systematic">Rendszerető</string>
+    <string name="medal_systematic_desc">A játékkal megszakítás nélkül eltöltött napok száma</string>
+
+    <string name="medal_traveller">Utazó</string>
+    <string name="medal_traveller_desc">A bolygó látogatások száma</string>
+    <string name="medal_explorer">Felfedező</string>
+    <string name="medal_explorer_desc">A meglátogatott bolygók száma</string>
+    <string name="medal_home_coming">Hazatérő</string>
+    <string name="medal_home_coming_desc">A legtöbb látogatás száma ugyanazon a bolygón</string>
+    <string name="medal_returner">Visszajáró</string>
+    <string name="medal_returner_desc">Az utolsó látogatás óta eltelt napok száma</string>
+    <string name="medal_roaming">Barangoló</string>
+    <string name="medal_roaming_desc">Az összes bolygó meglátogatása a galaxisban</string>
+    <string name="medal_hidden_treasure_hunter">Kincskereső</string>
+    <string name="medal_hidden_treasure_hunter_desc">A meglátogatott 'elérhetetlen' bolygók száma</string>
+    <string name="medal_node_seeker">Csomópont kutató</string>
+    <string name="medal_node_seeker_desc">A legalább 15 bolygókapcsolattal rendelkező bolygólátogatások száma</string>
+    <string name="medal_anarchist">Anarchista</string>
+    <string name="medal_anarchist_desc">A meglátogatott anarchikus bolygók száma</string>
+    <string name="medal_galaxy_trotter">Galaxis-járó</string>
+    <string name="medal_galaxy_trotter_desc">A meglátogatott galaxisok száma</string>
+    <string name="medal_jetlag">Jet-lag</string>
+    <string name="medal_jetlag_desc">A hiperugrások száma</string>
+    <string name="medal_multi_cultural">Multikulturális</string>
+    <string name="medal_multi_cultural_desc">A különféle fajokkal való találkozások száma</string>
+    <string name="medal_marathoner">Maratoni futó</string>
+    <string name="medal_marathoner_desc">A megtett út fényévben</string>
+    <string name="medal_approacher">Megközelítő</string>
+    <string name="medal_approacher_desc">Az utolsó dokkolás óta leszálló egység vagy segítség nékül történt dokkolások száma</string>
+
+    <string name="medal_trader">Kereskedő</string>
+    <string name="medal_trader_desc">Az eladott áruk mennyisége tonnában</string>
+    <string name="medal_all_trader">Árus</string>
+    <string name="medal_all_trader_desc">Az eladott különféle árufajták száma</string>
+    <string name="medal_illegal_trader">Csempész</string>
+    <string name="medal_illegal_trader_desc">Kereskedés legalább egyszer minden fajta illegális áruval</string>
+    <string name="medal_salesman">Üzletember</string>
+    <string name="medal_salesman_desc">Egy termék eladásával elért legnagyobb haszon összege</string>
+    <string name="medal_loser">Vesztes</string>
+    <string name="medal_loser_desc">Egy termék eladásakor elszenvedett legnagyobb veszteség összege</string>
+    <string name="medal_millionaire">Milliomos</string>
+    <string name="medal_millionaire_desc">Az elért legnagyobb pénzmennyiség</string>
+    <string name="medal_collector">Gyűjtögető</string>
+    <string name="medal_collector_desc">A begyűjtött áruk mennyisége tonnában</string>
+    <string name="medal_miner">Bányász</string>
+    <string name="medal_miner_desc">Az aszteroidákból nyert érc mennyisége</string>
+    <string name="medal_slave_holder">Rabszolgatartó</string>
+    <string name="medal_slave_holder_desc">A begyűjtött mentőkapszulák mennyisége</string>
+    <string name="medal_fisherman">Halász</string>
+    <string name="medal_fisherman_desc">Az elfogott Thargon hajók mennyisége</string>
+    <string name="medal_littering">Szemetelő</string>
+    <string name="medal_littering_desc">A raktérből kidobott és újra fel nem vett áruk mennyisége</string>
+    <string name="medal_boulder_pulping">Sziklamorzsoló</string>
+    <string name="medal_boulder_pulping_desc">A megsemmisített aszteroidák száma</string>
+
+    <string name="medal_destroyer">Pusztító</string>
+    <string name="medal_destroyer_desc">A megsemmisített kalózhajók száma</string>
+    <string name="medal_insecticide">Rovarirtó</string>
+    <string name="medal_insecticide_desc">A megsemmisített Thargoid hajók száma</string>
+    <string name="medal_buggy">Bogaras</string>
+    <string name="medal_buggy_desc">A hipertérben megsemmisített Thargoid hajók száma</string>
+    <string name="medal_passionate">Szenvedélyes</string>
+    <string name="medal_passionate_desc">A megsemmisített Thargon hajók száma</string>
+    <string name="medal_nearsighted">Rövidlátó</string>
+    <string name="medal_nearsighted_desc">A megsemmisített nem ellenséges hajók száma</string>
+    <string name="medal_cop_killer">Rendőrgyilkos</string>
+    <string name="medal_cop_killer_desc">A megsemmisített rendőrségi Viperák száma</string>
+    <string name="medal_battering_ram">Faltörő kos</string>
+    <string name="medal_battering_ram_desc">Az ütközések során elnyelt energia mennyisége</string>
+    <string name="medal_mass_destruction">Tömegpusztító</string>
+    <string name="medal_mass_destruction_desc">Egy energiabombával megsemmisített hajókért kapott jutalom összege</string>
+    <string name="medal_rocket_launcher">Rakéta kilövő</string>
+    <string name="medal_rocket_launcher_desc">A rakétatalálatok száma</string>
+    <string name="medal_rocket_gambler">Rakéta játékos</string>
+    <string name="medal_rocket_gambler_desc">A rakétatalálatok száma rakétaelhárító rendszerrel felszeret hajók ellen, rakétaelhárító zavaró használata nélkül</string>
+    <string name="medal_jammer">Rakétaelhárító zavaró</string>
+    <string name="medal_jammer_desc">A rakétatalálatok száma rakétaelhárító rendszerrel felszeret hajók ellen, rakétaelhárító zavaró használatával</string>
+
+    <string name="medal_rocket_slaughterer">Rakéta mészáros</string>
+    <string name="medal_rocket_slaughterer_desc">Rakétaelhárító rendszerrel megsemmisített rakéták száma</string>
+    <string name="medal_golden_eye">Sasszem</string>
+    <string name="medal_golden_eye_desc">Lelőtt rakéták száma</string>
+    <string name="medal_survivor">Túlélő</string>
+    <string name="medal_survivor_desc">Fél bank alá csökkent energiaszintű állapotok száma</string>
+    <string name="medal_rocket_crasher">Rakétaütköző</string>
+    <string name="medal_rocket_crasher_desc">A hajót ért rakétatalálatok száma</string>
+    <string name="medal_cock_shot">Céltábla</string>
+    <string name="medal_cock_shot_desc">A hajót ért lézertalálatok energia mennyisége</string>
+    <string name="medal_blocker">Torlasz</string>
+    <string name="medal_blocker_desc">Az űrállomás leszálló pályája előtt lebegve az űrállomás védelmi rendszerei aktiválódnak</string>
+    <string name="medal_flincher">Hátráló</string>
+    <string name="medal_flincher_desc">Fékezőrakéták használatának száma</string>
+    <string name="medal_invisible_man">Láthatatlan ember</string>
+    <string name="medal_invisible_man_desc">Az álcázó berendezés használatának száma az ellenség lézerrel történő megsemmisítése közben</string>
+    <string name="medal_running_man">Menekülő ember</string>
+    <string name="medal_running_man_desc">A mentőkapszula használatának száma</string>
+
+    <string name="medal_gadget_lover">Kütyü kedvelő</string>
+    <string name="medal_gadget_lover_desc">A hajóra egyszerre felszerelt eszközök legnagyobb száma</string>
+    <string name="medal_mechanic">Szerelő</string>
+    <string name="medal_mechanic_desc">A galaktikus hiperhajtóművek megjavításának száma</string>
+    <string name="medal_fuel_efficient">Üzemanyag takarékos</string>
+    <string name="medal_fuel_efficient_desc">A napokból felvett üzemanyag mennyisége</string>
+
+    <string name="medal_missionary">Misszionárius</string>
+    <string name="medal_missionary_desc">A sikeresen teljesített küldetések száma</string>
+    <string name="medal_law_breaker">Törvényszegő</string>
+    <string name="medal_law_breaker_desc">A bűnügyi besorolás büntetlenről szabálysértőre, bűnözőre, majd súlyos bűnözőre való romlása</string>
+    <string name="medal_recidivist">Visszaeső</string>
+    <string name="medal_recidivist_desc">Bűnözőből büntetlenre, majd újra bűnözővé válások száma</string>
+
+    <string name="medal_multiplexer">Mozi rajongó</string>
+    <string name="medal_multiplexer_desc">A kezdő videó teljes megnézése felirattal és felirat nélkül is</string>
+    <string name="medal_casting">Szereposztó</string>
+    <string name="medal_casting_desc">A játék névjegyében felsorolt készítők, közreműködők és a köszönet nyilvánítások végignézése</string>
+    <string name="medal_examinee">Vizsgázó</string>
+    <string name="medal_examinee_desc">A teljesített oktató anyagok száma</string>
+    <string name="medal_bookworm">Könyvmoly</string>
+    <string name="medal_bookworm_desc">A könyvtárban elolvasott témák száma</string>
+    <string name="medal_public_spirit">Közösségi típus</string>
+    <string name="medal_public_spirit_desc">A fórum oldal linkjére való kattintás a státusz képernyőn</string>
+    <string name="medal_interrupter">Megszakító</string>
+    <string name="medal_interrupter_desc">A játék repülés közben meg lett állítva az Alite logóra való kattintással és app váltással is</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <InlineImage name="energy_bomb"/>
+	  <p>Az energiabomba 7-es vagy annál magasabb technikai szintű bolygókon
+	  érhető el és csak egyszer használható. A fenti gomb segítségével
+	  aktiválható és nagyon kevés kivételtől eltekintve, elpusztít minden
+	  közelben lévő hajót, aszteroidát és rakétát.</p>
+	  <p>[b]Energiabomba leírása:[/b] A Medusa Pandora önmegsemmisítő
+	  energiabomba (7-es vagy annál magasabb technikai szintű bolygókon
+	  elérhető) 13-as szintű Megazon pusztításra képes taktikai fegyver.
+	  Hőhatása 9000 km sugarú. A Klaus-Kline laboratórumban fejlesztették ki,
+	  sokszereplős harcokban való bevetéshez. Használatához a
+	  &apos;kilövöd és elhúzol&apos; technikát javasolják.</p>
+    </Text>
+  </Content>
+</Page>

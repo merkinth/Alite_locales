@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A sziklákban pénz van, de ahhoz, hogy a legtöbbet lehessen kihozni
+      belőle, a Kobra hajót gyűjtő egységgel és MinReduc 15 bányász lézerrel
+      (vagy azzal egyenértékű típussal) kell felszerelni. A bányász lézerrel
+      a nagy aszteroidákat kisebb darabokra lehet szétrobbantani, a felvett
+      törmelék pedig ércként értékesíthető.</p>
+    </Text>
+    <Image name="asteroid">
+      <Text>
+        Az aszteroidák értékes fémeket tartalmazó, nagy kődarabok, amik
+        bányász lézerrel kibányászhatók. A lézer olyan méretű darabokra
+        bontja a sziklákat, amik a gyűjtő egységgel már felvehetők a
+        raktérbe. Mivel az aszteroidák kiszámíthatatlan mozgása veszélyt
+        jelent az űrhajókra, megsemmisítésükért kisebb jutalmat is fizetnek.
+      </Text>
+    </Image>
+  </Content>
+</Page>

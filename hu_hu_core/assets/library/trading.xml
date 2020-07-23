@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+	<Text>
+	  <p>A Kobra Mk. III-at elsősorban kereskedelmi hajónak tervezték, de
+	  egyesíti a kiváló harcászati képességeket és manőverezhetőséget a
+	  kereskedéshez fontos nagy (20 tonnás) raktérrel. Gyűjtő egységgel
+	  felszerelve képes az űrben lebegő törmelékek, konténerek, sziklák
+	  felvételére, ill. a raktérből konténerek kidobására.</p>
+         <p>A legtöbb űrállomáson nagyon egyszerű a kereskedési folyamat, ami
+	  gyors forgalmat tesz lehetővé az áruk és a hajók között. A behozatali
+	  és kiviteli díjak - amik egyes világokon magasak is lehetnek -
+	  automatikusan hozzáadódnak vagy levonódnak, az árak már ezek
+	  figyelembe vételével vannak feltüntetve. A Kobrában használt
+	  automatikus kereskedő rendszer nem teszi lehetővé egyedi kereskedelmi
+	  ügyletek megkötését.</p>
+	  <p>Vannak értékesebb idegen tárgyak, amikkel kereskedni lehet.
+	  Ez szerepel ugyan a lenti termékek felsorolásában, de ezekre a
+	  kereskedőknek egyedileg kell üzletet kötniük.</p>
+	  <p>Dokkolás után közvetlen kapcsolat épül fel a CorCom kereskedelmi
+	  rendszerrel, ami kérésre megmutatja a megvásárolható alap
+	  kereskedelmi termékek listáját.</p>
+	  <p>A rabszolgákat a galaktikus kereskedelemben tonnában mérik. Ez
+	  kissé különösnek tűnhet, de ebben benne van a hibernációt fenntartó
+	  rendszer is, ami életben tartja őket az űrutazások során. A
+	  rabszolga-kereskedelmet a Galaktikus Kormány egyszer majdnem
+	  felszámolta, de most újra visszatérőben van, a Galaktikus Rendőri
+	  Erők minden erőfeszítése ellenére.</p>
+	  <table>,[pb]Áru[/bp],[pb]Leírás[/bp],[r][pb]Átlagár (Cr)[/bp],[pb]Egység[/bp];
+		,Élelmiszer,Egyszerű bio termékek[c] lásd lejjebb,4.8,tonna;
+		,Textíliák,Feldolgozatlan szövetek,7.1,tonna;
+		,Radioaktív,Ércek és melléktermékek,22.8,tonna;
+		*,Rabszolgák,Általában emberek,14.7,tonna;
+		,Alkohol,A földönkívüli növényvilág egzotikus szeszes italai,28.6,tonna;
+		,Luxuscikkek,Parfümök[c] fűszerek[c] kávé,91.3,tonna;
+		*,Narkotikumok,Dohánytermékek[c] Arcturan óriásfű,161.1,tonna;
+		,Számítógépek,Intelligens gépek,83.1,tonna;
+		,Gépek,Gyári és mezőgazdasági gépek,56.9,tonna;
+		,Fémek,Ipari fémek,38.7,tonna;
+		*,Fegyverek,Kis-kaliberű kézifegyverek[c] oldalfegyverek[c] stb.,83.0,tonna;
+		,Prémek,Prémek[c] bőrök[c] Millennium Wompom szőrme,69.4,tonna;
+		,Ásványok,Finomítatlan kőzet nyomelemekkel,8.7,kg;
+		,Arany,,38.5,kg;
+		,Platina,,71.4,kg;
+		,Drágakövek,Drágakövek[c] ékszerek,19.4,g;
+		,Idegen áruk,Műtárgyak[c] fegyverek[c] stb.,44.7,tonna;
+		,Orvosi felszerelések,Tabletták[c] kenőcsök[c] fecskendők[c] stb.,96.5,tonna;
+	  </table>
+	  <p>* Ezek az áruk a Galaktikus Kormányzat szerint illegálisak, így
+	  ezekkel kockázatos a kereskedés.</p>
+	</Text>
+  </Content>
+</Page>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="equip_fuel">Üzemanyag (WS Thru-Space meghajtó)</string>
+	<string name="equip_missiles">Lance és Ferman rakéták</string>
+	<string name="equip_large_cargo_bay">Tengerész 35t raktér bővítő</string>
+	<string name="equip_ecm_system">Interspace Heavy Element rakétaelhárító rendszer</string>
+	<string name="equip_pulse_laser">Ingram 1919A4 impulzus lézer</string>
+	<string name="equip_beam_laser">Ingram M1928A2 sugár lézer</string>
+	<string name="equip_fuel_scoop">Deep Space ReAqx gyűjtő egység</string>
+	<string name="equip_escape_capsule">Xeesian FastJet LSC mentőkapszula</string>
+	<string name="equip_energy_bomb">Medusa Pandora energia bomba</string>
+	<string name="equip_extra_energy_unit">Zieman extra energia egység</string>
+	<string name="equip_docking_computer">SinCorn RemLock automata leszálló egység</string>
+	<string name="equip_galactic_hyperdrive">Xexor/Hikan galaktikus hiperhajtómű</string>
+	<string name="equip_mining_laser">Kruger ARM64 Sp. bányász lézer</string>
+	<string name="equip_military_laser">LF90 katonai lézer</string>
+	<string name="equip_retro_rockets">Xasar ion fékezőrakéták</string>
+	<string name="equip_naval_energy_unit">Katonai energia egység</string>
+	<string name="equip_cloaking_device">Álcázó berendezés</string>
+	<string name="equip_ecm_jammer">Rakétaelhárító rendszer zavaró</string>
+
+	<string name="equip_short_fuel">Üzemanyag</string>
+	<string name="equip_short_missiles">Rakéták</string>
+	<string name="equip_short_large_cargo_bay">Raktér bővítő</string>
+	<string name="equip_short_ecm_system">Rakétaelhárító rendszer</string>
+	<string name="equip_short_pulse_laser">Impulzus lézer</string>
+	<string name="equip_short_beam_laser">Sugár lézer</string>
+	<string name="equip_short_fuel_scoop">Gyűjtő egység</string>
+	<string name="equip_short_escape_capsule">Mentőkapszula</string>
+	<string name="equip_short_energy_bomb">Energia bomba</string>
+	<string name="equip_short_extra_energy_unit">Extra energia egység</string>
+	<string name="equip_short_docking_computer">Automata leszálló egység</string>
+	<string name="equip_short_galactic_hyperdrive">Galaktikus hiperhajtómű</string>
+	<string name="equip_short_mining_laser">Bányász lézer</string>
+	<string name="equip_short_military_laser">Katonai lézer</string>
+	<string name="equip_short_retro_rockets">Fékezőrakéták</string>
+	<string name="equip_short_naval_energy_unit">Katonai energia egység</string>
+	<string name="equip_short_cloaking_device">Álcázó berendezés</string>
+	<string name="equip_short_ecm_jammer">Rakétaelhárító zavaró</string>
+</resources>

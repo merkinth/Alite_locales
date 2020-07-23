@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_cobramkiii"/>
+	  <p>A Kobra Mk I nagyobb, népszerűbb verziója (az Mk II csak prototípus szintig jutott,
+	  mert a fejlesztést a hajótest tervezési hibája miatt abbahagyták; nem volt domború).
+	  A hajónak több különleges felszerelése is van, ilyenek az első és a hátsó
+	  Zieman-féle energia terelőpajzsok, valamint a négy felszerelhető Ingram impulzus lézer.
+	  A Kobrát leginkább azok a magányos farkas kereskedők kedvelik, akiknek olyan hajóra van szükségük,
+	  ami egyesíti a kiváló harci tulajdonságokat és a megfelelő méretű rakteret.</p>
+	  <table>
+		[o]Méretei:[/o],[o]180x41x90m[/o];
+		Teherbírása:,20 KT (Konténer tonna);
+		Fegyverzete:,Ingram lézer rendszer[c];
+		,Lance &amp; Ferman Kereső- és megsemmisítő rakétarendszer;
+		Végsebessége:,0.30 FMa (Fény Mach);
+		Gyártás kezdete:,3100 (Cowell &amp; MgRath Hajógyárak[c] Lave);
+		Legénység száma:,1 or 2;
+		Hajótest ellenállási tényező:,TJi 18;
+		Irányíthatóság:,8 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Kruger &apos;fénysebességű&apos; motorok;
+		,Irrikan ThruSpace hiperhajtómű;
+		Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="cobramkiii"/>
+  </Content>
+</Page>

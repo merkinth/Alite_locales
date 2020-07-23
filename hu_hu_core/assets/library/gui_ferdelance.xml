@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_ferdelance"/>
+	  <p>Ezt a Zorgon Petterson Csoport (Zee Pee Gee) által tervezett hajót
+	  a jómódú fejvadászok és a szabad kereskedelmi vállalatok kedvelik.
+	  Kifinomult jármű, amely egyaránt jól használható kereskedelemi,
+	  harcászati és szabadidős célokra is. A tágas hajótestet elsősorban a
+	  precíziós fegyverek, a védelmi- és navigációs berendezések foglalják
+	  el, a raktér rovására. A szálláskabinok tágasak, fényűzőek és az
+	  Owndirt Zrt. újrafeldolgozó berendezéseivel vannak felszerelve.
+	  Ezek a hajóban hosszabb, életvitelszerű létet biztosítanak, így
+	  lehetővé válik egy zsákmány kitartó üldözése is. A gyűjtő egység a
+	  széria felszerelés része, amely biztosítja a teljes önellátást.</p>
+	  <table>
+		[o]Méretei:[/o],[o]84x37x160m[/o];
+		Teherbírása:,2 KT (Konténer tonna);
+		Fegyverzete:,Ergan lézer rendszer[c];
+		,IFS kereső- és vadász rakéták;
+		Végsebessége:,0.30 FMa (Fény Mach);
+		Gyártás kezdete:,3100 Zorgon Petterson;
+		Legénység száma:,12;
+		Hajótest ellenállási tényező:,TJi 10;
+		Irányíthatóság:,5 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Titronix Intersun Ionic for LT;
+		Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="ferdelance"/>
+  </Content>
+</Page>

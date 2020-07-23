@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>Kereskedéssel itt lehet elérni a legnagyobb nyereségét, de a sírba
+      is itt lehet a leggyorsabban bekerülni. Az olyan világok körül, mint az
+      Onisou vagy a Xeesenri, távoli pályán hatalmas roncstelepek keringenek.
+      Ezek azoknak a tisztességes, ám harcászatilag felkészületlen
+      kereskedőknek a hajói, akik a kalózok áldozatává váltak.</p>
+      <p>Törvénytelen helyek ezek, amik többnyire úgy alakulnak ki, hogy a
+      telepeseknek kevés erőforráson kellene megosztozniuk, ami miatt a
+      családi klánok és szövetségek véget nem érő, véres leszámolásokba
+      keverednek egymással. Gyakrank kalózokat és zsoldosokat bérelnek fel
+      védelemre vagy a gyilkosságok elkövetésére. Azok, akik túlélik és a
+      harcokból vegerősödve kerülnek ki, adják a világ láthatatlan urait.
+      De van, amikor az irányítók olyan bűnözővé vált, eredetileg elit
+      kereskedők vagy harcosok, akik az óriási profit miatt választották
+      ezt az életmódot. Az anarchikus világok szívesen kereskednek
+      kábítószerekkel, rabszolgákkal, lőfegyverekkel és különleges
+      termékekkel, amikért jó árat fizetnek... már ha fizetnek érte.
+      Ezek a világok laza szövetséget alkotnak és kiterjedt, galaxisok
+      között átívelő, fekete piaci kereskedelmet folytatnak egymással.</p>
+      <p>Ezek a világok sokat fizetnek azokért az árukért, amiket nem tudnak
+      maguk előállítani, mert tudják, hogy a kereskedők elkerülik őket.
+      Saját termékeiket csak akkor tudják előállítani, ha hozzájutnak a
+      szükséges speciális, illegális anyagokhoz: fegyverekhez,
+      kábítószerekhez, lehallgató készülékekhez. Ezeknek az árucikkeknek a
+      kereskedelmével gyorsan meg lehet gazdagodni vagy gyorsan meg lehet
+      halni vagy legalább &apos;bűnöző&apos; bűnügyi státuszba kerülni.</p>
+    </Text>
+    <Image name="maesin" localized = "true"/>
+  </Content>
+</Page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A Kobra kereskedőhajó gyors, ennek ellenére szűk a fordulóköre,
+      bár teljes sebességnél egy kicsit nagyobb. Ideális harci hajó a
+      kisebb ellenséges csoportok ellen. Jó pár támadó hajóval szemben
+      sebesség fölényben van, de egy rakétát már nem tud lehagyni.
+      Forgással, gyorsítással, lassítással és elkerülő manőverekkel nagyon
+      hatékony a nagyobb, kevésbé jól irányítható támadókkal szemben. Egy
+      hirtelen lassítás és egy szűk, 180 fokos forduló után ismét maximális
+      sebességre gyorsulva, könnyen üldözőbe veszi az ellenséges erőket.</p>
+    </Text>
+    <Image name="combat">
+      <Text>
+      Fel kell készülnöd arra, hogy taktikailag túljárj az ellenségeid eszén,
+      mert a gyors reakcióidő önmagában nem mindig lesz elég.
+      </Text>
+    </Image>
+  </Content>
+</Page>

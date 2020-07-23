@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A Coriolis űrállomásra történő leszállás sosem egyszerű, hacsak
+      nincs a hajó felszerelve automatikus leszálló egységgel. A
+      Haditengerészet Képzési Kézikönyve a következő megoldásokat és
+      sorrendet javasolja a leszálláshoz.</p>
+      <p>Keresd meg a Coriolis űrállomást és közelítsd meg. Az űrállomások
+      bejárata mindig a bolygó felé néz. Repülj az állomás közelébe, majd
+      tovább a bolygó felé (folyamatosan figyelve a bolygó felszíntől való
+      magasságot). Egy félfordulat után a hajó már a bejárat felé néz majd.</p>
+      <p>A leszállás utolsó pillanataiban [b]egészen lassú sebességgel[/b]
+      közelíts. A hibás leszállás végzetes lehet, de lehet, hogy az alagút
+      falához érés még megúszható a pajzsok, esetleg a rakomány elvesztésével.
+      Kézi irányítással a Kobra forgását össze kell hangolni az űrállomás
+      forgásával (lásd az ábrákat). A bejárati alagút, amennyire csak
+      lehetséges, vízszintes legyen.</p>
+      <p>Ha a leszállás sikeres, a bejárat védőmezőjén keresztül lehet
+      haladni, a kikötés már automatikusan történik.</p>
+      <p>A leszállási protokoll, a bolygó körüli pályákra vonatkozó előírások
+      és még számos anyag elérhető a [i]Szövetségi Bolygó Hivatal[/i]
+      kiadásában megjelent [i]Galaktikus Együttműködés Pályarendszerek
+      Űrszabályzatában.[/i]</p>
+      <p>[b]A leszállás gyakorlása erősen ajánlott, még mielőtt
+      hiperugrással útnak indulnál egy másik bolygó felé.[/b]</p>
+    </Text>
+    <Image name="docking_1">
+      <Text>
+        Gyorsíts a Lave bolygó felé, majd lassíts és állj meg. Végül fordulj
+        az állomás felé.
+      </Text>
+    </Image>
+    <Image name="docking_2">
+      <Text>
+        Állítsd az állomást magad elé és lassan, a legvégén pedig egészen
+        lassan, közelítsd meg. Ha az állomás kikerülne a &apos;helyes&apos;
+        forgásból, igazíts úgy a hajó forgásán, hogy a bejárati alagút
+        vízszintes legyen.
+      </Text>
+    </Image>
+    <Image name="docking_3">
+      <Text>
+        Lassú sebességgel még az is túlélhető, ha a hajó hozzáér
+        az alagút falához, bár a pajzsok megsérülnek majd.
+      </Text>
+    </Image>
+  </Content>
+</Page>

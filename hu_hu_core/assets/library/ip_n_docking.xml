@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <InlineImage name="docking"/>
+	  <p>Minden 9-es vagy annál magasabb technikai szintű bolygón elérhető.
+	  Az automata leszálló egység a hajó repülés-irányító rendszeréhez
+	  kapcsolódik és lehetővé teszi a hajó automatikus leszállását. Az
+	  automatika a fenti gombbal kapcsolható be, újbóli megnyomásával az
+	  automatikus leszállási művelet megszakítható.</p>
+	  <p>Lehetőség van az automata leszálló egység &apos;gyors&apos;
+	  üzemmódban való működtetésére is. Így konfigurálva, a pilóta a
+	  leszállási folyamat idejére rövid álomba merül. Ha a pilóta bűnügyi
+	  státusza nem büntetlen, akkor a gép nem indítja el az altatást, mert
+	  így a rendőrségi Viperák esetleges támadása esetén a hajó védtelen
+	  maradna. Ebben az esetben az alapértelmezett &apos;lassú&apos;
+	  leszállási protokoll lép életbe.</p>
+	  <p>[b]Automata leszálló egység leírása:[/b] a SinCorn RemLock automata
+	  leszálló egység egy kifinomult és drága műszer. A MemnSomn modul
+	  gyorsított leszállási érzetet tud előidézni azáltal, hogy a manőver
+	  idejére a pilónál azonnali alvás kiváltására képes.</p>
+    </Text>
+  </Content>
+</Page>

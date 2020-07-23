@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="ecm"/>
+	  <p>A rakétaelhárító rendszer (ECM vagy szó szerint elektronikus
+      elhárító rendszer) a 2-es technikai szinttől kezdve kapható.
+      Tetszőleges számú alkalommal használható, ha van hozzá elegendő
+      energia. A fenti gombbal történő aktiválás hatására minden közelben
+      lévő rakétát megsemmisít. Vannak más ellenséges hajók, főként
+      kereskedő hajók, amik szintén használnak rakétaelhárító rendszert a
+      rájuk kilőtt rakéták ellen. Az űrállomások mindig fel vannak szerelve
+      ECM rendszerrel. A Kobra kijelzőjén egy nagy &apos;E&apos; jelenik meg,
+      ha a fedélzeti számítógép ECM jelet érzékel.</p>
+	  <p>[b]Rakétaelhárító rendszer (ECM) leírása:[/b] A mágneses-sugárzással
+      való &apos;eltörlést&apos; az ion-telítettség elméletére alapozva,
+      McDonnell és Bouillon fejlesztette ki az Orerve 359-en. Az elektronikus
+      elhárító rendszerek az InterSpac nehézelem por kis töltésű részecskéinek
+      sugárzási energiáját szabadítják fel, nukleáris fényáram láncokat hozva
+      létre.</p>
+    </Text>
+  </Content>
+</Page>

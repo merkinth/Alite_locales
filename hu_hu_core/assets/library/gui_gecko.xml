@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_gecko"/>
+	  <p>Robert Bream szabadalmazta, de csak a feltaláló halála után
+	  indult meg a gyártása, miután Ace és Faber az eredeti tervek alapján
+	  továbbfejlesztette. Később a tervket ellopták és sok &apos;házi&apos;
+	  műhely, nagy számban kezdte gyártani a hajót, sokféle egyedi
+	  variációban, ezzel védve magukat a vállalatok a perekkel szemben.
+	  Főként egypilótás harci járműként, jellemzően kalózok használják.</p>
+	  <table>
+		[o]Méretei:[/o],[o]132x24x81m[/o];
+		Teherbírása:,3 KT (Konténer tonna);
+		Fegyverzete:,Ingram 1919 A4 lézer[c];
+		,LM bombázó rakéta;
+		Végsebessége:,0.30 FMa (Fény Mach);
+		Gyártás kezdete:,2852 (Ace &amp; Faber HullWorks[c] Lerelace);
+		Legénység száma:,1 vagy 2;
+		Hajótest ellenállási tényező:,Tto 48-94;
+		Irányíthatóság:,7 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,BreamPulse Light XL;
+		Hipertér képesség:,Nem elérhető;
+      </table>
+    </Text>
+    <BackgroundImage name="gecko"/>
+  </Content>
+</Page>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="ipconsole"/>
+      <p>[pb]1[/bp] A védőpajzsokoknak két energiaforrása van, az első
+      és a hátsó.</p>
+      <p>[pb]2[/bp] A rakéta konzol mutatja, hogy hány rakéta van és azt,
+      hogy &apos;élesített&apos; (sárga), &apos;nem élesített&apos; (zöld)
+      vagy &apos;célzott és kilövésre kész&apos; (piros).</p>
+      <p>[pb]3[/bp] Az energiabankok gyorsan merülnek, ha a védőpajzsok erős
+      tűznek vannak kitéve. A lézerek vagy ECM rendszer használata szintén
+      meríti a bankokat. Az utolsó - negyedik - bank merülésekor a veszélyre
+      figyelmeztető hangot hallunk. Normál körülmények között, a bankok
+      automatikusan töltődnek az űrobjektumok által sugárzott részecskék
+      energiájának elnyelésével.</p>
+      <p>[pb]4[/bp] A lézer hőmérséklete a folyamatos tüzeléstől emelkedik.
+      Ha a központi burkolat túlmelegszik, a lézer ideiglenesen lekapcsol,
+      mielőtt a rendszer maradandóan károsodna.</p>
+      <p>[pb]5[/bp] A 3-dimenziós szkenner segítségével pontosan
+      meghatározható, hogy egy hajó felettünk vagy alattunk van-e, ezt a
+      függőleges sávok világosan megmutatják. Az is jól látszik rajta, ha
+      valami elöttünk, mögöttünk vagy hozzánk képest oldalt van.</p>
+    </Text>
+  </Content>
+</Page>

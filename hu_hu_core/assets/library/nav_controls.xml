@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>Fontos, hogy most még [b]ne[/b] nyomd meg a [ip]Kilövés[/pi] gombot
+      a navigációs sávon.</p>
+      <p>[pb]Galaktikus térkép.[/bp] Ez a térkép az összes ismert világot
+      megmutatja az adott galaxisban és jelzi a jelenlegi pozíciód
+      koordinátáit is. A kurzor segítségével lehet megtalálni a kedvező
+      kereskedelmi lehetőségeket nyújtó világokat.</p>
+      <p>A galaktikus térkép megjelenítéséhez válaszd a [ip]Galaxis[/pi]
+      gombot a navigációs sávon.</p>
+      <p>Koppints a kiválasztandó bolygóra, ekkor a kurzor arra áll majd
+      rá. A kicsinyítéshez és a nagyításhoz mozgasd a két ujjadat
+      egymás felé vagy távolítsd őket egymástól.</p>
+      <p>[pb]Bolygó információ.[/bp] Miután kiválasztottál egy bolygót a
+      galaktikus térképen, nyomd meg a [ip]Bolygó[/pi] gombot a
+      navigációs sávon, ami megjeleníti a kiválasztott bolygó adatait.</p>
+      <p>A Bolygó Regisztrációs Hivatal nem vállal felelősséget az adatok
+      pontosságért, de egy kereskedő ezek alapján már képet kaphat a
+      bolygóval történő kereskedelmi lehetőségekről. Megjelenik a bolygó
+      távolsága, a fő életforma, a mezőgazdasági és az ipari fejlettség
+      szintje egy 1-15 közötti skálán. A kormányzati forma, a vállalati
+      irányítástól az anarchiáig, erősen jelzi a bolygóval folytatott
+      kereskedelem veszélyességét.</p>
+      <p>A [ip]Galaxis[/pi] gombbal visszatérhetsz a térképhez és így
+      további bolygókról is kérhetsz információt.</p>
+      <p>A piros kör középpontja mutatja a hajó jelenlegi helyzetét és
+      jelzi, hogy az milyen távolságra tud ugrani a hipertérben az
+      aktuális üzemanyag mennyiséggel.</p>
+      <p>Koppits a [ip]Vissza[/pi] gombra, ha a kurzort vissza akarod
+      állítani a hajó pozíciójára.</p>
+      <p>[pb]Helyi navigációs térkép.[/bp] Ez a nagyfelbontású térkép
+      megmutatja a legközelebbi bolygókat ahhoz a világhoz, amin a hajó
+      épp be van dokkolva. Mivel a Kobra legfeljebb 7 fényév távolságban,
+      egyszeres hiperugrás végrehajtására képes, a cél bolygót
+      körültekintően kell megválasztani. A cél kijelölés és a bolygó
+      információ együttes használatával eldönthető az adott bolygóra
+      történő utazás veszélyessége vagy a sikeres kereskedés lehetősége.</p>
+      <p>Koppits a [ip]Környék[/pi] gombra a navigációs sávon a helyi
+      navigációs térkép megjelenítéséhez.</p>
+    </Text>
+    <Image name="planet_reorte" localized = "true">
+      <Text>
+        Ilyen egy bolygó jellemzőinek leírása. Akár a fejvadászat, akár a
+        kevésbé veszélyes kereskedelmi és védekező harcos formát választod,
+        a bolygók politikai és gazdasági berendezkedése befolyásolhatja az
+        útvonalat, amin keresztül a galaxisokat bejárod (lásd még a
+        Bolygóközi utazás és a Bolygóközi kereskedelem fejezeteket).
+      </Text>
+    </Image>
+  </Content>
+</Page>

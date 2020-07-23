@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A Világok Galaktikus Együttműködése egy igen összetett szövetség,
+      amelyben kétezret is meghaladó számú bolygó tartozik az Űrrendőrség
+      (GalCop) ellenőrzése alá. Egy ekkora rendőrségi szervezet létezése
+      legalább annyi veszélyt rejt magában, mint amennyire hasznos. A
+      szabványos rendőrségi hajó a Vipera GH osztályú impulzushajó, amely
+      nagyon gyors és jól manőverezhető. Ezek állandó készenlétben vannak
+      minden Coriolis és Dodekaéder űrállomáson, így [i]másodperceken
+      belül[/i] támadni tudják a kalózhajókat és a bűnözővé vált
+      kereskedőket. Ők nem tartóztatnak le senkit, hanem megsemmisítik a
+      hajót. Más-más célra külön rendőri részlegeket hoztak létre:
+      kábítószer-ellenes, szeszcsempészet-ellenes, ámokfutó lövöldöző
+      ellenes, rabszolgakereskedelem ellenes, stb. részlegek. Minden
+      részlegnek saját flottája van ezekből a nagyon gyors Viper járőrhajókból.</p>
+    </Text>
+    <Image name="viper_id">
+      <Text>
+        A rendőrségi Vipera egy nagyon jól manőverezhető, rövid hatótávolságú
+        &apos;vadász- és megsemmisítő hajó&apos;.
+      </Text>
+    </Image>
+    <Image name="mamba_id">
+      <Text>
+        Itt egy tiszta kép egy Mamba osztályú vadászgépről, ami a kalózok
+        válasza a rendőrségi Vipera hajóra. Gyors és jól manőverezhető, de
+        elég nagy ahhoz, hogy két bombázó rakétát és tíz tonna rakományt
+        szállítson.
+      </Text>
+    </Image>
+  </Content>
+</Page>

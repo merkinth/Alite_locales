@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_krait"/>
+	  <p>Kicsi, megbízható, egyszemélyes vadászgép, ami a Mamba szabványos
+	  változatának szabad piacon való megjelenése előtt általánosan
+	  elterjedt volt. Röviddel a Mamba fellendülés után, sok pilóta már újra
+	  a Krait-ot részesítette előnyben az utódjával, a Mambával szemben,
+	  a Mamba gyenge pajzsai miatt. Így a Krait még mindig mindenhol megtalálható.</p>
+	  <table>
+		[o]Méretei:[/o],[o]180x40x160m[/o];
+		Teherbírása:,10 KT (Konténer tonna);
+		Fegyverzete:,Ergon lézer rendszer;
+		Végsebessége:,0.30 FMa (Fény Mach);
+		Gyártás kezdete:,3027 (deLacy ShipWorks Inines);
+		Legénység száma:,1;
+		Hajótest ellenállási tényező:,TKo 19;
+		Irányíthatóság:,8 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,deLacy Spinlonic ZX 14;
+		Hipertér képesség:,Nincs;
+      </table>
+    </Text>
+    <BackgroundImage name="krait_gui"/>
+  </Content>
+</Page>

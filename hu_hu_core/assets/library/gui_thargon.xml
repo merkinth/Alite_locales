@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_thargon"/>
+      <p>Hiányzó adatok</p>
+      <table>
+        [o]Méretei:[/o],[o]46x10x43m[/o];
+        Teherbírása:,Ismeretlen;
+        Fegyverzete:,Ismeretlen;
+        Végsebessége:,Ismeretlen;
+        Gyártás kezdete:,Ismeretlen;
+        Legénység száma:,Ismeretlen;
+        Hajótest ellenállási tényező:,Ismeretlen;
+        Irányíthatóság:,Ismeretlen;
+        Meghajtó motorok:,Ismeretlen;
+        Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="thargon"/>
+  </Content>
+</Page>

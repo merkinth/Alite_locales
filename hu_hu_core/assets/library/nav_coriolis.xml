@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <p>A Galaktikus Együttműködés minden bolygójának van néhány bolygó
+	  körül keringő Coriolis űrállomása, különböző magasságokban. A
+	  Coriolis állomások &apos;semleges&apos; területek, amik az
+	  Űrrendőrség (GalCop) és a bolygó kormányának együttes irányítása
+	  alatt állnak.</p>
+	  <p>A fejlettebb világoknál a Coriolis állomásokat az új dodekaéder
+	  formájú (úgynevezett &apos;Dodo&apos; állomások) váltják fel. A
+	  Coriolis állomások hozzávetőlegesen hatszögletű lapokból épülnek
+	  fel és csak a bolygó felé futó függőleges tengelyük mentén forognak.
+	  Az állomás egyik oldala mindig a bolygó felé néz, ez az oldal az,
+	  amin a le- és felszállás elvégezhető.</p>
+	  <p>A Coriolis állomásokat a GASEC (Galaktikus Űrhajózási és
+	  Űrkutatási Központ) Laboratóriumaiban tervezték a Vetitice bolygón.
+	  Az elsőt a Lave körül állították bolygó körüli pályára 2752-ben.</p>
+	  <p>A Coriolis állomásokat erős védőpajzsok védik a kalóztámadások és
+	  a gyakorlatlan dokkolásokkal szemben, ezen kívül nagy rendőrségi
+	  Vipera harci flottája és számos nagyobb hajótípusa van. Az állomás
+	  belseje szabad terület, a belső oldalain kikötő- és utántöltő
+	  létesítmények, városok, kórházak, mezőgazdasági területek és a
+	  szabadidő eltöltésére alkalmas helyek vannak.</p>
+	  <p>Minden Coriolis állomás átmérője szabványosan 1 kilométer. 2000
+	  hajót tudnak egyszerre befogadni és nagymértékben hozzájárulnak a
+	  humanoid létformájú kolóniák fejlődéséhez.</p>
+    </Text>
+    <Image name="coriolis_station">
+      <Text>
+        Az űrállomások a bolygóközi kereskedelmi hajóknak és teherszállító
+        ingajáratoknak szolgálnak rakodó helyként. Ezen kívül szórakozást
+        és szálláslehetőséget is nyújtanak azoknak a pilótáknak, akik nem
+        akarnak vagy tudnak a bolygóra menni.
+      </Text>
+    </Image>
+  </Content>
+</Page>

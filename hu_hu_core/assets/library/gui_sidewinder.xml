@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_sidewinder"/>
+	  <p>Faulcon de Lacy tervezte és a Spalder és Starblaze vállalat
+	  Onrira körüli pályán lévő hajógyárban készült, a Galaktikus
+	  Haditengerészet számára. A specifikációja szerint többcélú, támogató hajó,
+	  főként légköri- és bolygó felszíni felderítése használják, de széles
+	  körben használt a városi harcászatban és a gyalogság légi támogatására.
+	  A kalózok pedig a sebessége és a nehéz elfoghatósága miatt kedvelik.
+	  Vannak térközi képességei, de hipertér ugrásra nem alkalmas, így más,
+	  ugrásra képes hajókkal kell átszállítani. A hajótest túl kicsi gyűjtő
+	  egység vagy egynél több rakétavető felszereléséhez.</p>
+	  <table>
+		[o]Méretei:[/o],[o]128x29x68m[/o];
+		Teherbírása:,Nincs;
+		Fegyverzete:,Dual 22-18 lézerek[c];
+		,Kereső rakéták;
+		Végsebessége:,0.37 FMa (Fény Mach);
+		Gyártás kezdete:,2982 (Onrira Orbital/spalder &amp; Starblaze);
+		Legénység száma:,1;
+		Hajótest ellenállási tényező:,Nincs adat;
+		Irányíthatóság:,9 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,de Lacy Spin Ionic MV;
+		Hipertér képesség:,Nincs;
+      </table>
+    </Text>
+    <BackgroundImage name="sidewinder"/>
+  </Content>
+</Page>

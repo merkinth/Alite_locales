@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_shuttle"/>
+	  <p>Ezeknek a fegyvertelen és gyakran pilóta nélküli hajóknak a gyártására
+	  minden bolygórendszernek van engedélye. A prototípus alapján a
+	  Saud-Kruger AstroDesign fejlesztette ki. A bolygó és űrállomás közötti
+	  teherfuvarozáshoz használhatók, de kórházi hajóknak vagy bolygó körüli
+	  pályán keringő börtönöknek is átalakíthatók. A kisszerű bűnözők kedvelt
+	  célpontja a rakományuk azonnali kidobása miatt. Gyakran fegyveres
+	  őrjárat kíséri.</p>
+	  <table>
+		[o]Méretei:[/o],[o]35x35x62m[/o];
+		Teherbírása:,60 KT (Konténer tonna);
+		Fegyverzete:,Nincs;
+		Végsebessége:,0.08 FMa (Fény Mach);
+		Gyártás kezdete:,2856 Saud-Kruger Astro Design;
+		Legénység száma:,6;
+		Hajótest ellenállási tényező:,TKo 28;
+		Irányíthatóság:,4 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,V &amp; K 20.20 StarMat meghajtó;
+		Hipertér képesség:,Nincs;
+      </table>
+    </Text>
+    <BackgroundImage name="shuttle"/>
+  </Content>
+</Page>

@@ -1,0 +1,146 @@
+{
+	"adder" = {
+		display_name = "Vipera";
+	};
+	"anaconda" = {
+		display_name = "Anakonda";
+	};
+	"asp_mk_ii" = {
+		display_name = "Asp Mk II";
+	};
+	"asteroid1" = {
+		display_name = "Aszteroida";
+	};
+	"asteroid2" = {
+		display_name = "Aszteroida";
+	};
+	"boa_class_cruiser" = {
+		display_name = "Boa-osztályú cirkáló";
+	};
+	"harken" = {
+		display_name = "Harken";
+	};
+	"bushmaster" = {
+		display_name = "Bushmaster";
+	};
+	"buoy" = {
+		display_name = "Bója";
+	};
+	"cargo_canister" = {
+		display_name = "Áru konténer";
+	};
+	"cobra_mk_i" = {
+		display_name = "Kobra Mk I";
+	};
+	"cobra_mk_iii" = {
+		display_name = "Kobra Mk III";
+	};
+	"constrictor" = {
+		display_name = "Constrictor";
+	};
+	"coral" = {
+		display_name = "Korall";
+	};
+	"coriolis_station" = {
+		display_name = "Coriolis Űrállomás";
+	};
+	"cottonmouth" = {
+		display_name = "Mokaszinkígyó";
+	};
+	"cougar" = {
+		display_name = "Puma";
+	};
+	"dodec_station" = {
+		display_name = "Dodekaéder Űrállomás";
+	};
+	"dugite" = {
+		display_name = "Barna kígyó";
+	};
+	"escape_capsule" = {
+		display_name = "Mentőkapszula";
+	};
+	"fer_de_lance" = {
+		display_name = "Lándzsakígyó";
+	};
+	"fer_de_lance_enemy" = {
+		display_name = "Lándzsakígyó Villám";
+	};
+	"gecko" = {
+		display_name = "Gekkó";
+	};
+	"gopher" = {
+		display_name = "Hörcsög";
+	};
+	"harlequin" = {
+		display_name = "Paprikajancsi";
+	};
+	"hognose" = {
+		display_name = "Disznóorrú";
+	};
+	"icosaeder_station" = {
+		display_name = "Ikozaéder Űrállomás";
+	};
+	"indigo" = {
+		display_name = "Indigó";
+	};
+	"krait" = {
+		display_name = "Krait";
+	};
+	"lancehead" = {
+		display_name = "Lándzsafej";
+	};
+	"lyre" = {
+		display_name = "Lant";
+	};
+	"mamba" = {
+		display_name = "Mamba";
+	};
+	"missile" = {
+		display_name = "Rakéta";
+	};
+	"moray_star_boat" = {
+		display_name = "Muréna Csillaghajó";
+	};
+	"mussurana" = {
+		display_name = "Fekete kígyó";
+	};
+	"platlet" = {
+		display_name = "Fémdarab";
+	};
+	"python" = {
+		display_name = "Piton";
+	};
+	"rattlesnake" = {
+		display_name = "Csörgőkígyó";
+	};
+	"rolfs_cobra" = {
+		display_name = "Rolf Kobra";
+	};
+	"sidewinder" = {
+		display_name = "Szarvas";
+	};
+	"thargoid" = {
+		display_name = "Thargoid";
+	};
+	"thargon" = {
+		display_name = "Thargon";
+	};
+	"tie_fighter" = {
+		display_name = "Tie vadász";
+	};
+	"transporter" = {
+		display_name = "Szállító";
+	};
+	"orbit_shuttle" = {
+		display_name = "Űrsikló";
+	};
+	"viper" = {
+		display_name = "Rendőrségi vipera";
+	};
+	"wolf_mk_ii" = {
+		display_name = "Farkas Mk II";
+	};
+	"yellowbelly" = {
+		display_name = "Sárgahasú";
+	};
+}

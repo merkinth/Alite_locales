@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="escape_capsule"/>
+	  <p>A mentőkapszula bármelyik 6-os vagy annál magasabb technikai szintű
+      világban beszereltethető a parancsnoki híd mellé. A fenti gomb
+      megnyomásával a mentőkapszula kilövődik a hajóból és automatikusan a
+      legközelebbi világ felé veszi az útját, biztonságban juttatva el a
+      pilótát a Coriolis űrállomásra. A készpénz megmarad, de a hajó
+      rakománya elveszik.</p>
+	  <p>Az eszköz a hajóra vonatkozó teljes kőrű biztosítást is magában
+      foglal, amely garantál egy új, az elveszettel megegyező felszereltségű
+      Kobra osztályú hajót. A rakomány nem része a biztosításak.</p>
+	  <p>Mivel a rendőrségi nyilvántartás alapjául szolgáló egyedi infravörös
+      azonosító a hajóhoz kötődik, a hajó ily módon való elhagyása a bűnügyi
+      nyilvántartás törlését is jelenti. Ezt a kiskaput a bűnözők ugyanúgy
+      kihasználják, mint a valódi áldozatok.</p>
+	  <p>Olykor ellenséges hajóból kilőtt mentőkapszulát is lehet látni.
+      Ez már nem árt senkinek, hacsak neki nem ütközik a hajó.</p>
+	  <p>[b]Mentőkapszula leírása:[/b] A javasolt modell a Xeeslan FastJet
+      LSC 7, amely 7 hétig tudja biztosítani két emberi létforma
+      életszükségleteit, mérsékelten lelassított állapotban.</p>
+    </Text>
+    <Image name="escaping">
+      <Text>
+        Ha az enegriapajzsok lemerülnek, az ellenséges rakéta- és
+        lézertalálatok közvetlenül az energiabankokat fogyaszják, amik a
+        kijelzőn 1, 2, 3, 4 számokkal vannak jelölve. A további támadások
+        a hajó felrobbanását okozhatják, a közelgő katasztrófára hang is
+        figyelmeztet. Ez a szerencsés parancsnok még éppen időben használta
+        a mentőkapszulát, a tönkrevert Kobra pedig elsodródik a távolba.
+      </Text>
+    </Image>
+  </Content>
+</Page>

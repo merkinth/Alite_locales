@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_thargoid"/>
+	  <p>Bár a Thargoid Űrflotta nagy részét jelenleg leköti a Galaktikus
+	  Haditengerészet az intergalaktikus térben, a kisebb csatahajók közül
+	  néhány, alkalmanként betör az emberi területekre. Ezek a hajók a
+	  méretükhöz képest rendkívül gyorsak és mindig fel vannak szerelve
+	  rakéta elhárító (ECM) rendszerrel. Az ECM eredetileg Thargoid találmány
+	  volt a haditengerészet rakétái ellen, később ezt másolta le a
+	  haditengerészet az elfogott Thargoid hajókból.</p>
+	  <p>Ezenkívül a legtöbb Thargoid csatahajó néhány kisméretű,
+	  távirányítású hajót is hordoz, ezek mindegyike impulzus lézerrel van
+	  felszerelve. A pletykák szerint a Galaktikus Haditengerészet már
+	  belekezdett a saját távirányítású vadászgépeinek tervezésébe és jól
+	  fizetnek a Thargoid-ok elfogott gépeiért, hogy tanulmányozni tudják
+	  őket.</p>
+	  <table>
+		[o]Méretei:[/o],[o]328x72x328m[/o];
+		Teherbírása:,Nincs;
+		Fegyverzete:,Nagyon változatos[c] a legtöbb rendszer felszerelhető rá;
+		Végsebessége:,0.30 FMa (Fény Mach);
+		Gyártás kezdete:,Bizonytalan;
+		Legénység száma:,150;
+		Hajótest ellenállási tényező:,Bizonytalan;
+		Irányíthatóság:,6 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Thargoid találmány;
+		Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="thargoid_gui"/>
+  </Content>
+</Page>

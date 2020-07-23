@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_moray"/>
+	  <p>Kezdetben tengeralattjárónak fejlesztették, de a Marine Trench
+	  vállalat hamar meglátta a lehetőséget arra, hogy a működését az űrre
+	  is kiterjesszék és a Muréna a zseniális átdolgozások befejeződésével
+	  &apos;Csillaghajóvá&apos; vált. A többcélú hajó fő felhasználási
+	  területe az idegen vízi fajok kutatása, mert a hajótest 5500 méteres
+	  mélységig képes ellenállni a víznyomásnak. Az alapfelszerelés
+	  tartalmazza a nagy teljesítményű tömítészárakat, 2 torpedó- és 1
+	  rakétakilövő csövet és az elárasztástól védett kabinokat, melyek
+	  lehetővé teszik a vízalatti életformát is.</p>
+	  <table>
+		[o]Méretei:[/o],[o]110x46x120m[/o];
+		Teherbírása:,7 KT (Konténer tonna);
+		Fegyverzete:,Geret Csillagkereső rakéta;
+		Végsebessége:,0.25 FMa (Fény Mach);
+		Gyártás kezdete:,3028;
+		Legénység száma:,6;
+		Hajótest ellenállási tényező:,TKo 24;
+		Irányíthatóság:,4 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Turbulan Quark újratöltő[c] 1287-es modell;
+		Hipertér képesség:,Van;
+      </table>
+    </Text>
+    <BackgroundImage name="moray"/>
+  </Content>
+</Page>

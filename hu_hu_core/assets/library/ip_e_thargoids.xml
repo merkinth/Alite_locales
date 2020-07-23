@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A Thargoidok az emberiség halálos ellenségei, a galaxisokban
+      legalább 50 háborús övezet van az emberiség és a Thargoidok között.
+      Ez a technológiailag rendkívül fejlett rovarszerű faj további 17
+      más életformával is harcban áll.</p>
+      <p>A Thargoid harcosok könyörtelenek a harcban és néhányuk tudása
+      összemérhető az elit státusú emberi pilótákéval.</p>
+      <p>Bár a Thargoid Űrflotta nagy részét jelenleg leköti a Galaktikus
+      Haditengerészet az intergalaktikus térben, de a kisebb csatahajók
+      emberi területeken való alkalmankénti megjelenése is puszító
+      támadásokat okoz. Ezek a hajók a méretükhöz képest rendkívül gyorsak
+      és mindig fel vannak szerelve rakéta elhárító (ECM) rendszerrel.</p>
+      <p>Ezenkívül a legtöbb Thargoid csatahajó néhány kisméretű,
+      távirányítású megsemmisítő hajót is hordoz (&apos;Thargon-ok&apos;).
+      Ezek mindegyike egy rendkívül fejlett impulzus lézerrel van felszerelve.
+      A Galaktikus Haditengerészet már fejleszti a saját, RemCraft névre
+      keresztelt, távirányítású gépeit és jól fizet minden elfogott Thargoid
+      hajóért, mert ezek tanulmányozása segíti a munkájukat.</p>
+      <p>(Megjegyzendő, hogy a Thargoid inváziós hajók megsemmisítéséért
+      magas jutalom jár. Úgy tudni, hogy a Thargoid csatahajók képesek
+      &apos;lebegni&apos; a hipertérben és elpusztítani az áthaladó hajókat.)</p>
+    </Text>
+    <Image name="thargoid">
+      <Text>
+        A Galaktikus Bank csinos összeget fizet egy Thargoid inváziós
+        hajó megsemmisítéséért. A legveszélyesebb ellenséged, a Thargoid,
+        a saját tűzerején túl, még távirányítású megsemmisítő hajók
+        (&apos;Thargon-ok&apos;) aktiválására is képes. Ha megsemmisíted a
+        8 oldalú anyahajót, a Thargonok már nem jelentenek veszélyt.
+      </Text>
+    </Image>
+  </Content>
+</Page>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+        <InlineImage name="sc_adder"/>
+		<p>Az ismeretlen helyen, engedély nélkül működő Outworld Workshops
+		vállalat gyártja, ami a Spalder és Prime Zrt.-ből vált ki.
+		Vipera-osztályú hajó, amire jellemző, hogy kettős atmoszférikus képessége van,
+		vagyis képes a bolygók felszínére is leszállni, amit a Pregg-féle összecsukható
+		szárnyrendszer tesz lehetővé. A csempészek által is gyakran használt típus.
+		Legfeljebb egy rakéta hordozására alkalmas.</p>
+		<table>
+			[o]Méretei:[/o],[o]70x18x105m[/o];
+			Teherbírása:,2 KT (Konténer tonna);
+			Fegyverzete:,Ingram 1928 AZ sugárlézer[c];
+			,Geret Csillagkereső rakéta;
+			Végsebessége:,0.24 FMa (Fény Mach);
+			Gyártás kezdete:,2914 (Outworld Workshop);
+			Legénység száma:,2;
+			Hajótest ellenállási tényező:,TKo 28;
+			Irányíthatóság:,4 KT (Kanyarodási Tényező);
+			Meghajtó motorok:,AM 18 dupla tolóerővel;
+			Hipertér képesség:,Van;
+        </table>
+    </Text>
+    <BackgroundImage name="adder"/>
+  </Content>
+</Page>

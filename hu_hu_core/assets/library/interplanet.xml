@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <p>A végtelen űrben egyáltalán nem minden hajó kalózhajó, de egy
+      támadásra a legtöbb hajó támadással válaszol. Ha rendőrségi hajót
+      támadsz vagy csempészáruval kereskedsz (lásd a Bolygóközi kereskedelem
+      fejezetet), a bűnügyi státuszod [b]Szabálysértőre[/b] vagy még
+      súlyosabbra változik. A kalózhajók, a Thargoid hajók és az aszteroidák
+      megsemmisítéséért viszont jutalom jár. Ha megtámadsz egy Coriolis
+      űrállomást, akkor az azt védő (Vipera osztályú) hadihajókkal találod
+      majd szemben magadat.</p>
+    </Text>
+    <Image name="viper">
+      <Text>
+      Itt tisztán látszik, ahogy a rendőrségi Vipera elhagyja a Coriolis
+      állomást, valószínűleg rutin őrjárati feladatot látva el.
+      </Text>
+    </Image>
+  </Content>
+</Page>

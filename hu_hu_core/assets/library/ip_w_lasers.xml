@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+	  <p>Kezdetben a hajóra csak egy előre tüzelő impulzus lézer van
+	  felszerelve. Hátrafelé vagy oldalra tüzelő fegyverek felszerelésére
+	  csak a szükséges pénz előteremtése után nyílik lehetőség, amit a harcok
+	  és kereskedelem útján lehet megszerezni. Addig ezekben a nézetekben -
+	  fegyver hiányában - nem látszik célkereszt sem. A későbbiekben nem
+	  csak további fegyverek felszerelésére lesz lehetőség, hanem a meglévő
+	  impulzus lézer nagyobb tűzerejű sugár lézerre cserélésére is.</p>
+	  <InlineImage name="fire"/>
+	  <p>A Kobra űrnavigációs vezérlőpultján a fent látható egyetlen tüzelő
+	  gomb van. Még egy több fegyverrel felszerelt hajón is csak egy lézerrel
+	  lehet egyidőben tüzelni. Ha a lézer túlmelegszik, a tüzelés leáll. A
+	  lézer pillanatnyi hőmérséklete a lézerhőmérséklet kijelzőn követhető
+	  nyomon.</p>
+	  <p>A lézer az űrharcosok legfőbb fegyvere.</p>
+	  <p>Az impulzus lézer a 3-as vagy annál magasabb, a sugárlézer a 4-es
+	  vagy annál magasabb technikai szintű bolygókon érhető el. Az impulzus
+	  lézer sugárlézerre cserélésekor a felszerelést követően az impulzus
+	  lézer árát visszatérítik.</p>
+	  <p>[b]Impulzus lézer leírása:[/b] Az Ingram 1919A4 impulzus lézer
+	  felszerelését javasolják minden irányba, de különösen a hátrafelé
+	  tüzeléshez hatékony. Energia ellátását a hajó fő meghajtójában lévő
+	  negatív energia bankok adják. Borítása kiváló minőségű Allutium-rost,
+	  edzett QuQuorian szilícium-dioxid béléssel. 1500-as fordulatszámmal
+	  képes lézernyalábok szakaszos kilövésére. A nyaláb képes átütni még
+	  egy 267 mm-es, magas olvadáspontú fémet is.</p>
+	  <p>[b]Sugárlézer leírása:[/b] Az Ingram M1928A2 típust [i]javasolják
+	  legfőképpen[/i] előre tüzelő lézernek. Ahogy a 1919A4-es impulzus
+	  lézernél, az energiát itt is a fő meghajtóval való összeköttetés
+	  biztosítja. Borítása edzett plexivel bélelt Allutium. A sugárlézerek
+	  folyamatosan tüzelő fegyverek, egyidőben akár 150 lézerszál kilövésére
+	  is képesek. Egy lövés akár egy 410 mm-es tömör fémet is keresztülvág.</p>
+	  <p>A katonai lézerek rendkívül hatékony fegyverek, de ennek ára van:
+	  tizenötször annyiba kerülnek, mint egy impulzus lézer és csak 10-es vagy
+	  annál magasabb technikai szintű bolygókon szerezhető be.</p>
+	  <p>A bányászati lézerekről a [b]Nem harcászati berendezések[/b] részben
+	  lehet olvasni.</p>
+	  <p>[b]Katonai lézer leírása:[/b] Hatótávolsága és áthatoló képessége
+	  kétszer hatékonyabb az Ingram M1928A2 típusú sugárlézernél. A Lance
+	  &amp; Ferman - amit eddig csak a rendkívül hatékony és viszonylag olcsó
+	  rakétarendszereiről ismertek - ezzel a fegyverrel lépett be a
+	  lézerpiacra, jelentős hatást gyakorolva arra. Az LF90 a legújabb,
+	  számítógép vezérlésű, x4SUSAT célzőberendezéssel ellátott modell.</p>
+    </Text>
+  </Content>
+</Page>

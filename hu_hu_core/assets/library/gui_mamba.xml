@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+  <Content>
+    <Text>
+      <InlineImage name="sc_mamba"/>
+	  <p>Vadászgép, ami az egyedi gyártású hajók közül nőtte ki magát.
+	  Elsősorban versenyzésre tervezték, de a kalózok felfegyverezték
+	  és használatba vették a gyorsaságának és a jó irányíthatóságának
+	  köszönhetően. A rakteret csak utólag alakították ki, amikor a
+	  (Reorte-i székhelyű) Raddlett és Rayburn hajógyár szabványosította
+	  a változatokat és nagy számban kezdte gyártani a hajót.</p>
+	  <table>
+		[o]Méretei:[/o],[o]140x25x118m[/o];
+		Teherbírása:,10 KT (Konténer tonna);
+		Fegyverzete:,Ergon lézer;
+		Végsebessége:,0.32 FMa (Fény Mach);
+		Gyártás kezdete:,3110 (Reorte Hajószövetség);
+		Legénység száma:,Ismeretlen;
+		Hajótest ellenállási tényező:,TKi 10;
+		Irányíthatóság:,9 KT (Kanyarodási Tényező);
+		Meghajtó motorok:,Seeklight HV Thrust;
+		Hipertér képesség:,Nincs;
+      </table>
+    </Text>
+    <BackgroundImage name="mamba"/>
+  </Content>
+</Page>
