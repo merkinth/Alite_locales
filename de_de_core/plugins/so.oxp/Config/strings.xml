@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="equip_fuel">Brennstoff (WS Durch-Raum Motor)</string>
+	<string name="equip_missiles">Lance Und Ferman Raketen</string>
+	<string name="equip_large_cargo_bay">Mariner 35t Laderaum</string>
+	<string name="equip_ecm_system">Intergalaktisches ECM System</string>
+	<string name="equip_pulse_laser">Ingram Modell 1919A4 Impulslaser</string>
+	<string name="equip_beam_laser">Ingram Modell M1928A2 Dauerlaser</string>
+	<string name="equip_fuel_scoop">Intergalaktischer ReAqx Brennstofflader</string>
+	<string name="equip_escape_capsule">Xeesianische TurboJet LSC Rettungskapsel</string>
+	<string name="equip_energy_bomb">Medusa-Pandora Energiebombe</string>
+	<string name="equip_extra_energy_unit">Zusatz Zieman Energieeinheit</string>
+	<string name="equip_docking_computer">SinCorn RemLock Andock-Computer</string>
+	<string name="equip_galactic_hyperdrive">Xexor/Hikan Galaktischer Hyperantrieb</string>
+	<string name="equip_mining_laser">Kruger ARM64 Sp. Bergbaulaser</string>
+	<string name="equip_military_laser">LF90 Militärlaser</string>
+	<string name="equip_retro_rockets">Xasar Ion Rückstoßraketen</string>
+	<string name="equip_naval_energy_unit">Marine-Energie-Einheit</string>
+	<string name="equip_cloaking_device">Tarnvorrichtung</string>
+	<string name="equip_ecm_jammer">ECM-Störsender</string>
+
+	<string name="equip_short_fuel">Brennstoff</string>
+	<string name="equip_short_missiles">Raketen</string>
+	<string name="equip_short_large_cargo_bay">Großer Laderaum</string>
+	<string name="equip_short_ecm_system">ECM-System</string>
+	<string name="equip_short_pulse_laser">Impulslaser</string>
+	<string name="equip_short_beam_laser">Dauerlaser</string>
+	<string name="equip_short_fuel_scoop">Brennstofflader</string>
+	<string name="equip_short_escape_capsule">Rettungskapsel</string>
+	<string name="equip_short_energy_bomb">Energiebombe</string>
+	<string name="equip_short_extra_energy_unit">Zusatz Energieeinheit</string>
+	<string name="equip_short_docking_computer">Andock-Computer</string>
+	<string name="equip_short_galactic_hyperdrive">Galaktischer Hyperantrieb</string>
+	<string name="equip_short_mining_laser">Bergbaulaser</string>
+	<string name="equip_short_military_laser">Militärlaser</string>
+	<string name="equip_short_retro_rockets">Rückstoßraketen</string>
+	<string name="equip_short_naval_energy_unit">Marine-Energie-Einheit</string>
+	<string name="equip_short_cloaking_device">Tarnvorrichtung</string>
+	<string name="equip_short_ecm_jammer">ECM-Störsender</string>
+</resources>

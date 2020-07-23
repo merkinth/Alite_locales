@@ -1,0 +1,140 @@
+﻿{
+	"adder" = {
+		display_name = "Adder";
+	};
+	"anaconda" = {
+		display_name = "Anaconda";
+	};
+	"asp_mk_ii" = {
+		display_name = "Asp Mk II";
+	};
+	"asteroid" = {
+		display_name = "Asteroid";
+	};
+	"boa_class_cruiser" = {
+		display_name = "Boa Class Cruiser";
+	};
+	"harken" = {
+		display_name = "Harken";
+	};
+	"bushmaster" = {
+		display_name = "Bushmaster";
+	};
+	"buoy" = {
+		display_name = "Boje";
+	};
+	"cargo_canister" = {
+		display_name = "Frachtkanister";
+	};
+	"cobra_mk_i" = {
+		display_name = "Cobra Mk I";
+	};
+	"cobra_mk_iii" = {
+		display_name = "Cobra Mk III";
+	};
+	"constrictor" = {
+		display_name = "Constrictor";
+	};
+	"coral" = {
+		display_name = "Coral";
+	};
+	"coriolis_station" = {
+		display_name = "Coriolis Station";
+	};
+	"cottonmouth" = {
+		display_name = "Cottonmouth";
+	};
+	"cougar" = {
+		display_name = "Cougar";
+	};
+	"dodec_station" = {
+		display_name = "Dodec Station";
+	};
+	"dugite" = {
+		display_name = "Dugite";
+	};
+	"escape_capsule" = {
+		display_name = "Rettungskapsel";
+	};
+	"fer_de_lance" = {
+		display_name = "Fer-De-Lance";
+	};
+	"gecko" = {
+		display_name = "Gecko";
+	};
+	"gopher" = {
+		display_name = "Gopher";
+	};
+	"harlequin" = {
+		display_name = "Harlequin";
+	};
+	"hognose" = {
+		display_name = "Hognose";
+	};
+	"icosaeder_station" = {
+		display_name = "Icosaeder Station";
+	};
+	"indigo" = {
+		display_name = "Indigo";
+	};
+	"krait" = {
+		display_name = "Krait";
+	};
+	"lancehead" = {
+		display_name = "Lancehead";
+	};
+	"lyre" = {
+		display_name = "Lyre";
+	};
+	"mamba" = {
+		display_name = "Mamba";
+	};
+	"missile" = {
+		display_name = "Rakete";
+	};
+	"moray_star_boat" = {
+		display_name = "Moray Star Boat";
+	};
+	"mussurana" = {
+		display_name = "Mussurana";
+	};
+	"platlet" = {
+		display_name = "Asteroidenstück";
+	};
+	"python" = {
+		display_name = "Python";
+	};
+	"rattlesnake" = {
+		display_name = "Rattlesnake";
+	};
+	"rolfs_cobra" = {
+		display_name = "Rolf's Cobra";
+	};
+	"sidewinder" = {
+		display_name = "Sidewinder";
+	};
+	"thargoid" = {
+		display_name = "Thargoid";
+	};
+	"thargon" = {
+		display_name = "Thargon";
+	};
+	"tie_fighter" = {
+		display_name = "Tie Fighter";
+	};
+	"transporter" = {
+		display_name = "Transporter";
+	};
+	"orbit_shuttle" = {
+		display_name = "Orbit Shuttle";
+	};
+	"viper" = {
+		display_name = "Viper";
+	};
+	"wolf_mk_ii" = {
+		display_name = "Wolf Mk II";
+	};
+	"yellowbelly" = {
+		display_name = "Yellowbelly";
+	};
+}

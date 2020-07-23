@@ -1,0 +1,1504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alite</string>
+    <string name="menu_settings">Einstellen</string>
+
+    <string name="color_scheme_classic">Klassisch</string>
+    <string name="color_scheme_modern">Modern</string>
+
+    <string name="notification_download_complete">Download erfolgreich</string>
+    <string name="notification_download_failed">Download fehlgeschlagen</string>
+
+    <string name="state_unknown">Initialisieren...</string>
+    <string name="state_idle">Download beginnt</string>
+    <string name="state_fetching_url">Dateien zum Download werden gesucht</string>
+    <string name="state_connecting">Verbindung wird hergestellt</string>
+    <string name="state_downloading">Dateien werden heruntergeladen</string>
+    <string name="state_completed">Download abgeschlossen</string>
+    <string name="state_paused_network_unavailable">Warten auf Netzwerkverbindung</string>
+    <string name="state_paused_network_setup_failure">Verbindung unterbrochen, Webseite nicht erreichbar</string>
+    <string name="state_paused_by_request">Download unterbrochen</string>
+    <string name="state_paused_wifi_unavailable">Download unterbrochen, WLAN nicht erreichbar</string>
+    <string name="state_paused_wifi_disabled">Download unterbrochen, WLAN deaktiviert</string>
+    <string name="state_paused_roaming">Download unterbrochen, Roaming</string>
+    <string name="state_paused_sdcard_unavailable">Download unterbrochen, kein externer Speicher</string>
+    <string name="state_failed_unlicensed">Download fehlgeschlagen wegen fehlender Lizenz</string>
+    <string name="state_failed_fetching_url">Download fehlgeschlagen: Ressourcen nicht gefunden</string>
+    <string name="state_failed_sdcard_full">Download fehlgeschlagen: Externer Speicher ist null</string>
+    <string name="state_failed_cancelled">Download abgebrochen</string>
+    <string name="state_failed">Download fehlgeschlagen</string>
+
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Verbleibende Zeit: %1$s</string>
+    <string name="time_remaining_notification">%1$s übrig</string>
+    <string name="notification_download_start">Datei wird geladen... Bitte warten...</string>
+    <string name="notification_download_assets">Erweiterungsdatei wird geladen. Das muss nur einmal gemacht werden...</string>
+    <string name="notification_download_working">Arbeite...</string>
+    <string name="notification_plugin_checking">Prüfe auf Updates...</string>
+    <string name="notification_plugins_loading">Lade Erweiterungen...</string>
+    <string name="notification_plugin_loading">Lade Erweiterung %s</string>
+    <string name="notification_download_error">Fehler beim Herunterladen der Erweiterungsdatei: %s</string>
+    <string name="notification_downloading_info">Lade herunter... %d of %dMB gelesen. Geschwindigkeit: %4.2f MB/s. Verbleibende Zeit: %ds.</string>
+    <string name="obb_download_error">Beim Zugriff auf die Ressourcen Dateien von %1$ kam es zu einem Fehler.
+ Bitte entschuldigen Sie die Unannehmlichkeiten! Sie können versuchen,
+ Ihr Gerät neu zu starten (manchmal hilft das) oder Sie können die
+ Alles-In-Einer-Datei Version von %1$s herunterladen, wo dieses
+ Problem nicht auftreten kann. Sie finden sie hier: %2$s</string>
+
+    <string name="about_game_inspired_by">%1$s basiert auf Elite</string>
+    <string name="about_elite_copyright">© Acornsoft, Bell &amp; Braben</string>
+
+    <string-array name="char_sets">
+        <item>&#x0020;..&#x007e;</item>
+        <item>&#x00a0;..&#x00ff;</item>
+    </string-array>
+
+    <string name="js">
+        function planetian(s) { return (/[aeiou]/.test(s.charAt(s.length-1)) ? s.substring(0, s.length-1) : s) + "ische"; }
+    </string>
+
+    <string-array name="planet_description">
+        <item>0444:%PLANET_NAME% ist eine widerwärtige Müllhalde.</item>
+        <item>0443:%PLANET_NAME% ist ein abstoßender kleiner Planet.</item>
+        <item>0404:%PLANET_NAME% ist eine unauffällige Müllhalde.</item>
+        <item>0400:%PLANET_NAME% ist ein unauffälliger Planet.</item>
+        <item>02304:%PLANET_NAME% ist vom tödlichen Bürgerkrieg verflucht.</item>
+        <item>02303:%PLANET_NAME% ist vom schrecklichen Bürgerkrieg verflucht.</item>
+        <item>02310123:%PLANET_NAME% ist verflucht von mörderischen Berg-Lobstoiden.</item>
+        <item>02310124:%PLANET_NAME% wird von den Killer Berg-%RANDOM_NAME%iden verflucht.</item>
+        <item>023140011:%PLANET_NAME% wird von bösartigen grünen Katzen verflucht.</item>
+        <item>023140012:%PLANET_NAME% wird von bösartigen grünen Affen verflucht.</item>
+        <item>02314101:%PLANET_NAME% wird von bösartigen Bergtieren verflucht.</item>
+        <item>023140400:%PLANET_NAME% wird von bösartigen weißen Spitzmäusen verflucht.</item>
+        <item>034320342202:%PLANET_NAME% ist berühmt für den uralten Abscheu seiner Bewohner vor Casinos, wird aber von einem unberechenbaren Bürgerkrieg heimgesucht.</item>
+        <item>034320342242:%PLANET_NAME% ist berühmt für den alten Abscheu seiner Bewohner vor Casinos, wird aber von unvorhersehbaren Sonnenaktivitäten heimgesucht.</item>
+        <item>03432140011242:%PLANET_NAME% ist berühmt für die außergewöhnliche Liebe seiner Bewohner zu Mixern, wird aber von tödlichen essbaren Larven heimgesucht.</item>
+        <item>03433101241:%PLANET_NAME% ist bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Spitzmausschnitzel, wird aber von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>03433141023:%PLANET_NAME% ist bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Wolfsschnitzel, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>01130443320:%PLANET_NAME% ist leidlich bekannt für seine rosa Ozeane und sein Zero-G Hockey.</item>
+        <item>01130400001124:%PLANET_NAME% ist leidlich bekannt für seine rosa %RANDOM_NAME% Plant Plantagen und seine seltsamen Vulkane.</item>
+        <item>01130331400:%PLANET_NAME% ist leidlich bekannt für seine üppigen Wälder und seine fabelhafte Küche.</item>
+        <item>011303310220:%PLANET_NAME% ist leidlich bekannt für seine üppigen Wälder und seine großartigen Parkuhren.</item>
+        <item>011303310224:%PLANET_NAME% ist leidlich bekannt für seine üppigen Wälder und seine großen Vulkane.</item>
+        <item>0113033101130:%PLANET_NAME% ist leidlich bekannt für seine üppigen Wälder und seine seltsamen dichten Wälder.</item>
+        <item>00112421:%PLANET_NAME% ist ein wenig bemerkenswert für die ungewöhnliche Dummheit seiner Bewohner.</item>
+        <item>00112411:%PLANET_NAME% ist ein wenig bemerkenswert für die seltsame Dummheit seiner Bewohner.</item>
+        <item>001130331:%PLANET_NAME% ist ein wenig bemerkenswert für den tödlichen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Brandy.</item>
+        <item>0012410:%PLANET_NAME% ist leidlich bekannt für seine exotische Küche.</item>
+        <item>01124112421:%PLANET_NAME% ist leidlich bekannt für sein exotisches Nachtleben und die ungewöhnliche Dummheit seiner Bewohner.</item>
+        <item>0112422411:%PLANET_NAME% ist leidlich bekannt für seine architektionisch ausgefallenen Casinos und sein exotisches Nachtleben.</item>
+        <item>0112421410:%PLANET_NAME% ist leidlich bekannt für sein ausgeprägtes Nachtleben und seine exotische Küche.</item>
+        <item>001230404:%PLANET_NAME% ist leidlich bekannt für Killer %RANDOM_NAME% Donnergurgler.</item>
+        <item>01123101231:%PLANET_NAME% ist leidlich bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Spitzmauskotelett und die tief verwurzelte Dummheit seiner Bewohner.</item>
+        <item>011231011303:%PLANET_NAME% ist leidlich bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Spitzmausschnitzel und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange.</item>
+        <item>011231411230:%PLANET_NAME% ist leidlich bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Wolfsschnitzel und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n essbaren Dichter.</item>
+        <item>0112314001123:%PLANET_NAME% ist leidlich bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Wolfsfleisch und seine seltsamen Felsformationen.</item>
+        <item>00123140:%PLANET_NAME% ist leidlich bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Wolfsfleisch.</item>
+        <item>001230444:%PLANET_NAME% ist leidlich bekannt für bösartige %RANDOM_NAME%-Donnergurgler.</item>
+        <item>01230443321:%PLANET_NAME% ist vor allem für seine rosa Ozeane und das Zero-G Cricket bekannt.</item>
+        <item>01230443320:%PLANET_NAME% ist vor allem für seine rosa Ozeane und das Zero-G Hockey bekannt.</item>
+        <item>012303432140:%PLANET_NAME% ist vor allem für seine riesigen Ozeane und sein exotisches Fischfleisch bekannt.</item>
+        <item>012303321404:%PLANET_NAME% ist vor allem für seine ausgedehnten Regenwälder und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gefleckten Wolf bekannt.</item>
+        <item>012310113044:%PLANET_NAME% ist vor allem für die schwarze &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Ziege und seine rosa Ozeane bekannt.</item>
+        <item>012314001242:%PLANET_NAME% ist vor allem für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckspitzmaus und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; essbare Raupe bekannt.</item>
+        <item>012422411231:%PLANET_NAME% ist vor allem für die exzentrische Liebe seiner Bewohner zu Touristen und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n essbaren Dichter bekannt.</item>
+        <item>012422411303:%PLANET_NAME% ist vor allem für die exzentrische Liebe seiner Bewohner zu Touristen und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange bekannt.</item>
+        <item>0124101231400:%PLANET_NAME% ist besonders bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n schwarzen Hummer und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckenspitzmaus.</item>
+        <item>0124101241123:%PLANET_NAME% ist am bekanntesten für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; schwarze %RANDOM_NAME%oid und das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Berghummeroid.</item>
+        <item>01241134220:%PLANET_NAME% ist vor allem für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Bergbahn und die exzentrische Schüchternheit ihrer Bewohner bekannt.</item>
+        <item>012411343314:%PLANET_NAME% ist bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Bergbahn und das Schlammtennis.</item>
+        <item>012410224220:%PLANET_NAME% ist vor allem bekannt für das gelb gestreifte &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME%oid und die exzentrische Schüchternheit seiner Bewohner.</item>
+        <item>0124102242130:%PLANET_NAME% ist vor allem bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; gelb gestreifte %RANDOM_NAME%oid und die außergewöhnliche Abscheu seiner Bewohner vor Mixern.</item>
+        <item>02203:%PLANET_NAME% wird von einem schrecklichen Bürgerkrieg heimgesucht.</item>
+        <item>02241:%PLANET_NAME% wird durch gelegentliche Sonnenaktivität verwüstet.</item>
+        <item>02202:%PLANET_NAME% wird von einem unvorhersehbaren Bürgerkrieg heimgesucht.</item>
+        <item>02242:%PLANET_NAME% wird von unvorhersehbaren Sonnenaktivitäten heimgesucht.</item>
+        <item>03314040444433:%PLANET_NAME% ist ziemlich bemerkenswert für seine fabelhaft heimtückischen %RANDOM_NAME% Donnergurgler, wird aber von schrecklichen Erdbeben gegeißelt.</item>
+        <item>03310231400:%PLANET_NAME% zeichnet sich durch seine üppigen Wälder aus, wird aber durch häufigen Bürgerkrieg gegeißelt.</item>
+        <item>03310224113422:%PLANET_NAME% ist ziemlich bemerkenswert für seine großen Vulkane, wird aber von tödlich gefleckten Fledermausoiden heimgesucht.</item>
+        <item>03310124101:%PLANET_NAME% zeichnet sich durch seine ungewöhnlichen Ozeane aus, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>033101134220:%PLANET_NAME% ist ziemlich bemerkenswert für seine seltsamen Laubwälder, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>033101130343:%PLANET_NAME% ist ziemlich bemerkenswert für seine seltsame dichten Wälder, wird aber von schrecklichen Sonnenaktivitäten verflucht.</item>
+        <item>033101130332:%PLANET_NAME% ist ziemlich bemerkenswert für seine seltsame dichten Wälder, wird aber von unvorhersehbaren Erdbeben verflucht.</item>
+        <item>033101130444:%PLANET_NAME% ist ziemlich bemerkenswert für seine seltsame dichten Wälder, wird aber von tödlichen Sonnenaktivitäten gegeißelt.</item>
+        <item>03320231022:%PLANET_NAME% ist ziemlich bekannt für seine großen üppigen Wälder, wird aber von einer bösen Krankheit heimgesucht.</item>
+        <item>0332202241:%PLANET_NAME% ist ziemlich bekannt für die alten Paarungstraditionen seiner Bewohner, wird aber von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>03321410123:%PLANET_NAME% ist ziemlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gefleckten Leoparden, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>03321343320:%PLANET_NAME% ist ziemlich bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumameise, wird aber von einer tödlichen Krankheit verflucht.</item>
+        <item>033213433140011:%PLANET_NAME% ist ziemlich bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumameise, wird aber von bösartigen grünen Katzen verflucht.</item>
+        <item>033213432130332:%PLANET_NAME% ist ziemlich bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumameise, wird aber von tödlichen rosa grauen Yaks heimgesucht.</item>
+        <item>03321342140:%PLANET_NAME% ist ziemlich bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baummade, wird aber von häufigen Sonnenaktivitäten geplagt.</item>
+        <item>03321342202:%PLANET_NAME% ist ziemlich bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baummade, wird aber von einem unvorhersehbaren Bürgerkrieg heimgesucht.</item>
+        <item>03321303321:%PLANET_NAME% ist ziemlich bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange, wird aber von einer tödlichen Krankheit verflucht.</item>
+        <item>03321304432:%PLANET_NAME% ist ziemlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Baumwolf, wird aber von unvorhersehbaren Erdbeben gegeißelt.</item>
+        <item>03421411230:Dieser Planet ist am berühmtesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy, wird aber von tödlichen essbaren Dichtern gegeißelt.</item>
+        <item>0000001:%PLANET_NAME% ist sehr berühmt für seine alten Berge.</item>
+        <item>000000012:%PLANET_NAME% ist sehr berühmt für seine alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen.</item>
+        <item>000000000:%PLANET_NAME% ist sehr berühmt für seine alten %RANDOM_NAME% Plantagen.</item>
+        <item>000000001:%PLANET_NAME% ist sehr berühmt für seine alten %RANDOM_NAME% Tulpenplantagen.</item>
+        <item>000001230:%PLANET_NAME% ist sehr berühmt für seine ungewöhnlich dichten Wälder.</item>
+        <item>00001242:%PLANET_NAME% ist sehr bekannt für die essbare &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Made.</item>
+        <item>00001230:%PLANET_NAME% ist sehr legendär für den essbaren &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Dichter.</item>
+        <item>00001124:%PLANET_NAME% ist sehr legendär für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berg-%RANDOM_NAME%oid.</item>
+        <item>0001230:%PLANET_NAME% ist sehr bemerkenswert für die tief verwurzelte Schüchternheit seiner Bewohner.</item>
+        <item>00012421:%PLANET_NAME% zeichnet sich durch die ungewöhnliche Dummheit seiner Bewohner aus.</item>
+        <item>00012410:%PLANET_NAME% ist sehr bemerkenswert für die seltsame Schüchternheit seiner Bewohner.</item>
+        <item>00011242:%PLANET_NAME% ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; essbare Made.</item>
+        <item>00011303:%PLANET_NAME% ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange.</item>
+        <item>0342202241:%PLANET_NAME% ist bekannt für die alten Paarungstraditionen seiner Bewohner, wird aber von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>03422411304:%PLANET_NAME% ist bekannt für die seltsame Dummheit seiner Bewohner, wird aber vom tödlichen Bürgerkrieg verflucht.</item>
+        <item>03422411303:%PLANET_NAME% ist bekannt für die seltsame Dummheit seiner Bewohner, wird aber vom schrecklichen Bürgerkrieg verflucht.</item>
+        <item>03421400112304:%PLANET_NAME% ist bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckenspitzmaus, wird aber von bösen Baumwölfen geplagt.</item>
+        <item>1410:Der Planet %PLANET_NAME% ist ein langweiliger Planet.</item>
+        <item>1411:Der Planet %PLANET_NAME% ist eine langweilige Welt.</item>
+        <item>1404:Der Planet %PLANET_NAME% ist eine unauffällige Müllhalde.</item>
+        <item>1400:Der Planet %PLANET_NAME% ist ein unauffälliger Planet.</item>
+        <item>12304:Der Planet %PLANET_NAME% ist vom tödlichen Bürgerkrieg verflucht.</item>
+        <item>12311342:Der Planet %PLANET_NAME% wird von tödlichen Baummäusen verflucht.</item>
+        <item>12303:Der Planet %PLANET_NAME% ist vom schrecklichen Bürgerkrieg verflucht.</item>
+        <item>123102203:Der Planet %PLANET_NAME% wird von tödlichen essbaren wandelnden Untoten verflucht.</item>
+        <item>12310113:Der Planet %PLANET_NAME% wird von mörderischen Bergziegen verflucht.</item>
+        <item>12310123:Der Planet %PLANET_NAME% wird von Killer-Bergkrabben verflucht.</item>
+        <item>12310112:Der Planet %PLANET_NAME% wird von Killer-Bergaffen verflucht.</item>
+        <item>123140011:Der Planet %PLANET_NAME% wird von bösartigen grünen Katzen verflucht.</item>
+        <item>134332141023:Der Planet %PLANET_NAME% ist bekannt für sein exotisches Fischschnitzel, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>1343320342130343:Der Planet %PLANET_NAME% ist bekannt für seine fabelhafte Ziegensuppe, wird aber von tödlichen rosa grauen Ameisen heimgesucht.</item>
+        <item>134332022034:Der Planet %PLANET_NAME% ist bekannt für sein fabelhaftes Affenkopfsteak, wird aber von tödlichen Erdbeben heimgesucht.</item>
+        <item>134320343314113:Der Planet %PLANET_NAME% ist berühmt für den alten Abscheu seiner Bewohner vor Sitcoms, wird aber von bösartigen Bergziegen verflucht.</item>
+        <item>13432140443:Der Planet %PLANET_NAME% ist berühmt für die außergewöhnliche Liebe seiner Bewohner zu Mixern, wird aber von schrecklichen Sonnenaktivitäten gepeinigt.</item>
+        <item>13433101130:Der Planet %PLANET_NAME% ist bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Spitzmausschnitzel, wird aber von häufigen Erdbeben heimgesucht.</item>
+        <item>13433141124:Der Planet %PLANET_NAME% ist bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Wolfsschnitzel, wird aber von einer bösartigen Krankheit heimgesucht.</item>
+        <item>13433141134:Der Planet %PLANET_NAME% ist bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Wolfsschnitzel, wird aber von tödlichen Erdbeben heimgesucht.</item>
+        <item>1011230:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für die tief verwurzelte Schüchternheit seiner Bewohner.</item>
+        <item>1011231:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für die tief verwurzelte Dummheit seiner Bewohner.</item>
+        <item>10112410:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für die seltsame Schüchternheit seiner Bewohner.</item>
+        <item>101130404:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für Killer %RANDOM_NAME% Donnergurgler.</item>
+        <item>101130400:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für den Killer %RANDOM_NAME% Saft.</item>
+        <item>101130331:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n tödlichen Brandy.</item>
+        <item>10113422:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s %RANDOM_NAME% Wasser.</item>
+        <item>101130343:Der Planet %PLANET_NAME% ist leidlich bemerkenswert für das heimtückische &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Gebräu.</item>
+        <item>1012410:Der Planet %PLANET_NAME% ist hinreichend für seine exotische Küche bekannt.</item>
+        <item>1012411:Der Planet %PLANET_NAME% ist hinreichend für sein exotisches Nachtleben bekannt.</item>
+        <item>10120220:Der Planet %PLANET_NAME% ist bekannt für seine großartigen Parkuhren.</item>
+        <item>1012421:Der Planet %PLANET_NAME% ist hinreichend für sein ausgeprägtes Nachtleben bekannt.</item>
+        <item>10123101:Der Planet %PLANET_NAME% ist hinreichend für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Spitzmausschnitzel bekannt.</item>
+        <item>1123040443310:Der Planet %PLANET_NAME% ist vor allem für seine rosa &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME% Unkrautplantagen und Schlammhockey bekannt.</item>
+        <item>11230400001124:Der Planet %PLANET_NAME% ist vor allem für seine rosa %RANDOM_NAME% Plantagen und seine seltsamen Vulkane bekannt.</item>
+        <item>1023034:Der Planet %PLANET_NAME% ist vor allem für seine riesigen Ozeane bekannt.</item>
+        <item>10230332:Der Planet %PLANET_NAME% ist vor allem für seine riesigen Regenwälder bekannt.</item>
+        <item>1123101130331:Der Planet %PLANET_NAME% ist vor allem für die schwarze &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Ziege und seine üppigen Wälder bekannt.</item>
+        <item>11231012304000:Der Planet %PLANET_NAME% ist am bekanntesten für den schwarzen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Hummer und seine rosa %RANDOM_NAME% Plantagen.</item>
+        <item>11231012310113:Der Planet %PLANET_NAME% ist bekannt für den schwarzen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Hummer und die schwarze &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Ziege.</item>
+        <item>102310112:Der Planet %PLANET_NAME% ist am bekanntesten für den schwarzen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Affen.</item>
+        <item>112314001231:Der Planet %PLANET_NAME% ist am bekanntesten für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckspitzmaus und den essbaren &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Kunststudenten.</item>
+        <item>10231400:Der Planet %PLANET_NAME% ist am bekanntesten für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckenspitzmaus.</item>
+        <item>112310224220:Der Planet %PLANET_NAME% ist am bekanntesten für die gelb gestreifte &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME%oiden und die exzentrische Schüchternheit seiner Bewohner.</item>
+        <item>1124220231:Der Planet %PLANET_NAME% ist vor allem durch die exzentrische Schüchternheit seiner Bewohner und die tief verwurzelte Dummheit seiner Bewohner bekannt.</item>
+        <item>1124213421400:Der Planet %PLANET_NAME% ist vor allem für die außergewöhnliche Abscheu seiner Bewohner vor Casinos und die gefleckte &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Spitzmaus bekannt.</item>
+        <item>112421304044332:Der Planet %PLANET_NAME% ist vor allem bekannt für die außergewöhnliche Abscheu seiner Bewohner vor Mixern und sein fabelhaftes tödliches &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wasser.</item>
+        <item>11242134320343:Der Planet %PLANET_NAME% ist vor allem für die außergewöhnliche Abscheu seiner Bewohner vor Sitcoms und den alten Abscheu seiner Bewohner vor Sitcoms bekannt.</item>
+        <item>1124213432140:Der Planet %PLANET_NAME% ist vor allem bekannt für die außergewöhnliche Abscheu seiner Bewohner vor Sitcoms und die außergewöhnliche Liebe seiner Bewohner zu Mixern.</item>
+        <item>1124214001123:Der Planet %PLANET_NAME% ist vor allem wegen der außergewöhnlichen Liebe seiner Bewohner zu Mixern und seinen seltsamen Felsformationen bekannt.</item>
+        <item>1124112421342:Der Planet %PLANET_NAME% ist am bekanntesten für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Berg-%RANDOM_NAME%oiden und die außergewöhnliche Abscheu seiner Bewohner vor Casinos.</item>
+        <item>1022410:Der Planet %PLANET_NAME% ist vor allem für seine exotische Küche bekannt.</item>
+        <item>1022411:Der Planet %PLANET_NAME% ist vor allem für sein exotisches Nachtleben bekannt.</item>
+        <item>10220231:Der Planet %PLANET_NAME% ist vor allem für seine großen, üppigen Wälder bekannt.</item>
+        <item>10220220:Der Planet %PLANET_NAME% ist vor allem für seine großartigen Parkuhren bekannt.</item>
+        <item>1022422:Der Planet %PLANET_NAME% ist am bekanntesten für seine angesagten Casinos.</item>
+        <item>10220331:Der Planet %PLANET_NAME% ist vor allem für seine üppigen Wälder bekannt.</item>
+        <item>10220332:Der Planet %PLANET_NAME% ist vor allem für seine riesigen Regenwälder bekannt.</item>
+        <item>113044332022:Der Planet %PLANET_NAME% ist bekannt für seine aufregenden Sitcoms und sein fantastisches Affenkopfsteak.</item>
+        <item>113040443320224:Der Planet %PLANET_NAME% ist ziemlich berühmt für sein fabelhaftes tödliches &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wasser und seine großen Vulkane.</item>
+        <item>113033102242:Der Planet %PLANET_NAME% ist zu Recht für Schlammhockey und die exzentrische Liebe seiner Bewohner zur Poesie berühmt.</item>
+        <item>113033101134:Der Planet %PLANET_NAME% ist ziemlich bekannt für Schlammhockey und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Bergschnecke.</item>
+        <item>1130331410124:Der Planet %PLANET_NAME% ist für Schlammtennis und das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Schwarz-%RANDOM_NAME%oid bekannt.</item>
+        <item>113033141124:Der Planet %PLANET_NAME% ist für Schlammtennis und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berg-%RANDOM_NAME%oiden bekannt.</item>
+        <item>11303432130443:Der Planet %PLANET_NAME% ist ziemlich bekannt für bösen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Brandy und hinterhältiges %RANDOM_NAME% Gebräu.</item>
+        <item>11303421411:Der Planet %PLANET_NAME% ist zu Recht für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy und sein exotisches Nachtleben bekannt.</item>
+        <item>1130332130443:Der Planet %PLANET_NAME% ist ziemlich bekannt für Zero-G Cricket und hinterhältiges %RANDOM_NAME% Gebräu.</item>
+        <item>11303320231:Der Planet %PLANET_NAME% ist zu Recht für Zero-G-Hockey und die tief verwurzelte Dummheit seiner Bewohner bekannt.</item>
+        <item>113422411342:Der Planet %PLANET_NAME% ist zu Recht bekannt für die exzentrische Liebe seiner Bewohner zu Touristen und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baummade.</item>
+        <item>11342203321:Der Planet %PLANET_NAME% ist zu Recht für die exzentrische Schüchternheit seiner Bewohner und Zero-G-Kricket bekannt.</item>
+        <item>113421410230:Der Planet %PLANET_NAME% ist zu Recht für die außergewöhnliche Liebe seiner Bewohner zu Touristen und seine großen dichten Wälder bekannt.</item>
+        <item>113421410124:Der Planet %PLANET_NAME% ist zu Recht für die außergewöhnliche Liebe seiner Bewohner zu Touristen und seine ungewöhnlichen Ozeane bekannt.</item>
+        <item>1134331404000:Der Planet %PLANET_NAME% ist bekannt für Schlammtennis und seine rosa %RANDOM_NAME% Plantagen.</item>
+        <item>12421:Der Planet %PLANET_NAME% wird von einer tödlichen Krankheit gegeißelt.</item>
+        <item>12422:Der Planet %PLANET_NAME% wird von einer bösen Krankheit gegeißelt.</item>
+        <item>12411231:Der Planet %PLANET_NAME% wird von tödlichen essbaren Kunststudenten gegeißelt.</item>
+        <item>12411342:Der Planet %PLANET_NAME% wird von tödlichen Baummäusen heimgesucht.</item>
+        <item>12410230:Der Planet %PLANET_NAME% wird von mörderischen essbaren Dichtern gegeißelt.</item>
+        <item>124102202:Der Planet %PLANET_NAME% wird von mörderischen essbaren wandelnden Zombies gegeißelt.</item>
+        <item>12410124:Der Planet %PLANET_NAME% wird von tödlichen Berg-%RANDOM_NAME%oiden gegeißelt.</item>
+        <item>130332141011303:Der Planet %PLANET_NAME% ist sehr bekannt für sein exotisches Fischkotelett, wird aber von tödlichen Baumschlangen heimgesuch.</item>
+        <item>130332141123:Der Planet %PLANET_NAME% ist sehr bekannt für sein exotisches Fischkotelett, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>130332140011231:Der Planet %PLANET_NAME% ist sehr berühmt für sein exotisches Fischfleisch, wird aber von tödlichen essbaren Kunststudenten heimgesucht.</item>
+        <item>130332140001:Der Planet %PLANET_NAME% ist sehr bekannt für sein exotisches Fischfleisch, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>130332033213422:Der Planet %PLANET_NAME% ist sehr berühmt für seine fabelhaften Ziegenburger, wird aber von tödlichen gefleckten Fledermausoiden verwüstet.</item>
+        <item>1303432022:Der Planet %PLANET_NAME% ist sehr bekannt für seine ungewöhnlichen Casinos, wird aber von einer bösen Krankheit heimgesucht.</item>
+        <item>13033102203:Der Planet %PLANET_NAME% ist sehr berühmt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Spitzmaussteak, wird aber von einem schrecklichen Bürgerkrieg verwüstet.</item>
+        <item>13033140011343:Der Planet %PLANET_NAME% ist sehr bekannt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsfleisch, wird aber von tödlichen Baumameisen heimgesucht.</item>
+        <item>1304443310113:Der Planet %PLANET_NAME% ist sehr bekannt für seine spannenden Sitcoms, wird aber von mörderischen Bergziegen verflucht.</item>
+        <item>1304044331:Der Planet %PLANET_NAME% ist sehr bekannt für seine rosa Ozeane, wird aber von gelegentlichen Erdbeben verflucht.</item>
+        <item>1304044332:Der Planet %PLANET_NAME% ist sehr bekannt für seine rosa Ozeane, wird aber von unvorhersehbaren Erdbeben heimgesucht.</item>
+        <item>1304044433:Der Planet %PLANET_NAME% ist sehr bekannt für seine rosa Ozeane, wird aber von schrecklichen Erdbeben gegeißelt.</item>
+        <item>1304044432:Der Planet %PLANET_NAME% ist sehr bekannt für seine rosa Ozeane, wird aber von unvorhersehbaren Erdbeben gegeißelt.</item>
+        <item>130404000001:Der Planet %PLANET_NAME% ist sehr bekannt für seine rosa %RANDOM_NAME% Plantagen, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>1304432141:Der Planet %PLANET_NAME% ist sehr bekannt für seine ungewöhnlichen Casinos, wird aber von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>1304433141:Der Planet %PLANET_NAME% ist sehr bekannt für seine ungewöhnlichen Sitcoms, wird aber von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>1304433102:Der Planet %PLANET_NAME% ist sehr bekannt für seine ungewöhnlichen Sitcoms, wird aber von einem unvorhersehbaren Bürgerkrieg heimgesucht.</item>
+        <item>1304433202:Der Planet %PLANET_NAME% ist sehr bekannt für seine ungewöhnlichen Sitcoms, wird aber von einem unberechenbaren Bürgerkrieg verwüstet.</item>
+        <item>13422033102:Der Planet %PLANET_NAME% ist bekannt für den alten Abscheu seiner Bewohner vor Diskotheken, wird aber von einem unvorhersehbaren Bürgerkrieg heimgesucht.</item>
+        <item>1342203432140400:Der Planet %PLANET_NAME% ist bekannt für den alten Abscheu seiner Bewohner vor Sitcoms, wird aber von bösartigen weißen Spitzmäusen heimgesucht.</item>
+        <item>1342202314112:Der Planet %PLANET_NAME% ist bekannt für die alten Paarungstraditionen seiner Bewohner, wird aber von bösartigen Bergaffen verflucht.</item>
+        <item>13422023140400:Der Planet %PLANET_NAME% ist bekannt für die alten Paarungstraditionen seiner Bewohner, wird aber von bösartigen weißen Spitzmäusen verflucht.</item>
+        <item>13422411242:Der Planet %PLANET_NAME% ist bekannt für die seltsame Dummheit seiner Bewohner, wird aber von unvorhersehbaren Sonnenaktivitäten heimgesucht.</item>
+        <item>13421410230:Der Planet %PLANET_NAME% ist bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gefleckten Leoparden, wird aber von häufigen Erdbeben heimgesucht.</item>
+        <item>13421400012303:Der Planet %PLANET_NAME% ist bekannt für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckenspitzmaus, wird aber von bösen Baumschlangen heimgesucht.</item>
+        <item>2410:Die Welt %PLANET_NAME% ist ein langweiliger Planet.</item>
+        <item>2411:Die Welt %PLANET_NAME% ist eine langweilige Welt.</item>
+        <item>2422:Die Welt %PLANET_NAME% ist ein langweiliger Ort.</item>
+        <item>2421:Die Welt %PLANET_NAME% ist eine langweilige Welt.</item>
+        <item>22023:Die Welt %PLANET_NAME% wird von einer tödlichen Krankheit heimgesucht.</item>
+        <item>22022:Die Welt %PLANET_NAME% wird von einer bösen Krankheit heimgesucht.</item>
+        <item>22034:Die Welt %PLANET_NAME% wird von tödlichen Erdbeben heimgesucht.</item>
+        <item>22033:Die Welt %PLANET_NAME% wird von schrecklichen Erdbeben heimgesucht.</item>
+        <item>21404443320231:Die Welt %PLANET_NAME% ist berühmt für ihr aufregendes Zero-G Karate und ihre großartigen üppigen Wälder.</item>
+        <item>2140444321411:Die Welt %PLANET_NAME% ist berühmt für ihr aufregendes Zero-G Cricket und ihr exotisches Nachtleben.</item>
+        <item>214040001130:Die Welt %PLANET_NAME% ist berühmt für ihre fabelhafte Küche und ihre seltsamen dichten Wälder.</item>
+        <item>21404001124:Die Welt %PLANET_NAME% ist berühmt für ihre fabelhafte Küche und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berg-%RANDOM_NAME%oid.</item>
+        <item>214040400001124:Die Welt %PLANET_NAME% ist berühmt für ihren fabelhaften %RANDOM_NAME% Saft und ihre seltsamen Vulkane.</item>
+        <item>21400112304044:Die Welt %PLANET_NAME% ist berühmt für ihre seltsamen Felsformationen und ihre rosanen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Unkrautplantagen.</item>
+        <item>23102242203:Die Welt %PLANET_NAME% ist leidlich berühmt für die exzentrische Liebe ihrer Bewohner zur Poesie, wird aber von einem schrecklichen Bürgerkrieg heimgesucht.</item>
+        <item>23102241134:Die Welt %PLANET_NAME% ist leidlich bekannt für die exzentrische Liebe ihrer Bewohner zu Touristen, wird aber von tödlichen Erdbeben heimgesucht.</item>
+        <item>2310220331:Die Welt %PLANET_NAME% ist leidlich bekannt für die exzentrische Schüchternheit ihrer Bewohner, wird aber von gelegentlichen Erdbeben verflucht.</item>
+        <item>2310230343:Die Welt %PLANET_NAME% ist leidlich berühmt für die tief verwurzelte Schüchternheit ihrer Bewohner, wird aber von schrecklichen Sonnenaktivitäten verflucht.</item>
+        <item>2310230332:Die Welt %PLANET_NAME% ist leidlich berühmt für die tief verwurzelte Schüchternheit ihrer Bewohner, wird aber von unvorhersehbaren Erdbeben verflucht.</item>
+        <item>23101241023:Die Welt %PLANET_NAME% ist für den essbaren &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Nachtfalter leidlich bekannt, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>23101241012410:Die Welt %PLANET_NAME% ist für den essbaren &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Nachtfalter leidlich berühmt, wird aber von bösen gefleckten Leoparden heimgesucht.</item>
+        <item>23101123040:Die Welt %PLANET_NAME% ist hinreichend für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berghummeroiden berühmt, wird aber von häufiger Sonnenaktivität heimgesucht.</item>
+        <item>23101130343:Die Welt %PLANET_NAME% ist für den Bergpoeten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; leidlich berühmt, wird aber von schrecklichen Sonnenaktivitäten verflucht.</item>
+        <item>231011242130332:Die Welt %PLANET_NAME% ist hinreichend für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berg-%RANDOM_NAME%oid berühmt, wird aber von tödlichen kleinen grauen Yaks verwüstet.</item>
+        <item>231011242130404:Die Welt %PLANET_NAME% ist hinreichend für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berg-%RANDOM_NAME%oid berühmt, wird aber von tödlichen weißen Wölfen verwüstet.</item>
+        <item>23101134220:Die Welt %PLANET_NAME% ist hinreichend für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Bergschnecke berühmt, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>2314001123:Die Welt %PLANET_NAME% ist leidlich bekannt für ihre alten Berge, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>2314001124:Die Welt %PLANET_NAME% ist leidlich bekannt für ihre alten Berge, wird aber von einer bösartigen Krankheit heimgesucht.</item>
+        <item>231400012303:Die Welt %PLANET_NAME% ist hinreichend bekannt für ihre alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen, ist aber vom schrecklichen Bürgerkrieg verflucht.</item>
+        <item>231400001230:Die Welt %PLANET_NAME% ist leidlich bekannt für ihre alten %RANDOM_NAME% Tulpenplantagen, wird aber von häufigen Erdbeben heimgesucht.</item>
+        <item>2314044443:Die Welt %PLANET_NAME% ist leidlich bekannt für ihre rosa Ozeane, wird aber von schrecklichen Sonnenaktivitäten gegeißelt.</item>
+        <item>231404040000:Die Welt %PLANET_NAME% ist leidlich bekannt für ihre rosa &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Plantagen, wird aber von häufigem Bürgerkrieg heimgesucht.</item>
+        <item>231404000123:Die Welt %PLANET_NAME% ist leidlich bekannt für ihre rosa %RANDOM_NAME% Plantagen, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>2314101242130443:Die Welt %PLANET_NAME% ist leidlich bekannt für das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; schwarze %RANDOM_NAME%oid, wird aber von tödlichen weißen Ameisen heimgesucht.</item>
+        <item>23141123140:Die Welt %PLANET_NAME% ist leidlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berghummeroid, wird aber von häufigen Sonnenaktivitäten heimgesucht.</item>
+        <item>23141123101:Die Welt %PLANET_NAME% ist leidlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berghummeroid, wird aber gelegentlich von einem Bürgerkrieg heimgesucht.</item>
+        <item>202304044:Die Welt %PLANET_NAME% ist am bekanntesten für seine rosa &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Unkrautplantagen.</item>
+        <item>2023034:Die Welt %PLANET_NAME% ist vor allem für ihre riesigen Ozeane bekannt.</item>
+        <item>20231410:Die Welt %PLANET_NAME% ist am bekanntesten für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gefleckten Leoparden.</item>
+        <item>2022410:Die Welt %PLANET_NAME% ist vor allem für ihre exotische Küche bekannt.</item>
+        <item>20220231:Die Welt %PLANET_NAME% ist vor allem für ihre üppigen Wälder bekannt.</item>
+        <item>20220220:Die Welt %PLANET_NAME% ist vor allem für ihre großartigen Parkuhren bekannt.</item>
+        <item>20220331:Die Welt %PLANET_NAME% ist vor allem für ihre üppigen Wälder bekannt.</item>
+        <item>2022034:Die Welt %PLANET_NAME% ist am bekanntesten für ihre riesigen Ozeane.</item>
+        <item>20220332:Die Welt %PLANET_NAME% ist vor allem für ihre ausgedehnten Regenwälder bekannt.</item>
+        <item>214102303321:Die Welt %PLANET_NAME% zeichnet sich durch ihre großen dichten Wälder und das Null-G-Kricket aus.</item>
+        <item>214102203314:Die Welt %PLANET_NAME% ist bekannt für ihre großartigen Parkuhren und Schlammtennis.</item>
+        <item>21410123101124:Die Welt %PLANET_NAME% ist bekannt für ihre ungewöhnlich üppigen Wälder und ihre seltsamen Vulkane.</item>
+        <item>214101241134:Die Welt %PLANET_NAME% zeichnet sich durch ihre ungewöhnlichen Ozeane und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Bergbahn aus.</item>
+        <item>21410113432130:Die Welt %PLANET_NAME% ist bekannt für ihre seltsamen Laubwälder und ihr exotisches Ziegenfleisch.</item>
+        <item>2141011303310:Die Welt %PLANET_NAME% ist bekannt für ihre seltsamen dichten Wälder und Schlammhockey.</item>
+        <item>2141011303314:Die Welt %PLANET_NAME% ist bekannt für ihre seltsamen dichten Wälder und Schlammtennis.</item>
+        <item>21411231400:Die Welt %PLANET_NAME% ist bekannt für den essabren &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Kunststudenten und ihre hervorragende Küche.</item>
+        <item>21411304433:Die Welt %PLANET_NAME% ist bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Baumwolf und ihre ungewöhnlichen Sitcoms.</item>
+        <item>2130443202:Die Welt %PLANET_NAME% ist zu Recht berühmt für ihre aufregenden Sitcoms und die alten Paarungstraditionen ihrer Bewohner.</item>
+        <item>21304432140:Die Welt %PLANET_NAME% ist zu Recht berühmt für ihre aufregenden Sitcoms und die außergewöhnliche Liebe ihrer Bewohner zu Mixern.</item>
+        <item>213040000011:Die Welt %PLANET_NAME% ist zu Recht berühmt für ihre fabelhafte Küche und ihre alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Tulpenplantagen.</item>
+        <item>213040444321410:Die Welt %PLANET_NAME% ist ziemlich berühmt für ihr fabelhaftes tödliches %RANDOM_NAME% Wasser und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gefleckten Leoparden.</item>
+        <item>21303321411:Die Welt %PLANET_NAME% ist ziemlich berühmt für Zero-G Cricket und ihr exotisches Nachtleben.</item>
+        <item>2130332134320:Die Welt %PLANET_NAME% ist ziemlich berühmt für Zero-G Cricket und bösen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Saft.</item>
+        <item>213034320220:Die Welt %PLANET_NAME% ist ziemlich berühmt für bösen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Saft und die exzentrische Schüchternheit seiner Bewohner.</item>
+        <item>203321342:Die Welt %PLANET_NAME% ist ziemlich bekannt für die außergewöhnliche Abscheu ihrer Bewohner vor Casinos.</item>
+        <item>203321343:Die Welt %PLANET_NAME% ist ziemlich bekannt für die außergewöhnliche Abscheu ihrer Bewohner vor Sitcoms.</item>
+        <item>203310123:Die Welt %PLANET_NAME% ist ziemlich bekannt für den schwarzen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Hummeroiden.</item>
+        <item>203310224:Die Welt %PLANET_NAME% ist ziemlich bekannt für das gelb gestreifte &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME%oid.</item>
+        <item>203432134:Die Welt %PLANET_NAME% ist zu Recht für ihre exotische Ziegensuppe bekannt.</item>
+        <item>203432033:Die Welt %PLANET_NAME% ist zu Recht bekannt für ihre fabelhaften Ziegenburger.</item>
+        <item>2134320342242:Die Welt %PLANET_NAME% ist zu Recht bekannt für ihre fabelhafte Ziegensuppe und die exzentrische Liebe ihrer Bewohner zur Poesie.</item>
+        <item>203432034:Die Welt %PLANET_NAME% ist zu Recht für ihre fabelhafte Ziegensuppe bekannt.</item>
+        <item>203432023:Die Welt %PLANET_NAME% ist zu Recht bekannt für ihre fabelhaften Affenburger.</item>
+        <item>2034220:Die Welt %PLANET_NAME% ist zu Recht für die exzentrische Schüchternheit ihrer Bewohner bekannt.</item>
+        <item>2134213422422:Die Welt %PLANET_NAME% ist zu Recht bekannt für die außergewöhnliche Abscheu ihrer Bewohner vor Casinos und die ungewöhnlichen Paarungstraditionen ihrer Bewohner.</item>
+        <item>213433101241:Die Welt %PLANET_NAME% ist bekannt für Schlammhockey und die essbaren &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Motten.</item>
+        <item>21343314001:Die Welt %PLANET_NAME% ist zu Recht bekannt für Schlammtennis und ihre alten Berge.</item>
+        <item>2134332134331:Die Welt %PLANET_NAME% ist ziemlich bekannt für Zero-G Cricket und tödlichen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Brandy.</item>
+        <item>22421:Die Welt %PLANET_NAME% wird von einer tödlichen Krankheit gegeißelt.</item>
+        <item>22422:Die Welt %PLANET_NAME% wird von einer bösen Krankheit gegeißelt.</item>
+        <item>22411231:Die Welt %PLANET_NAME% wird von tödlichen essbaren Kunststudenten gegeißelt.</item>
+        <item>22411343:Die Welt %PLANET_NAME% wird von tödlichen Baumameisen gegeißelt.</item>
+        <item>22411342:Die Welt %PLANET_NAME% wird von tödlichen Baummäusen verwüstet.</item>
+        <item>22411303:Die Welt %PLANET_NAME% wird von tödlichen Baumschlangen verwüstet.</item>
+        <item>22410230:Die Welt %PLANET_NAME% wird von mörderischen essbaren Dichtern gegeißelt.</item>
+        <item>224102203:Die Welt %PLANET_NAME% wird von tödlichen essbaren wandelnden Zombies gegeißelt.</item>
+        <item>22410123:Die Welt %PLANET_NAME% wird von mörderischen Berg-Hummeroiden heimgesucht.</item>
+        <item>2303432034:Die Welt %PLANET_NAME% ist sehr bekannt für ihre ungewöhnlichen Casinos, wird aber von tödlichen Erdbeben heimgesucht.</item>
+        <item>2303433202:Die Welt %PLANET_NAME% ist sehr berühmt für ihre ungewöhnlichen Sitcoms, wird aber von einem unberechenbaren Bürgerkrieg heimgesucht.</item>
+        <item>2304000123140011:Die Welt %PLANET_NAME% ist sehr bekannt für ihre alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen, wird aber von bösartigen grünen Katzen verflucht.</item>
+        <item>230400011242:Die Welt %PLANET_NAME% ist sehr bekannt für ihre alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Tulpenplantagen, wird aber von unvorhersehbaren Sonnenaktivitäten heimgesucht.</item>
+        <item>2304044321:Die Welt %PLANET_NAME% ist sehr bekannt für ihre rosa Ozeane, wird aber von einer tödlichen Krankheit verflucht.</item>
+        <item>2304044320:Die Welt %PLANET_NAME% ist sehr bekannt für ihre rosa Ozeane, wird aber von einer schrecklichen Krankheit verflucht.</item>
+        <item>2304433102:Die Welt %PLANET_NAME% ist sehr bekannt für ihre ungewöhnlichen Sitcoms, wird aber von einem unvorhersehbaren Bürgerkrieg heimgesucht.</item>
+        <item>3422:Dieser Planet ist ein langweiliger Ort.</item>
+        <item>3421:Dieser Planet ist eine langweilige Welt.</item>
+        <item>3433:Dieser Planet ist ein mühsamer kleiner Planet.</item>
+        <item>3432:Dieser Planet ist ein mühsamer Ort.</item>
+        <item>32023:Dieser Planet wird von einer tödlichen Krankheit heimgesucht.</item>
+        <item>32022:Dieser Planet wird von einer bösen Krankheit heimgesucht.</item>
+        <item>32034:Dieser Planet wird von tödlichen Erdbeben heimgesucht.</item>
+        <item>32033:Dieser Planet wird von schrecklichen Erdbeben heimgesucht.</item>
+        <item>3140001230:Dieser Planet ist berühmt für seine alten Berge und die tief verwurzelte Schüchternheit seiner Bewohner.</item>
+        <item>314000012410:Dieser Planet ist berühmt für seine alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen und seine exotische Küche.</item>
+        <item>3140000123140:Dieser Planet ist berühmt für seine alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen und &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsfleisch.</item>
+        <item>304000012:Dieser Planet ist berühmt für seine alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen.</item>
+        <item>30404444320:Dieser Planet ist berühmt für seinen aufregenden bösen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Saft.</item>
+        <item>3040443:Dieser Planet ist berühmt für seine aufregenden Sitcoms.</item>
+        <item>3040444321:Dieser Planet ist berühmt für sein aufregendes Zero-G-Kricket.</item>
+        <item>3040400:Dieser Planet ist berühmt für seine fabelhafte Küche.</item>
+        <item>30404044443:Dieser Planet ist berühmt für sein fabelhaftes heimtückisches %RANDOM_NAME% Gebräu.</item>
+        <item>314001231410:Dieser Planet ist berühmt für seine ungewöhnlich üppigen Wälder und seine exotische Küche.</item>
+        <item>314001231400:Dieser Planet ist berühmt für seine ungewöhnlich üppigen Wälder und seine fabelhafte Küche.</item>
+        <item>304001134:Dieser Planet ist berühmt für seine seltsamen Laubwälder.</item>
+        <item>3140011231400:Dieser Planet ist berühmt für seine seltsamen Felsformationen und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckspitzmaus.</item>
+        <item>3140011242141:Dieser Planet ist berühmt für seine seltsamen Vulkane und die außergewöhnliche Liebe seiner Bewohner zu Touristen.</item>
+        <item>31400112410230:Dieser Planet ist berühmt für seine seltsamen Vulkane und den gelb gestreiften &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Dichter.</item>
+        <item>33102242241:Dieser Planet ist leidlich berühmt für die exzentrische Liebe seiner Bewohner zur Poesie, wird aber von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>33102241023:Dieser Planet ist leidlich berühmt für die exzentrische Liebe seiner Bewohner zu Touristen, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>33102241123:Dieser Planet ist leidlich berühmt für die exzentrische Liebe seiner Bewohner zu Touristen, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>3310220220:Dieser Planet ist wegen der exzentrischen Schüchternheit seiner Bewohner leidlich berühmt, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>3310230343:Dieser Planet ist leidlich berühmt für die tief verwurzelte Schüchternheit seiner Bewohner, wird aber von schrecklichen Sonnenaktivitäten verflucht.</item>
+        <item>33101130331:Dieser Planet ist für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Bergdichter leidlich berühmt, wird aber von gelegentlichen Erdbeben verflucht.</item>
+        <item>33101130332:Dieser Planet ist für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Bergdichter leidlich berühmt, wird aber von unvorhersehbaren Erdbeben verflucht.</item>
+        <item>331400011303:Dieser Planet ist leidlich bekannt für seine alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Tulpenplantagen, wird aber vom schrecklichen Bürgerkrieg verflucht.</item>
+        <item>33141123140:Dieser Planet ist leidlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berghummeroiden, wird aber von häufigen Sonnenaktivitäten heimgesucht.</item>
+        <item>33141124213433:Dieser Planet ist leidlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Berg-%RANDOM_NAME%oiden, wird aber von tödlichen gefleckten Schnecken verwüstet.</item>
+        <item>331410230332:Dieser Planet ist leidlich bekannt für den gelb gestreiften &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Dichter, wird aber von unvorhersehbaren Erdbeben verflucht.</item>
+        <item>331410230342:Dieser Planet ist leidlich bekannt für den gelb gestreiften &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Dichter, wird aber durch unvorhersehbare Sonnenaktivität verflucht.</item>
+        <item>3320230404:Dieser Planet ist am berühmtesten für die tief verwurzelte Schüchternheit seiner Bewohner, wird aber vom tödlichen Bürgerkrieg gegeißelt.</item>
+        <item>3320231012411:Dieser Planet ist am berühmtesten für die tief verwurzelte Dummheit seiner Bewohner, wird aber von bösen gefleckten Katzen heimgesucht.</item>
+        <item>3320231411230:Dieser Planet ist am berühmtesten für die angeborene Dummheit seiner Bewohner, wird aber von tödlichen essbaren Dichtern gegeißelt.</item>
+        <item>3320231400:Dieser Planet ist am berühmtesten für die angeborene Dummheit seiner Bewohner, wird aber durch häufigen Bürgerkrieg gegeißelt.</item>
+        <item>33203310230:Dieser Planet ist am berühmtesten für Schlammhockey, wird aber von häufigen Erdbeben heimgesucht.</item>
+        <item>33203421304:Dieser Planet ist am legendärsten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy, wird aber vom tödlichen Bürgerkrieg verflucht.</item>
+        <item>33203421343:Dieser Planet ist am berühmtesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy, wird aber von schrecklichen Sonnenaktivitäten verflucht.</item>
+        <item>33203421404:Dieser Planet ist am berühmtesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy, wird aber vom tödlichen Bürgerkrieg gegeißelt.</item>
+        <item>3321400001:Dieser Planet ist vor allem durch seine fabelhafte Küche bekannt, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>3321411343:Dieser Planet ist vor allem durch sein exotisches Nachtleben bekannt, wird aber von schrecklichen Sonnenaktivitäten verfluch.</item>
+        <item>332130332140:Dieser Planet ist am bemerkenswertesten für tödliches &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wasser, wird aber von häufigen Sonnenaktivitäten heimgesucht.</item>
+        <item>33213421411231:Dieser Planet ist am bemerkenswertesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy, wird aber von tödlichen essbaren Kunststudenten gegeißelt.</item>
+        <item>33213421400:Dieser Planet ist am bemerkenswertesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy, wird aber durch häufigen Bürgerkrieg gegeißelt.</item>
+        <item>33213422022:Dieser Planet ist am bemerkenswertesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s %RANDOM_NAME% Wasser, wird aber von einer bösen Krankheit heimgesucht.</item>
+        <item>332130444332:Dieser Planet ist am bemerkenswertesten für hinterhätige %RANDOM_NAME% Donnergurgler, wird aber von unvorhersehbaren Erdbeben verflucht.</item>
+        <item>31410124220:Dieser Planet zeichnet sich durch seine ungewöhnlichen Ozeane und die exzentrische Schüchternheit seiner Bewohner aus.</item>
+        <item>3141012410231:Dieser Planet ist bekannt für seine ungewöhnlichen Ozeane und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gelb gestreiften Kunststudenten.</item>
+        <item>3141123101124:Dieser Planet ist bemerkenswert für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n essbaren Kunststudenten und seine seltsamen Vulkane.</item>
+        <item>314112411342:Dieser Planet zeichnet sich durch die essbare &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Motte und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baummade aus.</item>
+        <item>3141123034331:Dieser Planet ist bemerkenswert für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n essbaren Dichter und tödlichen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Brandy.</item>
+        <item>30443321:Dieser Planet ist bekannt für Zero-G Cricket.</item>
+        <item>32134:Dieser Planet wird von tödlichen Erdbeben heimgesucht.</item>
+        <item>32130:Dieser Planet wird von häufigen Erdbeben heimgesucht.</item>
+        <item>32140:Dieser Planet wird von häufigen Sonnenaktivitäten heimgesucht.</item>
+        <item>32141:Dieser Planet wird von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>32102:Dieser Planet wird von einem unvorhersehbaren Bürgerkrieg heimgesucht.</item>
+        <item>30332130:Dieser Planet ist ziemlich berühmt für die außergewöhnliche Abscheu seiner Bewohner vor Mixern.</item>
+        <item>30332140:Dieser Planet ist ziemlich bekannt für die außergewöhnliche Liebe seiner Bewohner zu Mixern.</item>
+        <item>30332141:Dieser Planet ist ziemlich bekannt für die außergewöhnliche Liebe seiner Bewohner zu Touristen.</item>
+        <item>303310124:Dieser Planet ist ziemlich bekannt für den schwarzen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME%oiden.</item>
+        <item>303310224:Dieser Planet ist ziemlich bekannt für das gelb gestreifte &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; %RANDOM_NAME%oid.</item>
+        <item>303432134:Dieser Planet ist zu Recht für seine exotische Ziegensuppe bekannt.</item>
+        <item>303432034:Dieser Planet ist zu Recht für seine fabelhafte Ziegensuppe bekannt.</item>
+        <item>3034220:Dieser Planet ist zu Recht für die exzentrische Schüchternheit seiner Bewohner bekannt.</item>
+        <item>30343314:Dieser Planet ist recht bekannt für Schlammtennis.</item>
+        <item>30343321:Dieser Planet ist recht gut für Zero-G-Kricket bekannt.</item>
+        <item>30343320:Dieser Planet ist recht gut für Zero-G Hockey bekannt.</item>
+        <item>310123101123:Dieser Planet ist sehr bemerkenswert für die angeborene Dummheit seiner Bewohner und seine seltsamen Felsformationen.</item>
+        <item>310124113421:Dieser Planet ist sehr bemerkenswert für die seltsame Dummheit seiner Bewohner und &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Brandy.</item>
+        <item>310112421304:Dieser Planet ist sehr bemerkenswert für die essbare &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Larve und den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Baumwolf.</item>
+        <item>310112410231:Dieser Planet ist sehr bemerkenswert für die essbare &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Motte und seine großen üppigen Wälder.</item>
+        <item>310113033101:Dieser Planet ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange und das &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Spitzmausschnitzel.</item>
+        <item>31011304001:Dieser Planet ist sehr bemerkenswert für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Baumwolf und seine alten Berge.</item>
+        <item>3102203321342:Dieser Planet ist sehr bekannt für die alte Abscheu seiner Bewohner vor Diskotheken und die außergewöhnliche Abscheu vor Casinos.</item>
+        <item>310220331411:Dieser Planet ist sehr bekannt für die alte Abscheu seiner Bewohner vor Diskotheken und die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Fleckkatze.</item>
+        <item>310224220220:Dieser Planet ist sehr bekannt für die ungewöhnlichen Paarungstraditionen seiner Bewohner und seine großartigen Parkuhren.</item>
+        <item>3102241130331:Dieser Planet ist sehr bekannt für die seltsame Dummheit seiner Bewohner und tödlichen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Brandy.</item>
+        <item>310231012410:Dieser Planet ist sehr bekannt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Spitzmausschnitzel und die seltsame Schüchternheit seiner Bewohner.</item>
+        <item>3310231011242:Dieser Planet ist leidlich berühmt für die tief verwurzelte Dummheit seiner Bewohner, wird aber von tödlichen essbaren Larven heimgesucht.</item>
+        <item>4444:Diese Welt ist eine widerwärtige Müllhalde.</item>
+        <item>4443:Diese Welt ist ein widerwärtiger kleiner Planet.</item>
+        <item>4433:Diese Welt ist ein mühsamer kleiner Planet.</item>
+        <item>4432:Diese Welt ist ein mühsamer Ort.</item>
+        <item>4040001:Diese Welt ist berühmt für ihre alten Berge.</item>
+        <item>404000012:Diese Welt ist berühmt für ihre alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Bananenplantagen.</item>
+        <item>404000011:Diese Welt ist berühmt für ihre alten &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n %RANDOM_NAME% Tulpenplantagen.</item>
+        <item>40404444432:Diese Welt ist berühmt für ihr aufregendes tödliches %RANDOM_NAME% Wasser.</item>
+        <item>40404444443:Diese Welt ist berühmt für ihr aufregendes hinterhältiges %RANDOM_NAME% Gebräu.</item>
+        <item>40404444444:Diese Welt ist berühmt für ihre aufregenden hinterhältigen %RANDOM_NAME% Donnergurgler.</item>
+        <item>404001130:Diese Welt ist berühmt für ihre seltsamen, dichten Wälder.</item>
+        <item>41134220220:Diese Welt ist hinlänglich bekannt für ihre hügeligen Casinos und ihre großartigen Parkuhren.</item>
+        <item>41134220331:Diese Welt ist hinlänglich bekannt für ihre hügeligen Casinos und ihre üppigen Wälder.</item>
+        <item>411303432033:Diese Welt ist leidlich bekannt für ihre riesigen Ozeane und ihre fabelhaften Ziegenburger.</item>
+        <item>41130332034:Diese Welt ist hinlänglich bekannt für ihre ausgedehnten Regenwälder und ihre riesigen Ozeane.</item>
+        <item>4112410231:Diese Welt ist hinlänglich bekannt für ihre exotische Küche und die tief verwurzelte Dummheit ihrer Bewohner.</item>
+        <item>41124213422:Diese Welt ist hinlänglich bekannt für ihr hügeliges Nachtleben und &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s %RANDOM_NAME% Wasser.</item>
+        <item>4112310230342:Diese Welt ist hinlänglich bekannt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Spitzmaussteak und hinterhältiges &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wasser.</item>
+        <item>4112303432130:Diese Welt ist hinlänglich bekannt für hinterhätiges &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Gebräu und die außergewöhnliche Abscheu ihrer Bewohner vor Mixern.</item>
+        <item>4112314001231:Diese Welt ist hinlänglich bekannt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsfleisch und ihre ungewöhnlich üppigen Wälder.</item>
+        <item>43203310230:Diese Welt ist am berühmtesten für Schlammhockey, wird aber von häufigen Erdbeben heimgesucht.</item>
+        <item>43203310231:Diese Welt ist am berühmtesten für Schlammhockey, wird aber von gelegentlichen Erdbeben heimgesucht.</item>
+        <item>43203422023:Diese Welt ist am berühmtesten für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s %RANDOM_NAME% Wasser, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>43203320231:Diese Welt ist am berühmtesten für Zero-G Hockey, wird aber von gelegentlichen Erdbeben heimgesucht.</item>
+        <item>4321410124:Diese Welt ist vor allem durch ihre exotische Küche bekannt, wird aber von einer bösartigen Krankheit heimgesucht.</item>
+        <item>4321411304:Diese Welt ist vor allem durch ihr exotisches Nachtleben bekannt, wird aber vom tödlichen Bürgerkrieg verfluch.</item>
+        <item>4321400001:Diese Welt ist vor allem durch ihre fabelhafte Küche bekannt, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>43214044331411241:Diese Welt ist am bemerkenswertesten für ihren fabelhaften tödlichen &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Brandy, wird aber von tödlichen essbaren Motten geplagt.</item>
+        <item>4321404000001:Diese Welt ist vor allem durch den fabelhaften %RANDOM_NAME% Saft bekannt, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>43214040001130331:Diese Welt ist am bemerkenswertesten für ihren fabelhaften %RANDOM_NAME% Saft, wird aber von tödlichen, rosa grauen Kunststudenten geplagt.</item>
+        <item>4044443:Diese Welt ist bekannt für ihre spannenden Sitcoms.</item>
+        <item>4044432:Diese Welt ist bekannt für ihre ungewöhnlichen Casinos.</item>
+        <item>40443310:Diese Welt ist bekannt für Schlammhockey.</item>
+        <item>40443320:Diese Welt ist bekannt für Zero-G Hockey.</item>
+        <item>42130:Diese Welt wird von häufigen Erdbeben heimgesucht.</item>
+        <item>42141:Diese Welt wird von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>42203:Diese Welt wird von einem schrecklichen Bürgerkrieg heimgesucht.</item>
+        <item>42241:Diese Welt wird von gelegentlichen Sonnenaktivitäten heimgesucht.</item>
+        <item>42202:Diese Welt wird von einem unberechenbaren Bürgerkrieg heimgesucht.</item>
+        <item>4331410123:Diese Welt ist recht bemerkenswert für ihre exotische Küche, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>4331411231:Diese Welt ist recht bemerkenswert für ihr exotisches Nachtleben, wird aber von gelegentlichen Erdbeben heimgesucht.</item>
+        <item>4331400001:Diese Welt ist recht bemerkenswert für ihre fabelhafte Küche, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>43314001130332:Diese Welt ist ziemlich bemerkenswert für ihre fabelhafte Küche, wird aber von tödlichen rosa grauen Yaks heimgesucht.</item>
+        <item>43310224113422:Diese Welt ist ziemlich bemerkenswert für ihre großen Vulkane, wird aber von tödlich gefleckten Fledermausoiden heimgesucht.</item>
+        <item>43310224101:Diese Welt ist recht bemerkenswert für ihre großen Vulkane, wird aber von gelegentlichen Bürgerkriegen heimgesucht.</item>
+        <item>43320231411230:Diese Welt ist ziemlich bekannt für ihre großen üppigen Wälder, wird aber von tödlichen essbaren Dichtern gegeißelt.</item>
+        <item>43320231400:Diese Welt ist ziemlich bekannt für ihre üppigen Wälder, wird aber von häufigen Bürgerkriegen gegeißelt.</item>
+        <item>43320220342:Diese Welt ist ziemlich bekannt für ihre großen Parkuhren, wird aber von unvorhersehbaren Sonnenaktivitäten verflucht.</item>
+        <item>43320220220:Diese Welt ist ziemlich bekannt für ihre großen Parkuhren, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>43321304432:Diese Welt ist ziemlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n Baumwolf, wird aber von unvorhersehbaren Erdbeben gegeißel.</item>
+        <item>43321410220:Diese Welt ist ziemlich bekannt für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n gefleckten Leoparden, wird aber von einer tödlichen Krankheit heimgesucht.</item>
+        <item>400000000:Diese Welt ist sehr berühmt für ihre alten %RANDOM_NAME% Plantagen.</item>
+        <item>400001230:Diese Welt ist sehr berühmt für ihre ungewöhnlich dichten Wälder.</item>
+        <item>40000124:Diese Welt ist sehr berühmt für ihre ungewöhnlichen Ozeane.</item>
+        <item>4001230:Diese Welt ist sehr bemerkenswert für die tief verwurzelte Schüchternheit ihrer Bewohner.</item>
+        <item>4001231:Diese Welt ist sehr bemerkenswert für die tief verwurzelte Dummheit ihrer Bewohner.</item>
+        <item>41012421410:Diese Welt ist sehr bemerkenswert für die ungewöhnliche Dummheit ihrer Bewohner und ihre exotische Küche.</item>
+        <item>4101242130404:Diese Welt ist sehr bemerkenswert für die ungewöhnliche Dummheit ihrer Bewohner und den tödlichen %RANDOM_NAME% Donnergurgler.</item>
+        <item>40011231:Diese Welt ist sehr bemerkenswert für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n essbaren Kunststudenten.</item>
+        <item>40011241:Diese Welt ist sehr bemerkenswert für den &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;n essbaren Nachtfalter.</item>
+        <item>40011342:Diese Welt ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baummade.</item>
+        <item>41011303433:Diese Welt ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange und ihre ungewöhnlichen Sitcoms.</item>
+        <item>410113033141:Diese Welt ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange und &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsschnitzel.</item>
+        <item>40011303:Diese Welt ist sehr bemerkenswert für die &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt; Baumschlange.</item>
+        <item>41022023140:Diese Welt ist sehr bekannt für die alten Paarungstraditionen ihrer Bewohner und &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsfleisch.</item>
+        <item>4102303320332:Diese Welt ist sehr bekannt für tödliches &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wasser und ihre riesigen Regenwälder.</item>
+        <item>410230342202:Diese Welt ist sehr bekannt für hinterhältiges &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wasser und die alten Paarungstraditionen ihrer Bewohner.</item>
+        <item>4102314001124:Diese Welt ist sehr bekannt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsfleisch und ihre seltsamen Vulkane.</item>
+        <item>314101242241:Dieser Planet zeichnet sich durch seine ungewöhnlichen Ozeane und die exzentrische Liebe seiner Bewohner zu Touristen aus.</item>
+        <item>410124113422:Dieser Planet ist leidlich bekannt für den schwarzen %RANDOM_NAME%oide, wird aber von tödlich gefleckten Fledermausoiden heimgesucht.</item>
+        <item>4112314001124:Diese Welt ist hinlänglich bekannt für &lt;js&gt;planetian("%PLANET_NAME%")&lt;/js&gt;s Wolfsfleisch und ihre seltsamen Vulkane.</item>
+    </string-array>
+
+    <string name="about_version">%s Version %s</string>
+    <string name="about">[0]%1$s
+[1]Ein Spiel von
+[5]Philipp Bouillon
+[6]Duane McDonnell
+[1]Programmierung
+[5]Philipp Bouillon
+[1]Zusätzliche Programmierung
+[5]Steven Phillips
+[6]Tamás Molnár
+[9]%1$s basiert auf dem klassischen Elite
+[10]© Acornsoft, Bell &amp; Braben
+[2]Intro
+[4]Produktion, Modellierung, Gestaltung
+[5]James Scott
+[7]jscottmedia.com
+[3]Andock-Musik
+[11]An der schönen blauen Donau (Op. 314)
+[11]von Johann Strauss
+[5]Arrangiert von Chris Huelsbeck
+[3]Hintergrundmusik
+[5]Antti Martikainen
+[7]www.youtube.com/user/AJMartikainen
+[6]The Chase
+[7]anttimartikainen.bandcamp.com/track/the-chase
+[6]To Valhalla
+[7]anttimartikainen.bandcamp.com/track/to-valhalla
+[3]Synchronsprecher
+[4]Kommandant Quelo
+[5]R.J. O'Connell
+[4]Lave Stationsleiterin
+[5]Amy Perkins
+[4]Kommandant Ripley (Viper 4)
+[5]Cliff Thompson
+[4]Kommandant Stevenson
+[5]Bret Newton
+[7]www.bretnewton.com
+[4]Computerstimme
+[5]Dahlia Lynn
+[4]General Constrictor-Bau
+[5]David Bodtcher
+[4]General Thargoidenakten
+[5]River Kanoff
+[4]Evakuierungsbotschaft
+[5]Cass McPhee
+[7]https:\\cassmcphee.wordpress.com
+[4]Flüchtling
+[5]Caitlin Buckley
+[7]https:\\caitlinva.wordpress.com
+[4]General der Thargoidenstation
+[5]Adoxographist
+[7]http:\\adoxtalks.tumblr.com
+[3]Modellierung
+[5]Phil Griff
+[6]Rolf Schuetteler
+[6]Giles Williams
+[6]Jens Ayton
+[6]Clym Angus
+[6]Marko Susimetsä
+[6]ADCK
+[6]Captain Beatnik
+[6]DeepSpace
+[6]Galileo
+[6]Murgh
+[3]Symbole und 2D-Grafiken
+[5]Stan Stoyanov
+[3]Kommandant Quelo Porträt
+[5]Aleksandar Grujic - Dimmensa
+[3]Planetentexturen
+[5]Planetcreator von Christian Hart
+[3]Sterntexturen
+[5]Von Celestia Benutzer gradius_fanatic
+[3]Cobra Mk III Bild
+[5]Von www.kennyscrap.com
+[3]Spieltester
+[5]Arnd Houben
+[6]Cornelius Dirmeier
+[6]Duane McDonnell
+[6]Franz-Josef Bongartz
+[6]Gunnar Tacke
+[6]Hussein Baagil
+[6]Jens-Peter Hack
+[6]Manuel Schupp
+[6]Mathias Busche
+[6]Michael Breuer
+[6]Michael Raue
+[6]Olav Riediger
+[6]Rolf Paulsen
+[6]Scott McGeachie
+[6]Stefan Widmaier
+[3]Deutsche Übersetzung
+[5]Philipp Bouillon
+[3]Besonderer Dank an
+[5]Duane McDonnell
+[7]Dieses Spiel wäre ohne Deine Hilfe nie
+[7]fertig geworden. Du bist der echte
+[7]Elite Meister
+[7]und Du hast mir alles über 3D beigebracht.
+[8]Die Oolite Fanseiten
+[7]%1$s wäre ohne die Unterstützung und die
+[7]Hilfe der Oolite Community nicht möglich gewesen.
+[8]Ian Bell und David Braben
+[7]Danke für Elite.
+[7]Das beste Spiel, das je geschrieben wurde.
+[8]Rob Nicholson
+[7]Danke für meine Lieblingsversion von Elite:
+[7]Amiga Elite. Vielen Dank auch für Deinen
+[7]Zuspruch beim Schreiben dieses Spiels.
+[8]Meine Frau Klaudia
+[7]Danke, dass Du mich das Spiel hier hast in
+[7]all den langen nächtlichen Stunden schreiben lassen.
+[7]Für das und so viel mehr, liebe ich Dich!</string>
+
+    <string name="com_aft_shield_has_failed">Achterschild ausgefallen</string>
+    <string name="com_front_shield_has_failed">Vorderschild ausgefallen</string>
+    <string name="com_condition_red">Alarmstufe Rot!</string>
+    <string name="com_docking_computer_engaged">Andockcomputer aktiviert</string>
+    <string name="com_docking_computer_disengaged">Andockcomputer deaktiviert</string>
+    <string name="com_hyperdrive_malfunction">Fehlfunktion im Hyperraumantrieb!</string>
+    <string name="com_hyperdrive_repaired">Hyperraumantrieb repariert!</string>
+    <string name="com_incoming_missile">Rakete nähert sich</string>
+    <string name="com_laser_temperature_critical">Lasertemperatur kritisch</string>
+    <string name="com_cabin_temperature_critical">Kabinentemperatur kritisch</string>
+    <string name="com_target_destroyed">Ziel zerstört</string>
+    <string name="com_fuel_system_malfunction">Fehlfunktion im Treibstoffsystem</string>
+    <string name="com_access_declined">Zugang zur Station wurde verwehrt</string>
+    <string name="com_escape_malfunction">Fehlfunktion der Fluchtkapsel</string>
+    <string name="com_cargo_lost">Fracht verloren</string>
+    <string name="com_launch_area_violation_1st">Hey, Anfänger! Weg aus der Landezone. Sofort!</string>
+    <string name="com_launch_area_violation_2nd">Verschwinde aus der Landezone oder wir eröffnen das Feuer.</string>
+    <string name="com_launch_area_violation_3rd">Verteidigungsmaßnahmen der Raumstation aktiviert.</string>
+
+    <string name="navbar_launch">Abflug</string>
+    <string name="navbar_front">Vorne</string>
+    <string name="navbar_status">Status</string>
+    <string name="navbar_buy">Kaufen</string>
+    <string name="navbar_inventory">Laderaum</string>
+    <string name="navbar_equip">Ausrüsten</string>
+    <string name="navbar_galaxy">Galaxie</string>
+    <string name="navbar_local">Lokal</string>
+    <string name="navbar_planet">Planet</string>
+    <string name="navbar_disk">Disk</string>
+    <string name="navbar_achievements">Trophäen</string>
+    <string name="navbar_options">Einstellen</string>
+    <string name="navbar_library">Bibliothek</string>
+    <string name="navbar_academy">Akademie</string>
+    <string name="navbar_hacker">Hacker</string>
+    <string name="navbar_quit">Beenden</string>
+
+    <string name="goods_food">Nahrung</string>
+    <string name="goods_textiles">Textilien</string>
+    <string name="goods_radioactives">Atommüll</string>
+    <string name="goods_slaves">Sklaven</string>
+    <string name="goods_liquor_wines">Alkohol/Wein</string>
+    <string name="goods_luxuries">Luxusgüter</string>
+    <string name="goods_narcotics">Drogen</string>
+    <string name="goods_computers">Computer</string>
+    <string name="goods_machinery">Maschinen</string>
+    <string name="goods_alloys">Metalle</string>
+    <string name="goods_firearms">Waffen</string>
+    <string name="goods_furs">Felle</string>
+    <string name="goods_minerals">Mineralien</string>
+    <string name="goods_gold">Gold</string>
+    <string name="goods_platinum">Platin</string>
+    <string name="goods_gem_stones">Edelsteine</string>
+    <string name="goods_alien_items">Fremde Artefakte</string>
+    <string name="goods_medical_supplies">Medizin</string>
+    <string name="goods_thargoid_documents">Wichtige Thargoidenunterlagen</string>
+    <string name="goods_unhappy_refugees">Unglückliche Flüchtlinge</string>
+
+    <string name="condition_docked">Angedockt</string>
+    <string name="condition_green">Grün</string>
+    <string name="condition_yellow">Gelb</string>
+    <string name="condition_red">Rot</string>
+
+    <string name="legal_status_clean">Sauber</string>
+    <string name="legal_status_offender">Straffällig</string>
+    <string name="legal_status_fugitive">Flüchtig</string>
+
+    <string name="rating_harmless">Harmlos</string>
+    <string name="rating_mostly_harmless">Größtenteils harmlos</string>
+    <string name="rating_poor">Schwach</string>
+    <string name="rating_average">Mittelmäßig</string>
+    <string name="rating_above_average">Überdurchschnittlich</string>
+    <string name="rating_competent">Kompetent</string>
+    <string name="rating_dangerous">Gefährlich</string>
+    <string name="rating_deadly">Tödlich</string>
+    <string name="rating_elite">E-L-I-T-E</string>
+
+    <string name="inhabitant_human_colonial">Menschliche Kolonie</string>
+    <string name="inhabitant_friendly_green_treeards">Freundliche Baumhirten</string>
+
+    <string name="inhabitant_desc_large">Große</string>
+    <string name="inhabitant_desc_fierce">Bedrohliche</string>
+    <string name="inhabitant_desc_small">Kleine</string>
+
+    <string name="inhabitant_color_green">Grüne</string>
+    <string name="inhabitant_color_red">Rote</string>
+    <string name="inhabitant_color_yellow">Gelbe</string>
+    <string name="inhabitant_color_blue">Blaue</string>
+    <string name="inhabitant_color_white">Weiße</string>
+    <string name="inhabitant_color_harmless">Harmlose</string>
+
+    <string name="inhabitant_appearance_slimy">Schleimige</string>
+    <string name="inhabitant_appearance_bug_eyed">Insektenäugige</string>
+    <string name="inhabitant_appearance_horned">Gehörnte</string>
+    <string name="inhabitant_appearance_bony">Knöcherne</string>
+    <string name="inhabitant_appearance_fat">Fette</string>
+    <string name="inhabitant_appearance_furry">Behaarte</string>
+    <string name="inhabitant_appearance_mutant">Mutierte</string>
+    <string name="inhabitant_appearance_weird">Seltsame</string>
+
+    <string name="inhabitant_type_rodent">Nagetiere</string>
+    <string name="inhabitant_type_frog">Frösche</string>
+    <string name="inhabitant_type_lizard">Eidechsen</string>
+    <string name="inhabitant_type_lobster">Hummer</string>
+    <string name="inhabitant_type_bird">Vögel</string>
+    <string name="inhabitant_type_humanoid">Humanoide</string>
+    <string name="inhabitant_type_feline">Katzen</string>
+    <string name="inhabitant_type_insect">Insekten</string>
+
+    <string name="raxxla_name">Raxxla</string>
+    <string name="raxxla_desc">Der legendäre Planet Raxxla ist die Heimat aller Elite-Piloten im Universum. Er bietet ihnen Rückzug und Frieden sowie ein Portal zu einem anderen Universum.</string>
+
+    <string name="government_anarchy">Anarchie</string>
+    <string name="government_feudal">Feudalherrschaft</string>
+    <string name="government_multi_government">Pluralistische Regierung</string>
+    <string name="government_dictatorship">Diktatur</string>
+    <string name="government_communist">Kommunist</string>
+    <string name="government_confederacy">Staatenbund</string>
+    <string name="government_democracy">Demokratie</string>
+    <string name="government_corporate_state">Kooperativer Staat</string>
+
+    <string name="economy_rich_industrial">Reiche Industrie</string>
+    <string name="economy_average_industrial">Durchschnittliche Industrie</string>
+    <string name="economy_poor_industrial">Arme Industrie</string>
+    <string name="economy_mainly_industrial">Überwiegend Industriell</string>
+    <string name="economy_mainly_agricultural">Überwiegende Agrarwirtschaft</string>
+    <string name="economy_rich_agricultural">Reiche Agrarwirtschaft</string>
+    <string name="economy_average_agricultural">Durchschnittliche Agrarwirtschaft</string>
+    <string name="economy_poor_agricultural">Arme Agrarwirtschaft</string>
+
+    <string name="mission_attention_commander">Achtung Kommandant!</string>
+    <string name="mission_unknown_target">&lt;Unbekannt&gt;</string>
+    <string name="mission_accept">Nehmen Sie diese Mission an?</string>
+
+    <string name="mission_constrictor_obj_jump">Führen Sie einen intergalaktischen Sprung durch.</string>
+    <string name="mission_constrictor_obj_fly">Fliegen Sie nach %s.</string>
+    <string name="mission_constrictor_mission_description">Ein Prototyp des neuen streng geheimen Militärschiffs, der Constrictor, wurde von unbekannten Agenten aus einer Forschungsstation der Marine gestohlen. Aufgrund der Fähigkeiten dieses Schiffes bietet die Galaktische Genossenschaft der Welten eine große Belohnung für jeden an, der das Schiff zerstört, bevor es in feindliche Hände gelangt.</string>
+    <string name="mission_constrictor_report_to_base">Für eine vollständige Missionseinweisung melden Sie sich bitte bei der Raumstation dieses Systems. Aufgrund der politischen Umstände dieser Aufgabe ist es wichtig, dass Sie die Details der Constrictor für sich behalten. Viel Glück Kommandant!</string>
+    <string name="mission_constrictor_intergalactic_jump">Die Galactic Intelligence Agency (GIA) berichtet, dass die Constrictor vor kurzem einen intergalaktischen Sprung aus diesem System gemacht hat. Es wird empfohlen, dass Sie den gleichen Sprung machen und sich für weitere Details an die nächstgelegene Raumstation wenden.</string>
+    <string name="mission_constrictor_hyperspace_jump">GIA berichtet, dass die Constrictor nach der Verwüstung einen Hyperraum-Sprung aus diesem System heraus gemacht hat. Die Weltraumverfolgung deutet darauf hin, dass ihr Ziel dieses System hier ist.</string>
+    <string name="mission_constrictor_success">Die Galaktische Genossenschaft der Welten steht für immer in Ihrer Schuld, oh mächtiger Händler! Als kleines Zeichen unserer Anerkennung akzeptieren Sie bitte eine Belohnung von 10.000 Credits für Ihre Mühe. Während ich Ihre Aufmerksamkeit habe, möchte die Galaktische Polizei, dass ich Sie an die Kleinigkeit von mehreren hundert unbezahlten Strafzetteln wegen falschen Parkens erinnere!</string>
+
+    <string name="mission_thargoid_documents_obj">Liefern Sie die Dokumente nach %s.</string>
+    <string name="mission_thargoid_documents_mission_description">Die Marine hat es geschafft, seltene Entwürfe eines Thargoiden-Kampfschiffes zu erhalten, die Details über den Antrieb und die Waffensysteme enthalten. Diese Dokumente müssen so schnell wie möglich zur Hauptmarinebasis im Orbit um den hier gezeigten Planeten gebracht werden. Der Feind weiß nicht, dass wir diese Dokumente haben, also sollte die Reise ohne Probleme verlaufen.</string>
+    <string name="mission_thargoid_documents_fully_serviced">Die Dokumente wurden in Ihren Frachtraum gelegt. Ihr Schiff wurde komplett gewartet und ist startbereit. Viel Glück Kommandant!</string>
+    <string name="mission_thargoid_documents_success">Wir stehen (wieder) für immer in Ihrer Schuld, da Sie diese sehr wichtigen Dokumente zu uns gebracht haben. Als Belohnung haben wir Ihr Schiff mit der neuesten Marineenergieeinheit ausgestattet, die Ihre Energieleisten doppelt so schnell wieder auflädt wie gewohnt. In Anbetracht der Anzahl der 'Vorfälle', in die Sie sich einmischen, werden Sie dies wahrscheinlich sehr nützlich finden. Die GIA entschuldigt sich auch für das Sicherheitsleck, das die Thargoiden auf Ihre Spur gebracht hat. Die GIA führt intensive Ermittlungen durch und der Täter wird bald gefunden sein.</string>
+
+    <string name="mission_supernova_trade">Entschuldigung - es ist niemand hier, mit dem man handeln kann.</string>
+    <string name="mission_supernova_danger">Gefahr: Supernova</string>
+    <string name="mission_supernova_obj">Entkommen Sie der Supernova.</string>
+    <string name="mission_supernova_announcement">Warnung - der Stern in diesem System wird zur Supernova. Sie sind angehalten, so schnell wie möglich zu verschwinden.</string>
+    <string name="mission_supernova_mission_description">Bitte helfen Sie uns! Alle anderen sind vor der Supernova geflohen, aber wir wurden zurückgelassen, als unser Shuttle durch einen Asteroiden beschädigt wurde. Wir schafften es, zur Raumstation zurückzukehren, sehen uns aber dem sicheren Tod gegenüber, wenn wir nicht bald abreisen. Wir sind nur wenige. Wir könnten uns in Ihrem Frachtraum aufhalten.</string>
+    <string name="mission_supernova_accept">Werden Sie uns helfen?</string>
+    <string name="mission_supernova_drop_us_off">Danke, Sie werden von unserer Regierung gut belohnt werden. Ich fürchte, dass wir Ihre Ladung entsorgen mussten, um uns alle unterzubringen. Wenn Sie uns einfach beim nächsten Sternensystem absetzen könnten, wären wir in Sicherheit.</string>
+    <string name="mission_supernova_success">Danke, dass Sie uns in Sicherheit gebracht haben. Bitte akzeptieren Sie eine Auswahl an kostbaren zanxianischen Edelsteinen als Zeichen unserer Wertschätzung.</string>
+    <string name="mission_supernova_mission_decline">Ich hoffe, dass Sie einen schrecklich langen und anhaltenden Tod durch die Klauen eines schleimigen grünen Hummeroiden sterben! Jedenfalls dann, wenn Sie jetzt nicht von der Supernova in Stücke gerissen werden!</string>
+    <string name="mission_cougar_obj">Das unbekannte Schiff zerstören.</string>
+    <string name="mission_cougar_mission_description">Warnung an alle Händler: Es gab Berichte von Händlern in diesem Sektor über ein unbekanntes feindliches Schiff mit fantastischen Fähigkeiten. Gerüchten zufolge ist dieses Schiff mit einer Vorrichtung ausgestattet, die eine Fehlfunktion der Bordcomputer verursacht.</string>
+
+    <string name="thargoid_station_name">Außerirdische Raumstation</string>
+    <string name="mission_thargoid_station_obj">Zerstören Sie die Thargoiden-Basis auf %s.</string>
+    <string name="mission_thargoid_station_mission_description">Die Galactic Intelligence Agency berichtet, dass ein nahegelegenes System von Thargoidenschiffen überfallen wurde und dass die Raumstation erobert wurde. Alle verfügbaren Kräfte werden gesammelt, um die eindringenden Truppen zu zerstören. Die Raumstation hat sich zum Hauptquartier der Thargoiden entwickelt, und von hier aus wird der Planetenangriff durchgeführt. Die Raumstation muss zerstört werden - um jeden Preis!</string>
+    <string name="mission_thargoid_station_success">Danke, dass Sie die Thargoiden-Basis zerstört haben. Ein neues Gerät wurde von einem der Thargoidenschiffe geborgen. Wir haben es auf Ihrem Schiff installiert, es scheint ECM-Signale zu stören.</string>
+
+    <string name="mission_elite_welcome_commander">Willkommen in Raxxla, Kommandant.</string>
+    <string name="mission_elite_mission_description">Sie haben sich als würdig erwiesen und jetzt sind Sie endlich an einen Ort gekommen, an dem Sie sich ausruhen und Frieden finden können. Wir begrüßen Sie hier. Schauen Sie sich um und genießen Sie Raxxla. Sie können natürlich jederzeit abreisen, aber die meisten Piloten bleiben. Es gibt einfach nichts Neues im Universum.</string>
+    <string name="mission_elite_congratulations">Herzlichen Glückwunsch, Kommandant. Jetzt gehören Sie wirklich zur Elite.</string>
+
+
+    <string name="trade_good_info">%s - %d%s verfügbar. Durchschnittspreis: %s (Nochmal Antippen zum Kaufen)</string>
+    <string name="trade_out_of_stock">Entschuldigung - dieser Artikel ist nicht auf Lager.</string>
+    <string name="trade_not_enough_in_stock">Entschuldigung - wir haben nicht so viel auf Lager.</string>
+    <string name="trade_not_enough_money">Sie haben nicht genug Credits.</string>
+    <string name="trade_not_enough_space">Sie haben nicht genug Platz im Frachtraum.</string>
+    <string name="trade_amount_to_buy">Wie viel (bis zu %s)? %s</string>
+    <string name="trade_spare_cargo"> frei</string>
+    <string name="trade_cash">Credits: </string>
+    <string name="trade_ccy_hold">Cr Frachtraum: </string>
+    <string name="state_not_docked">Nicht angedockt.</string>
+
+    <string name="unit_gram">g</string>
+    <string name="unit_kilogram">kg</string>
+    <string name="unit_tonne">t</string>
+
+    <string name="cash_amount_only">%d.%d</string>
+    <string name="cash_amount_value_ccy">%d.%d Cr</string>
+    <string name="cash_int_amount_value_ccy">%d Cr</string>
+    <string name="cash_amount">Credits: %d.%d Cr</string>
+    <string name="cash_left">Credits übrig: %d.%d Cr</string>
+    <string name="cash_amount_value_currency">%d.%d Credits</string>
+
+    <string name="bounty_none">Kopfgeld für %s: Nichts. </string>
+    <string name="bounty_amount">Kopfgeld für %s: %s.</string>
+    <string name="assisted_docking">Die Gebühr für Hilfe beim Andocken beträgt %d.%d Cr. Akzeptieren?</string>
+    <string name="target_galaxy_number">Zielgalaxie (bis zu %s)? %s</string>
+
+    <string name="equip_info">%s (Nochmal Antippen zum Kaufen)</string>
+    <string name="equip_fuel_full">Kraftstoffsystem bereits voll (%d.%d Lichtjahre).</string>
+    <string name="equip_only_one_allowed">Nur 1 %s erlaubt.</string>
+    <string name="equip_max_missiles_reached">Nur %d Raketen erlaubt.</string>
+
+    <string name="title_buy_cargo">Güter Kaufen</string>
+    <string name="title_catalog">Gespeicherte Spielstände</string>
+    <string name="title_disk_menu">Disk Menü</string>
+    <string name="title_equip_ship">Ausrüstung Kaufen</string>
+    <string name="title_local_nav_chart">Lokale Navigationskarte</string>
+    <string name="title_fatal_error">Kritischer Fehler aufgetreten</string>
+    <string name="title_galaxy">Galaktische Karte #%d</string>
+    <string name="title_hacker">Hacker v2.0</string>
+    <string name="title_inventory">Frachtraum</string>
+    <string name="title_library">Bibliothek</string>
+    <string name="title_cmdr_load">Spielstand Laden</string>
+    <string name="title_cmdr_save">Spielstand Speichern</string>
+    <string name="title_planet">Planetendaten von %s</string>
+    <string name="title_plugins">Erweiterungen, Sprachen</string>
+    <string name="title_status">Kommandant %s</string>
+    <string name="title_options">Konfiguration</string>
+    <string name="title_audio_options">Audio Einstellungen</string>
+    <string name="title_control_options">Steuerung Konfigurieren</string>
+    <string name="title_debug_options">Entwickleroptionen</string>
+    <string name="title_display_options">Anzeigeoptionen</string>
+    <string name="title_gameplay_options">Spiel Konfigurieren</string>
+    <string name="title_button_position_options">Schaltflächen Positionieren</string>
+    <string name="title_more_debug_options">Mehr Entwickleroptionen</string>
+    <string name="title_training_academy">Akademie</string>
+    <string name="title_debug_menu">Debug-Menü</string>
+    <string name="title_achievements">Trophäen</string>
+
+    <string name="title_mission_constrictor">Mission #1 - Zerstören Sie den Constrictor</string>
+    <string name="title_mission_thargoid_documents">Mission #2 - Thargoid-Dokumente liefern</string>
+    <string name="title_mission_supernova">Mission #3 - Supernova</string>
+    <string name="title_mission_cougar">Mission #4 - Zerstören Sie das feindliche Schiff</string>
+    <string name="title_mission_thargoid_station">Mission #5 - Zerstören Sie Thargoidenstation</string>
+    <string name="title_mission_elite">Herzlichen Glückwunsch</string>
+
+    <string name="cmdr_btn_delete_one">Löschen</string>
+    <string name="cmdr_btn_delete_more">Löschen</string>
+    <string name="cmdr_delete_one_confirm">Sind Sie sicher, dass Sie Kommandant %s löschen möchten?</string>
+    <string name="cmdr_delete_more_confirm">Sind Sie sicher, dass Sie die ausgewählten Kommandanten löschen möchten?</string>
+    <string name="cmdr_table_name">Name</string>
+    <string name="cmdr_table_system">Gedockt</string>
+    <string name="cmdr_table_time">Zeit</string>
+    <string name="cmdr_table_score">Punkte</string>
+    <string name="cmdr_table_rating">Rang</string>
+    <string name="cmdr_file_autosave">Autosave</string>
+
+    <string name="cmdr_load_new_commander">Spielstand laden?</string>
+    <string name="cmdr_load_confirm">Sind Sie sicher, dass Sie Kommandant %s laden möchten?</string>
+    <string name="cmdr_load_succeeded">Schiff nach %s zurückgesetzt.</string>
+    <string name="cmdr_load_failed">Fehler beim Laden von Kommandant %s: %s</string>
+
+    <string name="cmdr_btn_save">Spiel speichern</string>
+    <string name="cmdr_save_overwrite">Sind Sie sicher, dass Sie %s überschreiben möchten?</string>
+    <string name="cmdr_save_succeeded">Kommandant %s erfolgreich gespeichert.</string>
+    <string name="cmdr_save_failed">Fehler beim Speichern von Kommandant %s: %s</string>
+    <string name="cmdr_get_name">Name des neuen Kommandanten:</string>
+    <string name="cmdr_unknown_system">Unbekannt</string>
+    <string name="cmdr_default_commander_name">Jameson</string>
+
+    <string name="disk_menu_load">Laden</string>
+    <string name="disk_menu_save">Speichern</string>
+
+    <string name="exc_btn_send_error_in_mail">E-Mail senden</string>
+    <string name="exc_btn_save_error_to_file">Datei speichern</string>
+    <string name="exc_btn_restart">Neustart %s</string>
+    <string name="exc_error_info1">Leider ist %s abgestürzt. Entschuldigen Sie bitte die Unannehmlichkeiten. :(</string>
+    <string name="exc_error_info2">Bitte senden Sie die unten beschriebene Fehlerursache über den Button '%s'. Das hilft uns bei der Problembehebung.</string>
+    <string name="exc_error_info3">Weder der Betreff noch der Inhalt der E-Mail enthalten personenbezogene Daten.  Nur der Fehler selbst und die technischen allgemeinen Daten des Handys werden geschrieben.</string>
+    <string name="exc_error_info4">Der Betreff ergibt sich aus der Fehlermeldung. Bitte nicht ändern, es hilft bei der Erkennung der häufiger gesendeten identischen Fehler.</string>
+    <string name="exc_error_file_name">Bericht gespeichert unter: %s</string>
+    <string name="exc_save_error">Speichern fehlgeschlagen</string>
+    <string name="exc_sending_email">E-Mail wird gesendet...</string>
+    <string name="exc_mail_sending_error">Senden fehlgeschlagen: %s</string>
+
+    <string name="galaxy_unknown_planet">Planet %s ist unbekannt.</string>
+    <string name="galaxy_unknown_planet_in_galaxy">Planet %s ist in Galaxie %d. Sie befinden sich derzeit in Galaxie %d.</string>
+    <string name="galaxy_find_planet_name">Name des gesuchten Planeten:</string>
+    <string name="galaxy_distance_info">%s: %d.%d Lichtjahre</string>
+    <string name="galaxy_unknown">Unbekannt</string>
+    <string name="galaxy_btn_find">Suchen</string>
+    <string name="galaxy_btn_home">Reset</string>
+
+    <string name="hacker_btn_done">Fertig</string>
+    <string name="hacker_new_value">Neuer Wert für Byte %s: %s</string>
+
+    <string name="pad_btn_hex_a">A</string>
+    <string name="pad_btn_hex_b">B</string>
+    <string name="pad_btn_hex_c">C</string>
+    <string name="pad_btn_hex_d">D</string>
+    <string name="pad_btn_hex_e">E</string>
+    <string name="pad_btn_hex_f">F</string>
+    <string name="pad_btn_hex_ok">OK</string>
+
+    <string name="inventory_sell">(Nochmal Antippen zum Verkaufen)</string>
+    <string name="inventory_eject">(Nochmal Antippen zum Wegwerfen)</string>
+    <string name="inventory_loss">Verlust: %s</string>
+    <string name="inventory_gain">Gewinn: %s</string>
+    <string name="inventory_empty_cargo">Frachtraum ist leer.</string>
+    <string name="inventory_worth">%s - Wert: %s.</string>
+
+    <string name="laser_pos_front">Vorne</string>
+    <string name="laser_pos_right">Rechts</string>
+    <string name="laser_pos_rear">Hinten</string>
+    <string name="laser_pos_left">Links</string>
+    <string name="laser_pos_select">Position für Laser auswählen</string>
+
+    <string name="library_btn_toc">Inhaltsverzeichnis</string>
+    <string name="library_btn_search">Suche</string>
+    <string name="library_search_text">Suchtext eingeben:</string>
+    <string name="library_no_results">Keine Ergebnisse gefunden.</string>
+    <string name="library_cheat_code_obsoleted1">Schade, dass %s hier nicht mehr funktioniert.</string>
+    <string name="library_cheat_code_obsoleted2">Nein, %s funktioniert hier auch nicht. Sorry.</string>
+    <string name="library_cheat_code_hacker">Hacker aktiviert.</string>
+    <string name="library_cheat_code_shield_booster">Schild Power Booster aktiviert.</string>
+    <string name="library_cheat_code_hyperdrive_booster">Hyperdrive Booster aktiviert.</string>
+    <string name="library_cheat_code_laser_booster">Laser Power Booster aktiviert.</string>
+    <string name="library_cheat_code_max_laser">Maximale Laserleistung.</string>
+    <string name="library_cheat_code_max_shield">Maximale Schildleistung.</string>
+    <string name="library_cheat_code_clear_path">Freie Fahrt Voraus.</string>
+    <string name="library_cheat_code_master_prg">Das Master Control Program steht Ihnen zur Verfügung.</string>
+
+    <string name="planet_inhabitant_db_load1">Überprüfe</string>
+    <string name="planet_inhabitant_db_load2">Datenbank...</string>
+    <string name="planet_economy">Wirtschaft:</string>
+    <string name="planet_government">Regierung:</string>
+    <string name="planet_technical_level">Technologielevel:</string>
+    <string name="planet_population">Bevölkerung:</string>
+    <string name="planet_population_value">%d.%d mrd</string>
+    <string name="planet_population_unknown">? mrd</string>
+    <string name="planet_distance">Lichtjahre</string>
+    <string name="planet_gnp">BNE:</string>
+    <string name="planet_gnp_value">%d.%d MCr</string>
+    <string name="planet_gnp_unknown">? MCr</string>
+    <string name="planet_diameter_value">%,d km</string>
+    <string name="planet_diameter_unknown">? km</string>
+    <string name="planet_visit_info_number">Anzahl der Besuche:</string>
+    <string name="planet_visit_info_date">Letzter Besuch:</string>
+
+    <string name="plugins_no_description">(Keine Beschreibung)</string>
+    <string name="plugins_removal_reason">Löschgrund: %s</string>
+    <string name="plugins_get_removal_reason">Grund des Entfernens:</string>
+    <string name="plugins_download_succeeded">Erweiterung '%s' erfolgreich installiert.</string>
+    <string name="plugins_download_failed">Download '%s' fehlgeschlagen. </string>
+    <string name="plugins_download_progress">%dMB / %dMB</string>
+    <string name="plugins_download_time">%4.2f MB/s, %ds</string>
+    <string name="plugins_size_mb">%d MB</string>
+    <string name="plugins_size_kb">%d KB</string>
+
+    <string name="quit_confirm">Möchten Sie %s wirklich beenden?</string>
+
+    <string name="intro_error">Introwiedergabe fehlgeschlagen, Grund: %s %s.</string>
+    <string name="intro_btn_tap_to_start">Tippen zum Starten</string>
+    <string name="intro_new_player">Sie scheinen neu in %s zu sein, Kommandant. Möchten Sie jetzt die Trainingsakademie besuchen?</string>
+    <string name="intro_new_player_info">Wenn Sie die Akademie später besuchen möchten, finden Sie sie unten in der Kommandokonsole.
+        Bevor Sie starten, ist es vielleicht eine gute Idee, Ihre Controller-Einstellungen zu überprüfen. Würden Sie das jetzt gerne tun?</string>
+
+    <string name="status_fuel_value">%d.%d Lichtjahre</string>
+    <string name="status_present_system">Aktuelles System:</string>
+    <string name="status_hyperspace">Hyperraum:</string>
+    <string name="status_condition">Situation:</string>
+    <string name="status_legal_status">Rechtsstatus:</string>
+    <string name="status_rating">Rang:</string>
+    <string name="status_fuel">Treibstoff:</string>
+    <string name="status_cash">Credits:</string>
+    <string name="status_mission_objective">Missionsziel:</string>
+    <string name="status_score"> (Punktzahl: %d)</string>
+    <string name="status_visit_web_page">Besuchen Sie %s</string>
+    <string name="status_missiles_count">Rakete x%d</string>
+    <string name="status_game_time">Spielzeit:</string>
+
+    <string name="options_back">Zurück</string>
+    <string name="options_yes">Ja</string>
+    <string name="options_no">Nein</string>
+    <string name="options_on">Ein</string>
+    <string name="options_off">Aus</string>
+
+    <string name="options_audio_music_volume">Musiklautstärke</string>
+    <string name="options_audio_sound_fx_volume">Effektlautstärke</string>
+    <string name="options_audio_combat_fx_volume">Kampfeffektlautstärke</string>
+    <string name="options_audio_voice_volume">Sprachlautstärke</string>
+    <string name="options_audio_vibrate_level_on_damage">Vibrationsstufe bei Schäden</string>
+    <string name="options_audio_vibrate_level_on_hit">Vibrationslevel bei Treffern</string>
+
+    <string name="options_ctrl_ship_control_mode">Schiffssteuerung: %s</string>
+    <string name="ship_ctrl_acc">Beschleunigungssensor</string>
+    <string name="ship_ctrl_alt_acc">Alternativer Beschleunigungssensor</string>
+    <string name="ship_ctrl_alt_acc_help_line1">Nutzen Sie diese Option, wenn die Sensoren sonst nicht funktionieren (z.B. Nexus 10).</string>
+    <string name="ship_ctrl_alt_acc_help_line2">Achtung: Alternative Beschleunigungssensoren funktionieren nur im Sitzen (Sorry).</string>
+    <string name="ship_ctrl_control_pad">Steuerfenster</string>
+    <string name="ship_ctrl_cursor_block">Cursorblock</string>
+    <string name="ship_ctrl_cursor_split_block">Getrennter Cursorblock</string>
+
+    <string name="ship_ctrl_side_text_control_pad">Position: %s</string>
+    <string name="ship_ctrl_side_text_cursor_block">Position: %s</string>
+    <string name="ship_ctrl_side_text_cursor_split_block">Sinken/Steigen ist: %s</string>
+    <string name="ship_ctrl_side_text_left_position">Links</string>
+    <string name="ship_ctrl_side_text_right_position">Rechts</string>
+
+    <string name="options_ctrl_button_position_options">Buttonpositionen konfigurieren</string>
+    <string name="options_ctrl_forward_to_introduction">Training starten</string>
+    <string name="options_ctrl_forward_to_introduction_help">Bitte überprüfen Sie Ihre Controller-Einstellungen, bevor wir mit dem Training beginnen.</string>
+
+    <string name="options_ctrl_reverse_climb">Neigung umkehren: %s</string>
+
+    <string name="options_ctrl_radar_change_view">Sicht wechseln: %s</string>
+    <string name="options_ctrl_radar_change_view_tap">Antippen</string>
+    <string name="options_ctrl_radar_change_view_slide">Wischen</string>
+
+    <string name="options_ctrl_linear_layout">Lineares Layout: %s</string>
+    <string name="debug_settings_log_to_file">Log in Datei: %s</string>
+    <string name="debug_settings_mem_debug">Debug Speichernutzung: %s</string>
+    <string name="debug_settings_show_frame_rate">Framerate anzeigen</string>
+    <string name="debug_settings_invulnerable">Unsterblich: %s</string>
+    <string name="debug_settings_show_docking_debug">Docking Information: %s</string>
+    <string name="debug_settings_laser_does_not_overheat">Laser überhitzt: %s</string>
+    <string name="debug_settings_adjust_credits">Credits erhöhen (%s)</string>
+    <string name="debug_settings_arrive_in_safe_zone">Ankunft in der sicheren Zone: %s</string>
+    <string name="debug_settings_adjust_legal_status">Rechtsstatus (%s, %d) anpassen</string>
+    <string name="debug_settings_disable_attackers">Angreifer aus: %s</string>
+    <string name="debug_settings_adjust_score">Punktzahl anpassen (%d)</string>
+    <string name="debug_settings_disable_traders">Händler aus: %s</string>
+    <string name="debug_settings_add_docking_computer">Andockcomputer hinzufügen</string>
+    <string name="debug_settings_unlimited_fuel">Unbegrenzter Treibstoff: %s</string>
+    <string name="debug_settings_button_more">Mehr</string>
+
+    <string name="options_display_texture_level">Textur Details: %s</string>
+    <string name="options_display_texture_level_high">Hoch</string>
+    <string name="options_display_texture_level_medium">Mittel</string>
+    <string name="options_display_texture_level_low">Gering</string>
+
+    <string name="options_display_invalid_value">Ungültig</string>
+
+    <string name="options_display_stardust_density">Sternenstaubdichte: %s</string>
+    <string name="options_display_stardust_density_off">Aus</string>
+    <string name="options_display_stardust_density_low">Gering</string>
+    <string name="options_display_stardust_density_medium">Mittel</string>
+    <string name="options_display_stardust_density_high">Hoch</string>
+
+    <string name="options_display_color_depth">Farbtiefe: %s</string>
+    <string name="options_display_color_depth_32_bit">32 Bit</string>
+    <string name="options_display_color_depth_16_bit">16 Bit</string>
+
+    <string name="options_display_engine_exhaust">Triebwerksflammen: %s</string>
+
+    <string name="options_display_lock_orientation">Rotation sperren: %s</string>
+    <string name="options_display_lock_orientation_no_lock">Aus</string>
+    <string name="options_display_lock_orientation_right">Rechts</string>
+    <string name="options_display_lock_orientation_left">Links</string>
+
+    <string name="options_display_target_box">Zielrahmen anzeigen: %s</string>
+    <string name="options_display_alpha">HUD Alpha</string>
+    <string name="options_display_controls_alpha">Steuerkontrollen Alpha</string>
+    <string name="options_display_animations">Animationen: %s</string>
+
+    <string name="options_display_color_scheme">Farbpalette: %s</string>
+    <string name="options_display_color_scheme_error">Farbschemadatei wird übersprungen, Fehler: %s</string>
+
+    <string name="options_display_immersion">Immersion: %s</string>
+    <string name="options_display_immersion_full">Voll</string>
+    <string name="options_display_immersion_off">Aus</string>
+
+    <string name="options_gameplay_difficulty_level">Schwierigkeitsgrad: %s</string>
+    <string name="options_gameplay_difficulty_sedate">Einschläfernd</string>
+    <string name="options_gameplay_difficulty_very_easy">Sehr einfach</string>
+    <string name="options_gameplay_difficulty_easy">Einfach</string>
+    <string name="options_gameplay_difficulty_normal">Normal</string>
+    <string name="options_gameplay_difficulty_hard">Schwer</string>
+    <string name="options_gameplay_difficulty_extremely_hard">Sehr schwer</string>
+
+    <string name="options_gameplay_difficulty_sedate_desc">Keine Feinde. Nur Polizei-Vipern greifen an, wenn Ihr Rechtsstatus es erfordert.</string>
+    <string name="options_gameplay_difficulty_very_easy_desc">Es gibt nur wenige Feinde. Maximal 2 auf einmal. Keine Thargoiden.</string>
+    <string name="options_gameplay_difficulty_easy_desc">Einige Feinde. Maximal 3 auf einmal. Thargoiden sind selten.</string>
+    <string name="options_gameplay_difficulty_normal_desc">Normale Anzahl von Feinden. Maximal 4 auf einmal. Einige Thargoiden.</string>
+    <string name="options_gameplay_difficulty_hard_desc">Feinde erscheinen häufig. Maximal 6 auf einmal. Thargoiden sind reichlich vorhanden.</string>
+    <string name="options_gameplay_difficulty_extremely_hard_desc">Armageddon. Warnung: Der Frustrationsgrad ist extrem hoch.</string>
+
+    <string name="options_gameplay_auto_id">Automatische Erkennung: %s</string>
+    <string name="options_gameplay_extended_galaxy">Erweiterte Galaxie: %s</string>
+    <string name="options_gameplay_extended_galaxy_on_error">Um erweiterte Galaxien einschalten zu können, müssen Sie den ELITE Rang erreichen und mindestens ein Mal die Raxxla Raumstation besuchen.</string>
+    <string name="options_gameplay_extended_galaxy_off_error">Um erweiterte Galaxien auszuschalten, springen Sie zunächst zu einer Galaxie zwischen 1 und 8.</string>
+
+    <string name="options_gameplay_docking_speed">Andockgeschwindigkeit: %s</string>
+    <string name="options_gameplay_docking_normal_speed">Normal</string>
+    <string name="options_gameplay_docking_time_drive_speed">Schnell</string>
+    <string name="options_gameplay_docking_dock_immediate">Sofort</string>
+
+    <string name="options_gameplay_laser">Laser: %s</string>
+    <string name="options_gameplay_laser_auto_fire">Autofeuer</string>
+    <string name="options_gameplay_laser_single_shot">Einzelschuss</string>
+
+    <string name="options_gameplay_extension_update_mode">Erweiterungen: %s</string>
+    <string name="options_gameplay_extension_update_mode_no_update">Kein Update</string>
+    <string name="options_gameplay_extension_update_mode_check_for_updates_only">Nur auf Updates prüfen</string>
+    <string name="options_gameplay_extension_update_mode_auto_update_at_any_time">Auto-update jederzeit möglich</string>
+    <string name="options_gameplay_extension_update_mode_auto_update_over_wifi_only">Auto-update nur über WLAN</string>
+
+    <string name="options_main_tutorial">Tutorialmodus: %s</string>
+    <string name="options_tutorial_mode_continuous">Fortlaufend</string>
+    <string name="options_tutorial_mode_tap">Tippen</string>
+    <string name="options_main_language">Sprache: %s</string>
+    <string name="options_main_reset_game">Spiel zurücksetzen</string>
+    <string name="options_main_reset_game_confirm">Sind Sie sicher?</string>
+    <string name="options_main_about">Danksagung</string>
+
+    <string name="options_more_debug_start_constrictor_mission">Constrictor Mission starten</string>
+    <string name="options_more_debug_start_thargoid_documents_mission">Thargoidendocumente Mission starten</string>
+    <string name="options_more_debug_start_supernova_mission">Supernova Mission starten</string>
+    <string name="options_more_debug_start_cougar_mission">Cougar Mission starten</string>
+    <string name="options_more_debug_start_thargoid_base_mission">Thargoidenbasis Mission starten</string>
+    <string name="options_more_debug_clear_mission">Aktive Mission zurücksetzen</string>
+    <string name="options_more_debug_completed_missions">Erledigte Missionen: %s</string>
+
+    <string name="in_flight_button_fire">Laser abschießen</string>
+    <string name="in_flight_button_missile">Rakete abschießen</string>
+    <string name="in_flight_button_ecm">ECM</string>
+    <string name="in_flight_button_retro_rockets">Bremsraketen</string>
+    <string name="in_flight_button_escape_capsule">Rettungskapsel</string>
+    <string name="in_flight_button_energy_bomb">Energiebombe</string>
+    <string name="in_flight_button_status">Status</string>
+    <string name="in_flight_button_drive_docking">Torus/Zeitraffer;Andockcomputer</string>
+    <string name="in_flight_button_hyperspace">Hyperraum</string>
+    <string name="in_flight_button_galactic_hyperspace">Galaktischer Hyperraum</string>
+    <string name="in_flight_button_cloaking_device">Tarnvorrichtung</string>
+    <string name="in_flight_button_ecm_jammer">ECM Störsender</string>
+
+    <string name="options_in_flight_selection_mode">Auswahlmodus: %s</string>
+    <string name="options_in_flight_selection_mode_group">Gruppe</string>
+    <string name="options_in_flight_selection_mode_button">Button</string>
+
+    <string name="options_in_flight_reset_positions">Positionen zurücksetzen</string>
+    <string name="options_in_flight_reset_positions_confirm">Sind Sie sicher?</string>
+    <string name="options_in_flight_primary">Primär</string>
+    <string name="options_in_flight_secondary">Sekundär</string>
+    <string name="options_in_flight_source_button_group">Wählen Sie die Gruppe der Schaltflächen aus, die Sie ändern möchten.</string>
+    <string name="options_in_flight_target_button_group">Auswahl der Zielgruppe.</string>
+    <string name="options_in_flight_source_button">Wählen Sie die Schaltfläche aus, die Sie ändern möchten.</string>
+    <string name="options_in_flight_target_button">Auswahl der Zielschaltfläche.</string>
+
+    <string name="tutorial_selection_introduction">Einführung</string>
+    <string name="tutorial_selection_trading">Handel</string>
+    <string name="tutorial_selection_equipment">Ausrüstung</string>
+    <string name="tutorial_selection_navigation">Navigation</string>
+    <string name="tutorial_selection_hud">HUD</string>
+    <string name="tutorial_selection_basic_flying">Fluggrundlagen</string>
+    <string name="tutorial_selection_advanced_flying">Fortgeschrittenes Fliegen</string>
+
+    <string name="tutorial_quit_confirm">Sind Sie sicher, dass Sie dieses Tutorial beenden möchten?</string>
+
+    <string name="tutorial_introduction_00">Willkommen zu deiner Grundausbildung, Nugget. Ich bin Kommandant Quelo und ich werde dafür sorgen, dass du mit dieser Cobra umgehen kannst, sobald du aus meiner Ausbildung raus bist. Denk dran, Kleiner: Der Besitz einer Cobra gibt dir nicht die Möglichkeit, sie zu fliegen. Ich werde dir diese Fähigkeit geben.</string>
+    <string name="tutorial_introduction_01">Was du auf dem Bildschirm vor dir siehst, ist der Statusbildschirm. Du kannst alle Details deiner Cobra überprüfen.</string>
+    <string name="tutorial_introduction_02">Er sagt dir, wo du gerade angedockt bist und wohin du unterwegs bist.</string>
+    <string name="tutorial_introduction_03">Achte auf die Situationsanzeige: Wenn sie rot wird, könntest du eine Chance bekommen, einen Abschuss zu erzielen und etwas Kopfgeld zu erhalten -- oder dabei getötet zu werden.</string>
+    <string name="tutorial_introduction_04">Dein Rechtsstatus sollte jederzeit sauber sein, wenn du nicht gerade den Handel mit illegalen Waren planst oder Freunde nicht von Feinden unterscheiden kannst und eine Python zerstörst, obwohl Du dachtest, eine Krait zu zerstören.</string>
+    <string name="tutorial_introduction_05">Dein Rang sagt anderen, wie gefährlich du bist. Frischfleisch wie du sollte sich darum kümmern zu überleben, denn nur wenige überleben da draußen. Für den Fall, dass du weniger unfähig bist als die meisten, kann es jedoch sein, dass deine Bewertung auf größtenteils harmlos und weiter ansteigt, aber dazu musst du andere Schiffe zerstören, Kleiner.</string>
+    <string name="tutorial_introduction_06">Die Tankanzeige zeigt Dir an, wie viele Lichtjahre Du im Hyperraum springen kannst,</string>
+    <string name="tutorial_introduction_07">und schließlich kannst du deinen aktuellen Kontostand überprüfen, indem du auf deine aktuelle Anzahl von Credits schaust.</string>
+    <string name="tutorial_introduction_08">Eine weitere tolle Sache am Statusbildschirm ist, dass er die Ausrüstung deines Schiffes anzeigt. Du fängst mit einem mickrigen Impulslaser an, der nicht einmal meine Oma erschrecken könnte, und drei Lance- und Ferman-Raketen. Du solltest das vielleicht so schnell wie möglich verbessern, du Anfänger.</string>
+    <string name="tutorial_introduction_09">Auf der rechten Seite befindet sich die Befehlskonsole. Leg deinen Finger darauf und zieh sie ganz nach oben.</string>
+    <string name="tutorial_introduction_10">Faszinierend, was? Diese Konsole ermöglicht es dir, mit der Station zu interagieren, an der Du angedockt bist und den gesamten Handel und die Ausrüstung deines Schiffes zu steuern - so musst du nicht einmal mehr dein Schiff verlassen!</string>
+    <string name="tutorial_introduction_11">Möchtest du sehen, was es in der Konsole zu tun gibt? Ok, also mach schon, Kleiner. Drücke die Taste "Kaufen" auf der Konsole. Wenn du das nicht finden kannst, liegt das daran, dass du die Konsole zuerst wieder nach unten ziehen musst.</string>
+    <string name="tutorial_introduction_12">Ich sehe, dass du das richtig gemacht hast. Jetzt, für die letzte Übung heute, versuche, den "Galaxie"-Knopf zu finden und staune über die Weite des Universums, in dem du und ich leben.</string>
+    <string name="tutorial_introduction_13">Großartig. Du hast die Fähigkeit gezeigt, das zu tun, was dir gesagt wird. Das gefällt mir. Mein Hund tut, was ich ihm sage. Vielleicht sollte ich euch beide einander vorstellen. Erinnere mich daran, das zu tun.</string>
+    <string name="tutorial_introduction_14">Jetzt, geh und denk gut darüber nach, was du gelernt hast und komm zurück, wenn du bereit bist für mehr, Kadett.</string>.
+
+    <string name="tutorial_trading_00">Ah, ich sehe, du bist zurück. Denkst du, du bist bereit für mehr Grundlagen? Ok, also öffnen zuerst wieder den Kauf-Bildschirm. Du erinnerst dich daran, wie man das macht, oder?</string>
+    <string name="tutorial_trading_01">Hier siehst du alle Waren, die auf der Station angeboten werden, an der du angedockt bist. Der Preis wird unter der Ware angegeben und direkt neben dem Handelsartikel kannst du sehen, wie viel davon verfügbar ist. Wenn du nicht weißt, was ein Symbol darstellen soll, tippe einfach darauf, und eine Beschreibung wird unten auf dem Bildschirm angezeigt.</string>
+    <string name="tutorial_trading_02">Oh, sei nicht schüchtern, versuche es: Tippen einmal auf eine Ware. Komm schon.</string>
+    <string name="tutorial_trading_03">Siehste? Das war doch nicht so schwer, oder? Wenn du nun wieder darauf tippst und der Gegenstand verfügbar ist, kansst du ihn kaufen.</string>
+    <string name="tutorial_trading_04">Lass uns das versuchen: Tippe auf das Symbol für Lebensmittel.</string>
+    <string name="tutorial_trading_05">Nein, ich habe dir gesagt, du sollst auf das Symbol für Lebensmittel tippen, das ist das in der linken oberen Ecke, du Grünschnabel.</string>
+    <string name="tutorial_trading_06">Ok. Jetzt tipp nochmal drauf.</string>
+    <string name="tutorial_trading_07">Jetzt musst du die Menge eingeben: Wie viel willst du kaufen? Lass uns nicht übertreiben: Obwohl dies nur eine Simulation ist und wir nichts wirklich kaufen, gib eine 1 gefolgt von OK ein.</string>
+    <string name="tutorial_trading_08">Ich weiß nicht, ob du beim Lesetest durchgefallen bist, aber es sieht ganz danach aus du Fleischkopfmutation! Gib eine 1 ein, das ist die Zahl in der ersten Spalte, dritte Zeile, gefolgt von OK; das ist die Schaltfläche in der dritten Spalte, vierte Zeile.</string>
+    <string name="tutorial_trading_09">Gut. Du hast jetzt 1 Tonne Lebensmittel gekauft und dein Konto wurde um den Preis der Lebensmittel reduziert. Öffne jetzt den Laderaum und sieh nach, wie diese Tonne Nahrung dort angezeigt wird.</string>
+    <string name="tutorial_trading_10">Siehste? Du kannst auch unten am Bildschirmrand sehen, dass du jetzt weniger Laderaum zur Verfügung hast. Du fängst mit einem 20t Frachtraum in einer Cobra Mk III an. Ich hoffe, dass du das bald ausbauen wirst. Nun, was ist mit dem Verkaufen? Um etwas zu verkaufen, öffne den Laderaum und tippe zweimal auf den Artikel, den du verkaufen möchtest. Ganz einfach, oder? Mach schon, tu es...</string>
+    <string name="tutorial_trading_11">Ja. Sehr gut! Jetzt hast du das Essen wieder verkauft. Aber was ist das? Du hast dabei Credits verloren! Das ist die Standardgebühr für den Verkauf von allen Gütern in einer Raumstation. Sie wird automatisch von deinem Verkaufspreis abgezogen. Sieh also zu, dass du deine Waren zu einem höheren Preis verkaufst, als zum Einkaufspreis. Keine Sorge, Junge, das war nur eine Simulation. Wir haben nichts von deinem Konto genommen. Verstehst du das alles? -- Das habe ich auch nicht gedacht. Also geh zurück und denke über alles nach, was ich dir heute gesagt habe und komm dann zurück, wenn du bereit bist für mehr.</string>
+
+    <string name="tutorial_equipment_00">So schnell zurück? Ok, ich werde diese Lektion kurz und bündig gestalten. Betrachte es als einen Gefallen extra für dich.</string>
+    <string name="tutorial_equipment_01">Öffne den Ausrüstungsbildschirm.</string>
+    <string name="tutorial_equipment_02">Nein, ich sagte Ausrüstungsbildschirm!</string>
+    <string name="tutorial_equipment_03">Ja, das ist er. Dieser Bildschirm funktioniert genau wie der Kaufbildschirm: Tippe einmal auf einen Ausrüstungsgegenstand, um Informationen zu bekommen, und tippe nochmal, um ihn auf dem Schiff zu installieren - vorausgesetzt, du hast genügend Credits. Ich habe deinen Hyperraumtreibstoff zu Übungszwecken geleert, also mach schon. Kauf etwas Treibstoff.</string>
+    <string name="tutorial_equipment_04">Treibstoff, Kadett. Treibstoff! Das ist das Symbol oben links. Tippe zweimal darauf. Ist es wirklich so schwer für dich?</string>
+    <string name="tutorial_equipment_05">Wahnsinn. Ich bin beeindruckt. Du hast dein Schiff betankt. Gut gemacht! Du kannst auf die anderen Symbole tippen, wenn du musst, aber komm morgen für eine weitere Trainingseinheit wieder. Heute bin ich beschäftigt. Ich muss zu dieser erstaunlichen... ähm... Werft gehen. Jetzt.</string>
+
+    <string name="tutorial_navigation_00">Wunderbarer Morgen, was, Frischling? Ich habe heute eine Menge Infos für dich, also wisch dir den Schlaf aus dem Gesicht und pass auf! Du hast den Galaxie-Bildschirm bereits gesehen, aber heute werde ich dir mehr darüber erzählen. Zuerst: Öffne den Galaxiebildschirm.</string>
+    <string name="tutorial_navigation_01">Das weiße Kreuz, das du siehst, zeigt deine Position an. Der rote Kreis um ihn herum zeigt an, wie weit du mit deinem Treibstoff springen kannst. Du kannst heranzoomen, indem du zwei Finger auf dem Bildschirm auseinander ziehst. Mach das solange, bis die Namen der Systeme sichtbar werden.</string>
+    <string name="tutorial_navigation_02">Jetzt drücke auf den Button "Reset".</string>
+    <string name="tutorial_navigation_03">Siehst du, wie die Karte wieder an Deinen aktuellen Standort verschoben wurde? Hilft Neueinsteigern wie Dir, sich nicht so leicht zu verlaufen... Hast du die unterschiedlichen Farben der Sternensysteme bemerkt? Diese Farben zeigen die Wirtschaftlichkeit des Systems an. Sie reicht von armen Landwirtschaftsbetrieben in grau bis hin zu reichen Industriebetrieben in blau. Falls du es jedoch vergisst, kannst du zum Planetenbildschirm wechseln, um weitere Informationen über den ausgewählten Planeten zu erhalten. Mach das jetzt.</string>
+    <string name="tutorial_navigation_04">Nein, ich habe dir gesagt, du sollst zum Planetenbildschirm wechseln, Grünschnabel. Versuch es noch einmal.</string>
+    <string name="tutorial_navigation_05">Hier auf dem Planetenbildschirm siehst du alle Informationen eines Planetensystems: Name, Wirtschaft, Regierung und technisches Niveau, das dir sagt, welche Art von Ausrüstung du hier kaufen kannst. Informationen zu den Bewohnern werden auch angezeigt. Diese solltest du gründlich lesen, damit du gut handeln kannst und nicht riskierst, eine Katze zu beleidigen, weil du nicht genug 'duftest' - nicht, dass ich denke, dass du ein Problem mit dieser speziellen Anforderung haben wirst, du Stinkmorchel.</string>
+    <string name="tutorial_navigation_06">Wenn du genug auf der Planetenübersicht herumgestöbert hast, wechsele in die lokale Systemansicht.</string>
+    <string name="tutorial_navigation_07">Nein, ich habe dir gesagt, du sollst auf die lokalen Systemsicht wechseln, Grünschnabel. Versuch es noch einmal.</string>
+    <string name="tutorial_navigation_08">Die lokale Systemsicht ähnelt dem Galaxiebildschirm, zeigt aber nur einen kleinen Bereich um deinen aktuellen Standort herum. Du kannst aber auch rauszoomen. Bewege einfach zwei Finger auf dem Bildschirm zusammen. Mach es jetzt.</string>
+    <string name="tutorial_navigation_09">Gut. Nun, du weißt jetzt alles über die Navigation. Oder fast: Denk daran, dass das von dir gewählte System immer dein Zielsystem ist. Wenn du durch den Hyperraum spingst, landest du in diesem System -- wenn du nicht von Thargoiden abgefangen wirst.</string>
+    <string name="tutorial_navigation_10">Angst, Kadett? Nun, die solltest du aber haben. Das Leben als Pilot ist hart, gefährlich und kaum lohnend. Dennoch sehen wir seltene Sehenswürdigkeiten, wenn wir die Kontrolle über unser Schiff beherrschen und Angriffe überleben. Hast du es in dir? Wir werden es bald herausfinden: In der nächsten Lektion fangen wir mit dem Flugtraining an. Bis dahin: Denke gründlich darüber nach, ob es wirklich das ist, was du willst. Wenn nicht, tauche beim nächsten Mal nicht auf. Dein Geheimnis ist bei mir sicher. Ich werde niemandem von deinen Ängsten erzählen. Vertrau mir.</string>
+
+    <string name="tutorial_hud_00">Willkommen zurück, 'Kommandant'. Und? Wie fühlt es sich an, im Cockpit einer Cobra zu sitzen, hm?</string>.
+    <string name="tutorial_hud_01">Keine Sorge, Neuling, du bist in der Sicherheitszone um die Raumstation Lave, niemand wird dich hier angreifen.</string>
+    <string name="tutorial_hud_02">Die Sicherheitszone ist eine Zone um eine Raumstation herum, in der die Polizei-Vipers über dich wachen werden.</string>
+    <string name="tutorial_hud_03">Du erkennst die sichere Zone am großen S in der rechten unteren Ecke deines Radars.</string>
+    <string name="tutorial_hud_04">Du kannst dich also jetzt entspannen und die Aussicht auf Lave direkt vor dir genießen. Ist er nicht wunderschön?</string>
+    <string name="tutorial_hud_05">Wenn du dich umsehen willst, kannst du die Anzeige so wechseln, dass das rechte, hintere oder linke Blickfeld des Schiffes angezeigt wird. Um nach rechts zu schauen, %s</string>
+    <string name="tutorial_hud_05a">tippe auf die rechte Hälfte des Radars.</string>.
+    <string name="tutorial_hud_05b">wische einen Finger von rechts nach links über den Bildschirm.</string>
+    <string name="tutorial_hud_06">Warum versuchst du es nicht?</string>
+    <string name="tutorial_hud_07">Nein. Schau nach rechts. Denk daran: %s</string>
+    <string name="tutorial_hud_08">Ja. Genau so. Die grüne Anzeige des Radars ist jetzt auf der rechten Hälfte: Du siehst nach rechts. Um hinter dich zu gucken, %s</string>
+    <string name="tutorial_hud_08a">tippe auf die untere Hälfte des Radars.</string>
+    <string name="tutorial_hud_08b">wische einen Finger wieder von rechts nach links über den Bildschirm.</string>
+    <string name="tutorial_hud_09">Na los, versuch es...</string>
+    <string name="tutorial_hud_10">Nein. Schau hinter dich. Denk daran: %s</string>
+    <string name="tutorial_hud_10a">tippe auf die untere Hälfte des Radars.</string>
+    <string name="tutorial_hud_11">Gut. Du siehst jetzt die Coriolis-Station im Orbit um Lave. Dort wirst du irgendwann andocken müssen, aber wir werden das in einer späteren Lektion behandeln.</string>
+    <string name="tutorial_hud_12">Du kannst auch nach links schauen, ich nehme an, du findest alleine raus, wie das geht, nicht wahr? Nur zu, schau nach links...</string>
+    <string name="tutorial_hud_13">Nein. Um nach links zu schauen, %s</string>
+    <string name="tutorial_hud_13a">tippe auf die linke Hälfte des Radars.</string>.
+    <string name="tutorial_hud_13b">wische einen Finger wieder von rechts nach links über den Bildschirm.</string>
+    <string name="tutorial_hud_14">Ok, du kannst dich jetzt umsehen. Gut. Der grüne Bereich auf dem Radar sagt dir, in welche Richtung du guckst, und der violette Balken auf dem Radar ist die Raumstation.</string>
+    <string name="tutorial_hud_15">Er ist jetzt fast in der Mitte des Radars, was bedeutet, dass du sehr nah dran bist. Tatsächlich ist die Raumstation ein wenig hinter dir. Deutlicher wird das, wenn man die Vergrößerung des Radars erhöht.</string>
+    <string name="tutorial_hud_16">Dazu musst du %s</string>
+    <string name="tutorial_hud_16a">den grünen Bereich auf dem Radar antippen.</string>
+    <string name="tutorial_hud_16b">das Radar antippen.</string>
+    <string name="tutorial_hud_17">Gut. Du kannst den Vergrößerungsfaktor noch weiter erhöhen, indem du erneut tippst. Wenn Du dann nochmal tippst, wird der Vergrößerungsfaktor wieder auf normal gesetzt.</string>
+    <string name="tutorial_hud_18">Wir werden in der nächsten Lektion noch detaillierter auf das Radar zurückkommen, doch jetzt konzentrieren wir uns auf die Messgeräte, die neben dem Radar sind.</string>
+    <string name="tutorial_hud_19">Auf der linken Seite siehst du die vorderen und hinteren Schildstärken.</string>
+    <string name="tutorial_hud_20">Wenn sie erschöpft sind, werden die nächsten Lasertreffer deinen Rumpf beschädigen und die Energiereserven unten rechts mit den Nummern 1 bis 4 werden geleert.</string>
+    <string name="tutorial_hud_21">Wenn du dein letztes bisschen Energie verlierst, wird die Cobra zerstört, also musst du aufpassen, wer in der Nähe ist, Kleiner.</string>
+    <string name="tutorial_hud_22">Unter dem Heckschild auf der linken Seite befindet sich die Treibstoffanzeige. Treibstoff wird nur bei Hyperraumsprüngen verbraucht; er zeigt an, wie weit du springen kannst.</string>
+    <string name="tutorial_hud_23">Danach folgt der Kabinentemperaturmesser. Wenn du in der Nähe eines Sterns Kraftstoff sammelst, musst du die Anzeige genau im Auge behalten. Wird die Cobra zu heiß, explodiert sie.</string>
+    <string name="tutorial_hud_24">Danach folgt der Lasertemperaturmesser. Wenn du zu viel schießt, wird der Laser zu heiß und du musst warten, bis er sich wieder abkühlt.</string>
+    <string name="tutorial_hud_25">Darunter befindet sich der Höhenmesser. Er zeigt, wie hoch du über dem Planeten bist. Versuche nicht, auf fremden Planeten zu landen, Kleiner, die Einheimischen mögen das gar nicht.</string>
+    <string name="tutorial_hud_26">Schließlich befindet sich unten auf der linken Seite der Raketenanzeiger. Deine Cobra hat vier Raketenkammern. Wenn eine Kammer leer ist, ist der Kreis für die Kammer schwarz.</string>
+    <string name="tutorial_hud_27">Wenn eine Rakete in der Kammer ist, wird der Kreis grün, wenn die Rakete ein Ziel sucht, ist er gelb und wenn das Ziel erfasst ist, wird er rot.</string>
+    <string name="tutorial_hud_28">Auf der rechten Seite siehst du deine aktuelle Geschwindigkeit und deine aktuellen Roll- und Neigungswinkel.</string>
+    <string name="tutorial_hud_29">Hast du dich gefragt, was die vier Knöpfe oben auf deinem Bildschirm bedeuten? Wir werden sie jetzt nicht anfassen, aber lass mich dir sagen, was sie tun:</string>
+    <string name="tutorial_hud_30">Die Schaltfläche oben links feuert den Laser ab. %s</string>
+    <string name="tutorial_hud_30a">Berühre sie einmal und der Laser beginnt zu schießen. Berühre sie erneut und das Feuer wird eingestellt.</string>
+    <string name="tutorial_hud_30b">Berühre sie einmal um einen Schuss abzugeben.</string>
+    <string name="tutorial_hud_31">Natürlich funktioniert das nur, wenn du einen Laser in Sichrichtung montiert hast.</string>
+    <string name="tutorial_hud_32">Mit der anderen Schaltfläche auf der linken Seite kannst du eine Rakete aktivieren. Sobald dann ein Ziel in dein Fadenkreuz kommt, wird die Rakete scharf. Tippe erneut auf den Knopf, um eine scharfe Rakete abzufeuern.</string>
+    <string name="tutorial_hud_33">Die obere Schaltfläche auf der rechten Seite öffnet die Stationskonsole, mit der du ein Hyperraum-Ziel auswählen oder die lokalen Marktpreise überprüfen kannst.</string>
+    <string name="tutorial_hud_34">Natürlich kannst du im Weltraum nichts verkaufen oder kaufen. Du musst zuerst andocken.</string>
+    <string name="tutorial_hud_35">Die untere Schaltfläche auf der rechten Seite führt einen Hyperraumsprung durch und du springst zum ausgewählten Ziel - es sei denn, du wirst von Thargoids entführt.</string>
+    <string name="tutorial_hud_36">Alles ziemlich schwierig, was? Ich wette, du hast eine Menge zum Nachdenken. Also lass mich dieses Schiff jetzt für dich andocken und du kannst dich dann ein wenig ausruhen und zurückkommen, wenn du bereit bist für mehr...</string>
+
+    <string name="tutorial_basic_flying_yellow_target">Gelbes Ziel</string>
+    <string name="tutorial_basic_flying_blue_target">Blaues Ziel</string>
+    <string name="tutorial_basic_flying_docking_buoy">Andockhilfe</string>
+
+    <string name="tutorial_basic_flying_00">Guten Morgen, Kleiner. Wir werden heute richtig fliegen, also solltest du besser aufpassen...</string>
+    <string name="tutorial_basic_flying_01">Die horizontalen Balken auf dem Radar zeigen dir die Richtung an, in der sich ein Objekt befindet, vertikale Balken zeigen den Höhenunterschied zu deinem Schiff an.</string>
+    <string name="tutorial_basic_flying_02">Zu schwer für dich, Anfänger? Lass es mich dir zeigen:</string>
+    <string name="tutorial_basic_flying_03">Siehst du diese beiden Balken? Der gelbe Balken ist ein Ziel, das sich vor dir, links von dir und über dir befindet.</string>
+    <string name="tutorial_basic_flying_04">Der blaue Balken ist ein Ziel hinter dir, zu deiner Rechten und unter dir.</string>
+    <string name="tutorial_basic_flying_05">Aber das ist noch nicht alles. Hast du das kleine Radar rechts über deinem Hauptradar bemerkt?</string>
+    <string name="tutorial_basic_flying_06">Im Inneren der Sicherheitszone zeigt das kleine Radar die Position der Raumstation an.</string>
+    <string name="tutorial_basic_flying_07">Wenn der Punkt im Radar rot ist, ist die Station vor dir, wenn sie grün ist, ist sie hinter dir.</string>
+    <string name="tutorial_basic_flying_08">Außerhalb der Sicherheitszone zeigt der Punkt den Planeten: Rot bedeutet, dass der Planet vor dir liegt, grün bedeutet, dass der Planet hinter dir liegt.</string>
+    <string name="tutorial_basic_flying_09">Aber warum versuchst du nicht, das blaue Ziel in dein Fadenkreuz zu bringen. Dabei wirst du auch sehen, wie sich das kleinere Radar ändert.</string>
+    <string name="tutorial_basic_flying_10">Ich lasse dich jetzt die Neigung und Drehung deiner Cobra steuern. Um die Neigung zu ändern, %s</string>
+    <string name="tutorial_basic_flying_10a">kippe deinen Bildschirm zu dir hin, um die Cobra nach oben zu neigen und von dir weg, um die Cobra nach unten zu neigen.</string>
+    <string name="tutorial_basic_flying_10b">tippe auf den oberen Teil des Control Pads, um die Cobra nach unten zu neigen und auf den unteren Teil, um die Cobra nach oben zu neigen.</string>
+    <string name="tutorial_basic_flying_10c">tippe auf den Pfeil nach oben, um die Cobra nach unten zu neigen und den Pfeil nach unten, um die Cobra nach oben zu neigen.</string>
+    <string name="tutorial_basic_flying_11">Um dich zu drehen, %s</string>
+    <string name="tutorial_basic_flying_11a">drehe die linke Seite deines Handys von dir weg, um nach links zu rollen und drehe sie zu dir hin, um nach rechts zu rollen.</string>
+    <string name="tutorial_basic_flying_11b">tippe linken Teil des Control Pads, um nach links zu rollen und den rechten Teil, um nach rechts zu rollen.</string>
+    <string name="tutorial_basic_flying_11c">tippe auf den Pfeil nach links, um nach links zu rollen und auf den Pfeil nach rechts, um nach rechts zu rollen.</string>
+    <string name="tutorial_basic_flying_12">Bist Du bereit, das Kommando zu übernehmen? Versuch mal, das blaue Ziel in das Fadenkreuz vor dir zu bringen.</string>
+    <string name="tutorial_basic_flying_13">Nicht schlecht für einen Anfänger. Du hast dir wirklich Zeit gelassen. Wenn du überleben willst, musst du die Steuerung beherrschen, Grünschnabel.</string>
+    <string name="tutorial_basic_flying_14">Bringe jetzt das gelbe Ziel ins Fadenkreuz.</string>
+    <string name="tutorial_basic_flying_15">Ok, ich denke, du hast den Dreh raus. Nähere dich jetzt dem gelben Ziel.</string>
+    <string name="tutorial_basic_flying_16">Um die Geschwindigkeit zu erhöhen, bewege Deinen Finger über den Bildschirm nach oben. Um die Geschwindigkeit zu verringern, bewege ihn nach unten.</string>
+    <string name="tutorial_basic_flying_17">Wenn du auf das Ziel tippst, identifiziert der Computer das Ziel für dich.</string>
+    <string name="tutorial_basic_flying_18">Flieg ein wenig näher heran.</string>
+    <string name="tutorial_basic_flying_19">Gut. Das ist nah genug. Nun kommen wir zu Schießübungen:</string>
+    <string name="tutorial_basic_flying_20">Wir verwenden simulierte Laser, also mach dir keine Sorgen, du kannst niemanden verletzen.</string>
+    <string name="tutorial_basic_flying_21">Versuche, das Ziel vor dir zu zerstören. Es wird vom simulierten Laser 'getroffen'. Um den Laser zu aktivieren, drücke auf den Knopf oben links.</string>
+    <string name="tutorial_basic_flying_22">Gut gemacht, Kommandant!</string>
+    <string name="tutorial_basic_flying_23">Jetzt zum letzten Ziel: Nähere dich dem blauen Ziel.</string>
+    <string name="tutorial_basic_flying_24">Ok, du bist nah genug dran, tippe jetzt einmal auf den Raketenknopf auf der linken Seite, um die Rakete scharf zu machen.</string>
+    <string name="tutorial_basic_flying_25">Bringe das blaue Ziel in dein Fadenkreuz, so dass die Raketenanzeige rot wird.</string>
+    <string name="tutorial_basic_flying_26">Jetzt feuere die Rakete durch erneutes Antippen ab.</string>
+    <string name="tutorial_basic_flying_27">Guter Schuss, Kommandant!</string>
+    <string name="tutorial_basic_flying_28">Kehren wir jetzt zur Station zurück, ok?</string>
+    <string name="tutorial_basic_flying_29">Erinnere dich daran, dass der Andockschacht einer Raumstation immer auf den Planeten ausgerichtet ist.</string>
+    <string name="tutorial_basic_flying_30">Also wähle einen Punkt zwischen dem Planeten und der Station und nähere dich der Station von dort aus.</string>
+    <string name="tutorial_basic_flying_31">Lass mich dir helfen: Siehst du das neue rote Ziel? Fliege direkt zum roten Ziel.</string>
+    <string name="tutorial_basic_flying_32">Gut. Dreh dich jetzt um, so dass die Station vor dir liegt.</string>
+    <string name="tutorial_basic_flying_33">Und dann docke an: Halte den Andockschacht waagerecht und nähere dich der Station vorsichtig.</string>
+    <string name="tutorial_basic_flying_34">Das wird das Letzte sein, was ich dir heute beibringen werde. Wenn du es schaffst, erfolgreich zu docken, kannst du dich offiziell Kommandant nennen. Viel Glück, Grünschnabel.</string>
+
+    <string name="tutorial_advanced_flying_00">Willkommen zurück, Kommandant! Eine ziemlich gute Landung, die du hingelegt hast. Ich bin stolz auf dich!</string>
+    <string name="tutorial_advanced_flying_01">Du bist jetzt bereit für fortgeschrittenere Flugtechniken, aber wir müssen uns zum Training weiter draußen befinden.</string>
+    <string name="tutorial_advanced_flying_02">Ich habe im Flugcomputer eine simulierte Region ein wenig außerhalb von Lave einprogrammiert. Springe sofort dorthin. Aktiviere den Hyperraumsprung.</string>
+    <string name="tutorial_advanced_flying_03">Du hast jetzt eine Raumregion außerhalb von Lave erreicht. Du kannst sehen, dass du außerhalb der Sicherheitszone bist.</string>
+    <string name="tutorial_advanced_flying_04">Jetzt musst du, um die Lave-Station zu erreichen, zum Planeten fliegen. Bringe also den Kreis im kleinen Radar in die Mitte. Denk daran: Der Kreis ist rot, sobald sich der Planet vor dir befindet.</string>
+    <string name="tutorial_advanced_flying_05">Gut. Beschleunige jetzt auf Höchstgeschwindigkeit, indem du deinen Finger nach oben über den Bildschirm streichst.</string>
+    <string name="tutorial_advanced_flying_06">Ok. Wenn du mit dieser Geschwindigkeit reist, würde es ewig dauern, Lave zu erreichen, aber da erscheint ein neuer Button, wenn du die Höchstgeschwindigkeit erreicht hast.</string>
+    <string name="tutorial_advanced_flying_07">Das ist der Torusantrieb. Er schaltet den Turbo ein.</string>
+    <string name="tutorial_advanced_flying_08">Es funktioniert aber nur, wenn du bereits mit Höchstgeschwindigkeit fliegst und keine anderen Schiffe in der Nähe sind. Versuche es. Aktiviere den Torusantrieb.</string>
+    <string name="tutorial_advanced_flying_09">Wow..... Das war schnell, nicht wahr? Warum haben wir angehalten?</string>
+    <string name="tutorial_advanced_flying_10">In der Regel wird der Torusantrieb unterbrochen, wenn du zu nah am Planeten oder Stern bist, oder ein Schiff deine Bahn kreuzt.</string>
+    <string name="tutorial_advanced_flying_11">In dieser Simulation habe ich den Torusantrieb abgeschaltet.</string>
+    <string name="tutorial_advanced_flying_12">Und jetzt wirst du ein Schiff zerstören. Ein feindliches Schiff wird bald erscheinen, und ich möchte, dass du es zerstörst.</string>
+    <string name="tutorial_advanced_flying_13">Es wird dich angreifen, aber es ist eine relativ harmlose und langsame Adder. Es besteht jedoch eine geringe Chance, dass es dich zerstören könnte.</string>
+    <string name="tutorial_advanced_flying_14">In diesem Fall bezahlst du heute Abend die Getränke und wir versuchen es morgen noch einmal.</string>
+    <string name="tutorial_advanced_flying_15">Bereit? Gut. Los!</string>
+    <string name="tutorial_advanced_flying_17">Nicht schlecht... Du hast die Adder zerstört. Und es wurden ein paar Frachtkanister freigegeben. Du kannst sie auf dem Radar als violette Balken sehen.</string>
+    <string name="tutorial_advanced_flying_18">Denk dran: Wenn du auf ein Ziel auf deinem Bildschirm tippst, wird es vom Computer identifiziert.</string>
+    <string name="tutorial_advanced_flying_19">Deine Cobra ist mit einem Treibstoffsammler ausgestattet, so dass du diese Frachtkanister einsammeln kannst. Der Inhalt landet im Frachtraum.</string>
+    <string name="tutorial_advanced_flying_20">Ramme dazu einen Frachtkanister mit dem unteren Teil deiner Cobra, wo der Treibstoffsamller installiert ist. Nur zu, versuch es jetzt.</string>
+    <string name="tutorial_advanced_flying_22">Oh nein. Du hast den Frachtkanister zerstört. Denk daran: Du musst den Container unterhalb deines Zielkreuzes haben.</string>
+    <string name="tutorial_advanced_flying_23">Hervorragend geflogen, Kommandant.</string>
+    <string name="tutorial_advanced_flying_24">Das ist alles, was ich dir beibringen kann. Als letzte Trainingsübung docke jetzt an der Raumstation an. Du bist auf dich allein gestellt. Viel Glück da draußen, Kommandant.</string>
+
+    <string name="msg_cloaking_active">Tarnvorrichtung aktiv</string>
+    <string name="msg_blue_danube_loading_error">Die blaue Donau läuft jetzt in Ihrem Kopf</string>
+    <string name="msg_game_over">Game Over</string>
+    <string name="msg_full_cargo">Laderaum ist voll</string>
+    <string name="msg_target_lost">Ziel verloren</string>
+    <string name="msg_altitude_low">Zu niedrig</string>
+    <string name="msg_fuel_scoop_activated">Treibstoffsammler aktiv</string>
+    <string name="msg_mass_locked">Massensperre</string>
+    <string name="msg_missile_locked">Rakete hat %s erfasst</string>
+
+    <string name="msg_pause_game">%s pausiert (tippen Sie auf den Bildschirm, um fortzufahren)...</string>
+    <string name="msg_pause_game_scrolling_info">%s v%s - von Philipp Bouillon und Duane McDonnell. Du hast %s, %s und %s gespielt und %d Punkte erzielt. </string>
+    <plurals name="game_time_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <plurals name="game_time_hours">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="game_time_minutes">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+
+    <string name="msg_hyperspace_jump_aborted">Hyperraumsprung abgebrochen.</string>
+    <string name="msg_right_on_commander">Weiter so, Kommandant.</string>
+    <string name="msg_good_shooting_commander">Sehr guter Schuss, Kommandant!</string>
+    <string name="msg_ecm_jammer_active">ECM Störsignal aktiv</string>
+    <string name="msg_equipment_lost">%s verloren.</string>
+
+    <string name="radar_zoom_x2">x2</string>
+    <string name="radar_zoom_x4">x4</string>
+
+    <string name="num_thousand">k</string>
+    <string name="num_million">M</string>
+    <string name="num_all">Alle</string>
+
+    <string name="medal_level">Stufe %d</string>
+    <string name="medal_reached_threshold">Erreichte Stufe: %s</string>
+    <string name="medal_next_threshold">Nächste Stufe: %s</string>
+    <string name="medal_max_level">Höchste Stufe erreicht</string>
+
+    <string name="medal_career_man">Karrieremensch</string>
+    <string name="medal_career_man_desc">Offiziersrang in der galaktischen Navy</string>
+    <string name="medal_run_up">Jäger</string>
+    <string name="medal_run_up_desc">Gesamtpunktzahl in Kämpfen</string>
+    <string name="medal_addicted">Süchtig</string>
+    <string namen="medal_addicted_desc">Gesamtspieltage</string>
+    <string name="medal_systematic">Systematisch</string>
+    <string name="medal_systematic_desc">Anzahl fortlaufend gespielter Tage</string>
+
+    <string name="medal_traveller">Reisender</string>
+    <string name="medal_traveller_desc">Gesamtzahl der Besuche fremder Planeten</string>
+    <string name="medal_explorer">Entdecker</string>
+    <string name="medal_explorer_desc">Gesamtzahl verschiedener besuchter Planeten</string>
+    <string name="medal_home_coming">Heimatverbunden</string>
+    <string name="medal_home_coming_desc">Anzahl Besuche des am häufigsten besuchten Planeten</string>
+    <string name="medal_returner">Wiederkehrer</string>
+    <string name="medal_returner_desc">Längste Zeit seit dem letzten Besuch</string>
+    <string name="medal_roaming">Lückenlos</string>
+    <string name="medal_roaming_desc">Alle Planeten einer Galaxie besucht</string>
+    <string name="medal_hidden_treasure_hunter">Jäger des verlorenen Schatzes</string>
+    <string name="medal_hidden_treasure_hunter_desc">Anzahl besuchter verwaister Planeten</string>
+    <string name="medal_node_seeker">Weltenbummler</string>
+    <string name="medal_node_seeker_desc">Anzahl besuchter Planeten mit mindestens 15 Verbindungen zu anderen Planeten</string>
+    <string name="medal_anarchist">Anarchist</string>
+    <string name="medal_anarchist_desc">Anzahl besuchter Anarchieplaneten</string>
+    <string name="medal_galaxy_trotter">Galaxienbummler</string>
+    <string name="medal_galaxy_trotter_desc">Anzahl besuchter Galaxien</string>
+    <string name="medal_jetlag">Jet-lag</string>
+    <string name="medal_jetlag_desc">Anzahl Hyperraumsprünge</string>
+    <string name="medal_multi_cultural">Multikulturell</string>
+    <string name="medal_multi_cultural_desc">Anzahl individueller entdeckter Lebensformen</string>
+    <string name="medal_marathoner">Marathonläufer</string>
+    <string name="medal_marathoner_desc">Gereiste Lichtjahre</string>
+    <string name="medal_approacher">Anflieger</string>
+    <string name="medal_approacher_desc">Anzahl manueller Dockings seit dem letzten automatischen Docking</string>
+
+    <string name="medal_trader">Händler</string>
+    <string name="medal_trader_desc">Gehandelte Güter in Tonnen</string>
+    <string name="medal_all_trader">Gemischtwarenhändler</string>
+    <string name="medal_all_trader_desc">Anzahl unterschiedlicher gehandelter Güter</string>
+    <string name="medal_illegal_trader">Schwarzmarkthändler</string>
+    <string name="medal_illegal_trader_desc">Alle illegalen Güter mindestens einmal gehandelt</string>
+    <string name="medal_salesman">Verkäufer</string>
+    <string name="medal_salesman_desc">Größter Gewinn beim Verkauf eines Guts</string>
+    <string name="medal_loser">Verlierer</string>
+    <string name="medal_loser_desc">Größter Verlust beim Verkauf eines Guts</string>
+    <string name="medal_millionaire">Millionär</string>
+    <string name="medal_millionaire_desc">Meiste je besessene Credits</string>
+    <string name="medal_collector">Sammler</string>
+    <string name="medal_collector_desc">Anzahl eingesammelter Waren in Tonnen</string>
+    <string name="medal_miner">Bergarbeiter</string>
+    <string name="medal_miner_desc">Anzahl Erze von Asteroiden</string>
+    <string name="medal_slave_holder">Sklavenhalter</string>
+    <string name="medal_slave_holder_desc">Anzahl eingesammelter Rettungskapseln</string>
+    <string name="medal_fisherman">Angler</string>
+    <string name="medal_fisherman_desc">Anzahl eingesammelter Thargonen</string>
+    <string name="medal_littering">Umweltverschmutzer</string>
+    <string name="medal_littering_desc">Anzahl ausgestoßener und nicht wieder eingesammelter Güter</string>
+    <string name="medal_boulder_pulping">Steinzerschmetterer</string>
+    <string name="medal_boulder_pulping_desc">Anzahl zerstörter Asteroiden</string>
+
+    <string name="medal_destroyer">Zerstörer</string>
+    <string name="medal_destroyer_desc">Anzahl zerstörter Piraten</string>
+    <string name="medal_insecticide">Insektizid</string>
+    <string name="medal_insecticide_desc">Anzahl zerstörter Thargoiden</string>
+    <string name="medal_buggy">Im Spinnennetz</string>
+    <string name="medal_buggy_desc">Anzahl Thargoidenschiffe die im Hyperraum zerstört wurden</string>
+    <string name="medal_passionate">Leidenschaftlich</string>
+    <string name="medal_passionate_desc">Anzahl zerstörter Thargonen</string>
+    <string name="medal_nearsighted">Kurzsichtig</string>
+    <string name="medal_nearsighted_desc">Anzahl zerstörter freundlicher Schiffe</string>
+    <string name="medal_cop_killer">Polizistenkiller</string>
+    <string name="medal_cop_killer_desc">Anzahl zerstörter Polizistenvipern</string>
+    <string name="medal_battering_ram">Rammbock</string>
+    <string name="medal_battering_ram_desc">Anzahl Kollisionen</string>
+    <string name="medal_mass_destruction">Massenzerstörung</string>
+    <string name="medal_mass_destruction_desc">Punkte für mit der Energiebombe zerstörte Objekte</string>
+    <string name="medal_rocket_launcher">Raketenwerfer</string>
+    <string name="medal_rocket_launcher_desc">Anzahl an Raketentreffern</string>
+    <string name="medal_rocket_gambler">Raketenzocker</string>
+    <string name="medal_rocket_gambler_desc">Anzahl an Raketentreffern gegen ECM ohne Störsignal</string>
+    <string name="medal_jammer">Störer</string>
+    <string name="medal_jammer_desc">Anzahl an Raketentreffern gegen ECM mit Störsignal</string>
+
+    <string name="medal_rocket_slaughterer">Raketenschlächter</string>
+    <string name="medal_rocket_slaughterer_desc">Anzahl durch ECM zerstörte Raketen</string>
+    <string name="medal_golden_eye">Adlerauge</string>
+    <string name="medal_golden_eye_desc">Anzahl durch Laser zerstörte Raketen</string>
+    <string name="medal_survivor">Überlebender</string>
+    <string name="medal_survivor_desc">Anzahl der Zeiten in denen die Energie weniger als einen halben Balken betrug</string>
+    <string name="medal_rocket_crasher">Raketenfänger</string>
+    <string name="medal_rocket_crasher_desc">Anzahl an Raketentreffern</string>
+    <string name="medal_cock_shot">Zielscheibe</string>
+    <string name="medal_cock_shot_desc">Anzahl an erhaltenen Lasertreffern</string>
+    <string name="medal_blocker">Blockierer</string>
+    <string name="medal_blocker_desc">So lange vor der Station herumschweben bis die Sicherheitsmaßnahmen aktiviert werden</string>
+    <string name="medal_flincher">Feigling</string>
+    <string name="medal_flincher_desc">Benutzte Rückstoßraketen</string>
+    <string name="medal_invisible_man">Unsichtbar</string>
+    <string name="medal_invisible_man_desc">Anzahl zerstörter Feinde während der Unsichtbarkeit</string>
+    <string name="medal_running_man">Läufer</string>
+    <string name="medal_running_man_desc">Anzahl der Rettunskapselnutzungen</string>
+
+    <string name="medal_gadget_lover">Gadgetliebhaber</string>
+    <string name="medal_gadget_lover_desc">Höchstzahl installierter Ausrüstungsgegenstände</string>
+    <string name="medal_mechanic">Mechaniker</string>
+    <string name="medal_mechanic_desc">Anzahl reparierter Hyperraumantriebe</string>
+    <string name="medal_fuel_efficient">Treibstoffsparend</string>
+    <string name="medal_fuel_efficient_desc">Menge an aufgesammeltem Treibstoff</string>
+
+    <string name="medal_missionary">Missionar</string>
+    <string name="medal_missionary_desc">Anzahl erfolgreich abgeschlossener Missionen</string>
+    <string name="medal_law_breaker">Gesetzloser</string>
+    <string name="medal_law_breaker_desc">Gesetzesstatus von Sauber zu straffällig und von da an ging's bergab</string>
+    <string name="medal_recidivist">Rückfälliger Straftäter</string>
+    <string name="medal_recidivist_desc">Anzahl der Statusübergänge von Sauber zu Flüchtig</string>
+
+    <string name="medal_multiplexer">Multiplexer</string>
+    <string name="medal_multiplexer_desc">Die Intro wurde mit und ohne Untertitel komplett angesehen</string>
+    <string name="medal_casting">Detailversessen</string>
+    <string name="medal_casting_desc">Alle Hintergrundinformationen über die Autoren und Beteiligten wurde gelesen</string>
+    <string name="medal_examinee">Kadett</string>
+    <string name="medal_examinee_desc">Anzahl bestandener Tutorials</string>
+    <string name="medal_bookworm">Bücherwurm</string>
+    <string name="medal_bookworm_desc">Anzahl gelesener Themen in der Bibliothek</string>
+    <string name="medal_public_spirit">Öffentlicher Freigeist</string>
+    <string name="medal_public_spirit_desc">Die Webseite wurde aus dem Spiel aufgerufen</string>
+    <string name="medal_interrupter">Unterbrecher</string>
+    <string name="medal_interrupter_desc">Das Spiel wurde sowohl durch drücken des Alite Logos als auch durch Wechseln der App im Flug pausiert</string>
+</resources>
